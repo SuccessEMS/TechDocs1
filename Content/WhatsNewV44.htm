@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2952" MadCap:lastWidth="1154">
+    <head>
+    </head>
+    <body>
+        <h1>What's New (Version 44)</h1>
+        <p>New functionality and feature changes are summarized below. Follow links to documentation for further detail.</p>
+        <h2>Enhancements to User Defined Fields</h2>
+        <p>User defined fields now allow dependencies.</p>
+        <ul>
+            <li><a href="EMSDesktopClient/V44/ConfigurationGuide/ConfigUDF.htm">Dependent User Defined Fields</a> are triggered based on answers to List Type UDFs.</li>
+            <li><a href="EMSDesktopClient/V44/ConfigurationGuide/ConfigUDF.htm">Multi Select User Defined Fields</a> are available for List Type UDFs. This allows users to select more than one answer to a UDF. If one or more of the Multi Select UDFs has a dependency, it will still trigger the dependent UDFs.</li>
+        </ul>
+        <h2>New Booking-Level Check-In Option</h2>
+        <p>This allows administrators to send notifications to users to remind them to check into specific bookings, and if the bookings are not checked into before the start time, they can also now be automatically canceled.</p>
+        <p class="note-box">Note: this new functionality replaces <a href="EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html">Building-Level Check-In</a>.</p>
+        <h2><a href="EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html">Enhanced Automated Report Delivery</a>
+        </h2>
+        <p>EMS Reports can now be set up to run automatically on a user-configurable schedule and sent via email.</p>
+        <h2>Enhanced Notification Rules</h2>
+        <p><a href="EMSDesktopClient/V44/ConfigurationGuide/ConfigNotRules.htm">Notifications</a> can now be triggered based on Setup Types. User-defined field dependencies can also trigger notifications.</p>
+        <ul>
+            <li>Service Orders can now trigger notifications based on Service States, Groupings or Resources.</li>
+            <li>New, changed, or canceled Bookings can now trigger notifications if tied to Setup Type(s).</li>
+        </ul>
+        <p class="note-box">Note: Excludes EMS Professional.</p>
+        <h2>New Web-Based Deployment Process for Upgrades or New Installs on Individual Workstations</h2>
+        <p>With the new <a href="EMSDesktopClient/V44/InstallationGuide/UpgradeInstruct.htm">EMS Desktop Client Web Deployment</a>, the EMS&#160;Desktop Client is installed from a web page which is hosted on the web server. </p>
+        <ul>
+            <li>Installation of the EMS&#160;Desktop Client does not require administrative privileges.</li>
+            <li>The EMS&#160;Desktop Client is auto-updated whenever the client package is updated on the web server.</li>
+            <li>Easy switching from one database to another.</li>
+        </ul>
+        <p class="note-box">Note: The existing conventional installer will be also be available as an optional method to install the EMS Desktop Client; however the conventional installer does not support auto-updating and easy switching from one database to another.</p>
+        <p>In preparing an upgrade from EMS Version 43 to Version 44 or 44.1, administrators should note that the EMS Web Client has been discontinued after 43. OS X users will now have to use alternative methods to connect to EMS, such as Citrix environments, RDC Terminal Servers, and so on.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Concept: The EMS Web Client (V43) is a browser-based version of EMS Desktop Client</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In version 43, EMS offered a browser-based version of EMS Desktop Client, which was used for administering EMS on OS X and Linux-based systems, and on mobile Apple devices via Safari, Chrome, or Firefox browsers.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>
+                    <MadCap:concept term="V44" />Concept: EMS Desktop Web Deployment (V44+ and V44.1) is an alternative method for installing EMS Desktop Client locally on individual user machines</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This solution is not a replacement for the EMS Web Client, but rather, it is an alternative to using Microsoft® methods of deployment, such as SCCM. Administrators can use it to host EMS Desktop Client on a web server, with the ability to push the URL to any EMS Administrators so they can download EMS Desktop Client without needing Administrative Privileges on their local machine.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Enhanced Room Optimization for Existing Bookings</h2>
+        <p>Using this new <a href="EMSDesktopClient_AcademicPlanning/V44.1/UserGuide_EMSDesktopClientAcademicPlanning/OverviewRoomAssignOpti.htm">option</a> will cause the optimizer to take into account bookings that are already in EMS when finding rooms. This feature will only work with bookings in “Booked Space” status. Searching or assigning rooms after the optimization has run (or during pre-assign) with this option checked will also display the spaces as in use.</p>
+        <h2>API Changes</h2>
+        <p>All the above functional changes and enhancements have equivalent updates on the APIs and integrations.</p>
+        <h2>EMS Web App Changes</h2>
+        <p>The Request Only (“classic request”) mode for Everyday User Process Templates has been removed. This mode remains available for unauthenticated users (i.e., guests).</p>
+    </body>
+</html>

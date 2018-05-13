@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="977" MadCap:lastWidth="898" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+    <head><title>Troubleshoot: Slow Performance When De-Synchronizing Terms V44.1 (Academic Planning)</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Troubleshoot: Slow Performance When De-Synchronizing Terms</h1>
+        <p>When <a href="../UserGuide_EMSDesktopClientAcademicPlanning/SynchronizeAcadTerm.htm">managing terms</a>, users may experience system timeout (after ~30 minutes) or slowness when they click the <span class="bold">Unsync&#160;</span>button.</p>
+        <p>
+            <img alt="" src="../Images/V44.1_Config/Troubleshoot1.png" />
+        </p>
+        <p>The log file of the database grows exponentially while the un-synch process is running and an unusually high number (millions) of records generate in the tblcampuscourse and tblcampuscoursedates tables.</p>
+        <p class="beforelist">This issue is due to old data from previous versions of the EMS auto-sync service. The workaround is to clean up this old data, by truncating the table as follows:</p>
+        <div class="indent">TRUNCATE TABLE dbo.tblCampusCourseHistory</div>
+        <div class="indent">TRUNCATE TABLE dbo.tblCampusCourseDatesHistory</div>
+    </body>
+</html>

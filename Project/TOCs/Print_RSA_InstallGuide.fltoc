@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Room Sign App Installation Guide"
+    Link="/Content/Print/RSA_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+      <TocEntry
+        Title="EMS Room Sign App (formerly Glance)"
+        Link="/Content/InstallGuides/8_RoomSignAppV44.1/8_RoomSignAppHome.htm"
+        BreakType="chapter"
+        PageNumberReset="reset"
+        ChapterNumberReset="reset"
+        ChapterNumber="1"
+        StartSection="false"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same">
+        <TocEntry
+          Title="Requirements for the EMS Room Sign App"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/RequirementsforRSA.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Obtain the Installation Files for EMS Room Sign"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/ObtainInstallFiles.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Architecture for the EMS Room Sign App"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Architecture.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Best Practices for Using EMS Room Sign App"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/BestPractices.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Authentication Settings"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/Authentication.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue"></TocEntry>
+        <TocEntry
+          Title="Install EMS Room Sign App"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/InstallRSA.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Deploy EMS Room Sign App on Appliances"
+          Link="/Content/EMSRoomSignApp/44.1/InstallationGuide/DeployRSAAppliances.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

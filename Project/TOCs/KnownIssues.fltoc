@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Desktop Client Known Issues"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSDesktopClient_KnownIssues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+  <TocEntry
+    Title="Web App Known Issues"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/WebApp_Known_Issues.htm" />
+  <TocEntry
+    Title="Mobile App Known Issues"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSMobileApp_KnownIssues.htm"></TocEntry>
+  <TocEntry
+    Title="Outlook Known Issues"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSforOutlook_KnownIssues.htm"></TocEntry>
+  <TocEntry
+    Title="Kiosk Known Issues"
+    Link="/Content/ReleaseNotes/Version44.1/Update23/EMSKioskApp_KnownIssues.htm"></TocEntry>
+</CatapultToc>

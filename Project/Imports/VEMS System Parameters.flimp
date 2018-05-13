@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-18T06:29:28.4682732-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Documents\My Projects\Website\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-11-18T06:29:37.7151339-07:00">
+  <Files>
+    <Url
+      Source="../../../../VEMS System Parameters.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/VEMS System Parameters.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/VEMS System Parameters/VEMS System Parameters.htm"
+      TimeStamp="11/18/2017 6:29:35 AM" />
+    <Url
+      Source="../TOCs/VEMS System Parameters.fltoc"
+      TimeStamp="11/18/2017 6:29:35 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/VEMS System Parameters.css"
+      TimeStamp="11/18/2017 6:29:35 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

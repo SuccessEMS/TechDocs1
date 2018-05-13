@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Older Releases"
+    Link="/Content/OlderReleases.htm">
+    <TocEntry
+      Title="Browse by Product"
+      Link="/Content/OlderReleases.htm">
+      <TocEntry
+        Title="EMS Desktop Client"
+        Link="/Content/EMSDesktopClient/V44/DC_OlderReleases.htm"></TocEntry>
+      <TocEntry
+        Title="EMS Desktop Client – Academic Planning"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44/Campus_OlderReleases.htm" />
+      <TocEntry
+        Title="Virtual EMS (VEMS)"
+        Link="/Content/WebApp/B_44/WebApp_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS for Outlook"
+        Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm"></TocEntry>
+      <TocEntry
+        Title="EMS Glance"
+        Link="/Content/EMSRoomSignApp/B_V44/Glance_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS Kiosk App"
+        Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS Master Calendar"
+        Link="/Content/EMSMasterCalendar/V7/MasterCalendar_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS API"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_OlderReleases.htm"></TocEntry>
+      <TocEntry
+        Title="EMS RoomWizard"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWizard_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS CISCO TMS"
+        Link="/Content/OptionalFeatures/Cisco/B_V44/Cisco_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS Floor Plans"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS FM Toolkit"
+        Link="/Content/OptionalFeatures/FMToolkit/B_44/FMToolkit_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS HR Toolkit"
+        Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_OlderReleases.htm" />
+      <TocEntry
+        Title="EMS Polycom Interface"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_OlderReleases.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Browse by Version"
+      Link="/Content/OlderReleases_Version.htm">
+      <TocEntry
+        Title="Legacy Documentation">
+        <TocEntry
+          Title="EMS for Outlook"
+          Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm"></TocEntry>
+        <TocEntry
+          Title="EMS Kiosk App"
+          Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="V44 Documentation">
+        <TocEntry
+          Title="EMS Desktop Client"
+          Link="/Content/ReleaseNotes/EMSDesktopClient_V44.htm" />
+        <TocEntry
+          Title="EMS Desktop Client -- Academic Planning"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/Campus_44_Introduction.htm" />
+        <TocEntry
+          Title="Virtual EMS (VEMS)"
+          Link="/Content/ReleaseNotes/VirtualEMS_V44.htm" />
+        <TocEntry
+          Title="EMS Kiosk App"
+          Link="/Content/ReleaseNotes/EMSKiosk_V44.htm" />
+        <TocEntry
+          Title="EMS Glance"
+          Link="/Content/ReleaseNotes/EMSGlance_V44.htm" />
+        <TocEntry
+          Title="EMS RoomWizard"
+          Link="/Content/ReleaseNotes/EMSRoomWizard_V44.htm" />
+        <TocEntry
+          Title="EMS API"
+          Link="/Content/ReleaseNotes/EMSAPI_V44.htm" />
+        <TocEntry
+          Title="EMS Floor Plan"
+          Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_EMSFloorPlanV44.htm" />
+        <TocEntry
+          Title="FM Toolkit"
+          Link="/Content/OptionalFeatures/FMToolkit/B_44/FMToolkit_V44_EMSFMTV44.htm" />
+        <TocEntry
+          Title="HR Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_HRToolkitV44.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="V43 Documentation">
+        <TocEntry
+          Title="EMS Desktop Client"
+          Link="/Content/EMSDesktopClient/V43/IntroDC.htm" />
+        <TocEntry
+          Title="EMS Desktop Client -- Academic Planning"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V43/Campus_43_Introduction.htm" />
+        <TocEntry
+          Title="Virtual EMS (VEMS)"
+          Link="/Content/ReleaseNotes/VirtualEMS_V43.htm" />
+        <TocEntry
+          Title="EMS Kiosk"
+          Link="/Content/EMSKioskApp/V43/Kiosk_Introv43.htm" />
+        <TocEntry
+          Title="EMS Glance"
+          Link="/Content/ReleaseNotes/EMSGlance_V43.htm" />
+        <TocEntry
+          Title="EMS RoomWizard"
+          Link="/Content/ReleaseNotes/EMSRoomWizard_V43.htm" />
+        <TocEntry
+          Title="EMS API"
+          Link="/Content/OptionalFeatures/EMS_API/C_V43/EMS_IntrotoV43.htm" />
+        <TocEntry
+          Title="CISCO TMS Integration"
+          Link="/Content/OptionalFeatures/Cisco/C_V43/CISCO_IntrotoV43.htm" />
+        <TocEntry
+          Title="EMS RoomWizard"
+          Link="/Content/OptionalFeatures/RoomWiz/C_V43/RoomWizard_IntroV43.htm" />
+        <TocEntry
+          Title="EMS Floor Plans"
+          Link="/Content/OptionalFeatures/FloorPlan/C_V43/EMSFloorPlans_IntrotoV43.htm" />
+        <TocEntry
+          Title="EMS Polycom Interface"
+          Link="/Content/OptionalFeatures/Polycom/C_V43/EMSPolycom_IntroV43.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

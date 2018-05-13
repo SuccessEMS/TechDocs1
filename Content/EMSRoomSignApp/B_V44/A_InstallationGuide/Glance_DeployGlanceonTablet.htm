@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3841" MadCap:lastWidth="908" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Glance.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />Deploying EMS&#160;Glance on Tablets</h1>
+        <p>To deploy EMS&#160;Glance, you need to prevent users from using the tablet to browse to other websites or use other tablet apps. This state, where tablets are restricted to a single use, is known as kiosk mode. iOS offers a native kiosk mode known as Guided Access. Android and Windows do not have a native kiosk mode and require a third party application. For Android, we recommend KioWare Lite. Below we detail how to configure EMS&#160;Glance in kiosk mode on iPads and the Samsung Tab A Android tablets.</p>
+        <p>In addition to placing the tablet in kiosk mode, you should also use an enclosure to protect the tablet. An enclosure prevents users from using the power/home buttons, and also protects the tablet from theft. We strongly recommend the ArmorActive enclosures. As of September 2016, ArmorActive is our official hardware partner, and they can help you source both tablets and enclosures.</p>
+        <p>This topic will provide information that will allow you to do the following:</p>
+        <ul>
+            <li><a href="#ConfigureKioskMode">Configure Kiosk Mode</a>
+                <ul>
+                    <li><a href="#iPads">iPads</a>
+                    </li>
+                    <li>
+                        <MadCap:xref href="#Android">Android Tablets</MadCap:xref>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <MadCap:xref href="#ConfiguringKiowareLite">Configuring KioWare Lite</MadCap:xref>
+            </li>
+            <li><a href="#Mount">Mount EMS&#160;Glance in an Enclosure</a>
+            </li>
+        </ul>
+        <h2><a name="ConfigureKioskMode"></a>Configure Kiosk Mode</h2>
+        <h3><a name="iPads"></a>iPads</h3>
+        <p>To ensure that EMS&#160;Glance operates without interruptions, we recommend you hide the browser's address bar and navigation buttons, and turn off tablet notifications. </p>
+        <ol class="number-list">
+            <li><span class="bold">Hide Browser Address Bar and Navigation Buttons</span>. This setup is also known as "full-screen mode."<p>​ ​To run EMS Glance in full-screen mode on an iPad:</p><ol><li>Open the Safari browser and enter the URL for your EMS&#160;Glance server. (Contact your system administrator for the URL.)</li><li>Click Share (located to the right of the address bar) and select Add to Home Screen.</li><li>Choose a name for the icon (such as "Glance") and select Add.</li><li>The icon for EMS&#160;Glance appears on the iPad home screen, showing the name you just specified.</li><li>Click the EMS&#160;Glance icon to open EMS&#160;Glance in full screen mode, which makes the navigation bar and Safari menu options inaccessible.</li></ol></li>
+            <li><span class="bold">Turn off Tablet Notifications</span>. To minimize interruptions by iOS, change the following settings in the 'Settings' app:<ol><li>Control Center: Turn off Access on Lock Screen and Access Within Apps to eliminate access to the Control Center from within apps and the lock screen.</li><li>Notifications: Turn off all notifications for all apps.</li><li>General / Auto-Lock: Select Never to prevent the screen from locking.</li><li>General / Accessibility / Guided Access: enabling Guided Access prevents users from accessing the Notification Center and from using the tablet to access any other application except EMS&#160;Glance. (However, Guided Access ends when the tablet restarts, which happens after a software update, a loss of power, or simultaneously pressing the Home and Sleep/Wake buttons for 10 seconds.) To set up Guided Access:<ol><li>General / Accessibility / Guided Access: Turn on 'Guided Access.'</li><li>General / Accessibility / Guided Access / Passcode Settings / Set Guided Access Passcode: Enter a 4-digit passcode so that you can enable and disable Guided Access mode.</li><li>Click Home and click the EMS&#160;Glance icon to start EMS&#160;Glance.</li><li>With EMS&#160;Glance running, triple-click the Home button. This can be tricky because if you click too slowly, the iPad goes back to the Home screen, and if you click too quickly, the iPad does not detect a triple-click. You'll know you are successful when the screen changes to show "Guided Access" at the top center of the screen.</li><li>Click Start at the top right corner of the 'Guided Access' screen.</li><li>Enter the passcode you created earlier.</li><li>To confirm that you set it up correctly, swipe down from the top to open the Notifications Center and swipe up from the bottom to open the Control Center. If neither of them opens, then you have set up Guided Access correctly.</li></ol></li></ol></li>
+            <li>iCloud: Turn off iCloud by going to Settings / iCloud, and selecting Sign Out at the bottom of the screen. By signing out, you prevent future notifications that prompt you to sign in.</li>
+        </ol>
+        <h3><a name="Android"></a>Android Tablets</h3>
+        <p>Android tablets do not offer a Guided Mode like iPads do. Because of this limitation, on Android tablets you must deploy EMS&#160;Glance with an app that puts the tablets in "kiosk" mode. Placing the tablet in kiosk mode will prevent users from accessing other applications and also disable the Home button. We recommend KioWare Lite for Android.</p>
+        <h2><a name="ConfiguringKiowareLite"></a>Configuring KioWare Lite</h2>
+        <p>When you download and install KioWare, we recommend the following settings.</p>
+        <ol class="number-list">
+            <li><span class="bold">General</span>:<ol><li>Start Page URL: Set this to the EMS&#160;Glance URL. That is typically http://your_web_server/glance.</li><li>Start on Boot: Select this option so that the tablet will return to EMS&#160;Glance if is restarted. Users will not be able to access the home screen.</li><li>Screen Orientation: EMS&#160;Glance should be fixed in Landscape mode.</li><li>Prevent Screen Sleep: Select 'Disable Screen Timer and Power Button' so that EMS&#160;Glance remains active on the screen.</li></ol></li>
+            <li><span class="bold">Browser</span>:<ol><li>Make sure 'Enable Browser Zoom' is checked. That is, zooming is enabled. Other than this setting, you can use the default settings on this page.</li><li>Enter the 'Browser Cache/Data' sub-menu. In this sub-menu, make sure to select the following options so that the EMS&#160;Glance settings are preserved even if you restart the tablet or exit KioWare.<ol><li>Enable Browser Cache</li><li>Enable Cookies</li><li>Enable Local/Session Storage</li><li>Enable Web Databases</li><li>Enable Application Cache</li></ol></li></ol></li>
+            <li><span class="bold">Attract/Inactivity: </span>Set the 'Default Inactivity Timer' to 0 seconds.</li>
+            <li><span class="bold">Toolbar</span>:<ol><li>Disable Action Bar, Progress Bar, Android Back Arrow, Home Button, and everything under the 'Standard Buttons' section</li><li>Enable 'Use Immersive Mode.' This option improves the full-screen browsing experience.</li></ol></li>
+            <li><span class="bold">Security</span>:<ol><li>Exit Passcode: Set a 4-digit passcode. This code is used to exit EMS&#160;Glance (being run inside the KioWare kiosk app). When EMS&#160;Glance is running, tap the four corners of the screen starting in the top-left and going clockwise to the bottom left. You will then be able to enter the passcode.</li><li>Hide System Dialogs: Select this option.</li><li>Disable Status Bar: Select this option.</li></ol></li>
+        </ol>
+        <h2><a name="Mount"></a>Mount EMS&#160;Glance in an Enclosure</h2>
+        <p>Our customers typically place their EMS&#160;Glance tablets in enclosures and mount them on walls. Mounting on drywall is fairly easy, but you will have to do some research if you want to mount on wood or glass.</p>
+        <p>You should also consider how to supply power to your tablets. Our customers typically choose enclosures that allow them to use PoE (Power over Ethernet) to provide power.</p>
+        <p>iPads can connect to networks only via wireless; Apple does not support connecting iPads to Ethernet cables.</p>
+        <p>Please consider the ArmorActive enclosures. In particular, ArmorActive offers an enclosure for the iPad Mini, which offers optional LED indicators that EMS&#160;Glance supports to indicate whether or not the room is available. ArmorActive also makes an enclosure for the Samsung Tab A, which we support and recommend. Contact your Account Executive for more information on these enclosures.</p>
+        <p class="box-tip"><span class="bold">TIP:&#160;</span>When using the ArmoActive enclosure, tablet volume must be set to 100%.</p>
+    </body>
+</html>

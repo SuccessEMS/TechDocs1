@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head><title>Import Registration Information V44.1 (EMS Desktop Client)</title>
+    </head>
+    <body>
+        <h1 class="Heading1">
+            <MadCap:concept term="V44.1" />Import Registration Information</h1>
+        <MadCap:snippetBlock src="../../../CloudInstallNote.flsnp" />
+        <p>The first time that your EMS application is accessed at your organization, a Registration dialog box opens. You must&#160;import&#160;the license file (License.lic) that was received with the software to register your software. You can change the database that your EMS system is using.</p>
+        <p>If you need to make any corrections to your registration information, contact&#160;<a href="mailto:sales@dea.com?subject=Modified%20Registration%20Request">sales@dea.com</a>&#160;or 800-440-3994, ext. 863 to have a license file with the corrected registration information sent to you. You can then import this license file to update the registration information.</p>
+        <ol class="number-list">
+            <li>On the EMS menu bar, click System Administration &gt; Settings &gt; Registration. The Registration dialog box opens. This dialog box displays the registration information contained in the license file: your organization’s name and address, the EMS edition (Workplace, Enterprise, and so on), the license expiration date, the limits for your software edition, and any additional packages for which your organization is licensed (for example, EMS Web App).</li>
+            <li>If the registration information is correct, continue to Step 3; otherwise, if the information is incorrect, contact sales@dea.com to have a corrected license file sent to you.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Registration Dialog Box</p>
+            <p>
+                <img src="Images/DC_CG_ImportRegInfo1.png" alt="emssg_SysAdminConfiguration_image002.png" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>To import your registration information, click Import, and in the Open File dialog box, browse to and select the license file (License.lic) that you are importing, and then click Open. The License file is imported.<br /></li>
+            <li>If you need to change the database that your EMS application is using, go to Step 5; otherwise, click OK. The Registration dialog box closes. Your EMS application is now registered and is ready for use.<br /></li>
+            <li>To change databases, click Change Database. The Provide Server Parameters dialog box opens.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Provide Server Parameters dialog box</p>
+            <p>
+                <img src="../Resources/Images/DTC_V44_SysAdConfig/Importing Registration Information_1.png" alt="emssg_SysAdminConfiguration_image003.png" />
+            </p>
+        </div>
+        <ol start="6" class="number-list">
+            <li>Edit the server name and/or database name, and then click OK. EMS closes and the EMS Login window opens. You can now log in to EMS using the newly specified database.</li>
+        </ol>
+    </body>
+</html>

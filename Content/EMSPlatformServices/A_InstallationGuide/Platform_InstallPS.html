@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="1942" MadCap:lastWidth="921" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title mt-export-translate="no">Installing EMS Platform Services</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44.1" />Install EMS Platform Services</h1>
+        <p>This topic provides information on the following:&#160;</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#Install_Platform_Services">Install Platform Services</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Verify_Installation_Status">Verify Installation Status</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="Install_Platform_Services"></a>Install Platform Services</h2>
+        <ol class="number-list">
+            <li>Verify the&#160;<a href="../../EMS_SystemReq_44.1.html">System Requirements</a> and install the <a href="../../EMS_SystemReq_44.1.html">Prerequisites</a>.&#160;<div class="box-note"><p><span class="bold">Note:</span>&#160;HTTPPlatformHandler is a prerequisite and if not installed prior to installing Platform Services, a server reboot may be required.</p></div></li>
+        </ol>
+        <MadCap:snippetBlock src="../../ObtainInstallFilesStartCont.flsnp" />
+        <ol class="number-list" MadCap:continue="true">
+            <li>Download&#160;<span class="bold">EMSPlatformServices.msi</span>. (Required for all&#160;installations.)&#160;</li>
+            <li>The EMS Platform Services Setup Wizard will appear. Click&#160;<span class="bold">Next&#160;</span>to begin installation.<p><img src="../Images/PS_IG_Install1.png" /></p></li>
+            <li>Choose a default folder to install EMS Platform Services to. The Platform installer by default will try to install in Programs folder, you can change the path to wwwroot folder. The typical install path is&#160;C:\Program Files/EMS Software/Ems.Platform.Api\. Click&#160;<span class="bold">Next</span>.&#160;</li>
+            <li>You will need to enter the SQL server and EMS database, configured to allow external connections. Make a note of the database name.&#160;</li>
+            <li>Enter a Virtual Directory Name.</li>
+            <li>To enable NTLM authentication for Everyday User Authentication for the Platform Services Admin Portal and Integration Clients, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;</li>
+            <li>Click the&#160;<span class="bold">Install&#160;</span>button to complete the installation. You will receive a prompt from the Wizard that installation is complete. EMS Platform Services is now installed on your Web server.</li>
+            <li>Click&#160;<span class="bold">Finish</span>.&#160;</li>
+        </ol>
+        <h2><a name="Verify_Installation_Status"></a>Verify Installation Status</h2>
+        <ol class="number-list">
+            <li>Access your URL for Platform Services (e.g.,&#160;https://yourcompany.com/ems-platform-api).</li>
+            <li>Verify the status of your installation by navigating  to&#160;https://yourcompany.com/ems-platform-api/status. <p><img src="../Images/PS_IG_Install2.png" class="PDFlarge" /></p></li>
+        </ol>
+    </body>
+</html>

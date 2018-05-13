@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-01-09T11:59:54.2316275-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Megan.laub\Documents\My Projects\Success14\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-01-09T12:04:48.7582224-07:00">
+  <Files>
+    <Url
+      Source="../../../../MigrateWordDocs/Glossary.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Glossary.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Glossary/Glossary.png"
+      TimeStamp="1/9/2018 12:04:39 PM" />
+    <Url
+      Source="../../Content/Glossary/Glossary.htm"
+      TimeStamp="1/9/2018 12:04:39 PM" />
+    <Url
+      Source="../TOCs/Glossary.fltoc"
+      TimeStamp="1/9/2018 12:04:39 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Glossary.css"
+      TimeStamp="1/9/2018 12:04:39 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API AUTOCHECKIN Operations"
+    Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_AutoCheckinOperation.htm">
+    <TocEntry
+      Title="AutoCheckIn"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_AutoCheckinOperation.htm"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

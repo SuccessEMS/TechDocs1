@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Master Calendar"
+    Link="/Content/EMSMasterCalendar/V7/MasterCalendar_OlderReleases.htm">
+    <TocEntry
+      Title="Legacy Documentation">
+      <TocEntry
+        Title="Master Calendar Integrated Authentication Instructions"
+        Link="/Content/EMSMasterCalendar/V7/Master Calendar Integrated Authentication Instructions.pdf"></TocEntry>
+      <TocEntry
+        Title="Master Calendar Configuration Guide V5"
+        Link="/Content/EMSMasterCalendar/V7/Master Calendar Configuration Guide V5.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

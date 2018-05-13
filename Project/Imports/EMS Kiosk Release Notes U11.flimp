@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-02-26T12:01:19.1014654-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Megan.laub\Documents\My Projects\Success23\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-02-26T12:02:56.6844226-07:00">
+  <Files>
+    <Url
+      Source="../../../../MigrateWordDocs/Release Notes 44.1/EMS Kiosk Release Notes U11.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Release Notes 44.1/EMS Kiosk Release Notes U11.docx" />
+    <Url
+      Source="../../../../MigrateWordDocs/Release Notes 44.1/EMS Web App Release Notes U11.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Release Notes 44.1/EMS Web App Release Notes U11.docx" />
+    <Url
+      Source="../../../../MigrateWordDocs/Release Notes 44.1/EMS WebApp KnownIssues U11.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Release Notes 44.1/EMS WebApp KnownIssues U11.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/EMS Kiosk Release Notes U11/EMS Kiosk Release Notes V44.png"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+    <Url
+      Source="../../Content/EMS Kiosk Release Notes U11/EMS Kiosk Release Notes V44.htm"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Kiosk Release Notes U11/EMS Web App Release Notes.png"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+    <Url
+      Source="../../Content/EMS Kiosk Release Notes U11/EMS Web App Release Notes.htm"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+    <Url
+      Source="../../Content/EMS Kiosk Release Notes U11/EMS Web App Release Notes U11.htm"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+    <Url
+      Source="../../Content/EMS Kiosk Release Notes U11/EMS Web App Known Issues Update.htm"
+      TimeStamp="2/26/2018 12:02:08 PM" />
+    <Url
+      Source="../../Content/EMS Kiosk Release Notes U11/EMS WebApp KnownIssues U11.htm"
+      TimeStamp="2/26/2018 12:02:08 PM" />
+    <Url
+      Source="../TOCs/EMS Kiosk Release Notes U11.fltoc"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/EMS Kiosk Release Notes U11.css"
+      TimeStamp="2/26/2018 12:02:07 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Comment Text" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Comment Reference" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="mt-color-ff0000" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Title1" />
+    <StyleName
+      Name="Title2" />
+  </UsedCharacterStyles>
+</MsWordImport>

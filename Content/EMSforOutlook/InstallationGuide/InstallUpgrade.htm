@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Install or Upgrade EMS for Outlook on Users' Computers</h1>
+        <div class="box-important">
+            <p><span class="bold">IMPORTANT:</span>&#160;The installation/upgrading process must begin by&#160;uninstalling previous versions of the EMS for Outlook add-in.&#160;</p>
+        </div>
+        <h2>EMS for Microsoft Outlook Web Deployment Option</h2>
+        <p>As of the Update 19.1 software release (December 2017), a web deployment option is now available for EMS for Microsoft Outlook. This is the recommended method for installing EMS for Outlook locally on individual user machines. Administrators can use the web deployment to host EMS for Outlook on a web server, with the ability to push the URL to any EMS Administrators so they can download EMS for Outlook without needing Administrative Privileges on their local machine.</p>
+        <p>For either 32- or 64-bit installation, you will also need an EMS Platform Services Virtual Directory Name (typical default is EMSPlatform). Make a note of the new site you have created. This URL will need to be entered during the installation process (e.g.,<span class="bold"> http://[ServerName]/EMSPlatform/</span> [replace ServerName with the name of your web server]).</p>
+        <h3>Benefits of Web Deployment Option</h3>
+        <p>The web deploy application is installed on your web server. The EMS for Outlook Add-in is included within this installation. Once installed, end users point their web browsers to the EMS Web Deployment Application, which points them with a link to download the EMS for Outlook Add-in. Once a user downloads and runs that link, the EMS for Outlook is installed in the user's profile on that workstation. Once installed, the EMS for Outlook Add-in will check the server for an updated version of the client each time the client is launched. If a new version is available, then it will automatically download and install the update.</p>
+        <h2>Web Deploy Service Installation on Server</h2>
+        <ol class="number-list">
+            <li>Verify that the Requirements and Prerequisites have been met.</li>
+            <li>Download the <span class="bold">EMS.Outlook.WebDeploy.msi</span> file onto the user’s desktop.</li>
+            <li>Close Outlook.</li>
+            <li>Run <span class="bold">EMS.Outlook.WebDeploy.msi</span>.</li>
+            <li>The first screen welcomes you to the EMS Outlook Web Deploy Setup Wizard.</li>
+            <li>Click the <span class="bold">Next </span>button to begin the installation process. The Destination Folder screen will appear.</li>
+            <li>Specify the Installation Folder.</li>
+            <li>Click the <span class="bold">Next </span>button. The EMS Platform Services screen will appear.</li>
+            <li>Enter the address your organization uses (e.g., http://[ServerName]/EMSPlatform).</li>
+            <li>Click the <span class="bold">Next </span>button. The Ready to install EMS for Outlook Web Deploy screen will appear.</li>
+            <li>Click the <span class="bold">Install </span>button to complete the installation. Click the <span class="bold">Close </span>button to exit.</li>
+        </ol>
+        <h2>Manual Installation (32-BIT or 64-bit)</h2>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span> A 64-bit installation requires an elevated permission level.</p>
+        </div>
+        <ol class="number-list">
+            <li>Verify that the Requirements and Prerequisites have been met.</li>
+            <li>Download the <span class="bold">EMSForOutlook.msi</span> file onto the user’s desktop.</li>
+            <li>Close Outlook.</li>
+            <li>Run <span class="bold">EMSForOutlook.msi</span>.</li>
+            <li>The first screen welcomes you to the EMS Outlook Add-in Setup Wizard.</li>
+            <li>Click the <span class="bold">Next </span>button to begin the installation process. The Destination Folder screen will appear.</li>
+            <li>Specify the Installation Folder.</li>
+            <li>Click the <span class="bold">Next </span>button. The EMS Platform Services screen will appear.</li>
+            <li>Enter the address your organization uses (e.g., http://[ServerName]/EMSPlatform).</li>
+            <li>Click the <span class="bold">Next </span>button. The Ready to install EMS for Outlook screen will appear.</li>
+            <li>Click the <span class="bold">Install </span>button to complete the installation. Click the <span class="bold">Close </span>button to exit.</li>
+            <li>Launch Outlook. The <span class="bold">EMS </span>button should display on the user’s Outlook toolbar on the Calendar as online.</li>
+        </ol>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span>&#160;If the EMS for Outlook displays as Offline,&#160;see&#160;<a href="Outlook_IG_OutlookAddInOffline.htm">EMS for Outlook Add-In Is Offline</a>.</p>
+        </div>
+    </body>
+</html>

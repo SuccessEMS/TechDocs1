@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="12" MadCap:lastHeight="1458" MadCap:lastWidth="864" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\ReleaseNotes.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">
+            <MadCap:concept term="V44.1" />EMS Platform Services Release Notes <br />V44.1, Update 20.4</h1>
+        <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Name:&#160;V44.1 Update 20.4</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Release&#160;Date:&#160;January 18, 2018</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_3">Build #:&#160;44.1.20004.458</p>
+                </td>
+            </tr>
+        </table>
+        <h2>FIX</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;width: 100%;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 162px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Delegates</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Incorrect Information in Delegate Tokens</p>
+                        <p class="RNBody">A user can generate a delegate token for a specific user if there is not an active delegate token for that user. If another user attempted to generate a delegate token on that same user, the Platform Service noticed the active delegate token from the first user and provided that same token in response without generating a new token.</p>
+                        <p class="RNBody"><span class="bold">Fix:</span>&#160;Modified functionality so that tokens for multiple delegates refresh properly, are unique, and contain the correct user's data. Therefore, users will be able to use their delegated token to perform actions as the delegator.</p>
+                        <div class="note-box note">
+                            <p><span class="bold">Note:&#160;</span>With this fix, a new delegate token will be generated for every user; however we are assuming that no two users will be performing actions for a specific user at the exact same time. Therefore, before generating a new delegate token, any previously active delegate tokens for that specific user will be invalidated.</p>
+                        </div>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=35716" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">35716</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

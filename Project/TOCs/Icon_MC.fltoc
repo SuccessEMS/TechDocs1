@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Documentation for EMS Master Calendar">
+    <TocEntry
+      Title="Installation Guide"
+      Link="/Content/InstallGuides/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
+      <TocEntry
+        Title="System Requirements and Prerequisites"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/SystemRequirementsandPrerequisites.html" />
+      <TocEntry
+        Title="Installation Instructions"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallationInstructions.html">
+        <TocEntry
+          Title="Obtain Master Calendar Installation Files"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/ObtainingMCInstallationFiles.html" />
+        <TocEntry
+          Title="Run the Master Calendar Installer"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/RunningMCInstaller.html" />
+        <TocEntry
+          Title="Install or Upgrade the Database Component in Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeDatabaseComp.html" />
+        <TocEntry
+          Title="Install or Upgrade the Master Calendar Web Service"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeMCWebService.html" />
+        <TocEntry
+          Title="Install or Upgrade the Master Calendar Email Notification Service"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeMCEmailsNotSvc.htm" />
+        <TocEntry
+          Title="Execute Master Calendar Data Connector Script"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/ExecuteDataConnectorScript.htm" />
+        <TocEntry
+          Title="Install or Upgrade the Master Calendar Data Connector Service"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallorUpgradeDataConnectorService.htm" />
+        <TocEntry
+          Title="Install or Upgrade the Master Calendar Import Service"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallingUpgradingtheImportService.htm" />
+        <TocEntry
+          Title="Starting Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/InstallationGuide/StartingMasterCalendar.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/MC_Install_PDF.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration Guide"
+      Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Introduction.htm">
+      <TocEntry
+        Title="Admin Interface Overview"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AdminInterfaceOverview.html">
+        <TocEntry
+          Title="Events &amp; Special Dates"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/EventsandSpecialDates.htm">
+          <TocEntry
+            Title="Manage Events"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageEvents.html">
+            <TocEntry
+              Title="Filter Events on the Manage Events Page"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/FilterEventsManageEventsPg.html" />
+            <TocEntry
+              Title="Approve Pending Event Requests"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ApprovePendingEventRequests.html">
+              <TocEntry
+                Title="Reject Pending Event Requests"
+                Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/RejectPendingEventRequests.html" />
+              <TocEntry
+                Title="Delete Event Requests"
+                Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/DeleteEventRequests.html" />
+              <TocEntry
+                Title="Move Rejected Event Requests to Approved Status"
+                Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MoveRejectEventRequeststoAppStatus.html" />
+              <TocEntry
+                Title="Generate a List of Event Requests"
+                Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/GenerateListEventRequests.html"></TocEntry>
+              <TocEntry
+                Title="Request Additional Information for Event Requests"
+                Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/RequestAddInfoEventRequests.html" />
+            </TocEntry>
+            <TocEntry
+              Title="Add Events to Your Personal Email Calendar"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventstoPersonalEmailCal.html" />
+            <TocEntry
+              Title="Add Event Dates"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AddEventDates.html" />
+            <TocEntry
+              Title="Cancel Event Dates"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CancelEventDates.html" />
+            <TocEntry
+              Title="Copy an Event"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CopyEvent.html" />
+            <TocEntry
+              Title="Edit an Event"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/EditEvent.html" />
+            <TocEntry
+              Title="Un-Cancel an Event"
+              Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Un-CancelEvent.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Configure Special Dates"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigSpecialDates.html"></TocEntry>
+          <TocEntry
+            Title="Announcements"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/BroadcastAnnouncements.html" />
+          <TocEntry
+            Title="Connectors"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Connector.html"></TocEntry>
+          <TocEntry
+            Title="Import Events"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ImportEvents.html"></TocEntry>
+          <TocEntry
+            Title="Custom Reports"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CreateCustomReports.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Groupings and Calendars"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/GroupingsandCals.html">
+          <TocEntry
+            Title="Groupings"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageGroupingsinMC.html" />
+          <TocEntry
+            Title="Calendars"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCalendars.html" />
+          <TocEntry
+            Title="External Links"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageExtLinksforGrouping.html" />
+          <TocEntry
+            Title="Calendar URLs"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCalURLs.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Configuration"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Configuration.html">
+          <TocEntry
+            Title="Event Types"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypes.html" />
+          <TocEntry
+            Title="Event Type Views"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventTypeViews.html" />
+          <TocEntry
+            Title="Locations"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventLocations.html" />
+          <TocEntry
+            Title="Rooms"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigRooms.html"></TocEntry>
+          <TocEntry
+            Title="Departments"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigDepartments.html" />
+          <TocEntry
+            Title="Custom Field Hints"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCustomFieldHints.html" />
+          <TocEntry
+            Title="User Defined Questions (UDQs)"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUDQs.html" />
+          <TocEntry
+            Title="Event Icons"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigEventIcons.html"></TocEntry>
+          <TocEntry
+            Title="Cultures"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigCultures.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Security"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/Security.html">
+          <TocEntry
+            Title="Configure Users"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUsers.html" />
+          <TocEntry
+            Title="Configure User Templates"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConfigUserTemplates.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Site Administration"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/SiteAdministrationandCustomizingMC.html">
+          <TocEntry
+            Title="Customize Themes"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeThemeColorsBanners.html" />
+          <TocEntry
+            Title="Default Settings"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailText.html" />
+          <TocEntry
+            Title="RSS Feeds"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeRSSFeeds.html" />
+          <TocEntry
+            Title="Customize Menus"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeMenus.html" />
+          <TocEntry
+            Title="Registration"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MaintainMCSoftwareReg.html" />
+          <TocEntry
+            Title="Data Sources"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ConnectDataSources.html" />
+          <TocEntry
+            Title="Email Header"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeEmailHeaders.html" />
+          <TocEntry
+            Title="Help Text"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/CustomizeHelpText.html" />
+          <TocEntry
+            Title="Subscriptions"
+            Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/ManageSubscriptions.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Admin Functions"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AdminFunctions.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Master Calendar Admin Field Definitions"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MCAdminFieldDef.html">
+        <TocEntry
+          Title="Area: Calendar"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaCalendar.html" />
+        <TocEntry
+          Title="Area: Email"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaEmail.html" />
+        <TocEntry
+          Title="Area: Labels"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaLabels.html" />
+        <TocEntry
+          Title="Area: Mobile"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaMobile.html" />
+        <TocEntry
+          Title="Area: Portal Authentication"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaPortAuthen.html" />
+        <TocEntry
+          Title="Area: RSS"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaRSS.html" />
+        <TocEntry
+          Title="Area: Submit"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSubmit.html" />
+        <TocEntry
+          Title="Area: System Configuration"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaSystemConfig.html" />
+        <TocEntry
+          Title="Area: Tooltip"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/AreaTooltip.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication for Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/IntegAuthenforMC.html"></TocEntry>
+      <TocEntry
+        Title="Master Calendar API"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/API_MasterCalAPI.html">
+        <TocEntry
+          Title="Master Calendar API Requirements and Licensing"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APISysRequirements.html"></TocEntry>
+        <TocEntry
+          Title="Configure Master Calendar to Use the Master Calendar API Web Service"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/API_ConfigMCtoWebServ.htm" />
+        <TocEntry
+          Title="API Functions"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/APIfunctions.htm"></TocEntry>
+        <TocEntry
+          Title="Verify the Master Calendar API"
+          Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/VerifyMCAPI.html" />
+      </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/ConfigurationGuide/MC_Config_PDF.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="User Guide"
+      Link="/Content/EMSMasterCalendar/V8/UserGuide/Introduction.html">
+      <TocEntry
+        Title="Log In to Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/LogIn.html" />
+      <TocEntry
+        Title="Use Basic Features of EMS Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/UseBasicFeatures.html">
+        <TocEntry
+          Title="Use Field Icons in EMS Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/UseFieldIcons.html"></TocEntry>
+        <TocEntry
+          Title="Search by Keyword"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SearchbyKeyword.html" />
+        <TocEntry
+          Title="Export Search Results"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ExportSearchResults.html" />
+        <TocEntry
+          Title="Search for an Event or Special Date"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SearchforEventorSpecialDate.html" />
+        <TocEntry
+          Title="Use RSS Feeds in EMS Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/UseRSSFeeds.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Work with Calendars"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourCalendars.html">
+        <TocEntry
+          Title="Modify the Calendar Display"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ModifyCalendardisplay.html" />
+        <TocEntry
+          Title="Filter Events on the Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/FilterEventsonCalendar.html" />
+        <TocEntry
+          Title="Set a Timeframe for the Calendar Display"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SetTimeFrameforDisplay.html" />
+        <TocEntry
+          Title="Navigate in the Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/NavigateMasterCalendar.html" />
+        <TocEntry
+          Title="Open Events from the Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/OpenEvents.html" />
+        <TocEntry
+          Title="Scroll Through Events on the Calendar" />
+        <TocEntry
+          Title="Subscribe to a Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendar.html" />
+        <TocEntry
+          Title="Subscribe to a Calendar Using Email"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendarUsingEmail.html" />
+        <TocEntry
+          Title="Subscribe to a Calendar Using iCal"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendarUsingical.html" />
+      </TocEntry>
+      <TocEntry
+        Title="User Options"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/UserOptions.html">
+        <TocEntry
+          Title="Change Your Password"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ChangeYourPassword.html" />
+        <TocEntry
+          Title="View Custom Help Text"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewCustomHelpText.html" />
+        <TocEntry
+          Title="View Your Notifications"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourNotifications.html" />
+        <TocEntry
+          Title="View Your Requests"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourRequests.html" />
+      </TocEntry>
+      <TocEntry
+        Title="How Do I Publicize an Event in Master Calendar?"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/PublicizeEvents.html" />
+      <TocEntry
+        Title="Work with Events"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourEvents.html">
+        <TocEntry
+          Title="Types of Master Calendar Users"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/TypesofUsers.html" />
+        <TocEntry
+          Title="Submit an Event"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubmitEvents.html" />
+        <TocEntry
+          Title="Additional Info Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/AdditionalInfoFields.html" />
+        <TocEntry
+          Title="Custom, Email, and Attachment Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/CustomEmailAttachmentFields.html" />
+        <TocEntry
+          Title="Event Times Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/EventTimesFields.html" />
+        <TocEntry
+          Title="General Info Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/GeneralInfoFields.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Glossary"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/Glossary.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/MC_UG_PDF.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="Older Releases">
+      <TocEntry
+        Title="Configuration Guide for EMS Master Calendar V5"
+        Link="/Content/EMSMasterCalendar/V7/Master Calendar Configuration Guide V5.pdf" />
+      <TocEntry
+        Title="Integrated Authentication Instructions for EMS Master Calendar V5"
+        Link="/Content/EMSMasterCalendar/V7/Master Calendar Integrated Authentication Instructions.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="Release Notes"
+      Link="/Content/V44.1_ReleaseNotes.htm">
+      <TocEntry
+        Title="Master Calendar"
+        Link="/Content/MC_ReleaseNotes.html" />
+      <TocEntry
+        Title="Release Notes V44.1"
+        Link="/Content/V44.1_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V44"
+        Link="/Content/V44_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V43"
+        Link="/Content/V43_ReleaseNotes.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
+  </TocEntry>
+</CatapultToc>

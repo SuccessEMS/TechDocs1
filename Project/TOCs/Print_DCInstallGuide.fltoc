@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Desktop Client Installation Guide"
+    Link="/Content/Print/DC_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="System Requirements and Prerequisites"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/SystemRequirements.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Installation Instructions"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallationInstructions.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Upgrade Considerations"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/UpgradeConsideration.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Upgrade Instructions"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/UpgradeInstruct.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="Downgrade the EMS Desktop Client Web Deploy"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DowngradeWebDeploy.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+  <TocEntry
+    Title="Installing Custom Reports in EMS Desktop Client"
+    Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallCustomReport.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue" />
+</CatapultToc>

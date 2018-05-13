@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="All Applications" />
+  <TocEntry
+    Title="Desktop Client" />
+  <TocEntry
+    Title="Everyday User Applications" />
+  <TocEntry
+    Title="Kiosk" />
+</CatapultToc>

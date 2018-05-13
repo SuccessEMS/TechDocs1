@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="6153" MadCap:lastWidth="1225" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head><title mt-export-translate="no">Configure Floor Plans V44.1 (EMS Desktop Client)</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Configuring Floor Plans</h1>
+        <p>This optional feature, enabled with an EMS Floor Plans license,&#160;allows users to view available rooms and book a space directly from a floor plan image in <MadCap:variable name="General.EMS&#160;Web App" />&#160;or <MadCap:variable name="General.Kiosk" />.</p>
+        <p>This topic provides information on the following:</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#ConfigurefloorplanIndicator">Configure Floor Plan Indicators</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Configurefloorplandiagram">Configure a Floor Plan Diagram</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Mapfloorplan">Map&#160;a Floor Plan</MadCap:xref>
+            </li>
+        </ul>
+        <p class="NoteTipWarningText">Configuring floor plans in the Floor Plan module is a three-step process:</p>
+        <ol class="number-list">
+            <li><span class="italics">Configure&#160;the&#160;floor plan indicators</span> (the images used indicate whether a room is available or unavailable for a floor plan). For example, you might use something as simple as a green square to indicate that a room on a floor is available and a red square to indicate that a room on a floor is unavailable.</li>
+            <li><span class="italics">Configure&#160;a floor plan diagram</span> for each floor of each building for which a floor plan applies. A&#160;<em>floor plan diagram</em>&#160;is a drawing, or outline, usually to scale, that shows the relationships between rooms, spaces, and other physical features for one floor of a building.</li>
+            <li><span class="italics">Map your floor plan indicators to rooms</span> on your diagrams using the Floor Plan Configuration utility.</li>
+        </ol>
+        <p>The availability of each reservable space ultimately determines the indicator (available or unavailable) that shows&#160;on a floor plan in <MadCap:variable name="General.EMS&#160;Web App" />&#160;or <MadCap:variable name="General.Kiosk" />.</p>
+        <h2><a name="ConfigurefloorplanIndicator"></a>Configure Floor Plan Indicators</h2>
+        <div class="box-note">
+            <p><span class="bold">Note:</span>&#160;Floor plan indicators do <span class="bold">not </span>scale when you zoom in and out of the floor plan.</p>
+        </div>
+        <ol class="number-list">
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <span class="bold">Floor Plan Indicators</span>.&#160;The Floor Plan Indicators window opens, listing&#160;active&#160;indicator sets currently configured in your EMS database.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Floor Plan Indicators Window</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigFloorsPlans_Indicator.png" class="PDFmedium" />
+            </p>
+        </div>
+        <div class="box-tip">
+            <p><span class="bold">Tip:</span>&#160;To see all indicator sets regardless of status, under Show, click&#160;<span class="bold">Inactive</span>.</p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click <span class="bold">New</span>.&#160;The Floor Plan Indicator dialog box opens.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Floor Plan Indicator Dialog</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigFloorsPlans_Indicator2.png" class="PDFmedium" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>In the Description field, enter a name or description for the new floor plan indicators (max 50 characters including spaces. You can name indicators something as simply as Indicator Set 1, or if you are using different indicators for different floor plans in different buildings, you could identify them by building, for example, Memorial Student Union indicators, Fifth Floor Conference Room indicators, and so on.</li>
+            <li>Next to the Image field, click <span class="bold">Search </span>&#160;to browse to and select an&#160;image to use for the&#160;<span class="italics">available</span>&#160;indicator.</li>
+            <li>Next to the Secondary Image field, click <span class="bold">Search </span>&#160;to browse to and select an&#160;image to use for the&#160;<span class="italics">unavailable</span>&#160;indicator.</li>
+        </ol>
+        <div class="box-note">
+            <p><span class="bold">Note:</span>&#160;The image must be in .png, .jpg, .jpeg, .jpe, .jfif, or .svg format.</p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click <span class="bold">OK</span>. Your new&#160;floor plan indicators are added as active. Optionally, select <span class="bold">Inactive </span>to deactivate the set.</li>
+        </ol>
+        <h2><a name="Configurefloorplandiagram"></a>Configure a Floor Plan Diagram</h2>
+        <p>You must configure one floor plan diagram for each floor that will&#160;be available for booking in <MadCap:variable name="General.EMS&#160;Web App" />&#160;and the <MadCap:variable name="General.Kiosk" />.</p>
+        <ol class="number-list">
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <span class="bold">Floor Plan Diagrams</span>.&#160;A blank Floor Plan Diagrams window opens.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Floor Plan Diagrams Window</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigFloorsPlans_Diagram1.png" class="PDFmedium" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Optionally, in the Building dropdown list, select (all), or select a specific building to see a list of floor plans for all buildings or for the selected building in the window.</li>
+            <li>Click <span class="bold">New</span>.&#160;The Floor Plan Diagram dialog box opens on&#160;<span class="bold">Floor Plan Diagram</span> tab.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Floor Plan Diagram Tab of the Floor Plan Diagram Dialog</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigFloorsPlans_Diagram2.png" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>In the Description field, enter a name or description for the new floor plan diagram (maximum of 50 characters, including spaces).</li>
+            <li>On the Building dropdown list, select the building for which you are configuring the floor plan diagram.</li>
+            <li>Next to the Image field, <span class="bold">Search </span>&#160;to browse and select the image to use for the floor plan diagram.</li>
+        </ol>
+        <div class="box-note">
+            <p><span class="bold">Note:&#160;</span>Image files must be&#160;.png, .jpg, .jpeg, .jpe, .jfif, or .svg. Optimal image size is 1024 x 768.</p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Open the Floor Plan Indicators tab, and on the Available list, select the floor plan indicator (CTRL-click to select multiple floor plan indicators) you wish to use&#160;for this diagram, and then Move (&gt;) to the Selected list.</li>
+            <li>Click <span class="bold">OK</span>.&#160;The Floor Plan Diagram dialog box closes and you return to the Floor Plan Diagrams window with the newly configured floor plan diagram automatically selected.</li>
+        </ol>
+        <h2><a name="Mapfloorplan"></a>Map&#160;a Floor Plan</h2>
+        <ol class="number-list">
+            <li>Log in to the Floor Plan Configuration module. The Configure Rooms option shows&#160;above&#160;the Login fields on the main window.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Floor Plan Configuration Module, Main Window with Configure Rooms Option</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigFloorsPlans_Map1.png" class="PDFlarge" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click <strong>Configure Rooms</strong>.&#160;The Configure Rooms page opens.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Floor Plan Configuration Module, Configure Rooms Page</p>
+            <p>
+                <img border="0" src="Images/DC_CG_ConfigFloorsPlans_Map2.png" class="PDFlarge" />
+            </p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>On the Floor Plan dropdown list, select a floor plan diagram.&#160;The available indicators that are associated with the floor plan diagram are displayed below the selected diagram.</li>
+            <li>Drag an available indicator and place it as needed to indicate where a room (reservable space) is located on the floor.</li>
+            <li>Repeat&#160;the above steps until you have identified all the reservable spaces on the floor.</li>
+            <li>For each indicator, do the following:<ul MadCap:continue="true"><li>Click on the indicator to open a Room Details dialog box.</li><li>On the Rooms dropdown list, select the room for the indicator, and then click <span class="bold">Save</span>.</li></ul></li>
+        </ol>
+        <div class="box-note">
+            <p><span class="bold">Note: </span>To filter the list of available rooms, select a specific floor and/or room type under Filter Options. Drop an indicator on the floor plan. Click <span class="bold">Save</span>. It is not necessary to configure a room in the indicator.</p>
+        </div>
+        <ol start="7" class="number-list">
+            <li>Close the Floor Plan Configuration module.</li>
+        </ol>
+    </body>
+</html>

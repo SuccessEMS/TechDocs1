@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Platform Services"
+    Link="/Content/Print/PS_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    <TocEntry
+      Title="Introduction to EMS Platform Services"
+      Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_Introduction.html"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+    <TocEntry
+      Title="Install EMS Platform Services"
+      Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="License Requirements for Platform Services"
+      Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Configure Platform Services in the Admin Portal"
+      Link="/Content/EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+</CatapultToc>

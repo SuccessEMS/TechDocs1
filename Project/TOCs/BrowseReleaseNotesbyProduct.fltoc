@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Browse Release Notes by Product"
+    Link="/Content/ReleaseNotes/BrowsebyProduct.htm">
+    <TocEntry
+      Title="V44.1">
+      <TocEntry
+        Title="EMS Desktop Client"
+        Link="/Content/ReleaseNotes/EMSDesktopClient_V44.1.htm"></TocEntry>
+      <TocEntry
+        Title="EMS Desktop Client – Academic Planning"
+        Link="/Content/ReleaseNotes/EMSDesktopClient_AcademicPlanning_V44.1.htm" />
+      <TocEntry
+        Title="EMS Web App"
+        Link="/Content/ReleaseNotes/EMSWebApp_V44.1.htm" />
+      <TocEntry
+        Title="EMS Room Sign App (formerly Glance)"
+        Link="/Content/ReleaseNotes/EMSRoomSign_V44.1.htm" />
+      <TocEntry
+        Title="EMS Mobile App"
+        Link="/Content/ReleaseNotes/EMSMobile_V44.1.htm" />
+      <TocEntry
+        Title="EMS for Outlook"
+        Link="/Content/ReleaseNotes/EMSforOutlook_V44.1.htm"></TocEntry>
+      <TocEntry
+        Title="EMS Kiosk App"
+        Link="/Content/ReleaseNotes/EMSKioskApp_V44.1.htm" />
+      <TocEntry
+        Title="EMS Platform Services"
+        Link="/Content/ReleaseNotes/EMSPlatform_V44.1.htm"></TocEntry>
+      <TocEntry
+        Title="EMS API"
+        Link="/Content/ReleaseNotes/EMSAPI_V44.1.htm"></TocEntry>
+      <TocEntry
+        Title="EMS Room Wizard"
+        Link="/Content/ReleaseNotes/EMSRoomWizard_V44.1.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="V44">
+      <TocEntry
+        Title="EMS Desktop Client"
+        Link="/Content/ReleaseNotes/EMSDesktopClient_V44.htm" />
+      <TocEntry
+        Title="EMS Desktop Client -- Academic Planning"
+        Link="/Content/ReleaseNotes/EMSDesktopClient_AcademicPlanning_V44.htm" />
+      <TocEntry
+        Title="Virtual EMS (VEMS)"
+        Link="/Content/ReleaseNotes/VirtualEMS_V44.htm" />
+      <TocEntry
+        Title="EMS Kiosk App"
+        Link="/Content/ReleaseNotes/EMSKiosk_V44.htm" />
+      <TocEntry
+        Title="EMS Glance"
+        Link="/Content/ReleaseNotes/EMSGlance_V44.htm" />
+      <TocEntry
+        Title="EMS RoomWizard"
+        Link="/Content/ReleaseNotes/EMSRoomWizard_V44.htm" />
+      <TocEntry
+        Title="EMS API"
+        Link="/Content/ReleaseNotes/EMSAPI_V44.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="V43">
+      <TocEntry
+        Title="EMS Desktop Client"
+        Link="/Content/ReleaseNotes/EMSDesktopClient_V43.htm" />
+      <TocEntry
+        Title="Virtual EMS (VEMS)"
+        Link="/Content/ReleaseNotes/VirtualEMS_V43.htm" />
+      <TocEntry
+        Title="EMS Glance"
+        Link="/Content/ReleaseNotes/EMSGlance_V43.htm" />
+      <TocEntry
+        Title="EMS RoomWizard"
+        Link="/Content/ReleaseNotes/EMSRoomWizard_V43.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

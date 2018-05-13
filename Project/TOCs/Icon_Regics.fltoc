@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Documentation for Regics">
+    <TocEntry
+      Title="Installation Guide Regics "
+      Link="/Content/Regics/EMS Regics Installation Guide.pdf"></TocEntry>
+    <TocEntry
+      Title="User Guide and Credit Card Processing Guide for EMS Regics"
+      Link="/Content/Regics/EMS Regics User Guide and Credit Card Payment Processing Guide.pdf" />
+    <TocEntry
+      Title="Older Releases">
+      <TocEntry
+        Title="Installation Guide EMS Regics V3"
+        Link="/Content/Regics/V3/EMS Regics Installation Guide V3.pdf" />
+      <TocEntry
+        Title="User Guide EMS Regics V3"
+        Link="/Content/Regics/V3/EMS Regics User Guide V3.pdf" />
+      <TocEntry
+        Title="Credit Card Payment Processing EMS Regics V3"
+        Link="/Content/Regics/V3/EMS_Regics_Credit_Card_Payment_Processing.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="Release Notes"
+      Link="/Content/Regics_RN_4.0.htm">
+      <TocEntry
+        Title="EMS Regics Release Notes V4"
+        Link="/Content/Regics_RN_4.0.htm"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Deloitte Release"></TocEntry>
+  <TocEntry
+    Title="EMS Desktop Client Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSDesktopClient.htm" />
+  <TocEntry
+    Title="EMS Web App Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSWebApp.htm" />
+  <TocEntry
+    Title="EMS for Outlook Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSforOutlook.htm" />
+  <TocEntry
+    Title="EMS Platform Services Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSPlatformServices.htm" />
+  <TocEntry
+    Title="EMS Floor Plan Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSFloorPlan.htm" />
+  <TocEntry
+    Title="EMS Exchange Integration Web Service Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/ExchangeIntegWebServ.htm" />
+</CatapultToc>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Integration to Microsoft® Exchange">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="System Requirements for Integration to Exchange"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Install or Upgrade the Exchange Integration Web Service"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Configure Integration to Exchange"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Use Application Pool Identity for Integration for Exchange Service Account"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="PDF"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegrationtoMicrosoftExchange.pdf" />
+    <TocEntry
+      Title="Configure EWS Impersonation for Microsoft® Exchange"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Learn More About Exchange Web Services (EWS) Impersonation"
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

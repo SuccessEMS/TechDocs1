@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="15598" MadCap:lastWidth="899" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Post-publish Processing of Courses V44.1 (Academic Planning)</title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Post-Publish Processing of Courses</h1>
+        <p>In most cases, courses are added, changed, or canceled in the SIS after the course schedule has been published in EMS. You can manually resynchronize and&#160;process&#160;these courses, or you can set options in EMS Academic Planning to automatically resynchronize these courses. After these course are automatically resynchronized, they can be automatically processed as well, or you can manually&#160;process&#160;them. Also, at the point that actual enrollment should determine room assignment (that is, can a room’s capacity handle the actual enrollment), you can&#160;process&#160;courses post-publish so that the courses are updated with the actual enrollment.&#160;</p>
+        <p>Tip: For automatic synchronizing to occur, the EMS Academic Planning Auto Sync Service must be installed and configured. Refer to the EMS Installation manual for details.</p>
+        <h2><a name="To_manually_process_courses_post-publish"></a>To manually process courses post-publish</h2>
+        <ol start="1" class="number-list">
+            <li>On the EMS Academic Planning menu bar, click Academic Planning &gt; Courses &gt; Manage Terms.&#160;The Terms window opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21.png" style="height: 510px;width: 812px;" alt="emsum_EMSCampus_image056.png" class="img_1" />
+        </p>
+        <ol start="2" class="number-list">
+            <li>Select the term which requires post-publish processing, and then click Sync.&#160;The Course Updates window opens. The Course tab is the active tab. This tab displays all the new courses, new course dates, changed courses, or canceled courses from the SIS. After processing, it also lists <span class="italics">Room Capacity Violations</span>, or courses in which the designated enrollment (estimated or actual) has surpassed the capacity of the room. The Course Updates window also has a Crosslist Validation tab. When EMS changes a cross-list parent to accommodate a new course, course date, or change that is being processed, the cross-listed courses are displayed on the Crosslist Validation tab. The Crosslist Validation tab is for informational purposes only so that you are kept abreast of parent changes. If you are satisfied with the parent assignments, you can simply click Reviewed and the cross-listed courses are cleared from the tab; otherwise, a Set Parent option is available.</li>
+        </ol>
+        <p class="title">Course Updates Window, Courses tab</p>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_1.png" style="height: 444px;width: 812px;" alt="emsum_EMSCampus_image057.png" class="img_1" />
+        </p>
+        <ol start="3" class="number-list">
+            <li>Continue to one of the following:</li>
+        </ol>
+        <ul class="unorder-list">
+            <li><a href="#To_process_a_canceled_course_post-publish">To process a canceled course post-publish</a>
+            </li>
+            <li><a href="#To_process_a_changed_course_post-publish">To process a changed course post-publish</a>
+            </li>
+            <li><a href="#To_process_a_new_course_date_post-publish">To process a new course date post-publish</a>
+            </li>
+            <li><a href="#To_process_a_new_course_post-publish">To process a new course post-publish</a>
+            </li>
+            <li><a href="#To_process_a_Room_Capacity_Violation_post-publish">To&#160;process a Room Capacity Violation post-publish</a>
+            </li>
+        </ul>
+        <p>Tip:&#160;The following procedures are presented in the order in which the post-publish processing should be carried out—cancellations, changes, new course dates, new courses, and then Room Capacity Violations.</p>
+        <h2><a name="To_process_a_canceled_course_post-publish"></a>To process a canceled course post-publish</h2>
+        <ol start="1" class="number-list">
+            <li>Select the canceled course, or CTRL-click to select multiple courses.</li>
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes.&#160;After processing is complete, the message closes and the canceled courses are removed from the Course Updates window. The bookings are canceled in EMS.</li>
+        </ol>
+        <h2><a name="To_process_a_changed_course_post-publish"></a>To process a changed course post-publish&#160;</h2>
+        <p>A course is listed as changed if there has been a change to the start or end date, a day of the week, the start or end time, and/or the room in the SIS.</p>
+        <ol start="1" class="number-list">
+            <li>Select the changed course, or CTRL-click to select multiple courses. The change history for the selected courses is displayed on the History tab in the lower pane of the Course Updates window.</li>
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes. Two results are possible:</li>
+        </ol>
+        <ul class="unorder-list">
+            <li>If the changes were successfully completed for the reservations and bookings, then the courses are removed from the Course Updates window.</li>
+            <li>If the changes resulted in a room conflict, Room Not Available is displayed in the Notes column. Go to&#160;Step 4.</li>
+        </ul>
+        <ol start="4" class="number-list">
+            <li>Click Conflicts to view the conflicts for the course.&#160;The View Conflicts dialog box opens. Each course and/or event that is causing the conflict is displayed.</li>
+            <li>If the conflict was caused by the switching of the rooms in the SIS, select the two course dates that are in conflict, and then click Swap to swap and process the rooms in the same step; otherwise, go to&#160;Step 6.</li>
+            <li>Do one of the following:</li>
+        </ol>
+        <ul class="unorder-list">
+            <li>Click Process again to process the course with conflicts. A Warning message op ens asking you if you are sure that you want to process with conflicts. Click Yes to close the message and complete the processing.<p>Tip:&#160;If needed, at a later date, you can use the Browser to manually search for these conflicts and resolve them.</p></li>
+            <li>Click Assign to search for a new room. The Select a Room dialog box opens. Go to&#160;Step 7.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_2.png" alt="emsum_EMSCampus_image058.png" />
+        </p>
+        <ol start="7" class="number-list">
+            <li>Specify your search criteria, and then click Next. &#160;A list of rooms that meets your search criteria is displayed.</li>
+            <li>Select the room that is to be assigned to the new courses, and then click Finish.&#160;The Select a Room dialog box closes and you return to the Course Updates window with the new courses still selected.</li>
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes.&#160;After processing is complete, the message closes and the changed courses are removed from the Course Updates window. If a Day of the Week change has been made, then processing course changes deletes and recreates the bookings that were previously made in EMS.</li>
+        </ol>
+        <p>Tip:&#160;If bookings are deleted and recreated, then any manual changes that have been made to these bookings and/or any services that have been added to the booking are lost.</p>
+        <h2><a name="To_process_a_new_course_date_post-publish"></a>To process a new course date post-publish&#160;</h2>
+        <ol start="1" class="number-list">
+            <li>Select the new course dates, or CTRL-click to select multiple new course dates.</li>
+            <li>If rooms have already been assigned to the course dates in the SIS and you want to keep these rooms, then go to&#160;Step 5; otherwise, click Assign to open the Select A Room dialog box, and then go to&#160;Step 3.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_3.png" alt="emsum_EMSCampus_image059.png" />
+        </p>
+        <ol start="3" class="number-list">
+            <li>Specify your search criteria, and then click Next.&#160;A list of rooms that meets your search criteria is displayed.</li>
+            <li>Select the room that is to be assigned to the new courses, and then click Finish.&#160;The Select a Room dialog box closes and you return to the Course Updates window with the new courses still selected.<p>Tip:&#160;Rooms can be processed without a room assignment. In this case, the course date is published in the TBD room that was specified when the term was published.</p></li>
+        </ol>
+        <ol start="5" class="number-list">
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes.&#160;Two results are possible:</li>
+        </ol>
+        <ul class="unorder-list">
+            <li>If the changes were successfully completed for the reservations and bookings, then the courses are removed from the Course Updates window.</li>
+            <li>If the changes resulted in a room conflict, Room Not Available is displayed in the Notes column. Go to&#160;Step 7.</li>
+        </ul>
+        <ol start="7" class="number-list">
+            <li>Click Conflicts to view the conflicts for the course.&#160;The View Conflicts dialog box opens. Each course and/or event that is causing the conflict is displayed.</li>
+            <li>If the conflict was caused by the switching of the rooms in the SIS, select the two course dates that are in conflict, and then click Swap to swap and process the rooms in the same step; otherwise, go to&#160;Step 9.</li>
+            <li>Do one of the following:&#160;</li>
+        </ol>
+        <ul class="unorder-list">
+            <li>Click Process again to process the course with conflicts. A Warning message opens asking you if you are sure that you want to process with conflicts. Click Yes to close the message and complete the processing.</li>
+        </ul>
+        <p>Tip:&#160;If needed, at a later date, you can use the Browser to manually search for these conflicts and resolve them.</p>
+        <ul class="unorder-list">
+            <li>Click Assign to search for a new room. The Select a Room dialog box opens. Go to&#160;Step 10.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_2.png" alt="emsum_EMSCampus_image058.png" />
+        </p>
+        <ol start="10" class="number-list">
+            <li>Specify your search criteria, and then click Next.&#160;A list of rooms that meets your search criteria is displayed.</li>
+            <li>Select the room that is to be assigned to the new courses, and then click Finish.&#160;The Select a Room dialog box closes and you return to the Course Updates window with the new courses still selected.</li>
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes.&#160;After processing is complete, the message closes and the changed courses are removed from the Course Updates window. If a Day of the Week change has been made, then processing course changes deletes and recreates the bookings that were previously made in EMS.<p>Tip: If bookings are deleted and recreated, then any manual changes that have been made to these bookings and/or any services that have been added to the booking are lost.</p></li>
+        </ol>
+        <h2><a name="To_process_a_new_course_post-publish"></a>To process a new course post-publish&#160;</h2>
+        <ol start="1" class="number-list">
+            <li>Select the new course, or CTRL-click to select multiple new courses.</li>
+            <li>Do one of the following:</li>
+        </ol>
+        <ul class="unorder-list">
+            <li>If rooms have already been assigned to the courses in the SIS and you want to keep these rooms, then go to&#160;Step 6.</li>
+            <li>If a room has already been assigned to the course (the first course) in the SIS, but it is meant to share a room with another course (the second course), then click Share to open the Course Selector dialog box, and then go to&#160;Step 5.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_4.png" alt="emsum_EMSCampus_image060.png" />
+        </p>
+        <ul class="unorder-list">
+            <li>If a room has not been assigned to the course in the SIS, and you want to search for a room, then click Assign to open the Select A Room dialog box and then go to&#160;Step 3.<p>Tip:&#160;Rooms can be processed without a room assignment. In this case, the course date is published in the TBD room that was specified when the term was published.</p></li>
+        </ul>
+        <p class="title">Select A Room dialog box</p>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_3.png" alt="emsum_EMSCampus_image059.png" />
+        </p>
+        <ol start="3" class="number-list">
+            <li>Specify your search criteria, and then click Next.&#160;A list of rooms that meets your search criteria is displayed.</li>
+            <li>Select the room that is to be assigned to the new course, and then click Finish.&#160;The Select a Room dialog box closes and you return to the Course Updates window with the new course still selected.</li>
+            <li>If the course is not meant to share a room with another course, go to&#160;Step 6; otherwise, if the course is meant to share a room with another course, then do the following:</li>
+        </ol>
+        <ul class="unorder-list">
+            <li>Click Share to open the Course Selector dialog box.</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_4.png" alt="emsum_EMSCampus_image060.png" />
+        </p>
+        <ul class="unorder-list">
+            <li>Enter the appropriate search criteria (CRN, Course Title, Subject and/or Instructor) to search for the second course.</li>
+            <li>Select the second course, and then click OK.<p>You are returned to the Course Updates window.</p></li>
+        </ul>
+        <ol start="6" class="number-list">
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes.&#160;After processing is complete, the message closes and the new courses are removed from the Course Updates window.</li>
+        </ol>
+        <h2><a name="To_process_a_Room_Capacity_Violation_post-publish"></a>To process a Room Capacity Violation post-publish&#160;</h2>
+        <p>If the enrollment for a class violates the minimum or maximum capacity for its assigned room, then the course is displayed on the Course Updates window with a change status of Room Capacity Violation.</p>
+        <ol start="1" class="number-list">
+            <li>Select the course, or CTRL-click to select multiple courses.</li>
+            <li>To assign the course to a new room, click Assign to open the Select a Room dialog box, then go to&#160;Step 3; otherwise, to leave the course in the same room, go&#160;Step 5.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_3.png" alt="emsum_EMSCampus_image059.png" />
+        </p>
+        <ol start="3" class="number-list">
+            <li>Specify your search criteria, and then click Next.&#160;A list of rooms that meets your search criteria is displayed.</li>
+            <li>Select the room that is to be assigned to the new course, and then click Finish.&#160;The Select a Room dialog box closes and you return to the Course Updates window with the new course still selected.</li>
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course dates.</li>
+            <li>Click Yes.&#160;After processing is complete, the message closes and the new courses are removed from the Course Updates window.</li>
+        </ol>
+        <p>Tip:&#160;If you did not assign a new room to the course, then clicking Process merely acknowledges the room violation. The course remains in its same room.</p>
+        <h2><a name="To_automatically_process_courses_post-publish"></a>To automatically process courses post-publish&#160;</h2>
+        <ol start="1" class="number-list">
+            <li>On the EMS Academic Planning menu bar, click Academic Planning &gt; Courses &gt; Manage Terms.&#160;The Terms window opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_5.png" alt="emsum_EMSCampus_image061.png" />
+        </p>
+        <ol start="2" class="number-list">
+            <li>Select the term which requires post-publish processing, and then click Edit.&#160;The Term dialog box opens. The Term tab is the active tab.</li>
+            <li>Open the Auto Sync Settings tab.&#160;</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_6.png" alt="emsum_EMSCampus_image062.png" />
+        </p>
+        <ol start="4" class="number-list">
+            <li>Specify your auto sync settings.</li>
+        </ol>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Setting</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Automatically Sync Courses</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Select this option to automatically synchronize courses in your SIS.</p>
+                        <p>Note:&#160;To automatically synchronize courses, a user who can carry out this function must be created, and this user must be specified for the Auto Sync User EMS (Campus) system parameter.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Automatically Process Course Updates</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Select this option if EMS is to automatically process new courses, changes, and cancellations if possible. Leave the option blank to manually process new courses, changes and cancellations from the EMS Dashboard. (See&#160;<a href="#To_manually_process_courses_post-publish">To manually process courses post-publish</a>.)</p>
+                        <p>Note:&#160;If this option is selected, and EMS&#160;cannot&#160;automatically process new courses, course dates and/or changes because of a conflict (for example, a room is not available), then you must manually process these courses. You must open the Course Updates tab on the EMS Dashboard, and then open the Courses sub-tab to view the courses in conflict that you must manually process. The Courses sub-tab is identical to the Course Updates window. See&#160; <a href="../../../EMSDesktopClient/V44.1/UserGuide/UseDashboard.html">EMS Dashboard</a> for information about working with tabs on the Dashboard window.</p>
+                        <p>Note:&#160;In addition to this setting, three Campus system parameters determine the specific types of updates that you are auto-processing.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Auto Sync Only Once Per Day</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>If you do not select this option, then EMS automatically synchronizes the courses in your SIS according to the settings for the EMS Academic Planning Auto Sync service.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Last Date of Auto Sync</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Required value. Enabled after Automatically Synch Courses is selected. Select the last date on which synchronization is to be automatically carried out by EMS for this term, which typically corresponds to the last date of the term.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="5" class="number-list">
+            <li>Click OK.&#160;The Term dialog box closes. You return to the Terms window.</li>
+        </ol>
+        <p class="title">Dashboard window, Course Updates tab</p>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_7.png" alt="emsum_EMSCampus_image063.png" />
+        </p>
+        <h2><a name="To_process_courses_post-publish_for_enrollment"></a>To&#160;process courses post-publish for enrollment&#160;</h2>
+        <p>Typically, you publish your term in EMS prior to registration beginning. As a result, estimated enrollment is the most relevant value for searching for rooms with appropriate capacities. Closer to the start of the term, however, actual enrollment might become more relevant and you might need to change the setting so that EMS uses this value when searching for new rooms in the Navigator wizards and Course Updates window.</p>
+        <ol start="1" class="number-list">
+            <li>On the EMS Academic Planning menu bar, click Academic Planning &gt; Courses &gt; Manage Terms.&#160;The Terms window opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_8.png" alt="emsum_EMSCampus_image064.png" />
+        </p>
+        <ol start="2" class="ol_1">
+            <li>Select the term which requires post-publish processing, and then click Edit.&#160;The Term dialog box opens. The Term tab is the active tab.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_9.png" alt="emsum_EMSCampus_image065.png" />
+        </p>
+        <ol start="3" class="number-list">
+            <li>On the Post Publish Enrollment dropdown list, select Actual, and then click OK.&#160;The Term dialog box closes. You return to the Terms window with the term still selected.</li>
+            <li>Click Sync.&#160;A Synchronizing progress dialog box opens. After the synchronization is complete, the Course Updates window opens. If the actual enrollment for a class violates the minimum or maximum capacity for its assigned room, then the course is displayed on the window with a Change Status of Room Capacity Violation.</li>
+        </ol>
+        <p class="title">Course Updates window showing rooms with capacity violations</p>
+        <p>
+            <img src="../../../Resources/Images/AcademicPlanV44/AcademicPlanV44_21_10.png" alt="emsum_EMSCampus_image066.png" />
+        </p>
+        <ol start="5" class="number-list">
+            <li>To assign the course to a new room, click Assign; otherwise, go to&#160;Step 8.&#160;The Select A Room dialog box opens.</li>
+            <li>Specify your search criteria, and then click Next.&#160;A list of rooms that meets your search criteria is displayed. The list includes any TBD rooms that have been configured.</li>
+            <li>Select the room that is to be assigned to the new courses, and then click Finish.&#160;The Select a Room dialog box closes and you return to the Course Updates window with the new courses still selected.</li>
+            <li>Click Process.&#160;A message opens asking you if you are sure that you want to process the selected course date.</li>
+            <li>Click Yes.&#160;After processing is complete, the message closes and the courses are removed from the Course Updates window.</li>
+        </ol>
+        <p>Tip: If you did not assign a new room to the course, then clicking Process merely acknowledges the room violation. The course remains in its same room.</p>
+        <p>&#160;</p>
+    </body>
+</html>

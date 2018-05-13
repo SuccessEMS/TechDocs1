@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="304" MadCap:lastWidth="1478">
+    <head>&#160;</head>
+    <body>
+        <h2 class="Heading2_1">&#160;EMS&#160;Kiosk&#160;App</h2>
+        <table style="width: 100%;">
+            <col>
+            </col>
+            <thead>
+                <tr>
+                    <th style="text-align: left;">Supported Browsers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Internet Explorer 11
+</p>
+                        <p>Google Chrome*
+</p>
+                        <p>Firefox*
+</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+*Latest versions</p>
+    </body>
+</html>

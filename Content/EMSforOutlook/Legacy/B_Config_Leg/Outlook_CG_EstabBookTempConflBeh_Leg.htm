@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="1769" MadCap:lastWidth="874" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Outlook.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Establish Outlook Booking Templates and Conflict Behavior</h1>
+        <p>When&#160;<MadCap:xref href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigEverydayUserProcessTemps.html">Configure Everyday User Process Templates</MadCap:xref>&#160;in the EMS Desktop Client, several options are specific to Outlook&#160;functionality. Once you have&#160;defined Everyday User Process templates&#160;as part of EMS Desktop Client setup, you can make some adjustments in order to fully enable and customize the EMS for Outlook add-in.</p>
+        <ol start="1">
+            <li>When defining a Everyday User Process template in EMS Desktop Client setup, select the&#160;<span class="bold">Outlook&#160;</span>option.&#160;Below is an example of a new booking template being created for EMS for Outlook bookings.</li>
+        </ol>
+        <p>Concept:&#160;During the booking process, EMS for Outlook users will be prompted to resolve schedule conflicts by selecting a different space. If they do not select an alternative, the booking enters a conflict status as set below and will not appear on the users' My Events or bookings calendar. If users are unable to find meetings they thought they booked, they may have skipped the conflict resolution step.</p>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Establishing Outlook Booking.png" alt="https://success.emssoftware.com/@api/deki/files/5566/outlookbookingtemplate.png?revision=1" />
+        </p>
+        <p>Tip:&#160;Use the&#160;<span class="bold">Outlook Conflict – Email Options</span>&#160;tab to control behavior for the&#160;<MadCap:annotation MadCap:createDate="2017-12-01T20:26:08.0782361-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Links to glossary" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T20:26:12.4163706-07:00">see notification</MadCap:annotation>&#160;email sent to&#160;the Outlook user if a booking conflict arises during the process of booking through Outlook.</p>
+        <ul>
+            <li><span class="bold">Enable for Outlook&#160;Option</span>—This checkbox enables the template to display to associated everyday users in the EMS for Outlook add-in and enables the&#160;Rule Violation Status&#160;field&#160;available on this screen.</li>
+            <li><span class="bold">Conflict Status</span>—Selections on this dropdown determine the type of conflict status assigned to bookings made with this template that are in conflict.</li>
+            <li><span class="bold">Rule Violation Status</span>—Selections in this dropdown determine the status of bookings made using&#160;to this template that are in conflict. This option is only available&#160;<span class="bold">Enable for&#160;Outlook</span>&#160;is selected. When you activate this option and&#160;a user in EMS for Outlook request a booking that&#160;violates a booking restriction, then the booking is changed to this status. For example, if a EMS for Outlook user requests a room that is already booked and overrides the conflict warning, then the booking is set to the status you specify in this field (such as&#160;Overbook&#160;or&#160;Web Conflict).</li>
+        </ul>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Establishing Outlook Booking_1.png" alt="https://success.emssoftware.com/@api/deki/files/5542/clipboard_eb194dabe5275f5f067c5aab995618ee8?revision=1&amp;size=bestfit&amp;width=411&amp;height=251" />
+        </p>
+        <p>Tip:&#160;The&#160;values in this dropdown&#160;come from settings in the booking&#160;<MadCap:xref href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigStatuses.htm">Statuses</MadCap:xref>&#160;area of EMS Desktop Client.</p>
+        <ol start="2">
+            <li>Complete the remaining tabs.</li>
+            <li>Once you have defined your Outlook Everyday User Process template(s),&#160;<MadCap:xref href="Outlook_CG_AssignUserstoGroups_Leg.htm">assign it to your User Account(s)</MadCap:xref>.&#160;</li>
+        </ol>
+        <p>See Also:&#160;</p>
+        <p>
+            <MadCap:xref href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_AssignSecTempMultEU.html">Assign Security Templates to Multiple Everyday Users</MadCap:xref>
+        </p>
+        <p>
+            <MadCap:xref href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserProcTempFieldDef.html">Everyday User Process Template Field Definitions</MadCap:xref>
+        </p>
+    </body>
+</html>

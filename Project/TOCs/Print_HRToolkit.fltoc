@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS HR Toolkit"
+    Link="/Content/Print/HRToolkit_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    <TocEntry
+      Title="EMS Human Resources Toolkit"
+      Link="/Content/OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ComputeToc="false">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"></TocEntry>
+      <TocEntry
+        Title="Installation Overview"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Obtain the Installation Files"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="How It Works"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="How HR Toolkit Integrates Your User Records"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Align Your Source Data for HR Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Configure EMS Web App for HR Toolkit"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Upgrade Considerations"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Install HR Toolkit for the Group/Group Type Model"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Import Group/Group Type Data"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
+        Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Import Group/Contact or Hybrid Data"
+          Link="/Content/OptionalFeatures/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API"
+    Link="/Content/OptionalFeatures/EMS_API/B_V44/API_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_APIGuideV44.htm">
+      <TocEntry
+        Title="EMS API Functions"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_APIFunctions.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Best Practices"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_BestPractices.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configuring and Verifying EMS for EMS API Web Service Use"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_ConfigVerifyWebService.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Hardware and Software Requirements"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_HardwareSoftwareReqs.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the EMS API Web Service"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_InstallUpgradeAPIWebServ.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade Database Components"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_InstallUpgradeDBComponents.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_Introduction.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Obtain the EMS API Web Service Installation Files"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_ObtainAPIWebServInstallFiles.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Release Notes"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_ReleaseNotes.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS API Requirements and Licensing"
+        Link="/Content/OptionalFeatures/EMS_API/B_V44/API_V44_ReqLicensing.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Version 43"
+      Link="/Content/OptionalFeatures/EMS_API/C_V43/EMS_IntrotoV43.htm">
+      <TocEntry
+        Title="EMS API"
+        Link="/Content/OptionalFeatures/EMS_API/C_V43/EMS API.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

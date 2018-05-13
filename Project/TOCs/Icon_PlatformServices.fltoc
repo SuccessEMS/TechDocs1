@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Documentation for EMS Platform Services">
+    <TocEntry
+      Title="Installation Guide"
+      Link="/Content/InstallGuides/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+      <TocEntry
+        Title="Introduction to EMS Platform Services"
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+      <TocEntry
+        Title="Install EMS Platform Services"
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+      <TocEntry
+        Title="License Requirements for Platform Services"
+        Link="/Content/EMSPlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration Guide"
+      Link="/Content/ConfigGuides/7_EMS_PlatformServices_CG.htm">
+      <TocEntry
+        Title="Configure Platform Services in the Admin Portal"
+        Link="/Content/EMSPlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Release Notes"
+      Link="/Content/V44.1_ReleaseNotes.htm">
+      <TocEntry
+        Title="Release Notes V44.1"
+        Link="/Content/V44.1_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V44"
+        Link="/Content/V44_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V43"
+        Link="/Content/V43_ReleaseNotes.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
+    <TocEntry
+      Title="PDF"
+      Link="/Content/EMSPlatformServices/PS.pdf" />
+  </TocEntry>
+</CatapultToc>

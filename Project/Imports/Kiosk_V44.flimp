@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-20T11:41:16.3592627-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Megan.laub\Documents\My Projects\Success2\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2017-11-20T11:41:54.0710744-07:00">
+  <Files>
+    <Url
+      Source="../../../../MigrateWordDocs/Kiosk/V44/Kiosk_V44.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Kiosk/V44/Kiosk_V44.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Kiosk_V44/EMS Kiosk.htm"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/Installing EMS Kiosk.htm"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Obtaining the Latest Release.gif"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Obtaining the Latest Release_1.gif"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/Obtaining the Latest Release.htm"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Installing Upgrading the EMS.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Installing Upgrading the EMS_1.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Installing Upgrading the EMS_2.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Installing Upgrading the EMS_3.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/Installing Upgrading the EMS.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/Setting Up EMS Kiosk.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_1.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_2.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_3.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_4.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_5.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_6.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_7.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_8.png"
+      TimeStamp="11/20/2017 11:41:42 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/Configuring EMS Kiosk Profiles.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/EMS Kiosk Parameter.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Menus.png"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Kiosk_V44/Configuring EMS Kiosk Menus_1.png"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/Configuring EMS Kiosk Menus.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/EMS Kiosk API Reference Guide.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Get Profiles.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Get Events.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Get Floors.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Get Event.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Validate.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk End Now.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Add Reservation.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../../Content/Kiosk_V44/API Functions Kiosk Add Room.htm"
+      TimeStamp="11/20/2017 11:41:44 AM" />
+    <Url
+      Source="../TOCs/Kiosk_V44.fltoc"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Kiosk_V44.css"
+      TimeStamp="11/20/2017 11:41:43 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="HTML Address" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="tablebody" />
+    <StyleName
+      Name="tablecolumnheader" />
+    <StyleName
+      Name="tablenotenote" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Title1" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="link" />
+  </UsedCharacterStyles>
+</MsWordImport>

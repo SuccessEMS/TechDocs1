@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="4462" MadCap:lastWidth="874" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Assign Web Templates to Multiple Web Users</h1>
+        <p>When you configure a web user, you have the option of assigning a web security template and a web process template to the web user. Instead of assigning web templates one at a time to individual users, you can assign multiple web templates to multiple users in a single step. You can&#160;assign&#160;any web security template other than the unauthenticated user template to multiple users who have the same status, and you can&#160;assign&#160;multiple web process templates to multiple web users who have database access.</p>
+        <p>This topic will provide information that will allow you to:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#AssignWebSecurity">Assign a Web Security Template to Multiple Web Users</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AssignMutlpleWeb">Assign Multiple Web Process Templates to Multiple Users</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="AssignWebSecurity"></a>Assign a Web Security Template to Multiple Web Users</h2>
+        <ol>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Security Templates</span>.&#160;The Web Security Templates window opens. The window lists the one web user role (unauthenticated user) that is defined by default for any VEMS implementation as well as any other web security templates that have been defined for your VEMS implementation.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to.png" alt="emssg_VEMSInfo_image023.png" />
+        </p>
+        <p>2. Select the web security template that you are assigning to multiple users, and then click <span class="bold">Assign</span>. The Assign Web Template window opens. &#160;&#160;</p>
+        <p>Tip:&#160;You can select any web security template other than the unauthenticated user template.</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_1.png" alt="emssg_VEMSInfo_image024.png" />
+        </p>
+        <ol start="3">
+            <li>Select the web user status, and then click <span class="bold">Next</span>.&#160;The Assign Web Template window is updated with options for selecting the users to whom you are assigning the web template.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_2.png" alt="emssg_VEMSInfo_image025.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Do one of the following:</li>
+        </ol>
+        <ul>
+            <li>To assign the selected web security template to all the users that you selected in&#160;Step 3, click Apply to All Web Users, and then go to&#160;Step 7.</li>
+            <li>To assign the web security template to only specific users that you selected in&#160;Step 3, search for the users by doing one or both of the following, and go to&#160;Step 5.</li>
+            <li>In the Search By field, leave the default of User Name or select Email Address.</li>
+            <li>To further filter the displayed search results based on either the User Name or Email Address, in the Find field, enter a search string.</li>
+        </ul>
+        <p>Tip:&#160;The string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bob.worth@dea.com&#160;but not&#160;dbobbett@dea.com.</p>
+        <ol MadCap:continue="true">
+            <li>Click <span class="bold">Display</span>.&#160;The web users who meet your search criteria are displayed in the Available list.</li>
+            <li>On the Available list, select the user, or CTRL-click to select the multiple users to whom you are assigning the template, and then click the Move button (&gt;) to move the selected users to the Selected list.</li>
+            <li>Click <span class="bold">Finish</span>.&#160;A message opens indicating that the web template was assigned successfully.</li>
+            <li>Click <span class="bold">OK </span>to close the message and return to the Web Security Templates window.</li>
+        </ol>
+        <h2><a name="AssignMutlpleWeb"></a>Assign Multiple Web Process Templates to Multiple Users</h2>
+        <ol>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Process Templates</span>.&#160;The Web Process Templates window opens. The window lists the one web process template (unauthenticated user) that is defined by default for any VEMS implementation as well as any other web process templates that have been defined for your VEMS implementation and that have a status of Active.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_3.png" alt="emssg_VEMSInfo_image026.png" />
+        </p>
+        <p>Tip:&#160;Optionally, to view all web process templates in your EMS database, regardless of status, under Show, click <span class="bold">Inactive</span>.</p>
+        <ol MadCap:continue="true">
+            <li>Click <span class="bold">Assign</span>.&#160;The Assign Web Process Templates window opens. All the available web process templates for your VEMS implementation are displayed in the Available list.&#160;&#160;&#160;</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_4.png" alt="emssg_VEMSInfo_image027.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>On the Available list, select the template or CTRL-click to select the multiple templates that are to be assigned to multiple web users, and then click the Move button (&gt;) to move the selected templates to the Selected list.&#160;</li>
+            <li>Click <span class="bold">Next</span>.&#160;The Assign Web Process Template window is refreshed with options for selecting users to whom you are assigning the web templates.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_5.png" alt="emssg_VEMSInfo_image028.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Do one of the following:</li>
+        </ol>
+        <ul>
+            <li>To assign the selected web process templates to all web users, click Apply to All Web Users, and then go to&#160;Step 8.</li>
+            <li>To assign the selected web process templates to only specific users search for the users by doing one or both of the following, and then go to&#160;Step 6.</li>
+            <li>In the Search By field, leave the default of User Name or select Email Address.</li>
+            <li>To further filter the displayed search results based on either the User Name or Email Address, in the Find field, enter a search string.</li>
+        </ul>
+        <p>Tip:&#160;The string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bob.worth@dea.com&#160;but not&#160;dbobbett@dea.com.</p>
+        <ol start="6">
+            <li>Click <span class="bold">Display</span>.&#160;The web users who meet your search criteria are displayed in the Available list.</li>
+            <li>On the Available list, select the user or CTRL-click to select the multiple users to whom you are assigning the web process templates, and then click the Move button (&gt;) to move the selected users to the Selected list.&#160;</li>
+            <li>Optionally, to replace any web process templates that are currently assigned to the users with the web process templates that you selected in&#160;Step 3, click <span class="bold">Overwrite Existing Templates</span>.</li>
+        </ol>
+        <p>Tip:&#160;If you do not select Overwrite Existing Templates, then the templates that you selected in&#160;Step 3&#160;are appended to the list of templates that are already assigned to the users.</p>
+        <ol MadCap:continue="true">
+            <li>Click <span class="bold">Finish</span>.&#160;A message opens indicating that the web template was assigned successfully.</li>
+            <li>Click <span class="bold">OK </span>to close the message and return to the Web Process Templates window.</li>
+        </ol>
+    </body>
+</html>

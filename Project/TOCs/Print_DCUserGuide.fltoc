@@ -1,0 +1,1273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Desktop Client User Guide"
+    Link="/Content/Print/DC_UG_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
+    <TocEntry
+      Title="Introduction to EMS Desktop Client"
+      Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="reset"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      PageNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+    <TocEntry
+      Title="Launch EMS Desktop Client"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Manage Database Connections"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageDBConn.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="User Settings"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Reservations and Bookings"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservandBookings.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Other Reservation Functions"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/OtherResFunctions.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Record Actual Attendance Numbers for Bookings"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Manage Attendees and Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageAttendeesVisitor.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="View Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Check In Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Import a List of Visitors"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The EMS Window"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/EMSWindow.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Work with the EMS Window"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Toolbar Buttons"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Customizing Your Toolbar"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The Reservation Book"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseReservationBook.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Create a Booking in the Reservation Book"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="View and Edit Reservations in the Reservation Book"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewEditReservinResBook.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Edit a Reservation in the Reservation Book"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinResBook.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Import a List of Visitors to a Booking"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The Navigator"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResNavigator.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Overview of the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/NavigatorOverview.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Get Familiar with the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GetFamiliarwithNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Edit a Reservation in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Add Bookings to a Reservation in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Copy a Reservation in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyResinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Change the Status of a Reservation in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Apply a Reservation Discount"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Edit a Booking in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Edit Multiple Bookings in the Navigator"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditMultBookinNav.htm"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Move Bookings to a Different Reservation in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/MoveBooktoDifRes.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Copy Multiple Bookings in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Booking Details and Items Overview"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Add Booking Details and Items to Individual Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Add Booking Details and Items to Existing Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetsItemstoExistBook.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Add Booking Details and Items to Multiple Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemstoMultBook.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Edit Booking Detail Items for Individual Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditItemsforIndividBook.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Copy Booking Details Between Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Delete Booking Details from Multiple Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Edit Charges for Multiple Billable Items"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditChargforMultpBillItem.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Edit Count Information for a Booking in the Navigator"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditCountInfoforBook.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Add Booking Details Wizard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Copy Booking Details Wizard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Delete Booking Details Wizard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Delete Item Wizard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteItemWizard.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Add Item Wizard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemWizard.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Comments and Reminders in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CommRemindinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Add Multiple Comments and Reminders to a Reservation"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddMultCommRemintoRes.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="User-Defined Fields in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserDefFieldsinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Attachments in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Drawings in the Navigator"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Resource Utility Conflicts Tool"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RunResourceUtility.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Approve or Deny Reservation Requests"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The Calendar"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Search with the Calendar"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithCalendar.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Search with the Resource Calendar"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The Reservation Wizard"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservationWizard.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Fields in the Reservation Wizard"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="The Everyday User Reservations Browser"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservBrowser.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Search Using the Everyday User Reservations Browser"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchEverydayUserBrow.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Create a Reservation in the Reservation Wizard"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateResinResWizard.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Book a Video Conference"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookingaVC.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The Browser"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Browser.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Search with the Browser"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithBrowser.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="People: Groups and Contacts"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/PeopleGroupsContacts.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Search for People"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Add or Edit Profile Information for People and Groups"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Create an Everyday User from a Group"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Assign an Everyday User to a Group"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Configure Contacts for a Group"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Import Groups"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportGroups.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Print and Export Everyday User Information"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Print and Export Group Information"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportGroupInfo.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Work with Reservations for a Group"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Email a Group"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EmailaGroup.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="The Dashboard"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseDashboard.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Overview of the EMS Dashboard"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Notifications Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/NotificationsTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Confirmations Vs Notifications: What Is the Difference?"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfirmVsNotifWhatDiff.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Reminders Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RemindersTab.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Everyday User Reservations Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservationsTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Guest Requests Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Manage Requests for Managed Space"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Wait List Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Reconfirm Dates Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReconfirmDatesTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Building Hours Exceptions Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BuildHoursExceptTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Analytics Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="At a Glance Tab"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/AtAGlanceTab.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Manage Services"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Work With and Search for Service Orders"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Search For Reservations, Bookings, Resources, and Service Orders"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/SrchResBookResSvcOrder.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Booking Check In "
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Enable Booking Check In"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/EnableBookingCheckIn.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Ways to Check In"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Manage Check In"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageCheckIn.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Reports and Queries"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportsQueries.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Report Descriptions and Options"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportDescriptionsOptions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Generate an EMS Report"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSReport.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Generate an EMS Billing Report"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Generate Attendee Visitor Reports"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenVisitorRep.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Configure Automated Reports"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Work with Saved Reports"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithSavedReports.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Work with a Query"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithQuery.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Billing"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Billing.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Overview of Billing in EMS"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/OverviewBilling.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Search for Transactions"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforTransactions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Quick Reference Guide: Billing and Invoicing"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/QuickRefBillandInvoice.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Work with Invoices"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Types of Transactions"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Work with Transactions"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="EMS Billing Reports"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Apply a Reservation Discount"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Bill Multiple Reference and PO Numbers for a Reservation"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/BillMultRefandPONumbers.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Price Categories and Room Charges"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Confirmations"
+      Link="/Content/EMSDesktopClient/V44.1/UserGuide/Confirmations.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Specifying Your Confirmation Settings"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SpecifyConfirmSettings.htm"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Send Confirmations"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendConfirmations.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Generate a Single Confirmation at a Time"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenSingConfirmatTime.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Generate Printed Confirmations"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenPrintedConfirmations.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Generate Word Merge Documents for Custom Documentation"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenMergeDocsCustomDoc.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Sending Emails from EMS"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendEmails.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="View History of Sent Emails"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

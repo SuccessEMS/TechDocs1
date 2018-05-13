@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS for Microsoft Outlook"
+    Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm">
+    <TocEntry
+      Title="Legacy Documentation"
+      Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm">
+      <TocEntry
+        Title="EMS for Microsoft Outlook Installation Guide (Legacy Documentation)"
+        Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_InstallOverview_Leg.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_Introduction_Leg.htm">
+          <TocEntry
+            Title="Prerequisites"
+            Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_Prerequistes_Leg.htm" />
+          <TocEntry
+            Title="EMS for Outlook Requirements"
+            Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_OutlookReqs_Leg.htm" />
+          <TocEntry
+            Title="System Architecture"
+            Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_SysArchitecture.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Plan Your EMS for Outlook Implementation"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_PlanImplementation_Leg.htm" />
+        <TocEntry
+          Title="Obtain the EMS for Outlook Installation File"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_ObtainOutlookInstallFile_Leg.htm" />
+        <TocEntry
+          Title="Install or Upgrade EMS for Outlook on a User's PC"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_InstallUpgradeUserPC_Leg.htm" />
+        <TocEntry
+          Title="EMS for Outlook Add-In Is Offline"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_OutlookAddInOffline_Leg.htm" />
+        <TocEntry
+          Title="Silent or Unattended EMS for Outlook Installation"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_SilentUnattendInstall_Leg.htm" />
+        <TocEntry
+          Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
+          Link="/Content/EMSforOutlook/Legacy/A_Install_Leg/Outlook_IG_ExchServURLandVerNum_Leg.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS for Microsoft Outlook Configuration Guide (Legacy Documentation)"
+        Link="/Content/EMSforOutlook/Legacy/B_Config_Leg/Outlook_CG_ConfigOverview_Leg.htm">
+        <TocEntry
+          Title="Customize the Desktop Application Label"
+          Link="/Content/EMSforOutlook/Legacy/B_Config_Leg/Outlook_CG_CustomizeDesktopAppLabel_Leg.htm" />
+        <TocEntry
+          Title="EMS for Outlook System Parameters"
+          Link="/Content/EMSforOutlook/Legacy/B_Config_Leg/Outlook_CG_SysParameters_Leg.htm" />
+        <TocEntry
+          Title="Enable User Access to EMS for Outlook"
+          Link="/Content/EMSforOutlook/Legacy/B_Config_Leg/Outlook_CG_EnableUserAccess_Leg.htm" />
+        <TocEntry
+          Title="Assign EMS Users to Groups"
+          Link="/Content/EMSforOutlook/Legacy/B_Config_Leg/Outlook_CG_AssignUserstoGroups_Leg.htm" />
+        <TocEntry
+          Title="Establish Outlook Booking Templates and Conflict Behavior"
+          Link="/Content/EMSforOutlook/Legacy/B_Config_Leg/Outlook_CG_EstabBookTempConflBeh_Leg.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS for Microsoft Outlook User Guide (Legacy Documentation)"
+        Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_UseOutlookOverview_Leg.htm">
+        <TocEntry
+          Title="Get Started With EMS for Outlook (Legacy)"
+          Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_GetStarted_Leg.htm">
+          <TocEntry
+            Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
+            Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_MSOutlookVEMSComp_Leg.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Create Reservations in EMS for Microsoft Outlook (Legacy)"
+          Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_CreateResOverview_Leg.htm">
+          <TocEntry
+            Title="Create a Single Reservation"
+            Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_CreateSingleRes_Leg.htm" />
+          <TocEntry
+            Title="Create a Series Reservation"
+            Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_CreateSeriesRes_Leg.htm" />
+          <TocEntry
+            Title="Create a Video Conference Reservation"
+            Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_CreateVideoConfRes_Leg.htm" />
+          <TocEntry
+            Title="Edit or Cancel a Scheduled Event"
+            Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_EditCancelSchedEvent_Leg.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Create a List of Favorite Rooms"
+          Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_CreateListFavRooms_Leg.htm" />
+        <TocEntry
+          Title="Use Skype for Business in EMS for Outlook"
+          Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_UseSkypeBus_Leg.htm" />
+        <TocEntry
+          Title="Resolve Booking Conflicts"
+          Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_ResolveBookConf_Leg.htm" />
+        <TocEntry
+          Title="View Known Errors/Alerts"
+          Link="/Content/EMSforOutlook/Legacy/C_User_Leg/Outlook_UG_ViewKnownErrAlert_Leg.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Prior to Update 8 Documentation"
+      Link="/Content/EMSforOutlook/Legacy/Outlook_OlderReleases.htm">
+      <TocEntry
+        Title="EMS for Microsoft Outlook Installation Guide (Prior to Update 8)"
+        Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_InstallOutlook.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_Introduction.htm" />
+        <TocEntry
+          Title="EMS for Outlook Requirements"
+          Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_Requirements.htm" />
+        <TocEntry
+          Title="Obtain the EMS for Outlook Installation File"
+          Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_ObtainInstallFiles.htm" />
+        <TocEntry
+          Title="Pre-Installation Requirements"
+          Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_PreInstallReq.htm" />
+        <TocEntry
+          Title="Install or Upgrade on a User's PC"
+          Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_InstallUpgradeonUserPC.htm" />
+        <TocEntry
+          Title="Silent or Unattended Installation"
+          Link="/Content/EMSforOutlook/PriorU8/A_Install/Outlook_IG_SilentUnattendedInstall.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS for Microsoft Outlook Configuration Guide (Prior to Update 8)"
+        Link="/Content/EMSforOutlook/PriorU8/B_Config/Outlook_CG_ConfigOverview.htm">
+        <TocEntry
+          Title="EMS for Outlook Technical Overview"
+          Link="/Content/EMSforOutlook/PriorU8/B_Config/Outlook_CG_TechnicalOverview.htm" />
+        <TocEntry
+          Title="EMS for Outlook System Parameters"
+          Link="/Content/EMSforOutlook/PriorU8/B_Config/Outlook_CG_OutlookSysParam.htm" />
+        <TocEntry
+          Title="Enable User Access to EMS for Outlook"
+          Link="/Content/EMSforOutlook/PriorU8/B_Config/Outlook_CG_EnableUserAccess.htm" />
+        <TocEntry
+          Title="Set Booking Conflict Behavior for EMS for Outlook"
+          Link="/Content/EMSforOutlook/PriorU8/B_Config/Outlook_CG_SetBookingConBeh.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS for Microsoft Outlook User Guide (Prior to Update 8)"
+        Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_Overview.htm">
+        <TocEntry
+          Title="Get Started With EMS for Outlook"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_GetStarted.htm" />
+        <TocEntry
+          Title="Reserve Space in EMS for Outlook"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_ReserveSpace.htm" />
+        <TocEntry
+          Title="Create a Video Conference Reservation"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_CreateVideoConference.htm" />
+        <TocEntry
+          Title="Reserve Recurrent Meetings"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_ReserveRecurMeetings.htm" />
+        <TocEntry
+          Title="Cancel Events"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_CancelEvents.htm" />
+        <TocEntry
+          Title="Change an Event"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_ChangeEvent.htm" />
+        <TocEntry
+          Title="Invite Groups"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_InviteGroups.htm" />
+        <TocEntry
+          Title="Resolve Booking Conflicts"
+          Link="/Content/EMSforOutlook/PriorU8/C_User/Outlook_UG_ResolveBookConflicts.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

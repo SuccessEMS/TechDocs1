@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-18T11:59:19.6695197-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Documents\My Projects\Website\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-11-18T11:59:30.7307190-07:00">
+  <Files>
+    <Url
+      Source="../../../../EMS Plan a Meeting (PAM) (V44).docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/EMS Plan a Meeting (PAM) (V44).docx" />
+    <Url
+      Source="../../../../EMS Services and Components (V44).docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/EMS Services and Components (V44).docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/EMS Plan a Meeting PAM.png"
+      TimeStamp="11/18/2017 11:59:25 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/EMS Plan a Meeting PAM.htm"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Introduction.png"
+      TimeStamp="11/18/2017 11:59:25 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Introduction.htm"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Plan a Meeting Requirements.htm"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Obtaining the Latest Release.htm"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing Upgrading the PAM.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing Upgrading the PAM_1.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing Upgrading the PAM_2.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Installing Upgrading the PAM.htm"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Configuring PAM.gif"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Configuring PAM_1.gif"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Configuring PAM.htm"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Additional Information.jpg"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Additional Information.gif"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Additional Information.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Setting Up PAM Impersonation.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Setting Up PAM Impersonation.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/EMS Services and Components.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/EMS Automated Report Service.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/EMS Automated Report Service_1.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/EMS Automated Report Service_2.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/EMS Automated Report Service.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing or Upgrading the.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing or Upgrading the_1.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Installing or Upgrading the.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing EMS Check in Notification.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing EMS Check in Notification_1.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Installing EMS Check in Notification.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing or Upgrading the_1_1.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/EMS Plan a Meeting (PAM) (V44)/Installing or Upgrading the_1_2.png"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/EMS Plan a Meeting (PAM) (V44)/Installing or Upgrading the_1.htm"
+      TimeStamp="11/18/2017 11:59:27 AM" />
+    <Url
+      Source="../TOCs/EMS Plan a Meeting (PAM) (V44).fltoc"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/EMS Plan a Meeting (PAM) (V44).css"
+      TimeStamp="11/18/2017 11:59:26 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="HTML Address" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Emphasis" />
+  </UsedCharacterStyles>
+</MsWordImport>

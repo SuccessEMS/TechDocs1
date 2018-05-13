@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API Guide"
+    Link="/Content/OptionalFeatures/2_EMS_API_Home.htm">
+    <TocEntry
+      Title="Process Overview"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ProcessOverview.html" />
+    <TocEntry
+      Title="Technical Benefits"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_TechnicalBenefits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Hardware and Software Requirements"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_HardwareSoftwareReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS API Requirements and Licensing"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_APIReqsLicensing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Obtain the EMS API Web Service Installation Files"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ObtainAPIWebServInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Install or Upgrade Database Components"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_InstallUpgradeDatabaseComponents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Install or Upgrade the EMS API Web Service"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_InstallUpgradeAPIWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Configure and Verify EMS for EMS API Web Service Use"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="EMS API Functions"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html">
+      <TocEntry
+        Title="ADD Operations"
+        Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html" />
+      <TocEntry
+        Title="AUTOCHECKIN Operations"
+        Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_AutoCheckinOperation.htm" />
+      <TocEntry
+        Title="DELETE Operations"
+        Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_DeleteOperations.htm" />
+      <TocEntry
+        Title="GET Operations"
+        Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_GETFunctions.html" />
+      <TocEntry
+        Title="UPDATE Operatons"
+        Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm" />
+      <TocEntry
+        Title="VALIDATE Operations"
+        Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_ValidateOperation.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2573" MadCap:lastWidth="946" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Install the EMS Automated Report Service</h1>
+        <p>EMS has built-in functionality that will automatically email reports to users. To learn more about configuring automated reporting, see&#160;<a href="../EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html">Configure Automated Reports</a>.&#160;</p>
+        <div class="note-box note">
+            <p><span class="bold">NOTE:</span>&#160;The EMS Automated Report Service&#160;must be installed on a computer that is connected to the network and is running 24 hours a day.&#160;Existing versions of the EMS Automated Report Service&#160;must be manually uninstalled.&#160;&#160;Install the EMS Automated Report Service&#160;on&#160;<span class="bold">one computer/server only</span>. </p>
+        </div>
+        <ol class="number-list">
+            <li>Verify that the prerequisite software is installed.</li>
+            <li>Manually uninstall any existing versions of the EMS Automated Report Service.</li>
+            <li>Download the&#160;<span class="bold">EMSAutomatedReportsSetup.msi</span>&#160;onto the server that will be running the service.</li>
+            <li>Double-click&#160;<span class="bold">EMSAutomatedReportsSetup.msi</span>. Follow the on-screen prompts.&#160;It is recommended that you accept the defaults.</li>
+            <li>Within your Microsoft Windows Start menu, locate&#160;<span class="bold">EMS Automated Report</span>. The EMS Automated Report Configuration screen will appear.<div class="TitleandImage"><p class="title">EMS&#160;Automated Report Configuration Screen</p><p><img src="../Resources/Images/EMS Plan a Meeting (PAM) (V44)/EMS Automated Report Service_1.png" class="PDFlarge" /></p></div></li>
+            <li>Review and complete/change the following settings:<ul class="unorder-list"><li><span class="bold">Mode&#160;</span>– Type of authentication to the SMTP server.</li><li><span class="bold">SMTP Server </span>–&#160;SMTP server name or IP address.</li><li><span class="bold">Use Gmail </span>–&#160;Check this option to set the service to use Gmail settings.</li><li><span class="bold">Port Number </span>–&#160;SMTP port (default = 25)</li><li><span class="bold">Use SSL </span>–&#160;Check this option if your SMTP server runs under SSL.</li><li><span class="bold">User Name/Password&#160;</span>– Required if an authentication mode other than Unauthenticated is selected.</li></ul></li>
+            <li>In the Databases section of the dialog box, you will see a sample database and server (named ‘server’ and ‘database.’) Select this entry, click&#160;<span class="bold">Edit</span>, and change the values to your EMS server and database name.<div class="TitleandImage"><p class="title">Delivery Database Dialog Box</p><p><img src="../Resources/Images/EMS Plan a Meeting (PAM) (V44)/EMS Automated Report Service_2.png" class="PDFmedium" /></p></div></li>
+            <li>On the Database tab of the Delivery&#160;Database dialog box, complete the following:<ul MadCap:continue="true" class="unorder-list"><li><span class="bold">Server/Database&#160;</span>– EMS server and database name.</li><li><span class="bold">EMS&#160;Authentication/Windows Authentication&#160;</span>– The method of authentication to this database.</li><li><span class="bold">Email From&#160;</span>–Email address that will be displayed in the From field of automated report&#160;emails that are sent.</li><li><span class="bold">Enable Service Event Logging&#160;</span>– Activates Windows event logging.</li></ul></li>
+            <li>After making your entries, click&#160;<span class="bold">OK</span>.</li>
+            <li>Click&#160;<span class="bold">OK&#160;</span>again to save your EMS Automated Report Service Configuration settings.</li>
+        </ol>
+        <p>​The EMS Automated Report Service is now enabled. See also: <a href="../EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html">Configure Automated Reports</a>.&#160;</p>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span>  If any issues are encountered starting the service, please visit the online Support Center for a possible solution or call <a href="#Contact">Customer Support</a>.</p>
+        </div>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

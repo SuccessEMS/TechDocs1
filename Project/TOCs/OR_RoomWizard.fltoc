@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS RoomWizard"
+    Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWizard_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_Introduction.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Requirements"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_Requirements.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Data Transferred Between Units and the Interface"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_DataTransBetwUnits.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Obtain the EMS - Room Wizard Interface Components"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_ObtainRWComponents.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Room Wizard Communication"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_RWCommunication.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS - Room Wizard Configuration"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_RWConfiguration.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS - Room Wizard Interface Configuration"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_RWInterfaceConfig.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS - Room Wizard Interface Database Component Installation"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_RWInterfaceDBCompon.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS - Room Wizard Interface Web Site Installation"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_RWInterfaceWebsite.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Security"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_Security.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS Room Wizard V44"
+        Link="/Content/OptionalFeatures/RoomWiz/B_V44/RoomWiz_V44_EMSRoomWizV44.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Version 43">
+      <TocEntry
+        Title="Introduction to EMS RoomWizard"
+        Link="/Content/OptionalFeatures/RoomWiz/C_V43/RoomWizard_IntroV43.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS RoomWizard Interface Install"
+        Link="/Content/OptionalFeatures/RoomWiz/C_V43/EMS RoomWizard Interface Install.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

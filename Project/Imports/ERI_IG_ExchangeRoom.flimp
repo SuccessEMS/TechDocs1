@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-30T08:28:14.5564360-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Megan.laub\Documents\My Projects\Success5\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2017-11-30T08:28:29.9163815-07:00">
+  <Files>
+    <Url
+      Source="../../../../MigrateWordDocs/Exchange Room Integration/ERI_IG_ExchangeRoom.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Exchange Room Integration/ERI_IG_ExchangeRoom.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/ERI_IG_ExchangeRoom/EMS Exchange Room Integration.htm"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/ERI_IG_ExchangeRoom/Introduction to ERI.htm"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Architecture of ERI.png"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/ERI_IG_ExchangeRoom/Architecture of ERI.htm"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Install Exchange Room Integration.gif"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/ERI_IG_ExchangeRoom/Install Exchange Room Integration.htm"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration.png"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration_1.png"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration_2.png"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration_3.png"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/ERI_IG_ExchangeRoom/Configure Exchange Room Integration_4.png"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/ERI_IG_ExchangeRoom/Configure Exchange Room Integration.htm"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../TOCs/ERI_IG_ExchangeRoom.fltoc"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/ERI_IG_ExchangeRoom.css"
+      TimeStamp="11/30/2017 8:28:27 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="List Paragraph" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="mt-font-size-12.0pt" />
+    <StyleName
+      Name="mt-color-669933" />
+  </UsedCharacterStyles>
+</MsWordImport>

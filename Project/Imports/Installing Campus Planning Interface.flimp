@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-29T09:38:54.4976407-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Desktop\Website\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-11-29T09:39:26.2295481-07:00">
+  <Files>
+    <Url
+      Source="file:///D:/Yev Files/CampusV44/Installing Campus Planning Interface.docx"
+      AbsoluteSource="file:///D:/Yev Files/CampusV44/Installing Campus Planning Interface.docx" />
+    <Url
+      Source="file:///D:/Yev Files/CampusV44/Installing EMS Campus Web Service and White Paper.docx"
+      AbsoluteSource="file:///D:/Yev Files/CampusV44/Installing EMS Campus Web Service and White Paper.docx" />
+    <Url
+      Source="file:///D:/Yev Files/CampusV44/Setting Up EMS Campus.docx"
+      AbsoluteSource="file:///D:/Yev Files/CampusV44/Setting Up EMS Campus.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing Campus Planning.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing Campus Planning_1.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Installing Campus Planning.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Introduction.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Introduction.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Obtaining the Latest Release.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Starting the EMS Campus Planning.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Hardware and Software Requirements.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing or Upgrading the.jpg"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing or Upgrading the_1.jpg"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing or Upgrading the.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing or Upgrading the_1.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Installing or Upgrading the.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing EMS Campus Web.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Installing EMS Campus Web.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Introduction_1.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Introduction_1_1.png"
+      TimeStamp="11/29/2017 9:39:08 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Introduction_1.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Obtaining the Latest EMS Campus.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/EMS Configuration Steps.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Data Models.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Banner Views Data Model.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/CAMS Views Data Model.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Colleague Oracle or SQL Views.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Colleague Unidata Views Data.htm"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Jenzabar CX Informix Views.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Jenzabar EX Views Data Model.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/PeopleSoft Views Data Model.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/PowerCampus Views Data Model.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/EMS Campus Web Service Hardware.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing Upgrading the EMS.png"
+      TimeStamp="11/29/2017 9:39:14 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing Upgrading the EMS_1.png"
+      TimeStamp="11/29/2017 9:39:14 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Installing Upgrading the EMS.gif"
+      TimeStamp="11/29/2017 9:39:14 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Installing Upgrading the EMS.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Appendix A Format for Tab.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Web Service Overview.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Web Service Overview.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Setting Up EMS Campus.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Overview of Synchronization.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Overview of Synchronization_1.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Overview of Synchronization.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Synchronizing Facility Data.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Synchronizing Facility Data_1.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Synchronizing Facility Data_2.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Synchronizing Facility Data.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Academic Units.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Academic Units_1.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Academic Units_2.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Configuring Academic Units.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring the Primary Academic.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring the Primary Academic_1.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Configuring the Primary Academic.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Course Types Room.png"
+      TimeStamp="11/29/2017 9:39:15 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Configuring Course Types Room.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Synchronizing Campus Specific.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Synchronizing Campus Specific.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Domains.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Domains_1.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Configuring Domains.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Instructors.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Instructors_1.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Configuring Instructors.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Course Types.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Configuring Course Types_1.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Configuring Course Types.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Working with Time Block Templates.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Working with Time Block Templates_1.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Working with Time Block Templates_2.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Working with Time Block Templates_3.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Working with Time Block Templates_4.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Installing Campus Planning Interface/Working with Time Block Templates_5.png"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Installing Campus Planning Interface/Working with Time Block Templates.htm"
+      TimeStamp="11/29/2017 9:39:17 AM" />
+    <Url
+      Source="../TOCs/Installing Campus Planning Interface.fltoc"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Installing Campus Planning Interface.css"
+      TimeStamp="11/29/2017 9:39:16 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="bulletlev1" />
+    <StyleName
+      Name="expand_class" />
+    <StyleName
+      Name="figurecaptioncolumn" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="HTML Address" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="mt-indent-1" />
+    <StyleName
+      Name="mt-indent-2" />
+    <StyleName
+      Name="mt-indent-4" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="notetipwarningtext" />
+    <StyleName
+      Name="tablebody" />
+    <StyleName
+      Name="tablebodybold" />
+    <StyleName
+      Name="tablebulletlev1" />
+    <StyleName
+      Name="tablecolumnheader" />
+    <StyleName
+      Name="tablenotenote" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="mt-color-669933" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="link" />
+    <StyleName
+      Name="bold" />
+  </UsedCharacterStyles>
+</MsWordImport>

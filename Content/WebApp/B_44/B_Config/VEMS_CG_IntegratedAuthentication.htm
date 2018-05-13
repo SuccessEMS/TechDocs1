@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="2606" MadCap:lastWidth="1000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Integrated Windows Authentication</h1>
+        <h2>Overview</h2>
+        <p>Integrated Windows Authentication (IWA) is a built-in Microsoft Internet Information Services (IIS) authentication protocol that can be used to automatically authenticate and sign-in a user to Virtual EMS. Integrated Windows Authentication works only with Internet Explorer and is best used on intranets where all clients accessing Virtual EMS are within a single domain. For more information, please review the following Microsoft TechNet article on&#160;<a href="http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/523ae943-5e6a-4200-9103-9808baa00157.mspx?mfr=true">IWA</a>.&#160;When a domain user logged onto a networked PC hits the Virtual EMS site, their Active Directory credentials (Domain\User ID) are compared against corresponding Domain\User ID information recorded in the&#160;Network ID&#160;and\or&#160;External Reference&#160;fields of your EMS Web User records. If a match exists, the Web User will be automatically logged-into Virtual EMS.</p>
+        <p>See Also:&#160;Integrated Authentication Considerations</p>
+        <p>Note:&#160;The&#160;Field Used to Authenticate Web User&#160;Virtual EMS Parameter, within&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>(Virtual tab), is used by Virtual EMS to determine which value should be used for authentication.</p>
+        <p>This topic provides information on the following:&#160;</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Activate_IWA_IIS_6.0">Activate Integrated Windows Authentication for IIS 6.0</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Activate_IWA_IIS_7_8">Activate Integrated Windows Authentication for IIS 7/8</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="Activate_IWA_IIS_6.0"></a>Activate Integrated Windows Authentication for IIS 6.0</h2>
+        <ol start="1">
+            <li>On the web server that hosts your Virtual EMS site, open&#160;<span class="bold">IIS Manager</span>.</li>
+            <li>Locate your Virtual EMS web site.</li>
+            <li>Right-click your Virtual EMS site and select <span class="bold">Properties</span>. The Properties screen will open.</li>
+            <li>From the&#160;Directory Security&#160;tab, click the&#160;<span class="bold">Edit&#160;</span>button under the&#160;<span class="italics">Authentication and access control</span>&#160;section.&#160;The Authentication Methods screen opens.</li>
+            <li>Uncheck the&#160;<span class="bold">Enable anonymous access</span>&#160;option. The&#160;<span class="bold">Integrated Windows authentication</span>&#160;option should be the only option checked.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Integrated Windows Authentication.png" alt="https://success.emssoftware.com/@api/deki/files/199/VEMS_-IA-_Integrated_Windows-Properties%2526Methods.png?revision=1&amp;size=bestfit&amp;width=552&amp;height=588" />
+        </p>
+        <ol start="6">
+            <li>Click&#160;<span class="bold">OK&#160;</span>to exit the Authentication Methods screen. Click&#160;<span class="bold">OK&#160;</span>again to exit the Properties screen. You have completed the necessary IIS configuration steps for IIS 6.0.</li>
+        </ol>
+        <h2><a name="Activate_IWA_IIS_7_8"></a>Activate Integrated Windows Authentication for IIS 7/8</h2>
+        <ol start="1">
+            <li>On the web server that hosts your Virtual EMS site, open&#160;IIS Manager.</li>
+            <li>Locate and highlight your Virtual EMS web site.&#160;</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Integrated Windows Authentication_1.png" alt="https://success.emssoftware.com/@api/deki/files/200/VEMS_-IA-_Integrated_Windows-IISManager.png?revision=1&amp;size=bestfit&amp;width=1045&amp;height=517" />
+        </p>
+        <ol start="3">
+            <li>Double-click the&#160;<span class="bold">Authentication&#160;</span>option in the&#160;IIS&#160;section.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Integrated Windows Authentication_2.png" alt="https://success.emssoftware.com/@api/deki/files/201/VEMS_-IA-_Integrated_Windows-Authentication.png?revision=1&amp;size=bestfit&amp;width=525&amp;height=381" />
+        </p>
+        <ol start="4">
+            <li>Right-click the&#160;<span class="bold">Windows Authentication</span>&#160;option and select&#160;<span class="bold">Enable</span>.</li>
+            <li>Right-click the&#160;<span class="bold">Anonymous Authentication</span>&#160;option and select&#160;<span class="bold">Disable</span>. You have completed the necessary IIS configuration steps for IIS 7.</li>
+        </ol>
+    </body>
+</html>

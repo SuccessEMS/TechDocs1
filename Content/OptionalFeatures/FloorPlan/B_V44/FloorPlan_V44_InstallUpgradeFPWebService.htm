@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4259" MadCap:lastWidth="903" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_FloorPlans.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Install or Upgrade the Floor Plan Web Service</h1>
+        <div class="box-important">
+            <p><span class="bold">IMPORTANT:</span> Before beginning the installation process, please do the following:</p>
+            <ul class="unorder-list">
+                <li>Install or upgrade your EMS databases as outlined in the&#160;EMS Desktop Client Installation Instructions.</li>
+                <li>Manually&#160;uninstall&#160;any previous versions of the Floor Plan Web Service on your web server.&#160;</li>
+            </ul>
+        </div>
+        <ol start="1" class="number-list">
+            <li>Verify that the prerequisite software is installed.</li>
+            <li>Download&#160;EMSRoomDiagrammingService.msi&#160;and&#160;EMSFloorPlanConfiguration.msi&#160;onto the web server (typically the web server that hosts your Virtual EMS/EMS Kiosk web site(s).)</li>
+            <li>Run&#160;EMSRoomDiagrammingService.msi.&#160;</li>
+            <li>The first screen welcomes you to the EMS Room Diagramming Web Service Setup Wizard.&#160;Click&#160;Next&#160;to begin the installation process.&#160;</li>
+        </ol>
+        <p>
+            <img src="Images/EMSFloorPlanV44/Installing Upgrading the Floor_1_1.png" alt="https://success.emssoftware.com/@api/deki/files/5010/floorplanRDWSv44.png?revision=1" />
+        </p>
+        <ol start="5" class="number-list">
+            <li>The&#160;Destination Folder&#160;screen will appear.</li>
+        </ol>
+        <p>
+            <img src="Images/EMSFloorPlanV44/Installing Upgrading the Floor_1_2.png" alt="https://success.emssoftware.com/@api/deki/files/5011/floorplanRDWSv44A.png?revision=1" />
+        </p>
+        <ol start="6" class="number-list">
+            <li>Select the Destination Folder. Click&#160;Next.</li>
+            <li>The&#160;SQL Server and database information&#160;screen will appear.</li>
+        </ol>
+        <p>
+            <img src="Images/EMSFloorPlanV44/Installing Upgrading the Floor_1_3.png" alt="https://success.emssoftware.com/@api/deki/files/5012/floorplanRDWSv44B.png?revision=1" />
+        </p>
+        <ol start="8" class="number-list">
+            <li>Enter your EMS SQL Server Name and EMS Database Name (typically “EMS”).&#160;</li>
+            <li>Click&#160;Next.&#160;The Virtual Directory information screen will appear.</li>
+        </ol>
+        <p>
+            <img src="Images/EMSFloorPlanV44/Installing Upgrading the Floor_1_4.png" alt="https://success.emssoftware.com/@api/deki/files/5013/floorplanRDWSv44C.png?revision=1" />
+        </p>
+        <p class="box-note"><span class="bold">NOTE:</span> The EMS Room Diagramming Web Service should&#160;not&#160;be installed in the same Virtual Directory as other EMS web-based products.</p>
+        <ol start="10" class="number-list">
+            <li>Click&#160;Next.&#160;The&#160;Ready to install&#160;... screen will appear.</li>
+        </ol>
+        <p>
+            <img src="Images/EMSFloorPlanV44/Installing Upgrading the Floor_1_5.png" alt="https://success.emssoftware.com/@api/deki/files/5014/floorplanRDWSv44D.png?revision=1" />
+        </p>
+        <ol start="11" class="number-list">
+            <li>Click&#160;Install&#160;to begin the installation. Once complete, the&#160;Installation Complete&#160;screen will appear.&#160;</li>
+            <li>Click&#160;Close.&#160;</li>
+            <li>After following the steps above, verify your installation by opening a browser and entering the following URL:<p>http://[ServerName]/EMSRoomDiagrammingService/DiagramWS.asmx?WSDL&#160;(replace [ServerName] with the name of your web server)</p></li>
+        </ol>
+        <p>Your browser should return XML.</p>
+        <p>
+            <img src="Images/EMSFloorPlanV44/Installing Upgrading the Floor_1_6.png" alt="https://success.emssoftware.com/@api/deki/files/1500/Floor_Plan_Module_-_local_host_diagramming_Service_-_.png?revision=1&amp;size=bestfit&amp;width=900&amp;height=488" />
+        </p>
+    </body>
+</html>

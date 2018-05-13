@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API UPDATE Operations"
+    Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm">
+    <TocEntry
+      Title="UpdateBooking"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateBooking"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateBooking2"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateBooking2"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateBookingCheckIn"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateBookingCheckIn"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateContact"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateContact"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateGroup"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateGroup"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateReservation"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateReservation"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateServiceOrder"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateServiceOrder"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateServiceOrderDetail"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateServiceOrderDetail"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateUDF"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateUDF"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateWebUser"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateWebUser"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="UpdateWebUserOptions"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_UpdateOperation.htm#UpdateWebUserOptions"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

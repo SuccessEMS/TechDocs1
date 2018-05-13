@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="8371" MadCap:lastWidth="861" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Kiosk.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />Configure EMS Kiosk Profiles</h1>
+        <p>When you configure an EMS Kiosk on a specific touch-screen device, a Kiosk profile controls the functionality that will be&#160;available on the device. You configure an EMS Kiosk profile through the EMS Desktop Client.</p>
+        <p>This topic contains information on the following:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Configure_an_EMS_Kiosk_Profile">Configure an EMS Kiosk Profile</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Kiosk_Profile_Tab">Kiosk Profile Tab</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Rooms_Tab">Rooms Tab</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Menu_Items_Tab">Menu Items Tab</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Translations_Tab">Translations Tab</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Images_Tab">Images Tab</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Parameters_Tab">Parameters Tab</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Web_Text_Tab">Web Text Tab</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="Configure_an_EMS_Kiosk_Profile"></a>Configure an EMS Kiosk Profile</h2>
+        <ol start="1">
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Kiosk </span>&gt;&#160;<span class="bold">Kiosk Profiles</span>.&#160;The Kiosk Profiles window opens. This window lists all the kiosk profiles that are currently configured in your EMS database and that have a status of <span class="bold">Active</span>.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles.png" alt="emssg_EMSKiosk_image001.png" />
+        </p>
+        <p>Tip: Optionally, to view all kiosk profiles in your EMS database, regardless of status, under Show, click <span class="bold">Inactive</span>.</p>
+        <p>Tip: The remainder of this procedure describes how to configure a kiosk profile <span class="italics">from scratch</span>. You can also configure a kiosk profile by copying an existing profile. Select the kiosk profile that you want to copy, click <span class="bold">Copy</span>, and then go to&#160;Step 3.</p>
+        <ol start="2">
+            <li>Click&#160;<span class="bold">New</span>.&#160;The Kiosk Profile dialog box opens. The <span class="bold">Kiosk Profile</span> tab is the active tab.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_1.png" alt="emssg_EMSKiosk_image002.png" />
+        </p>
+        <ol start="3">
+            <li>Enter the information for the new profile.</li>
+        </ol>
+        <h2><a name="Kiosk_Profile_Tab"></a>Kiosk Profile Tab</h2>
+        <ol start="1">
+            <li>Enter the information for the new profile.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_1.png" alt="emssg_EMSKiosk_image002.png" />
+        </p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Option</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Description</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The name or description for the kiosk profile.</p>
+                        <p>Note:&#160;The description can be a maximum of 50 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Building</p>
+                        <p>Floor</p>
+                        <p>Area</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Select the default building, and floor, for the current day’s events. The area is used to define the scope of the event display on the Today’s Events page. EMS Kiosk users will be able to see events across all the buildings that are included in the selected area.</p>
+                        <p>Note:&#160;Building is a required value.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Default Translation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>A translation is the language in which the menu items, menu text, and web text are displayed on a kiosk page. Translations are available only after you select the pertinent translations on the <span class="bold">Translations </span>tab. (See <MadCap:xref href="#Translations_Tab">Translations Tab</MadCap:xref>.) If you do not select a translation, then by default, the items and text are displayed in US English. If you need to select a different translation, then after you select the pertinent translations on the <span class="bold">Translations </span>tab, return to this tab and select a different default translation.</p>
+                        <p>Note:&#160;For translations to be available for selection, the web culture must be defined. See&#160;<MadCap:xref href="../../../WebApp/B_44/B_Config/VEMS_CG_ConfigWebCulture.htm">Configure Web Cultures</MadCap:xref>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Default Floor Plan</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Select the default floor plan that is to be displayed for the current day’s events.</p>
+                        <p>Note:&#160;If the needed floor plan is not available, you can configure it. See&#160;Configuring Floor Plans.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Inactive</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Leave this option blank to add the kiosk profile as an active profile. Select this option to inactivate the profile.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="2">
+            <li>Continue with any other configuration for the profile as needed; otherwise, click <span class="bold">OK </span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+        <h2><a name="Rooms_Tab"></a>Rooms Tab</h2>
+        <p>You use the <span class="bold">Rooms </span>tab to select the rooms that a user can book from the Make Reservation page in EMS Kiosk.</p>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_2.png" alt="emssg_EMSKiosk_image003.png" />
+        </p>
+        <ol start="1">
+            <li>On the Building dropdown list, select the applicable building.</li>
+            <li>On the Room Type dropdown list, leave the default value of (all), or select the appropriate room type.&#160;The Available list displays all the rooms that meet your search criteria.</li>
+            <li>On the Available list, select the room, or CTRL-click to select the multiple rooms that a user can book from the Make Reservation page, and then click the <span class="bold">Move </span>(<span class="bold">&gt;</span>) button to move the selected rooms to the Selected list.</li>
+            <li>Continue with any other configuration for the profile as needed; otherwise, click <span class="bold">OK </span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+        <h2><a name="Menu_Items_Tab"></a>Menu Items Tab</h2>
+        <p>You use the <span class="bold">Menu Items</span> tab to select the menu items that are to be available to the users of EMS Kiosk. Menus are displayed as buttons at the top of EMS Kiosk pages.</p>
+        <p>Tip: You can configure these items to display different text. See&#160;<MadCap:xref href="Kiosk_CGV44_ConfigKioskMenus.htm">Configure EMS Kiosk Menus</MadCap:xref>.</p>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_3.png" alt="emssg_EMSKiosk_image004.png" />
+        </p>
+        <ol start="1">
+            <li>On the Available list, select the menu item, or CTRL-click to select the multiple menu items that are to be available to an EMS Kiosk user, and then click the <span class="bold">Move </span>(<span class="bold">&gt;</span>) button to move the selected items to the Selected list.</li>
+            <li>Continue with any other configuration for the profile as needed; otherwise, click <span class="bold">OK </span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+        <h2><a name="Translations_Tab"></a>Translations Tab</h2>
+        <p>A translation is the language in which the kiosk displays the menu items, menu text, and web text. If a translation is not selected on the Kiosk Profile for EMS Kiosk, then by default, the information is displayed in US English. If the appropriate translation is not available on the <span class="bold">Translations </span>tab, then you can define it. See&#160;<MadCap:xref href="../../../WebApp/B_44/B_Config/VEMS_CG_ConfigWebCulture.htm">Configure Web Cultures</MadCap:xref>.</p>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_4.png" alt="emssg_EMSKiosk_image005.png" />
+        </p>
+        <ol start="1">
+            <li>On the Available list, select the language, or CTRL-click to select the multiple languages that are to be available for displaying information in EMS Kiosk user, and then click the <span class="bold">Move </span>(<span class="bold">&gt;</span>) button to move the selected items to the Selected list.</li>
+            <li>If you need to select a default translation, then return to the <span class="bold">EMS Kiosk Profile</span> tab, and select the default translation as appropriate.</li>
+        </ol>
+        <p>Tip: Although you can select multiple languages, only one language can be set as the default language on the <span class="bold">Kiosk Profile</span> tab. If you select multiple languages on the <span class="bold">Translations </span>tab, an EMS Kiosk user can always select a different language for displaying the menu text, menu items, and web text.</p>
+        <ol start="3">
+            <li>Continue with any other configuration for the profile as needed; otherwise, click <span class="bold">OK </span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+        <h2><a name="Images_Tab"></a>Images Tab</h2>
+        <p>Use the <span class="bold">Images </span>tab to select images (map of area, image of building, and so on) that are to be displayed in the Information area of EMS Kiosk.</p>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_5.png" alt="emssg_EMSKiosk_image006.png" />
+        </p>
+        <ol start="1">
+            <li>Click <span class="bold">New </span>to open the Find Image dialog box, and then browse to and select the image that is to be displayed in the Images area of EMS Kiosk.&#160;The Find Image dialog box closes. You remain on the <span class="bold">Images </span>tab with an entry for the image displayed on the tab.</li>
+        </ol>
+        <p>Tip: The image must be in one of the following formats—.gif, .jpeg, .jpg, .bmp, .wmf, or .png.</p>
+        <ol start="2">
+            <li>Optionally, do one or both of the following:<ul start="2"><li>Edit the description for the image.</li><li>In the Web Long Description field, enter a description of the image.</li></ul></li>
+        </ol>
+        <ol start="3">
+            <li>Continue with any other configuration for the profile as needed; otherwise, click <span class="bold">OK </span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+        <h2><a name="Parameters_Tab"></a>Parameters Tab</h2>
+        <p>System parameters&#160;are global settings that affect all users on your on EMS Kiosk. The parameters are grouped based on the functional areas that they affect.</p>
+        <ol start="1">
+            <li>Edit the parameters as needed on this tab.</li>
+        </ol>
+        <p>Tip: You can also edit the parameters under <span class="bold">System Administration</span> &gt; <span class="bold">Configuration </span>&gt;&#160;<span class="bold">System Parameters</span>. For a detailed explanation about editing system parameters, see&#160;<MadCap:xref href="../../../EMSDesktopClient/V44/ConfigurationGuide/EditSysParam.htm">Edit System Parameters</MadCap:xref>.&#160;For a detailed description of EMS Kiosk system parameters, see&#160;<MadCap:xref href="../../../EMSDesktopClient/V44/ConfigurationGuide/KioskSystemParameters.htm">Kiosk System Parameters</MadCap:xref>.</p>
+        <p>Kiosk Profile dialog box, Parameters tab</p>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_6.png" alt="emssg_EMSKiosk_image007.png" />
+        </p>
+        <ol start="2">
+            <li>Continue with any other configuration for the profile as needed; otherwise, click&#160;<span class="bold">OK&#160;</span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+        <h2><a name="Web_Text_Tab"></a>Web Text Tab</h2>
+        <p>Web text&#160;is custom help text or policies and procedures that are specific to your organization that is displayed on various pages in VEMS and EMS Kiosk. Web text is defined at the global level under <span class="bold">Configurations </span>&gt; <span class="bold">Web </span>&gt;&#160;<span class="bold">Web Text</span> (see&#160;<MadCap:xref href="../../../WebApp/B_44/B_Config/VEMS_CG_ConfigWebText.htm">Configure Web Text</MadCap:xref>). You use the <span class="bold">Web Text</span> tab to override the global setting for a help text and customize the help text for a specific kiosk profile.</p>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_7.png" alt="emssg_EMSKiosk_image008.png" />
+        </p>
+        <ol start="1">
+            <li>Select the web text that you are customizing, and then click&#160;<span class="bold">Edit</span>.&#160;The Web Text dialog box opens. The <span class="bold">Web Text</span> tab is the active tab. The tab contains options for entering and configuring the web text.<ul start="1"><li>Design is selected by default. Use the standard Windows plain text formatting options to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the headers and footers.</li><li>Select HTML and enter the necessary HTML code to format the message (spacing, number of lines, capitalization, and so on) so that it is displayed the way that you want in the headers and footers.</li></ul></li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Kiosk_V44/Configuring EMS Kiosk Profiles_8.png" alt="emssg_EMSKiosk_image009.png" />
+        </p>
+        <ol start="2">
+            <li>If translations have been defined for web templates or kiosk pages (See&#160;<MadCap:xref href="../../../WebApp/B_44/B_Config/VEMS_CG_ConfigWebCulture.htm">Configure Web Cultures</MadCap:xref>), then open the <span class="bold">Translations </span>tab, and for each translation, click in the Text field, and enter the appropriate translation for the web text item.</li>
+            <li>Click&#160;<span class="bold">OK</span>.&#160;The Web Text dialog box closes. You return to the <span class="bold">Web Text</span> tab with the newly configured web text item automatically selected in the tab.</li>
+            <li>Continue with any other configuration for the profile as needed; otherwise, click&#160;<span class="bold">OK&#160;</span>to close the Kiosk Profile dialog box and return to the Kiosk Profiles window. The newly configured profile is displayed in the window.</li>
+        </ol>
+    </body>
+</html>

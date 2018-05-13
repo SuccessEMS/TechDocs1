@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Integration to Microsoft Exchange"
+    Link="/Content/Print/Outlook_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageNumber="1"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
+  <TocEntry
+    Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm"
+    Title="Integration to Microsoft Exchange"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    AutoEndOnLeftPage="disabled">
+    <TocEntry
+      Title="System Requirements for Integration to Microsoft® Exchange"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
+    <TocEntry
+      Title="Install or Upgrade the Exchange Integration Web Service"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
+    <TocEntry
+      Title="Configure Integration to Microsoft Exchange"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
+    <TocEntry
+      Title="Use Application Pool Identity for Integration for Exchange Service Account"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
+    <TocEntry
+      Title="Configure EWS Impersonation for Microsoft® Exchange"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
+    <TocEntry
+      Title="Learn More About Exchange Web Services (EWS) Impersonation"
+      Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      AutoEndOnLeftPage="disabled" />
+  </TocEntry>
+</CatapultToc>

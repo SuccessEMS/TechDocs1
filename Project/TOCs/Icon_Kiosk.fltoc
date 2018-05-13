@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Documentation for EMS Kiosk App">
+    <TocEntry
+      Title="Installation Guide"
+      Skin="/Project/Skins/TopicToolBar.flskn"
+      ReplaceMergeNode="false"
+      Link="/Content/InstallGuides/6_Kiosk/A_KioskHome.htm">
+      <TocEntry
+        Title="Introduction to the EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Obtain the Installation Files for EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/ObtainInstallation.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="System Requirements and Prerequisites for EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/SysReqPrereq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Launch EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/LaunchKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSKioskApp/V44.1/InstallationGuide/Kiosk_Install_PDF.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration Guide"
+      Link="/Content/ConfigGuides/6_EMS Kiosk (V44.1) Configuration Guide.htm">
+      <TocEntry
+        Title="Configure EMS Kiosk App Profiles"
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppProfiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure EMS Kiosk App Menus"
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/ConfigKioskAppMenus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Customize the Logo and Background in the EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/CustomizeLogoBackground.htm" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSKioskApp/V44.1/ConfigurationGuide/Kiosk_Config_PDF.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="User Guide"
+      Link="/Content/UserGuides/4_EMSKiosk_UG.htm">
+      <TocEntry
+        Title="Get Started with EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_GetStarted.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Overview: The EMS Kiosk App Window"
+          Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_OverviewKioskWindow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="View Your Reservations and Check In to EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_ViewYourRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Book a Desk or Workspace in EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_BookDeskWorkspace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Locate a Person in EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_LocatePerson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Locate a Space in EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_LocateSpace.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="View Today's Events in EMS Kiosk App"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_ViewTodaysEvents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/EMSKioskApp/V44.1/UserGuide/Kiosk_UG_PDF.pdf" />
+    </TocEntry>
+    <TocEntry
+      Title="Older Releases"
+      Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm">
+      <TocEntry
+        Title="Legacy Documentation"
+        Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm">
+        <TocEntry
+          Title="EMS Kiosk Installation Guide (Legacy Documentation)"
+          Skin="/Project/Skins/TopicToolBar.flskn"
+          ReplaceMergeNode="false"
+          Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_InstallKioskOverview1.htm">
+          <TocEntry
+            Title="Introduction to EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_Introduction1.htm" />
+          <TocEntry
+            Title="System Requirements and Prerequisites for EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_SysReqPrereq1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Obtain the Installation Files for EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_ObtainInstallFiles1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Install or Upgrade the EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_InstallUpgradeKiosk1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Launch EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_StartKiosk1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="EMS Kiosk Configuration Guide (Legacy Documentation)"
+          Link="/Content/ConfigGuides/6_EMS_Kiosk_Legacy_CG.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Configure EMS Kiosk Menus (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_ConfigEMSKioskMenus1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Configure EMS Kiosk Profiles (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_ConfigEMSKioskProfiles1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="EMS Kiosk Parameters"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_KioskParam.html" />
+          <TocEntry
+            Title="EMS Kiosk API Reference"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIReference.html">
+            <TocEntry
+              Title="API Functions - Kiosk Get Profiles, Settings, Buildings, Floors, Room Types, and Group"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetProfiles1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Validate by Badge Number, External Reference, Personnel Number"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskValidate1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Get Events and Reservations"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetEvents1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk End Now Reservation, Cancel Reservation, and Locate Person"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskEndNow1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Get Floors, Room Types, and Floor Availability"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetFloors1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Add Reservation 1 and Reservation 2"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskAddReserv1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Get Event Types, Rooms, Combo Components, Check Status, and Checkout"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetEventTypes1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Add Room to Profile and by Setup Type"
+              Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskAddRoom1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="EMS Kiosk User Guide (Legacy Documentation)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_GetStarted1.htm">
+          <TocEntry
+            Title="Overview: The EMS Kiosk Window"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_OverviewKioskWin1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Work with Events"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_WorkwithEvents1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry
+              Title="View Information in EMS Kiosk (Legacy)"
+              Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewInformation1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Check In on EMS Kiosk"
+              Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_CheckInOnEMSKiosk1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="View Floor Plans"
+              Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewFloorPlans1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="Book a Desk or Workspace in EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_BookDeskorWorkspace1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Locate a Person in EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_LocatePerson1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Book a Room in EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_BookRoom1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Locate Space in EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_LocateSpace1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="View Information in EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewInformation1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="View Today’s Events in EMS Kiosk (Legacy)"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewTodayEvents1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Version 44">
+        <TocEntry
+          Title="EMS Kiosk Installation Guide (V44)"
+          Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_InstallEMSKiosk.htm">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_Introduction.htm" />
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_Requirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Obtain the Latest Release of the EMS Kiosk"
+            Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_ObtainLateRel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Install or Upgrade the EMS Kiosk"
+            Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_InstallUpgradeEMSKiosk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Start EMS Kiosk"
+            Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_StartEMSKiosk.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="EMS Kiosk Configuration Guide (V44)"
+          Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_ConfigEMSKiosk.htm">
+          <TocEntry
+            Title="Configure EMS Kiosk Profiles"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_ConfigKioskProfiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Configure EMS Kiosk Menus"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_ConfigKioskMenus.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="EMS Kiosk Parameters"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_KioskParameters.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="EMS Kiosk API Reference Guide (V44)"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskRefGuide.htm">
+            <TocEntry
+              Title="API Functions - Kiosk Get Profiles, Settings, Buildings, Floors, Room Types, and Group"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetProfiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Validate by Badge Number, External Reference, Personnel Number"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskValidate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Get Events and Reservations"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetEvents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk End Now Reservation, Cancel Reservation, and Locate Person"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskEndNow.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Get Floors, Room Types, and Floor Availability"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetFloors.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Add Reservation 1 and Reservation 2"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskAddRes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Get Event Types, Rooms, Combo Components, Check In Status, and Checkout"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetEventType.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="API Functions - Kiosk Add Room to Profile and by Setup Type"
+              Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskAddRoom.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Video Tutorials"
+      Link="/Content/EMSKioskApp/VideoTutorials/Kiosk_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Today's Events, Floor Map, and Locating People in EMS Kiosk"
+        Link="/Content/EMSKioskApp/VideoTutorials/VIDEO_TodayEvents.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: View/Make Reservations or Find Colleagues in the EMS Kiosk App"
+        Link="/Content/EMSKioskApp/VideoTutorials/VIDEO_ViewMakeRes.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Release Notes"
+      Link="/Content/V44.1_ReleaseNotes.htm">
+      <TocEntry
+        Title="Release Notes V44.1"
+        Link="/Content/V44.1_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V44"
+        Link="/Content/V44_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V43"
+        Link="/Content/V43_ReleaseNotes.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Master Calendar Installation Guide"
+    Link="/Content/Print/MC_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
+    <TocEntry
+      Title="Introduction to EMS Master Calendar"
+      Link="/Content/InstallGuides/9_MasterCalendarV8/9_MasterCalendarV8Home.htm"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
+      <TocEntry
+        Title="Installation Instructions"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallationInstructions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"></TocEntry>
+      <TocEntry
+        Title="Requirements for Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/SystemRequirementsandPrerequisites.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Obtain Master Calendar Installation Files"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/ObtainingMCInstallationFiles.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Run the Master Calendar Installer"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/RunningMCInstaller.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Install or Upgrade the Database Component in Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeDatabaseComp.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Install or Upgrade the Master Calendar Web Service"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeMCWebService.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Install or Upgrade the Master Calendar Email Notification Service"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallUpgradeMCEmailsNotSvc.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Execute Master Calendar Data Connector Script"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/ExecuteDataConnectorScript.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Install or Upgrade the Master Calendar Data Connector Service"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallorUpgradeDataConnectorService.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Install or Upgrade the Master Calendar Import Service"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/InstallingUpgradingtheImportService.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Launch Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/InstallationGuide/StartingMasterCalendar.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

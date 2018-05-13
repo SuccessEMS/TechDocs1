@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API VALIDATE Operations"
+    Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_ValidateOperation.htm">
+    <TocEntry
+      Title="ValidateBilling"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_ValidateOperation.htm#ValidateBilling"
+      StartSection="false"></TocEntry>
+  </TocEntry>
+</CatapultToc>

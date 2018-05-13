@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Outlook.flmsp');" MadCap:lastBlockDepth="5" MadCap:lastHeight="1486" MadCap:lastWidth="1302" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />EMS for Outlook Technical Overview</h1>
+        <p>EMS for Outlook consists of two main components: the Integration with Microsoft Exchange and the EMS Web App Add-In.</p>
+        <h2>Integration with Microsoft Exchange Service&#160;</h2>
+        <p>This service (typically&#160;installed&#160;where your EMS Web App&#160;resides) manages all communication and transactions between the EMS for Outlook Add-in (as well as the EMS client and EMS Web App) and the EMS database. This includes checking room availability, booking the meeting in EMS, and managing changes.&#160;EMSForOutlook.msi&#160;will prompt the user for the Integration with Microsoft Exchange&#160;Web Service Address during the installation process.&#160;</p>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;The URL you enter during this process is stored in the application's configuration file and can be changed by going to&#160;Add/Remove Programs &gt; Ems for Outlook &gt; Change Installation &gt; Change URL. For complete instructions, see the&#160;<a href="../../IntegrationtoMicrosoftExchange/Introduction.htm">Integration With Microsoft Exchange Installation Guide</a>.</p>
+        <h2>EMS for Outlook Add-in (EMSForOutlook.msi)&#160;</h2>
+        <p>This&#160;add-in should be&#160;installed on your users’ desktops.&#160; This file exposes the EMS Room Scheduling option on the Outlook Calendar Appointment form.&#160;By default, the&#160;EMSForOutlook.msi&#160;installs all of the files required by the EMS for Outlook&#160;Add-in in the following locations:</p>
+        <ul class="ul_1">
+            <li>32-bit machines -&#160;C:\Program Files\EMS for Outlook</li>
+            <li>64-bit machines&#160;- C:\Program Files (x86)\EMS for Outlook</li>
+        </ul>
+        <p>This location can be changed during the installation, but it is recommended that you keep the default.</p>
+        <h2>Configuration Considerations&#160;</h2>
+        <p>EMS must be configured properly in order to activate the EMS for Outlook for each Outlook user:</p>
+        <ul class="ul_1">
+            <li>The Outlook user must have an active EMS&#160;Everyday User&#160;account.</li>
+            <li>The EMS Everyday User account must be assigned to at least one Everyday User Process Template with the&#160;Outlook&#160;option enabled.</li>
+            <li>The EMS Everyday User account must be associated to an active EMS Group record.</li>
+            <li>The EMS Everyday User must have an associated&#160;Contact.</li>
+        </ul>
+        <p class="box-tip"><span class="bold">TIP</span>:&#160;Group may have been relabeled to “Client” or “Employee” in your EMS system. Special EMS for Outlook&#160;configuration instructions can be found in <a href="Outlook_CG_EnableUserAccess.htm">Enabling User Access</a>.</p>
+    </body>
+</html>

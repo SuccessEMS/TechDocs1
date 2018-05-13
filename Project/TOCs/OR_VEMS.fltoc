@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Virtual EMS (VEMS)"
+    Link="/Content/WebApp/B_44/WebApp_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/WebApp/B_44/WebApp_44_Introduction.htm">
+      <TocEntry
+        Title="Virtual EMS (VEMS) Installation Guide (V44)"
+        Link="/Content/WebApp/B_44/A_Installation/VEMS_IG_Introduction.htm">
+        <TocEntry
+          Title="Virtual EMS (VEMS) Hardware and Software Requirements"
+          Link="/Content/WebApp/B_44/A_Installation/VEMS_IG_HardwareSoftwareReq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Install or Upgrade VEMS"
+          Link="/Content/WebApp/B_44/A_Installation/VEMS_IG_InstallUpgrade.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Optional VEMS Modules"
+          Link="/Content/WebApp/B_44/A_Installation/VEMS_IG_OptionalModules.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Virtual EMS (VEMS) Configuration Guide (V44)"
+        Link="/Content/WebApp/B_44/B_Config/VEMS_CG_Introduction.htm">
+        <TocEntry
+          Title="Configure Web Users"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigWebUser.htm">
+          <TocEntry
+            Title="Configure Additional Information for Web Users"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigAddInfo.htm" />
+          <TocEntry
+            Title="Email a Web User"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_EmailWebUser.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Configure Web Templates"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigWebTemplate.htm">
+          <TocEntry
+            Title="Assign Web Templates to Multiple Web Users"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_AssingWebTempMult.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Configure Web Text"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigWebText.htm" />
+        <TocEntry
+          Title="Configure Web Menus"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigWebMenu.htm" />
+        <TocEntry
+          Title="Configure Web Culture"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigWebCulture.htm" />
+        <TocEntry
+          Title="Customize VEMS"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_CustomizeLogoStyleSheetLinks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Configure Integration Authentication for VEMS"
+          Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ConfigIntegratedAuthentication.htm">
+          <TocEntry
+            Title="Manage Web Users For Integrated Authentication"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_ManageWebUserIntegAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integrated Windows Authentication"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="LDAP Authentication"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_LDAPAuth.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Portal Authentication"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_PortalAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/WebApp/B_44/B_Config/VEMS_CG_PortalAuthMethod.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Virtual EMS (VEMS) User Guide (V44)"
+        Link="/Content/WebApp/B_44/C_User/VEMS_UG_UserGuide.htm">
+        <TocEntry
+          Title="Get Started with Virtual EMS (VEMS)"
+          Link="/Content/WebApp/B_44/C_User/VEMS_UG_GetStarted.htm" />
+        <TocEntry
+          Title="Web User Licensing in VEMS"
+          Link="/Content/WebApp/B_44/C_User/VEMS_UG_WebLicesning.htm" />
+        <TocEntry
+          Title="Browse Menu"
+          Link="/Content/WebApp/B_44/C_User/VEMS_UG_BrowseMenu.htm" />
+        <TocEntry
+          Title="Reservations Menu"
+          Link="/Content/WebApp/B_44/C_User/VEMS_UG_ReservationsMenu.htm">
+          <TocEntry
+            Title="Booking a Room in VEMS"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_BookRoom.htm" />
+          <TocEntry
+            Title="Book a Room with a Plan A Meeting Module in VEMS"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_BookRoomPlanAMtgMod.htm" />
+          <TocEntry
+            Title="Book an Online Room Request in VEMS"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_OnlineRequest.htm" />
+          <TocEntry
+            Title="Request Services Only"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_RequestServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="View Your Requests"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_ViewYourRequests.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Reservation Summary Page"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_ResSummaryPage.htm" />
+          <TocEntry
+            Title="Modify Bookings"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_ModifyBookings.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Booking Level Check-In with VEMS"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_BookingLevelCheckIn.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Account Menu"
+          Link="/Content/WebApp/B_44/C_User/VEMS_UG_MyAccountMenu.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Create or Modify a User Account"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_CreateModifyUserAcct.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Create Delegate Accounts"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_CreateDelegateAcct.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Set Default Values for Room Requests"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_SetDefaultValues.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Create a List of Favorite Rooms"
+            Link="/Content/WebApp/B_44/C_User/VEMS_UG_CreateListFav.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/WebApp/B_44/C_User/VEMS_UG_MobileVEMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Version 43"
+      Link="/Content/WebApp/C_43/WebApp_43_Introduction.htm">
+      <TocEntry
+        Title="Virtual EMS (VEMS) Installation Guide (V43)"
+        Link="/Content/WebApp/C_43/VEMS Installation Guide V43.pdf" />
+      <TocEntry
+        Title="Virtual EMS (VEMS) User Guide (V43)"
+        Link="/Content/WebApp/C_43/VEMS User Guide V43.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Kiosk App">
+    <TocEntry
+      Title="Legacy Documentation"
+      Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm">
+      <TocEntry
+        Title="Installation Guide (Legacy)"
+        Skin="/Project/Skins/TopicToolBar.flskn"
+        ReplaceMergeNode="false"
+        Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_InstallKioskOverview1.htm">
+        <TocEntry
+          Title="Introduction to EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_Introduction1.htm" />
+        <TocEntry
+          Title="System Requirements and Prerequisites for EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_SysReqPrereq1.htm" />
+        <TocEntry
+          Title="Obtain the Installation Files for EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_ObtainInstallFiles1.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_InstallUpgradeKiosk1.htm" />
+        <TocEntry
+          Title="Launch EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/A_Install/Kiosk_IG_StartKiosk1.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Configuration Guide (Legacy)"
+        Link="/Content/ConfigGuides/6_EMS_Kiosk_Legacy_CG.htm">
+        <TocEntry
+          Title="Configure EMS Kiosk Menus (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_ConfigEMSKioskMenus1.htm" />
+        <TocEntry
+          Title="Configure EMS Kiosk Profiles (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_ConfigEMSKioskProfiles1.htm" />
+        <TocEntry
+          Title="EMS Kiosk Parameters"
+          Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_KioskParam.html" />
+        <TocEntry
+          Title="EMS Kiosk API Reference"
+          Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIReference.html">
+          <TocEntry
+            Title="API Functions - Kiosk Get Profiles, Settings, Buildings, Floors, Room Types, and Group"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetProfiles1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Validate by Badge Number, External Reference, Personnel Number"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskValidate1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Get Events and Reservations"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetEvents1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk End Now Reservation, Cancel Reservation, and Locate Person"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskEndNow1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Get Floors, Room Types, and Floor Availability"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetFloors1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Add Reservation 1 and Reservation 2"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskAddReserv1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Get Event Types, Rooms, Combo Components, Check Status, and Checkout"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskGetEventTypes1.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Add Room to Profile and by Setup Type"
+            Link="/Content/EMSKioskApp/Legacy/B_Config/Kiosk_CG_API/Kiosk_CG_APIKioskAddRoom1.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="User Guide (Legacy)"
+        Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_UseEMSKiosk1.htm">
+        <TocEntry
+          Title="Get Started with EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_GetStarted1.htm" />
+        <TocEntry
+          Title="Overview: The EMS Kiosk Window"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_OverviewKioskWin1.htm" />
+        <TocEntry
+          Title="Work with Events"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_WorkwithEvents1.htm">
+          <TocEntry
+            Title="View and Work with an Event "
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewandWorkwithEvent1.htm" />
+          <TocEntry
+            Title="Check In on EMS Kiosk"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_CheckInOnEMSKiosk1.htm" />
+          <TocEntry
+            Title="View Floor Plans"
+            Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewFloorPlans1.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Book a Desk or Workspace in EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_BookDeskorWorkspace1.htm" />
+        <TocEntry
+          Title="Locate a Person in EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_LocatePerson1.htm" />
+        <TocEntry
+          Title="Book a Room in EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_BookRoom1.htm" />
+        <TocEntry
+          Title="Locate Space in EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_LocateSpace1.htm" />
+        <TocEntry
+          Title="View Information in EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewInformation1.htm" />
+        <TocEntry
+          Title="View Today’s Events in EMS Kiosk (Legacy)"
+          Link="/Content/EMSKioskApp/Legacy/C_User/Kiosk_UG_ViewTodayEvents1.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm">
+      <TocEntry
+        Title="Installation Guide (V44)"
+        Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_InstallEMSKiosk.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_Introduction.htm" />
+        <TocEntry
+          Title="Requirements"
+          Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_Requirements.htm" />
+        <TocEntry
+          Title="Obtain the Latest Release of the EMS Kiosk"
+          Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_ObtainLateRel.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Kiosk"
+          Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_InstallUpgradeEMSKiosk.htm" />
+        <TocEntry
+          Title="Launch EMS Kiosk"
+          Link="/Content/EMSKioskApp/V44/A_Install/Kiosk_IGV44_StartEMSKiosk.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Configuration Guide (V44)"
+        Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_ConfigEMSKiosk.htm">
+        <TocEntry
+          Title="Configure EMS Kiosk Profiles"
+          Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_ConfigKioskProfiles.htm" />
+        <TocEntry
+          Title="Configure EMS Kiosk Menus"
+          Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_ConfigKioskMenus.htm" />
+        <TocEntry
+          Title="EMS Kiosk Parameters"
+          Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CGV44_KioskParameters.htm" />
+        <TocEntry
+          Title="EMS Kiosk API Reference Guide (V44)"
+          Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskRefGuide.htm">
+          <TocEntry
+            Title="API Functions - Kiosk Get Profiles, Settings, Buildings, Floors, Room Types, and Group"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetProfiles.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Validate by Badge Number, External Reference, Personnel Number"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskValidate.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Get Events and Reservations"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetEvents.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk End Now Reservation, Cancel Reservation, and Locate Person"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskEndNow.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Get Floors, Room Types, and Floor Availability"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetFloors.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Add Reservation 1 and Reservation 2"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskAddRes.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Get Event Types, Rooms, Combo Components, Check In Status, and Checkout"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskGetEventType.htm" />
+          <TocEntry
+            Title="API Functions - Kiosk Add Room to Profile and by Setup Type"
+            Link="/Content/EMSKioskApp/V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskAddRoom.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="User Guide (V44)"
+        Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_UseKioskV44.htm">
+        <TocEntry
+          Title="Get Started with EMS Kiosk"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_GetStartedV44.htm">
+          <TocEntry
+            Title="Overview: The EMS Kiosk Window"
+            Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_OverviewKioskWindowV44.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="My Reservation Page"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_MyReservPageV44.htm">
+          <TocEntry
+            Title="Work with the My Reservation Page"
+            Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_WorkwithMyResPageV44.htm" />
+          <TocEntry
+            Title="Check In with EMS Kiosk"
+            Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_CheckInV44.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Make a Reservation"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_MakeReservV44.htm" />
+        <TocEntry
+          Title="Locate a Person"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_LocatePersonV44.htm" />
+        <TocEntry
+          Title="Locate Space"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_LocateSpaceV44.htm" />
+        <TocEntry
+          Title="View Information"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_ViewInfoV44.htm" />
+        <TocEntry
+          Title="View Today's Events"
+          Link="/Content/EMSKioskApp/V44/C_User/Kiosk_UG_ViewTodaysEventV44.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Version 43"
+      Link="/Content/EMSKioskApp/Legacy/Kiosk_OlderReleases.htm">
+      <TocEntry
+        Title="Kiosk Install"
+        Link="/Content/EMSKioskApp/V43/Kiosk Install.pdf" />
+      <TocEntry
+        Title="Kiosk User Manual"
+        Link="/Content/EMSKioskApp/V43/Kiosk User Manual.pdf" />
+      <TocEntry
+        Title="EMS Kiosk API"
+        Link="/Content/EMSKioskApp/V43/EMS Kiosk API.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

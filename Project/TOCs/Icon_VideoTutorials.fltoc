@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Video Tutorials"
+    Link="/Content/VIDEO/Video_intro.htm">
+    <TocEntry
+      Title="EMS Desktop Client"
+      Link="/Content/VIDEO/DC/DC_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Common Reports in EMS"
+        Link="/Content/VIDEO/DC/VIDEO_CommonReportsinEMS.htm" />
+      <TocEntry
+        Title="VIDEO: Managing Services (Catering)"
+        Link="/Content/VIDEO/DC/VIDEO_ManagingServicesCatering.htm" />
+      <TocEntry
+        Title="VIDEO: Managing Visitors"
+        Link="/Content/VIDEO/DC/VIDEO_ManagingVisitors.htm" />
+      <TocEntry
+        Title="VIDEO: Working With Reminders Notifications"
+        Link="/Content/VIDEO/DC/VIDEO_WorkingRemindersNotifications.htm" />
+      <TocEntry
+        Title="VIDEO: Working With a Reservation"
+        Link="/Content/VIDEO/DC/VIDEO_WorkingReservation.htm" />
+      <TocEntry
+        Title="VIDEO: Automating Reports in EMS Desktop Client" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Desktop Client – Academic Planning"
+      Link="/Content/VIDEO/Campus/Campus_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Changing Rooms After Publishing a Term in [%=General.EMS Campus%]"
+        Link="/Content/VIDEO/Campus/VIDEO_ChangingRoomsAfterPublishTerm.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Create Optimization Scenarios"
+        Link="/Content/VIDEO/Campus/VIDEO_CreateOptimizationScenario.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Defining and Editing Courses"
+        Link="/Content/VIDEO/Campus/VIDEO_DefiningEditingCourses.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Publish Final Exams"
+        Link="/Content/VIDEO/Campus/VIDEO_PublishFinalExams.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Review Scenarios and Publish Terms"
+        Link="/Content/VIDEO/Campus/VIDEO_ReviewScenariosPublishTerms.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Running Statistical Reports"
+        Link="/Content/VIDEO/Campus/VIDEO_RunningStatisticalReports.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Running Utility Reports"
+        Link="/Content/VIDEO/Campus/VIDEO_RunningUtilityReports.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Setting Preferences"
+        Link="/Content/VIDEO/Campus/VIDEO_SettingPreferences.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Web App"
+      Link="/Content/VIDEO/WA/Video_WA_Home.htm">
+      <TocEntry
+        Title="VIDEO: Booking a Meeting in the EMS Web App"
+        Link="/Content/VIDEO/WA/VIDEO_BookingaMeeting.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Booking a Workspace"
+        Link="/Content/VIDEO/WA/VIDEO_BookingaWorkspace.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Booking a Room With Attendees"
+        Link="/Content/VIDEO/WA/VIDEO_BookingRoomWithAttendees.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Book a Room With Catering and User Defined Fields (UDFs)"
+        Link="/Content/VIDEO/WA/VIDEO_BookRoomCateringUDF.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Skype for Business and Exchange Room Integration in the [%=General.EMS Web App%]"
+        Link="/Content/VIDEO/WA/VIDEO_Skype.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Mobile App"
+      Link="/Content/VIDEO/MA/Mobile App_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Booking a Desk or Meeting in the EMS Mobile App"
+        Link="/Content/VIDEO/MA/Mobile_Video_BookingDeskMeeting.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Use a QR Code to Book a Meeting"
+        Link="/Content/VIDEO/MA/Mobile_Video_Use QR CodeBookMeeting.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS for Microsoft Outlook"
+      Link="/Content/VIDEO/Outlook/Introduction.htm">
+      <TocEntry
+        Title="VIDEO: Book a Meeting"
+        Link="/Content/VIDEO/Outlook/VIDEO_BookMeeting.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Add Services"
+        Link="/Content/VIDEO/Outlook/VIDEO_AddingServices.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Book a Video Conference"
+        Link="/Content/VIDEO/Outlook/VIDEO_BookVC.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Recurrent Meetings and Conflict Resolution"
+        Link="/Content/VIDEO/Outlook/VIDEO_Recurrent Meetings Conflict Res.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Skype for Business in EMS for Outlook Add-in"
+        Link="/Content/VIDEO/Outlook/VIDEO_Skype.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Kiosk App"
+      Link="/Content/VIDEO/Kiosk/Kiosk_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Today's Events, Floor Map, and Locating People in EMS Kiosk"
+        Link="/Content/VIDEO/Kiosk/VIDEO_TodayEvents.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: View/Make Reservations or Find Colleagues in the EMS Kiosk App"
+        Link="/Content/VIDEO/Kiosk/VIDEO_ViewMakeRes.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Room Sign App"
+      Link="/Content/EMSRoomSignApp/Video Tutorials/RSAVideoTutorialIntro.htm">
+      <TocEntry
+        Title="Overview of the EMS Room Sign App"
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_OverviewofRSA.htm" />
+      <TocEntry
+        Title="Making Impromptu Reservations "
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_MakeImpromptuReservations.htm" />
+      <TocEntry
+        Title="View Schedules, Room Availability, Make Reservations"
+        Link="/Content/EMSRoomSignApp/Video Tutorials/VIDEO_ViewScheduleRoomAvailabilityMakeReservations.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-05-07T11:49:12.9480278-06:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\megan.laub\Documents\My Projects\Success28\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2018-05-07T11:50:19.9382103-06:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/EMS_MasterCalendar_VPAT2.0.doc"
+      AbsoluteSource="file:///C:/Users/megan.laub/Desktop/EMS_MasterCalendar_VPAT2.0.doc" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/EMS_MasterCalendar_VPAT2.0/EMS Software Accessibility.htm"
+      TimeStamp="5/7/2018 11:50:11 AM" />
+    <Url
+      Source="../../Content/EMS_MasterCalendar_VPAT2.0/Applicable Standards Guidelines.htm"
+      TimeStamp="5/7/2018 11:50:11 AM" />
+    <Url
+      Source="../../Content/EMS_MasterCalendar_VPAT2.0/WCAG 2 0 Report.htm"
+      TimeStamp="5/7/2018 11:50:12 AM" />
+    <Url
+      Source="../../Content/EMS_MasterCalendar_VPAT2.0/Table 2 Success Criteria Level.htm"
+      TimeStamp="5/7/2018 11:50:12 AM" />
+    <Url
+      Source="../../Content/EMS_MasterCalendar_VPAT2.0/2017 Section 508 Report.htm"
+      TimeStamp="5/7/2018 11:50:12 AM" />
+    <Url
+      Source="../TOCs/EMS_MasterCalendar_VPAT2.0.fltoc"
+      TimeStamp="5/7/2018 11:50:11 AM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/EMS_MasterCalendar_VPAT2.0.flmsp"
+      TimeStamp="5/7/2018 11:50:11 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/EMS_MasterCalendar_VPAT2.0.css"
+      TimeStamp="5/7/2018 11:50:11 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="AccNormalFont" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Emphasis" />
+  </UsedCharacterStyles>
+</MsWordImport>

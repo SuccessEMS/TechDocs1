@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="5491" MadCap:lastWidth="760" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Introduction to EMS Platform Services</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Introduction to EMS Platform Services</h1>
+        <p>This topic contains introductory information regarding EMS Platform Services:</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#overview">Overview</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#architecture">Architecture&#160;</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#installingps">Install EMS Platform Services</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#gettingstartedwithintegrations">Getting Started with Integrations</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#apidocumentation">API Documentation</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a id="overview" name="overview"></a>Overview</h2>
+        <h3>What is EMS Platform Services?</h3>
+        <p>EMS Platform Services is a Platform as a Service (PaaS) solution offering modern, RESTful APIs. Platform Services enables the development of multi-platform applications that&#160;can be customized, cloud-based, scalable and easily integrated. &#160;It&#160;is a true middle tier, providing a business and resource layer&#160;that enables the central development of applications, reducing complexity and development time. Platform Services fosters innovation by ensuring&#160;easy maintenance and efficient management of an application's lifecycle.</p>
+        <p>In the current EMS architecture, databases exchange business logic directly with applications in the business tier.&#160;The Platform Services architecture creates an intermediary layer of business logic and resources that provides a buffer between the applications and EMS databases. Fixes, enhancements and/or new features can now be dispersed simultaneously to all products through Platform Services.</p>
+        <h2><a id="architecture" name="architecture"></a>Architecture&#160;</h2>
+        <p>
+            <img src="../Images/PS_IG_Intro1.png" />
+        </p>
+        <p>In June 2017, the EMS Mobile App was implemented with EMS Platform Services. As of January 2018, the EMS&#160;Kiosk App and EMS&#160;for Outlook have both been placed on the EMS&#160;Platform Services layer. In the future, all EMS applications will consume the Platform Services layer.&#160;</p>
+        <p class="title">Current EMS Platform Services Architecture (January 2018)</p>
+        <p>
+            <img src="../../EMSforOutlook/Images/Outlook_Architecture.PNG" />
+        </p>
+        <p>For our clients and partners, EMS&#160;Platform Services provides a platform for faster, more straightforward custom integrations. Clients will experience a more valuable,&#160;consistent user experience across all EMS products. In addition, features and enhancements across all access points will experience faster turn around times. Platform Services has empowered EMS to be a true enterprise solution.&#160;</p>
+        <h2><a id="installingps" name="installingps"></a>Install EMS Platform Services</h2>
+        <p>To learn more about installing EMS Platform Services, see <MadCap:xref href="Platform_InstallPS.html">Install EMS Platform Services</MadCap:xref>.&#160;</p>
+        <h2><a id="gettingstartedwithintegrations" name="gettingstartedwithintegrations"></a>Get Started with Integrations</h2>
+        <p>Platform Services provides RESTful APIs that empower customers and partners to build custom, multi-platform applications connected to EMS. Any client/device accessing EMS Platform Services must be a registered Integration Client. The one exception is that anyone can access the public (open) API requests (/status, /health, /clientauthentication).</p>
+        <p>There are two types of Integrations:</p>
+        <ul class="unorder-list">
+            <li>Custom—Customer applications</li>
+            <li>Partner—Third-party EMS partner applications (e.g.,&#160;7PointsSolutions, Pepperdash,&#160;control concepts, etc.)</li>
+        </ul>
+        <p>Partner and Custom types can be classified as either of the following two client sub-categories:</p>
+        <ol class="number-list">
+            <li>User-based:&#160;User-based clients (EMS Mobile, EMS for Outlook) need to authenticate as a user in order to perform any actions. These clients need an integration client role with minimal access to the following API resources (above and beyond public resources):
+
+    <ul><li>/authentication</li><li>/logging</li></ul></li>
+            <li>Non-user Based: Non-user Based clients (EMS Kiosk, EMS Room Sign App) provide functionality independent of users but also support user-like functionality (i.e., Check-In, on-the-fly room reservations). These clients need a role with wider access.</li>
+        </ol>
+        <h3>To begin the integration process:</h3>
+        <ol class="number-list">
+            <li>Verify if you have a license for adding Integrations. EMS Licensing manages a numeric count of both Custom and Partner Integration Types. Contact your EMS Sales Representative for a license for EMS Platform Services. View Licensing Requirements (see <MadCap:xref href="Platform_LicenseRequirements.html">Licensing Requirements for Platform Services</MadCap:xref>).&#160;</li>
+            <li>Access Platform Services documentation (e.g.,&#160;https://yourcompany.com/ems-platform-ic/swagger-ui/).&#160;</li>
+            <li>Access admin portal for Platform Services&#160;(e.g., https://yourcompany.com/ems-platform-api/admin) to create a new Integration Client.&#160;See <MadCap:xref href="../B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html">Configuring Platform Services in the Admin Portal</MadCap:xref> for more information.&#160;<p class="box-note"><span class="bold">NOTE: </span>Creating a new Integration Client will generate a Client ID and Secret pair.</p></li>
+            <li>Platform Services requires a valid JWT Authentication token in order to call any of the API resources&#160;with the exception of&#160;<tt>/public, /status</tt>&#160;and&#160;<tt>/clientauthentication</tt>. Before making any API request, you must first call&#160;<tt>/clientauthentication</tt>&#160;with a Client ID and Secret&#160;pair generated above.<ul><li>The Client token returned from calling /clientauthentication should be applied to the x-ems-api-token header for subsequent API requests.</li></ul><p class="box-note"><span class="bold">NOTE:</span>&#160;There can be multiple active instances of a particular client interacting with the Platform. All devices that share a client/secret will share a common authentication token. If the token expires, all devices will need to authenticate again to get a new shared token.</p></li>
+            <li>For API resources that require an authenticated web user, your integration client will need to request a web user authentication token for that user. To acquire an authentication token, call the /authentication requests.</li>
+            <li>The Web token returned from calling /authentication should also be applied to the x-ems-api-token header;&#160;thus, replacing the client token with a user token.</li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;Refer to the API documentation to determine the appropriate token (i.e., client token or web token)&#160;for the header field.</p>
+        <h2><strong><a id="apidocumentation" name="apidocumentation"></a>API Documentation</strong>
+        </h2>
+        <p>Navigate to Platform Services URL e.g. https://yourcompany.com/ems-platform-api&#160;to view the API documentation. You can also manually type in the URL (https://yourcompany.com/ems-platform...ic/swagger-ui/). You can view sample API calls for EMS Platform Services (see <a href="https://ems01.dea.com/BookPlatform/api/v1/static/swagger-ui/">EMS Platform Services API</a>  to view sample).&#160;</p>
+        <h3>Base URL for All API Requests</h3>
+        <p>All requests should be made to URL for EMS Platform Services (e.g.,&#160;https://yourcompany.com/ems-platform-api).</p>
+        <h3>Date/Time Standards</h3>
+        <p>All dates and times passed to the API requests follow&#160;RFC 3339&#160;Standard and must be in UTC.&#160;</p>
+        <p>All DateTimes&#160;follow the standard (e.g.,&#160;2008-09-08T22:47:31-07:00)</p>
+        <h3>Common Response Codes</h3>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Response Code</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <MadCap:annotation MadCap:createDate="2017-11-24T22:23:21.8463739-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Where's the Meaning column info? Wasn't in Mindtouch. Should the column be deleted?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-24T22:23:45.9350734-07:00">Meaning</MadCap:annotation>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">200</td>
+                    <td data-th="Title" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Success</td>
+                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">400</td>
+                    <td data-th="Title" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Bad Request</td>
+                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Response Code" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">401</td>
+                    <td data-th="Title" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Invalid/Missing Client Credential</td>
+                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Response Code" class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">500</td>
+                    <td data-th="Title" class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Server Error</td>
+                    <td data-th="Meaning" class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>HTTP Request Methods</h3>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Method</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">GET</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">POST</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">PUT</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Method" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">DELETE</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Method" class="TableStyle-PatternedRows-BodyB-Regular-LightRows">PATCH</td>
+                    <td data-th="Description" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

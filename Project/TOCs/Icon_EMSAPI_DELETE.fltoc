@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API DELETE Operations"
+    Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_DeleteOperations.htm">
+    <TocEntry
+      Title="DeleteServiceOrder"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_DeleteOperations.htm#DeleteServiceOrder"
+      StartSection="false" />
+    <TocEntry
+      Title="DeleteServiceOrderDetail"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIFunctions_DeleteOperations.htm#DeleteServiceOrderDetail"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

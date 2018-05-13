@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Polycom Interface"
+    Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_PolyInterV44.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_Introduction.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Application Architecture"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_AppArch.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Requirements"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_Requirements.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Obtain the EMS Polycom Interface Components"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_ObtainPolycomIntComp.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install the Polycom Activity DLL on Users' Machines"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_InstallPolycomActDLL.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install the EMS Polycom Service for the First Time"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_InstallPolycomServFirTime.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the EMS Polycom Service"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_InstallUpgradePolycomServ.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Advanced EMS Polycom Interface Configuration"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_AdvPolycomInterConfig.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure the EMS Polycom Interface"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_ConfigPolycomInterface.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Configure the EMS Polycom Rooms/Resources"
+        Link="/Content/OptionalFeatures/Polycom/B_V44/Polycom_V44_ConfigPolycomRoomRes.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Version 43">
+      <TocEntry
+        Title="Introduction to EMS Polycom"
+        Link="/Content/OptionalFeatures/Polycom/C_V43/EMSPolycom_IntroV43.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS-Polycom Install"
+        Link="/Content/OptionalFeatures/Polycom/C_V43/EMS-Polycom Install.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="EMS Desktop Client Academic Planning Installation Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Print_Campus_InstallGuide.fltoc"
+  ConditionTagExpression="include[&quot;General.Print Only&quot; or General.PDF or PrintGuides.UserGuideA] exclude[&quot;General.Online Only&quot; or General.Online or PrintGuides.UserGuideB] "
+  PatchHeadingLevels="false"
+  InjectEmptyPages="false"
+  UseLocalBuildSettings="true"
+  IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="false" />
+  <DocumentProperties
+    Title="EMS Desktop Client Academic Planning Installation Guide "
+    Author="EMS Software" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="100"
+    PageLayout="SinglePage"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true"
+    FullScreen="false"
+    PageMode="UseNone" />
+</CatapultTarget>

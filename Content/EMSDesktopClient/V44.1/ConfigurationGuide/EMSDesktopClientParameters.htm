@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastHeight="26929" MadCap:lastWidth="966" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows_Param.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>EMS Desktop Client Tab System Parameters V44.1 (EMS Desktop Client)</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />EMS&#160;System Parameters</h1>
+        <h2>EMS&#160;Desktop Client</h2>
+        <table cellspacing="0" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');" class="TableStyle-PatternedRows">
+            <col style="width: 131px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 212px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 246px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 156px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 179px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr style="height : 15.600000000000001px;" class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Area</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Title</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">Value</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">EXAMPLE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Billing</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Determine Invoice Due Date by Adding 'xx' Days</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Sets the number of days specified to determine the invoice due date (e.g., 30 days). When creating an invoice in EMS, the due date will be pre-populated by this parameter. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">15, 30, 60, 90</td>
+                </tr>
+                <tr style="height : 129.6px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Billing</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Service Order End Time if None Specified</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Select Event Time or Reserved Time as the Service Order End Time, unless otherwise specified. If no end time is entered in the service order time field, whatever is in this parameter will take effect. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reserved Time or Event Time</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">A resource costs 10/hour based on Service Order Time. &#160; The parameter is set to&#160;"Event Time"&#160;and the booking is from 8 am - 5 pm. &#160;The Event End Time with a 5:30 Reserved End time. &#160; &#160;The resource will  be in use starting at 9 am but no end time on the resource is set. &#160;Therefore, the resource will&#160;be in use until 5 pm and will be billed from 9 am until 5 pm.</td>
+                </tr>
+                <tr style="height : 115.2px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Enable Email Support</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">When set to&#160;YES,&#160;you can email a Confirmation to the contact person or group that is making a reservation directly from EMS in Navigator &gt; Confirmation. If parameter is set to NO, the 'Email' button is grayed out on the Confirmation screen.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">The attachment is saved at the Reservation level on the e-mail tab. &#160; &#160;If set to YES, you can view the attachment. &#160; If set to&#160;NO, you can see that an attachment was sent with the confirmation by the indicator YES and a check box "attachment" but you cannot view the attachment.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">SMTP - Save Email Attachments (Database Size Will Increase)</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to YES, email attachments are saved.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Default is NO. </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">SMTP - Use SSL</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Used if your SMTP Server is enabled for SSL.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">SMTP Security Protocol</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The security protocol for the mail server used to send emails on behalf of the everyday user applications. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">(none), TLS, SSL3</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Address Format as International</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, the&#160;International&#160;address checkbox is enabled by default when creating a new Group or Contact record and the fields 'State' and 'Zip' do not appear when creating a new Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Default is NO. </td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Country</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Country&#160;for creating a new Group or Contact record.&#160;If set to a particular country, new Groups will have this country as their default.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default is blank for none</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">USA, Australia, etc.</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Pricing Plan For New Groups</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If this field is populated with a pricing plan, new Groups will inherit this pricing plan as they are added to the EMS database. Pricing Plans are configured in the EMS&#160;Desktop Client in&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Billing </span>&gt; <span class="bold">Pricing Plans</span>.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Default is (none).</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Require Contact</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, the&#160;Require Contact&#160;checkbox is enabled by default when creating a new Group record. A user must therefore also create at least one Contact record for the Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Default is NO. </td>
+                </tr>
+                <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Group Bad Status Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label used for “Bad” value on the Group Status dropdown list. On the Billing Information tab of the Group record there is a field for status with values Bad, OK or Warning. These three labels can be changed to suit organization's business rules. If the Group status is set to "Bad", no reservations can be made for this Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Bad</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Delinquent, Do not Book</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Group OK Status Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label used for “OK” value on the Group Status dropdown list. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">OK</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Good Standing.</td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Group Warning Status Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label used for “Warning” value on the Group Status dropdown list. If the Group status is set to "Warning," a message appears when this group is selected, however a reservation can still be made for this Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Warning</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Slow paying.</td>
+                </tr>
+                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Offer Drop-Down Selection of Groups</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to YES, the system automatically populates the Group window with all active groups in your EMS database. A user can enter a search string in the 'Starts with' field and the list of groups that meet the search criteria is dynamically updated as the user enters the string. When set to “No,” users must manually search for groups. Typically, only very large organizations will set this parameter to NO. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to YES. </td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Pricing Plan Required For Groups</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, a user must specify a Pricing Plan when creating or editing a Group record. Pricing Plans are configured in the EMS&#160;Desktop Client in&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Billing </span>&gt; <span class="bold">Pricing Plans</span>. Typically used when the customer wants to include a pricing plan on a Group record.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Typically set to NO.</td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Groups &amp; Contacts</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Show Account Field On Group</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, an&#160;Account&#160;field is displayed on a Group record. Accounts are usually created for purposes of tracking revenue tied to resources. The Account field on the Group record may be used for other purposes such as tying a salesperson to a Group.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to NO. </td>
+                </tr>
+                <tr style="height : 57.6px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Integration to Microsoft Exchange</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Allow date/time changes on PAM Bookings in EMS Client</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If set to NO, the EMS&#160;Desktop Client user will not be able to change date or time on bookings made through EMS for Outlook or an Exchange-enabled template.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">The reason a customer might want this set to NO, is so that an EMS&#160;Desktop Client user will not be able to change the date or time of a meeting that is on a person's calendar.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Integration to Microsoft Exchange</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Exchange Integration Web Service URL</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The URL for the Exchange Integration Web Service.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows"><a href="http://localhost/Pam44-1/Service.asmx &#160; &#160;">http://localhost/Pam44-1/Service.asmx &#160; &#160; </a>
+                    </td>
+                </tr>
+                <tr style="height : 28.8px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">1st Contact Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The label for the first Contact field on a Reservation.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">1st Contact, Primary Contact, Assistant, Booked By</td>
+                </tr>
+                <tr style="height : 28.8px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">2nd Contact Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The label for the second Contact field on a Reservation.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">2nd Contact, Secondary Contact, Back-up Assistant, Backup Contact</td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Attendee Company Name</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label for the&#160;Company&#160;field of an attendee within an Attendees-type Category. Attendee type categories are typically used to add people to an event. Each of these fields can be relabeled based on the customer's needs and how they are using this category.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Company Name</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Attendee Email Address</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label for the&#160;Email Address&#160;field of an attendee within an Attendees-type Category. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Email Address</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Attendee Name</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label for the&#160;Name&#160;field of an attendee within an Attendees-type Category. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Name, Attendee, Visitor, Participant</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Attendee Notes</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label for the&#160;Notes&#160;field of an attendee within an Attendees-type Category. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Notes, Comments</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Attendee Phone</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Label for the&#160;Phone Number&#160;field of an attendee within an Attendees-type Category. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Phone</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Attendee Visitor</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Label for the&#160;Visitor&#160;field of an attendee within an Attendees-type Category. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Visitor</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Check Number Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The label for the&#160;Check No.&#160;field within a Transaction. This field displays on the payment window.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Check No., Journal Entry #, Charge Code</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Phone 1 Label</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The label for the first phone number field under a Contact when creating or modifying a reservation. You can also create a list of options to provide a choice. This list is created in the Phone/Fax Labels List parameter.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">10 characters</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Phone, Primary, Office, Mobile, Fax, Other</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Phone 2 Label</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The label for the second phone number field under a Contact when creating or modifying a reservation. You can also create a list of options to provide a choice. This list is created in the Phone/Fax Labels List parameter.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">10 characters</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Event Coordinator Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The label for the&#160;Event Coordinator&#160;field on a Reservation or Group.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Event Coordinator</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Scheduler, Banquet Manager, Event Captain</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">External Reference Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The label for the External Reference field. This field is on the Group Record. This field is also used to link Everyday Users to the Group record.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">External Reference, ID Number, Charge Number</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Payment Type Title Plural</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The plural label for the&#160;Payment Type&#160;field within a Transaction. This field displays on the payment window. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Plural</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Payment Types, Payment Methods</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Payment Type Title Singular</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The singular label for the&#160;Payment Type&#160;field within a Transaction. This field displays on the payment window. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Singular</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 75px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Phone/Fax Labels List</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Options available as a dropdown menu in the Phone 1 and Phone 2 fields when creating or editing a Group, a Contact, or a Reservation. Enter options as text separated by semicolons. Default options are Phone, Fax, Mobile, and Other.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Primary, Office, Mobile, Fax, Other</td>
+                </tr>
+                <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Sales Category Title Plural</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The plural label for the Sales Category field. This field is on the Group record and is exposed on the 3rd screen of the Reservation Wizard. The field displays on the query builder but on no other report. This field is often re-labeled and used for tracking other information at the reservation and/or Group level.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Plural</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Sales Categories.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Sales Category Title Singular</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The singular label for the Sales Category field. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Singular</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Sales Category.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Labels</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Salesperson Title</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The label for the&#160;Salesperson&#160;field on a Reservation or Group.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">LDAP</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">LDAP - Ignore Desktop Client Domain</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Default is NO. </td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Messaging</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Number of concurrent emails that can be sent by one platform service instance.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">This parameter is not used by any EMS application.   It will be removed in an upcoming update. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow Users To Delete Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to YES, this parameter allows users to delete notifications from the Dashboard.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to YES so reports will show all details of the Catering order.</td>
+                </tr>
+                <tr style="height : 273.59999999999996px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Exclude Building Closures On Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">When set to NO, building closures are not excluded from notification date calculations.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Parameter is set to YES. &#160; A Building is closed on the 9th, 10th and 11th (three days). &#160;Today is the 4th. &#160; &#160; A notification is set to trigger within 10 days. &#160; &#160; Something is done on the 16th that triggers the notification.  &#160;IT WILL be triggered because even though the 16th is more than 10 days away from the 4th, we are subtracting (excluding) three days. &#160; &#160;Next, something is done on the 18th that triggers the notification.  It will NOT trigger because the 18th is 14 days from the 4th and when you subtract three closed days - you are outside of 10 days. &#160; &#160; &#160; &#160;IF BOTH EXCLUDE BUILDING CLOSURES ON NOTIFICATIONS AND EXCLUDE WEEKENDS ON NOTIFICATIONS ARE SET TO YES, ADD NUMBER OF DAYS EXCLUDED TOGETHER IN CALCULATION.    BOTH WILL BE TAKEN INTO ACCOUNT.</td>
+                </tr>
+                <tr style="height : 288px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Exclude Weekends On Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When set to NO, weekends are not excluded from notification date calculations.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Parameter is set to YES. &#160; Group notification is set to remind Group 10 days prior to booking. &#160; Today is Wednesday the 4th and a meeting will take place on Wednesday the 18th. Therefore, a reminder notification will get triggered to the recipient on Wednesday the 4th because that is 14 days less four weekend days (thus 10 days).</p>
+                        <p> &#160; &#160; <span class="bold">NOTE</span>:&#160; If a Group reminder is set to be sent at 4 pm and the bookings on the 18th ends before 4 pm, no Group reminders will be triggered. No reminders will go to recipients who have bookings that end before notification is to be sent. If&#160;both the "Exclude Building Closures on Notifications"&#160;and "Exclude Weekends on Notifications"&#160;parameters are set to YES, add the number of days excluded together in your calculation. Both will be taken into account. </p>
+                    </td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Notifications</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Ignore Building Closure/Weekend Notification Settings Beyond xx Days</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Specifies the number of days after which building closures and/or weekends are ignored for notification date calculations.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">999</td>
+                </tr>
+                <tr style="height : 115.2px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Platform</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow multiple platform sessions to share the same token.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, EMS&#160;Platform Services will return the "same" value user token if multiple calls to authentication are made. &#160; If set to NO, EMS&#160;Platform Services will generate a new token for each authentication call. &#160; The Default value of the parameter is YES. &#160;&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">If set to YES, a user will be able to log into the same application (e.g., mobile) on multiple devices. &#160; If set to NO, the user will have only one active session for an application on one device. &#160; As soon as the user logs on to the same app on the other device, he will be logged out of the first app.</td>
+                </tr>
+                <tr style="height : 42.75px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Calendar Inquiry Print Format</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default format for the&#160;Event Calendar&#160;report. Formats are configured in&#160;<span class="bold">Configuration </span>&gt; <span class="bold">Other </span>&gt; <span class="bold">Calendar Styles</span>.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">A calendar format could be created to show just certain fields  and for only certain buildings, event types and statuses (e.g., a calendar of G building events in confirmed status for only Public Meeting event types).</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Confirmation Summary Room Description Format</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Determines how room information is displayed when sending the "Summary" format of the Confirmation in an email body text. Options are Building Code + Room Code or Building Description + Room Code.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Building Code Room Code, Building Description Room Code</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Include Activities on Service Order Forms</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If disabled, Activities-type Categories are not included on&#160;Service Order&#160;reports.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Include Catering Details on Setup Worksheet</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, Resource Items within Catering-type Categories are displayed on the&#160;Setup Worksheet&#160;report.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to YES so reports will show all details of the Catering order.</td>
+                </tr>
+                <tr style="height : 72px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Include this Notes Category on Service Order Forms</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Determine which Notes-type Category, if any, is included on&#160;Service Order&#160;reports. Only one Notes-type Category can be selected for all&#160;Service Orders.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">A customer may create a Notes Category called "Catering Notes."  If this Category is selected in this parameter, the "Catering Notes" will  print on the Service Order Forms.</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Room Description Format</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Determines how room information displays on reports and the detailed Confirmation. Options are Room Code or Room Description, with or without Building Code.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Building Code Room Code, Building Code Room Description, Room Code, Room Description</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Room Description typically gives a better description of the room as the Room Description field holds more characters.</td>
+                </tr>
+                <tr style="height : 86.39999999999999px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reports</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Use Calendar Styles</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Select YES to enable the use of calendar styles on the Event Schedule report and on the Event Calendar report.   Calendar Styles are created in the EMS&#160;Desktop Client under <span class="bold">Configuration</span> &gt; <span class="bold">Other</span> &gt;&#160;<span class="bold">Calendar Styles</span>.  </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">A Calendar Style could be created to show a unique font, font style, size, color.   This Calendar Style can be attached to a Reservation.    If this parameter is set to YES, on the report, the booking will adopt the Calendar Style and "stand out."</td>
+                </tr>
+                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Allow Bookings To Be Added To Outlook Personal Calendar</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, EMS&#160;Desktop Client users can select an&#160;Outlook&#160;option in the Navigator, Browser, and Calendar to add bookings to their personal calendars. Users must have Outlook application locally installed. Does not create an ICS file and/or work with other mail exchange systems (e.g., Gmail).     If the booking gets changed or canceled, the event will remain on the calendar as originally placed.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Book Building Closed Color</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The color that displays in the Reservation Book to indicate building closures.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Infinite Color Options</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Book Special Date Color</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The color that displays in the Reservation Book to designate special dates.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Infinite Color Options</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Book Weekend Color</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The color that displays in the Reservation Book to designate weekends.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Infinite Color Options</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Building Display</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Indicates how building information is displayed in reservations within the desktop client—by Building Code (if one exists) or Building Description.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Building Code, Building Description</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Building Code Room Code.</td>
+                </tr>
+                <tr style="height : 135px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Event Coordinator</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If this is set to YES, and an EMS&#160;Desktop Client user's ID  is flagged as an Event Coordinator, every reservation that the EMS&#160;Desktop Client user makes from  the Desktop Client will be populated with his/her name in the Event Coordinator field in the Reservation.       If the EMS&#160;Desktop Client user's ID is not flagged as an Event Coordinator and this parameter is set to YES,   the Event Coordinator field will be required but and another Event Coordinator will need to be selected.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Default is NO. </td>
+                </tr>
+                <tr style="height : 90px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Exclude Room Charge from Services indicator</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">In various locations in the EMS&#160;Desktop Client (e.g.,&#160;the Book, the Navigator, and Editing a Booking), a visual indicator is provided when services (i.e., Categories)&#160;exist for a booking. If this parameter is enabled, then the "Room Charge" Category is excluded from displaying as a service on the booking.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to NO, as most customers do not consider Room Charge to be a "service."</td>
+                </tr>
+                <tr style="height : 115.2px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Lock Booking Details If Booking Is Locked</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">This parameter works in tandem with "Lock Bookings Older Than 'xx' days." &#160; If a booking is locked due to age, booking details within the booking are also locked if Parameter is set to YES. &#160; However, if this parameter is set to NO, the booking details remain editable, even though the booking is locked.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">A customer may want to lock a booking date/time but be able to edit the booking details.  &#160; In this scenario, it doesn't matter if the booking is locked because of the "lock bookings older than XX days" or booking is locked because of being invoiced.    </td>
+                </tr>
+                <tr style="height : 57.6px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Lock Bookings Older Than 'xx' Days</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Past bookings beyond this number of days are automatically locked and cannot be edited.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">A customer may want to lock old bookings from being edited so that EMS&#160;Desktop Client users cannot change historical data past XX days.</td>
+                </tr>
+                <tr style="height : 100.8px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Lock Occurring/Past Reservations For Non-Administrators</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, users without administrator access cannot edit the Reservation Level once a booking within the Reservation is in the past.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">A customer may want this parameter enabled so the Group does not get changed on a recurring reservation.       Changing the Group on a reservation that has bookings in the past makes it seem as though the new Group has always had this reservation when in fact, they did not.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Notifications/Automated Reports Data Format</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Controls how the date appears within Group Notification Emails or Automated Report emails.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Short, International, Long</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservation Book 'Checked In' Color</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Color of bookings in the Book that have been checked in. Use of this color is controlled in the Book under&#160;Options.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Infinite Color Options</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservation Book 'Not Checked In' Color</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Color of bookings in the Book located in rooms that do not require check-in. Use of this color is controlled in the Book under&#160;Options.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Infinite Color Options</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservation Book 'Room Does Not Require Check In' Color</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Color of bookings in the Book that have not been checked in. Use of this color is controlled in the Book under&#160;Options.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Infinite Color Options</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Room Display</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Indicates how room information is displayed in reservations within the EMS&#160;Desktop Client—by Room Code or Room Description.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Room Code, Room Description</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 158.4px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Use Billing Reference Allocation</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Enables an EMS user to allocate reservation, booking, or service order charges across multiple Billing Reference numbers by percentage.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">When this parameter is set to YES, a tab will appear at the Reservation Level "Billing Reference Allocation." &#160; This is the area where you can allocate, by percentage to different Billing Reference Numbers. &#160; &#160;This information will print on the Confirmation if the box Print Billing Reference Allocation is checked on the Options tab of the Confirmation. &#160; &#160; This allocation will also be reflected on the Sales by Billing Reference report.</td>
+                </tr>
+                <tr style="height : 86.39999999999999px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Use PO Number Allocation</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Enables an EMS user to allocate reservation, booking, or service order charges across multiple PO Numbers by percentage.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">When this parameter is set to YES, a tab will appear at the Reservation Level "Purchase Order &#160;Allocation." &#160; This is the area where you can allocate, by percentage to different Purchase Order &#160;Numbers.   Typically set to NO.</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Validate Billing Reference</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Validates the Billing Reference entered against the Billing Reference table. Specify No Validation, Valid Only, or Warning for Invalid (Blanks Are Invalid), or Warning for Invalid (Blanks are Valid).</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">No Validation,&#160;Valid Only, Warning For Invalid (Blanks Are Invalid),&#160;Warning For Invalid (Blanks Are Valid)</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Validate PO Number</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Validates PO Numbers entered against the PO Number table. Specify No Validation, Valid Only, or Warning for Invalid (Blanks Are Invalid), or Warning for Invalid (Blanks are Valid).</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">No Validation, Valid Only, Warning For Invalid (Blanks Are Invalid), Warning For Invalid (Blanks Are Valid)</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 86.39999999999999px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Validation of Building Hours</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">How Building Hours are validated for new or existing bookings in the EMS&#160;Desktop Client—either by Reserved Time (i.e.,&#160;with Setup and/or Teardown Time) or Event Time.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">On Reserved Time, On Event Time</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Parameter is set to Event Time and Building Hours are set at 8 am - 5 pm and the EMS Desktop Client user inputs 7 am as event start time. As a result, on the second screen of the wizard, the user will be alerted that booking exceeds building hours.</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Warn When Booking More Than 'xx' Months in Future</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If a user attempts to create a booking with a date past xx months, a warning displays. The warning does not prevent booking creation.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">12</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Resources</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Check Inventory When Using Reservation Tools</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, resource availability is verified when Booking Details are copied, Reservations are copied, or the date/time/room is changed for multiple bookings.&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Typically set to YES.</td>
+                </tr>
+                <tr style="height : 72px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Resources</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Use Resource Selector</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If enabled, a Resource Selector window is available when adding Booking Detail Items.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Typically set to YES.   Customers will set to NO when they want to edit the resource or add notes/special instructions at the same time as adding the resource to the booking.</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Service Orders</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Auto Adjust Service Order Times</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">If enabled, Service Order Times are automatically adjusted when a booking's date and/or time is edited. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Typically set to YES.</td>
+                </tr>
+                <tr style="height : 158.4px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Service Orders</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Default Service Order Times and Count from Booking</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">When creating a new service, sets the default service order times to the event/reserved time. If set to (none), no default service order times are set.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">(none), Event Time, Reserved Time</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Parameter is set to RESERVE TIME, a booking made from 8 am - 12 pm &#160;with 30 minutes of setup for 10 people. Resources with a Service Order type category is added&#160;and will have 7:30 am - 12 pm automatically defaulted as the start and end time with a count of 10. &#160;This parameter will take precedence over what is set at the Category level. &#160; In order for setup to calculate, default quantity must be set to Setup count on the Category.</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Service Orders</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Show External Service Option on Categories</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">When Set to YES, an External Service field is displayed on the Category dialog box for a Catering category or a Resource w/ Service Orders category.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Typically set to NO.   This was created for a specific customer and integration.   </td>
+                </tr>
+                <tr style="height : 60px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Campus Planning Interface - Use Integrated Authentication Only</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Enables Integrated Authentication as the only authentication method for the Campus Planning Interface. The Network ID field must be completed for any client user who will also use the Campus Planning Interface.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Dashboard Check Interval</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Indicates how frequently the Dashboard should check for updates. </p>
+                        <p>&#160;</p>
+                        <p><span class="bold">NOTE</span>: Setting this for more frequent updates might impact application performance.</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">5 Minutes, 10 Minutes, 15 Minutes, 30 Minutes, 1 Hour</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr style="height : 45px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Disable Online Help</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">If set to YES, then Online Help is not available for the EMS system. (The link Help &gt; Contents is not displayed on the EMS main menu.)</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 120px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">NetworkID Login - Ignore Desktop Client Domain</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Setting to YES, causes EMS Desktop Client to ignore the domain when using Integrated Authentication, which is useful if you leverage multiple domains. </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">If a user logs in under the domain EMS\username, this parameter causes EMS Desktop Client to overlook the "EMS" portion of the credentials and still enable user login even though they are authenticating via a different domain.</td>
+                </tr>
+                <tr style="height : 72px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Platform Services Desktop Secret Key</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">This is the secret the EMS&#160;Desktop Client will use when communicating with EMS&#160;Platform Services. &#160; &#160;It is required only for G-Suite.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">For more information, click <a href="../../../GoogleSuiteIntegration/Config.htm">here</a>.  &#160;</td>
+                </tr>
+                <tr style="height : 100.8px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Server Time Zone</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Sets the time zone for the server to the indicated value.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Affects how times get calculated for date calculations, dashboard notifications, all kinds of stuff. &#160;You see issues when this isn’t set to what the server actually is. &#160;This was removed for EMS&#160;Cloud Services customers so they can’t change it (because they have no control over the actual servers).</td>
+                </tr>
+                <tr style="height : 30px;" class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Use Integrated Authentication Only</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;If set to YES, then EMS users are required to manually log-in and authenticate against LDAP.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Yes/No</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr style="height : 43.199999999999996px;" class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">System</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Warn within XX% of Everyday User Licensing Limit</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">Creates a prompt to expert user upon login if number of Everyday Users is within a certain percentage of the licensing limit.</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">99</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">This alerts EMS Desktop Client users  that they are reaching their Everyday User limit.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

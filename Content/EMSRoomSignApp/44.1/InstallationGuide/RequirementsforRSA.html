@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="10" MadCap:lastHeight="4709" MadCap:lastWidth="718" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsroomSignApp.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Requirements for the EMS Room Sign App</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44.1" />Requirements for <MadCap:variable name="General.RSA" /></h1>
+        <p>This topic outlines the requirements necessary to install, configure, and use the <MadCap:variable name="General.RSA" />(formerly named EMS Glance), including:</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#prerequisites">Prerequisites</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#EMSdesktopclient">EMS Desktop Client</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#databaseserver">Database Server</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Webserver">Web Server</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#tabletrequirements">Tablet Requirements</MadCap:xref>
+            </li>
+        </ul>
+        <div class="note-box note">
+            <p><span class="bold">Note: </span>The EMS Room Sign App requires a license. Please contact your Account Executive to determine if your organization is licensed for the EMS Room Sign App or if you want to learn more.</p>
+        </div>
+        <h2><a id="prerequisites" name="prerequisites"></a>Prerequisites</h2>
+        <p>Before installing the EMS Room Sign App, the following prerequisites must be in place:</p>
+        <ul class="unorder-list">
+            <li>All previous versions of the EMS Room Sign App web application have been&#160;uninstalled.</li>
+            <li>The EMS Room Sign App API has been installed.&#160;The EMS Room Sign App API URL is required for the EMS Room Sign App web application installation.</li>
+            <li>An EMS user account with ‘EMS API Web Service Access’ has been created. The user account is necessary&#160;to access the database.</li>
+        </ul>
+        <h2><a id="EMSdesktopclient" name="EMSdesktopclient"></a>EMS Desktop Client</h2>
+        <p>You must have installed and configured the EMS Desktop Client.</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1"><strong>Operating Systems</strong>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Windows 7 (32-bit and 64-bit)</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Windows 8 (32-bit and 64-bit)</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Windows 8.1 (32-bit and 64-bit)</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Windows 10 (32-bit and 64-bit)</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Operating Systems" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">.NET Framework&#160;4.6.1</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a id="databaseserver" name="databaseserver"></a>Database Server</h2>
+        <p>EMS Desktop Client must run on servers that meet our system requirements. Additionally, the EMS Room Sign App API is housed on a web server, which also has specific&#160;requirements.</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">Database Servers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2008 R2</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Microsoft SQL Server 2012 SP2</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Microsoft SQL Server 2012 SP3</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Database Servers" class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">Microsoft SQL Server 2014 SP1, Compatibility Level 110</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a id="Webserver" name="Webserver"></a>Web Server</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 422px;" />
+            <col style="width: 184px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Operating System</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">IIS App Pool</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows Server 2008 R2</td>
+                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">7/7.5</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Windows Server 2012</td>
+                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">8</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows Server 2012 R2</td>
+                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">8.5</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows"><b>Prerequisites</b>
+                    </td>
+                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">.NET Framework 4.6.1*</td>
+                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Operating System" class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows" style="text-align: left;">
+                        <p><b>Minimum System Requirements</b>
+                        </p>
+                        <p>Processor: 2.0 GHz and 4 cores or faster</p>
+                        <p>           Memory: 8 GB or more*</p>
+                        <p>          Hard-Disk Space: 1 GB or more</p>
+                        <p>*For up to 100 concurrent users.&#160;Increased specs required for 100+ concurrent users.</p>
+                    </td>
+                    <td data-th="IIS App Pool" class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*Varies per EMS Software Application.</p>
+        <h2><a id="tabletrequirements" name="tabletrequirements"></a>Tablet Requirements</h2>
+        <p>The EMS Room Sign App website&#160;sits on the same web server as the API. Although the EMS Room Sign App can be accessed from any web browser, it is designed for touch-enabled tablets running in landscape mode. We support tablets with the following specifications:</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 289px;" />
+            <col style="width: 399px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">Tablet Operating Systems</th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">SUPPORTED BROWSERS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">iOS&#160;9, 10</td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Safari</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Android&#160;5, 6</td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Chrome, KioWare Lite&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Windows 7, 8, 10</td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Internet Explorer 11, Chrome, Firefox</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">.NET Framework: 4.6.1</td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Tablet Requirements</td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">Supported Resolutions</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>1024 x 768</p>
+                        <p>            1280 x 1024</p>
+                        <p>            1660 x 900</p>
+                        <p>            1920 x 1080</p>
+                        <p>            2048 x 1536</p>
+                        <p><span class="bold">Note:</span> The EMS Room Sign App will run on touch-enabled tablets (with above resolutions)&#160;set in landscape mode.&#160;Integrating with ArmorActive&#160;enclosures require a browser&#160;that can play sound.&#160;</p>
+                        <p>EMS tests on and recommends the&#160;<a href="https://www.apple.com/ipad-mini-4/" rel="external nofollow" target="_blank">iPad Mini</a>&#160;and&#160;<a href="http://www.samsung.com/us/mobile/tablets/all-other-tablets/samsung-galaxy-tab-a-8-0-16gb-wi-fi-smoky-titanium-sm-t350nzaaxar/" rel="external nofollow" target="_blank">8” Samsung Tab A.</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td data-th="Tablet Operating Systems" class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p data-th="Tablet Operating Systems">Prerequisites</p>
+                        <p data-th="Tablet Operating Systems">&#160;</p>
+                    </td>
+                    <td data-th="Supported Browsers" class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p data-th="Supported Browsers">EMS Desktop Client, running on database and web servers that meet our system requirements.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span> EMS&#160;recommends using the&#160;<a href="https://www.amazon.com/Samsung-Galaxy-8-Inch-Tablet-Titanium/dp/B00V49LL90" rel="external nofollow" target="_blank">8” Samsung Galaxy Tab A</a>&#160;and the&#160;<a href="http://www.apple.com/shop/buy-ipad/ipad-mini-4" rel="external nofollow" target="_blank">iPad Mini 3 or 4</a>&#160;because these tablets integrate with our recommended enclosure.&#160;</p>
+        </div>
+    </body>
+</html>

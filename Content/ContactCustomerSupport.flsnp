@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="443" MadCap:lastWidth="611">
+    <head>
+    </head>
+    <body>
+        <ul class="unorder-list">
+            <li><b>Option 1 (Recommended):</b> Search the <a href="https://portal.emssoftware.com/s/knowledge">Knowledge Base</a> available in the <a href="https://portal.emssoftware.com/s/support">EMS&#160;Customer Portal</a>.</li>
+            <li><span class="bold">Option 2:</span>&#160;Submit a <a href="https://portal.emssoftware.com/s/login/?startURL=%2Fs%2Fcontactsupport">Case</a> directly via the <a href="https://portal.emssoftware.com/s/support">EMS Customer Portal</a>.</li>
+            <li><b>Option 3:</b> Email <b style="text-decoration: underline;"><a href="mailto:support@emssoftware.com" style="font-weight: normal;" class="bold">support@emssoftware.com</a></b>.</li>
+            <li><b>Option 4 (Recommended for critical issues only):</b> Phone <span class="bold">(800) 288-4565.</span><br /></li>
+        </ul>
+        <div class="box-important">
+            <p><span class="bold">IMPORTANT:</span> If you do not have a customer login, register <a href="https://portal.emssoftware.com/s/login/ ">here</a>.</p>
+        </div>
+    </body>
+</html>

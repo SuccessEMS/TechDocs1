@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4710" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure Everyday User Security Templates V44.1 (EMS Desktop Client)</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Configure Everyday User Security Templates</h1>
+        <p class="mt-color-000000">A security template specifies&#160;which menu items are available to the users who are assigned to the template, which event information&#160;fields can be viewed, and other information.</p>
+        <p class="mt-color-000000">This topic will provide information on the following steps:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Entering">Entering Security Template Settings</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Assigning">Assigning Roles to Users</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Setting">Setting Tooltip Display</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Finalizing">Finalizing the Template</MadCap:xref>
+            </li>
+        </ul>
+        <ol>
+            <li>On the EMS menu bar, click Configuration &gt; Everyday User Applications &gt;&#160;Everyday User Security Templates.&#160;The Everyday User Security Templates window opens. This window lists the one user role (unauthenticated user) used in the EMS Web App and EMS Mobile App,&#160;as well as any other security templates that have been defined.</li>
+        </ol>
+        <p class="stepresultbulletlev1_1">
+            <img src="../../../Resources/Images/Everyday User Templates/Configuring Security Templates.png" alt="https://success.emssoftware.com/@api/deki/files/4170/clipboard_e448adeebe2bb7aa94fbfb276594d9d94?revision=1&amp;size=bestfit&amp;width=461&amp;height=486" class="img_1" />
+        </p>
+        <p class="note-box">Note:&#160;The "(unauthenticated user)" role controls what happens when users do not have a log in access an EMS Everyday User application such as EMS Web App and EMS Mobile App.</p>
+        <p class="note-box">Tip:&#160;The remainder of this procedure describes how to configure a security template “from scratch.” You can also configure a security template by copying an existing rule. Select the security template that you wish to&#160;Copy&#160;then skip to Step 3.&#160;To assign an existing security template to multiple users,&#160;See Also:&#160;Assigning a Security Template to Multiple Users.</p>
+        <ol MadCap:continue="true">
+            <li>Click&#160;New.&#160;The Security Template dialog box opens on the Security Template tab.</li>
+        </ol>
+        <p class="stepresultbulletlev1_1">
+            <img src="../../../Resources/Images/Everyday User Templates/Configuring Security Templates_2.png" alt="https://success.emssoftware.com/@api/deki/files/4171/clipboard_eb50f02f5211e6db3bf263f97c700786d?revision=1&amp;size=bestfit&amp;width=740&amp;height=473" class="img_1" />
+        </p>
+        <h3><a name="Entering"></a>Entering Security Template Settings</h3>
+        <ol MadCap:continue="true">
+            <li>Enter the information for the new everyday user role.</li>
+        </ol>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="mt-color-000000_2">Option</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="mt-color-000000_2">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Description</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">The description or name for the security template.</p>
+                        <p class="tablenotenote">Note: The description can be a maximum of 50 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Allow User to Add Groups</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Selected by default. Users who are attached to this security template can select from a list of existing Groups in your EMS database to add to the users' accounts when submitting a request or making a reservation.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Allow User to Add Contacts</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Select this option if you want users who are attached to this security template to be able to select from a list of existing Contacts in your EMS database when submitting a request or making a reservation.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Allow User to Set Default Contact</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Available only if Allow User to Add Contacts is selected. Select this option if you want users who are attached to this template to be able to specify a default Contact for a selected Group when submitting a request or making a reservation.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3><a name="Assigning"></a>Assigning Roles to Users</h3>
+        <ol MadCap:continue="true">
+            <li>Roles are the tasks that an assigned user can do. Open the&#160;Roles&#160;tab, and on the Available list, select the role (CTRL-click to select multiple roles) for the user(s)&#160;are to be assigned to this template, and then Move (&gt;)&#160;to the Selected list.</li>
+        </ol>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="mt-color-000000_2">Role</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="mt-color-000000_2">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Allow Check In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Allows a user to check in to a&#160;booking&#160;from EMS Web App,&#160;the EMS Kiosk, and EMS Mobile App.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Browse Events</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Provides access to the Events calendar in EMS Web App.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Browse&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Allows a user to browse for available rooms in a Schedule&#160;view.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Create\Edit an Account</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">For the (unauthenticated user) template, allows a new user to create his/her own EMS Web App user account. This new everyday user account is set to active or pending based on your EMS Web App parameter settings. For the authenticated users, this role&#160;determines if an existing everyday user can access the Edit My Account area within EMS Web App.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Custom Events</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Provides access to any custom events calendars created.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Delegation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Allows EMS Web App users to delegate control of their reservations (new and existing) to other EMS Web App everyday users.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Browse People</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Allows a EMS Web App user to view a specific Group's reservations for today.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Location Details</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Allows a user to view details (room type, size, phone, features, setup types, images and so on) about a room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Login\Logout</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Allows an anonymous user or “guest” to log in to EMS Web App.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">View Floor Map</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-color-000000_3">Requires the optional Floor Plan module. Allows a EMS Web App user to view and book rooms on a floor plan.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-color-000000_3">Web Administrator</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-color-000000_3">Provides access to various administrative functions within EMS Web App such as clearing the cache, enabling help text edit mode,&#160;and enabling detailed errors.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Expert User</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>A security role that only pertains to EMS&#160;Platform Services. This role is required to access Platform Services API routes for EMS&#160;Desktop Client functionality. </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3><a name="Setting"></a>Setting Tooltip Display</h3>
+        <ol MadCap:continue="true">
+            <li>The&#160;Booking Details Display Fields&#160;tab houses&#160;the information that appears&#160;when a EMS Web App user browses events in the Browse Events area&#160;or browses for space in the Browse for Space Area. Open this&#160;tab, and on the Available list, select the&#160;information you want displayed&#160;(CTRL-click to select multiple items), then&#160;Move (&gt;) to the Selected list.</li>
+        </ol>
+        <h3><a name="Finalizing"></a>Finalizing the Template</h3>
+        <ol MadCap:continue="true">
+            <li>Click&#160;OK.&#160;The security Template dialog box closes. The changes are saved to the template and you return to the security Templates window.</li>
+        </ol>
+        <p class="note-box">Tip:&#160;You can delete a security template by selecting it from the Everyday User Security Template window and clicking&#160;Delete.&#160;If the template is assigned to a user, you will be prompted to assign another template to that user before deleting it.&#160;</p>
+        <p class="body">You can also print a security template information in two ways, using the&#160;Print&#160;button: you can print a list of your templates, or a list of user roles showing how&#160;they are mapped to security templates.&#160;</p>
+    </body>
+</html>

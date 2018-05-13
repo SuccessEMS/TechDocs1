@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Services and Components"
+    Link="/Content/ServicesComponents/Introduction to Services and Components.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Install EMS Automated Report Service"
+      Link="/Content/ServicesComponents/EMSAutomatedReportService.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Install EMS Check-in Notification Service"
+      Link="/Content/ServicesComponents/EMS Check in Notification.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Install or Upgrade the EMS Email Notification Service"
+      Link="/Content/ServicesComponents/InstallUpgradeEMSEmailNotificationSvc.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
+      Link="/Content/ServicesComponents/InstallUpgrade EMS Campus Auto Sync Service.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+  </TocEntry>
+</CatapultToc>

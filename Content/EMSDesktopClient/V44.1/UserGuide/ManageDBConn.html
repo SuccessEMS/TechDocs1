@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2982" MadCap:lastWidth="569" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
+    <head><title mt-export-translate="no">Managing Database Connections V44.1 (EMS Desktop Client)</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="false" />
+    </head>
+    <body>
+        <h1 class="mt-export-title" MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44.1" />Manage Database Connections</h1>
+        <p class="note-box"><span class="bold">NOTE FOR EMS CLOUD SERVICES CUSTOMERS:</span>
+            <br />EMS Cloud Services Customers using the EMS&#160;Desktop Client Web Deployment will <span class="bold">not </span>change database connections from within the EMS&#160;Desktop Client. Please refer <a href="../InstallationGuide/InstallationInstructions.html#Switching">here</a> for instructions on switching database connections. </p>
+        <p>If <MadCap:variable name="General.EMS&#160;Desktop Client" /> has been installed on your desktop using the <MadCap:variable name="General.EMS&#160;Desktop Client" /> Web Deployment, you can point to a different database through <MadCap:variable name="General.EMS&#160;Desktop Client" />. Contact your system administrator for guidance in databases to use.</p>
+        <p>This topic will provide information on:</p>
+        <ol>
+            <li>
+                <MadCap:xref href="#changedatabase">Changing databases</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#createnewdatabaseconnection">Create a new database connection</MadCap:xref>
+            </li>
+        </ol>
+        <h2><a name="changedatabase"></a>Changing Databases</h2>
+        <ol>
+            <li>On the EMS Menu, select File &gt; Change Database to bring up the Database Connections window. <br /></li>
+        </ol>
+        <p>
+            <img src="Images/DC_UG_ManageDatabase_ChangeDb.gif" />
+        </p>
+        <p>Note: Any database connection listed in blue is a system record inherited from the EMS Desktop Client Web Deployment that can not be deleted.</p>
+        <ol MadCap:continue="true">
+            <li>To connect to a database that is not the system database select it from the list of Database Connections then press the 'Connect' button. This will close and reopen the EMS Desktop Client connected to the selected database.<br />Note: The user will need to log in again after changing databases.</li>
+        </ol>
+        <h2><a name="createnewdatabaseconnection"></a>Create a New Database Connection</h2>
+        <ol>
+            <li>To create a New connection select 'New' in the Database Connections window (shown above) to bring up the Database Connection window.</li>
+            <li>Type in the SQL server and EMS database name then select 'OK' to save the connection. You can delete connections later when you no longer need them.</li>
+        </ol>
+        <p>
+            <img src="Images/DC_UG_ManageDatabase_createnewDb.gif" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>For EMS to save this connection it will first check to see if it is a valid connection. If the connection is invalid, it will not be created you will see this error message:</li>
+        </ol>
+        <p>
+            <img src="Images/DC_UG_ManageDatabase_error.gif" />
+        </p>
+    </body>
+</html>

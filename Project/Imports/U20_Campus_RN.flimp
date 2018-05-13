@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-01-06T14:57:48.7697160-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Desktop\Grazzy3\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2018-01-06T14:57:59.4092170-07:00">
+  <Files>
+    <Url
+      Source="../../../RELEASE NOTES/U20_Campus_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_Campus_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_DC_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_DC_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_GoogleGSuite_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_GoogleGSuite_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_KioskApp_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_KioskApp_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_MC_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_MC_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_MobileApp_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_MobileApp_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_PS_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_PS_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_RSA_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_RSA_RN.docx" />
+    <Url
+      Source="../../../RELEASE NOTES/U20_WebApp_RN.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/RELEASE NOTES/U20_WebApp_RN.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Campus Release Notes V44.gif"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Campus Release Notes V44.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Desktop Client Release.png"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Desktop Client Release.gif"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Desktop Client Release.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Google Calendar Integration.gif"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Google Calendar Integration.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Kiosk App Release Notes.gif"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Kiosk App Release Notes.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Master Calendar Release.gif"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Master Calendar Release.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Mobile App Release Notes.png"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Mobile App Release Notes.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Platform Services Release.gif"
+      TimeStamp="1/6/2018 2:57:56 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Platform Services Release.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Room Sign App Release.gif"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Room Sign App Release.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Web App Release Notes.gif"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/U20_Campus_RN/EMS Web App Release Notes.png"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/U20_Campus_RN/EMS Web App Release Notes.htm"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../TOCs/U20_Campus_RN.fltoc"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/U20_Campus_RN.css"
+      TimeStamp="1/6/2018 2:57:57 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="mt-indent-1" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Title1" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Emphasis" />
+  </UsedCharacterStyles>
+</MsWordImport>

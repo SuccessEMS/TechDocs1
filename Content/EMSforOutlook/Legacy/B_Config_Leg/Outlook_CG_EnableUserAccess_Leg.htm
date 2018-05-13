@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="3183" MadCap:lastWidth="874" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Outlook.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Enable User Access to EMS for Outlook</h1>
+        <h2>Introduction&#160;&#160;</h2>
+        <p>Concept:&#160;User&#160;Access to EMS for Outlook is set in EMS Desktop Client&#160;</p>
+        <p>You will need to configure special settings in EMS Desktop Client&#160;in order to activate the EMS for Outlook&#160;toolbar button for&#160;Outlook users.&#160;The add-in&#160;uses each&#160;Outlook user’s EMS&#160;<MadCap:annotation MadCap:createDate="2017-12-01T20:16:18.3134292-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Links to glossary" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T20:16:22.3927609-07:00">see Everyday Use</MadCap:annotation>r&#160;account&#160;to establish their room booking privileges based on&#160;the Process Template(s) to which&#160;the Everyday User is&#160;assigned and&#160;EMS Group(s) for which&#160;the appointment can be booked.</p>
+        <p>Tip:&#160;The optional&#160;see <MadCap:annotation MadCap:createDate="2017-12-01T20:16:36.9415911-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Links to Integration to Exchange" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T20:16:43.5853485-07:00">EMS Integration to Exchange</MadCap:annotation>&#160;feature enables seamless authentication for this type of user.</p>
+        <p>To enable EMS for Outlook for your Microsoft<sup>®</sup> Outlook users, you will:</p>
+        <ul>
+            <li>Configure the user account (if needed) in EMS Desktop Client</li>
+            <li>Assign the user to a process template(s) for EMS for Outlook</li>
+            <li>Configure the process template to be available on EMS for Outlook</li>
+        </ul>
+        <h2>Configure EMS for Outlook Users and Process Templates&#160;</h2>
+        <ol start="1">
+            <li>An active EMS Everyday User account must exist in EMS Desktop Client.</li>
+            <li>The EMS Everyday User account must be&#160;<MadCap:xref href="Outlook_CG_AssignUserstoGroups_Leg.htm">linked to an active EMS Group record</MadCap:xref>&#160;(via the&#160;External Reference&#160;field, shown below).</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Enabling User Access to EMS.png" alt="https://success.emssoftware.com/@api/deki/files/6365/ConfigureEverydayUserOutlook.png?revision=1" />
+        </p>
+        <p>Tip:&#160;This topic assumes you have a working knowledge of configuration in EMS Desktop Client and highlights special tasks for enabling EMS for Outlook users. For more detailed instructions in creating new users,&#160;See Also:&#160;<MadCap:xref href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUser.htm">Configure Everyday Users</MadCap:xref>.</p>
+        <ol start="3">
+            <li>The EMS Everyday User must have at least one Delegate associated.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Enabling User Access to EMS_1.png" alt="https://success.emssoftware.com/@api/deki/files/6366/ConfigureEverydayUserDelegates.png?revision=1" />
+        </p>
+        <ol start="4">
+            <li>The EMS Everyday User account must be assigned to at least one Everyday User Process Template.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Enabling User Access to EMS_2.png" alt="https://success.emssoftware.com/@api/deki/files/6368/ConfigureEverydayUserProcessTemplateSelected.png?revision=1" />
+        </p>
+        <ol start="5">
+            <li>In the Everyday&#160;User Process Template you associate with the user, the&#160;<span class="bold">Outlook&#160;</span>option must be enabled.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Enabling User Access to EMS_3.png" alt="https://success.emssoftware.com/@api/deki/files/6367/ConfigureEverydayUserProcessTemplateOutlook.png?revision=1" />
+        </p>
+        <p>Tip:&#160;For detailed instructions and additional Everyday User Process Template configuration options,&#160;See Also:&#160;<MadCap:xref href="Outlook_CG_EstabBookTempConflBeh_Leg.htm">Establish Outlook Booking Templates and Conflict Behavior</MadCap:xref>.</p>
+        <p>&#160;</p>
+    </body>
+</html>

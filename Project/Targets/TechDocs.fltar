@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MoveOutputContentToRoot="false"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  MasterPage="/Content/Resources/MasterPages/TrainingMasterPage.flmsp"
+  ResultsPerPage="10"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  ConditionTagExpression="include[&quot;General.Audience A&quot; or &quot;General.Online Only&quot;] exclude[&quot;General.Audience B&quot; or &quot;General.Print Only&quot;] "
+  DefaultUrl="/Content/Home.htm"
+  SearchBarSkin="/Project/Skins/HomeSearchBar.flskn"
+  MasterToc="/Project/TOCs/Master.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  RemoveMadCapStyles="false"
+  UseEmptyAltText="true"
+  MenuSkin="/Project/Skins/SideMenu.flskn"
+  MasterStylesheetOverride="true"
+  TopNavTocPath="true"
+  SearchFilterSet="/Project/Advanced/Version.flsfs"
+  ReplaceSpacesWithUnderscores="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

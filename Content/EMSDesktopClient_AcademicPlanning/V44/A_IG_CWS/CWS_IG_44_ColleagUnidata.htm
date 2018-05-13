@@ -1,0 +1,3564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="19764" MadCap:lastWidth="1242" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_AcademicPlanning.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">
+            <MadCap:concept term="V44" />Colleague Unidata Views Data Model</h1>
+        <p class="NormalWeb_5">EMS Software&#160;will code a set of views specific to your organization’s use of Unidata to allow for integration between EMS and Unidata. Outlined are the baseline tables/columns accessed in the views.</p>
+        <p class="NormalWeb_5">You will be provided a Campus Technical Environment Questionnaire which allows for identification of specific fields used by EMS that tend to vary in individual Unidata implementations. Following return of the questionnaire, EMS Views will be coded for your organization and a final review done in EMS. Your Implementation Consultant can assist in more detailed explanations or demonstrations of how the information will be used in EMS to support the Academic Scheduling process, as needed for completion of the questionnaire.&#160; Once reviewed and accepted, further view modifications will be subject to EMS Professional Services time and materials fees.</p>
+        <p class="NormalWeb_5"><span class="Strong_3">Note:&#160;</span><span class="span_9">Optionally and on a custom basis, up to 10 User Defined Fields can be added to the new SQL compliant dictionaries and EMS_vwCourses view for each organization to support desired workflow. Detailed business requirements are needed to provide a quote for customization of the views for this purpose.&#160;</span>
+        </p>
+        <p>This topic will include information on the following fields:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Buildings">Buildings</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#RoomTypes">Room Types</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Rooms">Rooms</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Instructors">Instructors</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Terms">Terms</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SubjectsNoCampus">Subjects (no Campus Codes)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SubjectsWithCampusCode">Subjects (with Campus Codes)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Coursetypes">Course Types</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Courses">Courses</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#CourseDates">Course Dates</MadCap:xref>
+            </li>
+        </ul>
+        <p class="NormalWeb_9">In order to build the EMS views the following are required:</p>
+        <ol>
+            <li>
+                <p class="NormalWeb_1">The VSG (Visual Schema Generator), an executable that is shipped with Unidata, must be installed on a computer that can access Unidata. If you cannot locate the .msi installer for this tool, EMS Software&#160;can provide a copy.</p>
+            </li>
+            <li>
+                <p class="NormalWeb_2">The purpose of the VSG is to create SQL compliant dictionary files based on the dictionary files that contain data that EMS requires. Once SQL compliant dictionaries are created by the VSG the final EMS views can be created and permissions granted via the VSG.</p>
+            </li>
+            <li>
+                <p class="NormalWeb_1">The 32-bit IBM Unidata ODBC driver must be installed in order for the VSG to connect to Unidata. If you cannot locate this installer, EMS Software can provide a copy.</p>
+            </li>
+        </ol>
+        <p class="NormalWeb_5">Modification of SQL compliant dictionaries and views by the customer is unsupported and voids the Annual Service Agreement for the integration with Colleague Unidata.</p>
+        <p class="NormalWeb_4"><span class="span_9">Fields highlighted in&#160;</span><span class="bold" style="color: #0000ff;">BLUE&#160;</span><span class="span_9">are required to be unique.</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">New Unidata Dictionary Legend:</span>
+        </p>
+        <ul>
+            <li style="text-align: left;"><span class="span_13"><span class="bold">BLACK </span>– Fields generated from VSG – no AE Editor changes required.</span>
+            </li>
+            <li style="text-align: left;"><span class="bold" style="color: #228b22;">GREEN</span><span class="span_13">&#160;– New fields that must be added via the AE Editor.</span>
+            </li>
+            <li style="text-align: left;"><span class="bold" style="color: #ff0000;">RED</span><span class="span_13">&#160;– Required changes via the AE Editor.</span>
+            </li>
+        </ul>
+        <h2><a name="Buildings"></a>Buildings</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View</span><span class="span_13">: EMS_vwBuildings</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;BUILDINGS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: BUILDINGS_EMS</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 88pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 43pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 71pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 52pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 110pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 65pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 39pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 72pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">SM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <p class="Strong_1">ASSOC.....</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">BLDG_DESC</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">Description</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">BUILDINGS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">BUILDINGS_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define buildings list in EMS. Required for buildings that host academic courses; additional buildings can be added manually to EMS if used only for non-academic purposes.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">BUILDINGS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">BuildingCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ID</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="NormalWeb_2">BuildingDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="NormalWeb_2">BLDG_DESC</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="RoomTypes"></a>Room Types</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View</span><span class="span_13">: EMS_vwRoomTypes</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;ROOM.TYPES<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: ROOM_TYPES_EMS</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 116pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 40pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 64pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 48pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 111pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 59pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 36pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 65pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">SM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="Strong_1">ASSOC.....</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ROOM.TYPES</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ROOM_TYPES_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">RMTP_DESCRIPTION</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Description</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define room type list in EMS. Room Types classify each room and allows for searching, sorting, and reporting by classification. Additional room types can be added to EMS manually.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">ROOM_TYPES_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="NormalWeb_2">RoomTypeDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="NormalWeb_2">RMTP_DESCRIPTION</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Strong_1"><a name="Rooms"></a>Rooms</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View</span><span class="span_13">: EMS_vwRooms</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary</span><span class="span_13">: ROOMS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: ROOMS_EMS (Requires modifications via AE Editor)</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 181pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 83pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 108pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 69pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 80pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 58pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 36pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="Strong_1">SM</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ROOMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ROOMS_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ROOM_NAME</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Description</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ROOM_CAPACITY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">2</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">MD0,</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Capacity</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">7R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ROOM_TYPE</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">4</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Room Type</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">20L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ROOMS_BLDG_ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">FIELD(@ID,”*”,1)</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Building</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">4L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">ROOM_CAPACITY_1</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10" style="text-align: left;"><span style="color: #228b22;">IF ROOM_CAPACITY=’’ THEN ‘30’ ELSE ROOM_CAPACITY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">7R</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">ROOM_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_10" style="text-align: left;"><span style="color: #228b22;">FIELD(@ID,”*”,2)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">ROOM_TYPE_1</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10" style="text-align: left;"><span style="color: #228b22;">IF ROOM_TYPE = ‘’ THEN ‘0’ ELSE ROOM_TYPE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">20L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="color: #228b22;">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define list of rooms and their capacities for academic purposes in EMS; related to Buildings and Room Types. Required for rooms that host academic courses; additional rooms can be added manually to EMS if used only for non-academic purposes.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">ROOMS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="color: #0000ff;">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="color: #0000ff;">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SISBuildingID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ROOMS_BLDG_ID</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SISRoomTypeID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">ROOM_TYPE_1</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">RoomCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ROOM_CODE</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">RoomDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">ROOM_NAME</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="NormalWeb_2">Capacity</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ROOM_CAPACITY_1</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Instructors"></a>Instructors</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View:</span><span class="span_13">&#160;EMS_vwInstructors</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;FACULTY<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: FACULTY_EMS (Requires modifications via AE Editor)</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 168pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 36pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 278pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 42pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 74pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 51pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 34pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="Strong_1">SM</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">FACULTY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">FACULTY_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">FAC_FIRST_NAME</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">TRANS(“PERSON”,@ID,”FIRST.NAME”,”X”)</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Faculty First Name</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">35L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">FAC_FULL_NAME</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">FAC_LAST_NAME:’, ‘:FAC_FIRST_NAME</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">35L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">FAC_LAST_NAME</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">TRANS(“PERSON”,@ID,”LAST.NAME”,”X”)</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Faculty Last Name</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">35L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define list of instructors in EMS; related to Courses.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">FACULTY_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="NormalWeb_2">InstructorDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="NormalWeb_2">FAC_FULL_NAME</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Terms"></a>Terms</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View:</span><span class="span_13">&#160;EMS_vwTerms</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary</span><span class="span_13">: TERMS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: TERMS_EMS (Requires modifications via AE Editor)</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 120pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 41pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 67pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 66pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 84pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 62pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 37pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 68pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">SM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="Strong_1">ASSOC.....</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">TERMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">TERMS_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">TERM_DESC</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">2</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Description</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">TERM_START_DATE</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">5</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">D2/MDY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Start Date</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">TERM_END_DATE</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">6</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">D2/MDY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">End Date</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define list of terms in EMS; related to Courses.&#160; In conjunction with Domains, terms separate courses into distinct lists that will go through the academic planning process (synching, optimizing, publishing, reporting) as a unit.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">TERMS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">TermCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ID</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">TermDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">TERM_DESC</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">StartDate</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">TERM_START_DATE</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="NormalWeb_2">EndDate</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="NormalWeb_2">TERM_END_DATE</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Strong_1"><a name="SubjectsNoCampus"></a>Subjects (no Campus Codes)</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View:</span><span class="span_13">&#160;EMS_vwSubjects</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;SUBJECTS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: SUBJECTS_EMS (Requires modifications via AE Editor)</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 217pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 42pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 69pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 51pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 104pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 64pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 38pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="Strong_1">SM</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SUBJECTS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SUBJECTS_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SUBJ_DESC</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Description</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">CAMPUS_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">DIVISION_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">DEPT_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">LEVEL_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">CUSTOMCODE1</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">CUSTOMCODE2</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define list of subjects in EMS. Within EMS, subjects are divided into Domains in order to create distinct lists of courses per term that will go through the academic planning process (synching, optimizing, publishing, reporting) as a unit, managed by the academic central scheduler.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">SUBJECTS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SubjectCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ID</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SubjectDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SUBJ_DESC</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">CampusCode</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">NULL</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">DivisionCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">DepartmentCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">LevelCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CustomCode1</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="NormalWeb_2">CustomCode2</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Strong_1"><a name="SubjectsWithCampusCode"></a>Subjects (with Campus Codes)</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View:</span><span class="span_13">&#160;EMS_vwSubjects</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;COURSE.SECTIONS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: COURSE_SECTIONS_EMS&#160;</span><span class="Emphasis_1">(<span style="color: #ff0000;" class="italics">See Courses Below</span>)</span>
+        </p>
+        <h2 class="Strong_1"><a name="Coursetypes"></a>Course Types</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View</span><span class="span_13">: EMS_vwCourseTypes</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;INSTR.METHODS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: INSTR_METHODS_EMS</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 75pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 42pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 68pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 50pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 136pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 63pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 38pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 69pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">SM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="Strong_1">ASSOC.....</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">INSTR.METHODS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">INSTR_METHODS_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">INM_DESC</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Description</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define the course type list in EMS; related to coursedates. Course Types are used to classify coursedates for purposes of searching, sorting, optimizing, and reporting.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">INSTR_METHODS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="NormalWeb_2">Description</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="NormalWeb_2">INM_DESC</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2 class="Strong_1"><a name="Courses"></a>Courses</h2>
+        <p class="NormalWeb_4"><span class="Strong_2">EMS View</span><span class="span_13">: EMS_vwCourses</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;COURSE.SECTIONS<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: COURSE_SECTIONS_EMS</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 198pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 135pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 381px;" />
+            <col style="width: 36pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 80pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 43pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 31pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">SM</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">COURSE.SECTIONS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">21L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">COURSE_SECTIONS_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">21L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_TERM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">15</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Term</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">35L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_SUBJECT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">6</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Subject</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">40L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_COURSE_NO</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">17</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Course Number</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">7L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_NO</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">18</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Section</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">5L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_SHORT_TITLE</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Short Title</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_FACULTY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">40</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Faculty</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_CAPACITY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">5</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">MD0,</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Capacity</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">5R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_MIN_CRED</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">8</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">MD25</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Min Cred</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_XLIST</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">32</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">XList</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">CAMPUS_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb" style="text-align: left;"><span class="span_19"><span style="color: #ff0000;">(This record required when&#160;</span></span><span class="Strong_4"><span style="color: #ff0000;">NOT</span></span><span class="span_19"><span style="color: #ff0000;">&#160;using Campus Codes. Otherwise do not include this record.)</span></span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">DIVISION_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">DEPT_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">LEVEL_CODE</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">CUSTOMCODE1</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">CUSTOMCODE2</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">‘’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_ACTIVE_STUDENT_COUNT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11" style="text-align: left;color: #ff0000;">IF SEC_ACTIVE_STUDENTS AND SEC_ACTIVE_STUDENTS NE "0" THEN (((COUNT(SEC_ACT</p>
+                    <p class="NormalWeb_11" style="color: #ff0000;">IVE_STUDENTS,@VM)) + (1))) ELSE (0)&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">MD0,</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Active Student Count</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">6R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSXL_PRIMARY_SECTION</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11" style="text-align: left;"><span style="color: #ff0000;">TRANS(COURSE.SEC.XLISTS,SEC_XLIST,’CSXL.PRIMARY.SECTION’,’X’);IF @=ID THEN ‘0’ ELSE IF @=’’ THEN ‘0’ ELSE @</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Primary Section</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">21L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_FIRST_FACULTY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11" style="text-align: left;"><span style="color: #ff0000;">TRANS(“COURSE.SEC.FACULTY”, SEC_FACULTY, “CSF.FACULTY”,”X1”);IF @=’’ THEN ‘0’ ELSE @</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Faculty</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_CURRENT_STATUS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">FIELD(SEC_STATUS,@VM,1)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Current Status</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">5L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_STATUS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">88</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Status</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">30L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">SEC_SYNONYM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">61</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Synonym</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">11L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SEC_ACTIVE_STUDENTS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">66</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">6R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">SEC_SUBJ_DESC</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">TRANS(“SUBJECTS”, SEC_SUBJECT, “SUBJ.DESC”, “X1”)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Subject Description (This record required when using Campus Codes)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">30L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">S</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">SEC_LOCATION</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">D</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">6</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11" style="text-align: left;color: #ff0000;">Location</p>
+                    <p class="NormalWeb_11" style="text-align: left;color: #ff0000;">(This record required when using Campus Codes)</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">40L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">S</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define the list of courses per term; related to subjects, instructors, terms.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 236pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 314pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">COURSE_SECTIONS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2"><span style="color: #000000;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2"><span style="color: #000000;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SISTermID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SEC_TERM</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SISSubjectID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SEC_SUBJECT</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CampusCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb" style="text-align: left;"><span class="span_9">NULL</span><span class="span_19">&#160;<span style="color: #ff0000;">(or SEC_LOCATION if using Campus Codes)</span></span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">DepartmentCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">LevelCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">CustomCode1</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CustomCode2</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">CRN</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SEC_SYNONYM</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">Course</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SEC_COURSE</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">Section</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SEC_NO</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CourseTitle</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SEC_SHORT_TITLE</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SISInstructorID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SEC_FIRST_FACULTY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">EstimatedEnrollment</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SEC_CAPACITY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">CrosslistParentID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">CSXL_PRIMARY_SECTION</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">ActualEnrollment</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SEC_ACTIVE_STUDENT_COUNT</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="NormalWeb_2">CreditHours</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="NormalWeb_2">SEC_MIN_CRED</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="NormalWeb_12">Subjects with Campus Codes (distinct values)</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 735px;" cellspacing="0">
+            <col style="width: 237pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 420px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">COURSE_SECTIONS_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SEC_SUBJECT</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SubjectCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SEC_SUBJECT</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SubjectDescription</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SEC_LOCATION</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">CampusCode</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">NULL</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">DivisionCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">DepartmentCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">LevelCode</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CustomCode1</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="NormalWeb_2">CustomCode2</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="NormalWeb_2">NULL</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><span class="Strong_5"><a name="CourseDates"></a>Course Dates</span>
+        </h2>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">EMS View</span><span class="span_13">: EMS_vwCourseDates</span>
+        </p>
+        <p class="NormalWeb_4"><span class="Strong_2">View Permissions:</span><span class="span_13">&#160;Read Only</span>
+        </p>
+        <p class="NormalWeb_4" style="text-align: left;"><span class="Strong_2">Unidata Dictionary:</span><span class="span_13">&#160;COUSRE.SEC.MEETING<br /></span><span class="Strong_2">New Dictionary</span><span class="span_13">: COURSE_SEC_MEETING_EMS<br /></span><span class="Strong_4" style="color: #ff0000;">New Dictionary Permissions</span><span class="span_13">: Update if allowing EMS to update room locations in Unidata</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 148pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 32pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 284pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 40pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 180pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 42pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 30pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 45pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">@ID............</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">TYP</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">LOC..........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">CONV</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="Strong_1">NAME...........</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">FORMAT</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">SM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">ASSOC.....</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">ID</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">COURSE.SEC.MEETING</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">ID0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">COURSE_SEC_MEETING_EMS</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">10L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_SEC_TERM</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">I</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11" style="text-align: left;"><span style="color: #ff0000;">TRANS(“COURSE_SECTIONS_EMS”,CSM_COURSE_SECTION,”SEC_TERM”,”X”)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Term</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">7L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_COURSE_SECTION</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Section</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">21L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_START_DATE</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">2</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">D2/MDY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Start Date</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_END_DATE</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">3</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">D2/MDY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">End Date</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_START_TIME</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">8</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">MT</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Start Time</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_END_TIME</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">9</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">MT</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">End Time</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">8R</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_BLDG*</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">4</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">Building</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">35L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_ROOM*</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">5</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Room</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">35L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_SUNDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">20</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #ff0000;">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="color: #ff0000;">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_MONDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">14</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_TUESDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">15</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_WEDNESDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">16</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_THURSDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">17</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_FRIDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">18</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">CSM_SATURDAY</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">19</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">(this must be blank)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">1L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">CSM_INSTR_METHOD</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">D</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">6</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">Instr Method</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">35L</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">ROOM_ID</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_ROOM=’’ THEN ‘’ ELSE CSM_BLDG:’*’:CSM_ROOM</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">35L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">SUNDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_SUNDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Sunday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">MONDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_MONDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Monday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">TUESDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_TUESDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Tuesday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">WEDNESDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_WEDNESDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Wednesday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">THURSDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_THURSDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Thursday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">FRIDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_FRIDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Friday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                    <p class="NormalWeb_10" style="color: #228b22;">S</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">SATURDAY</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">I</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">IF CSM_SATURDAY=’Y’ THEN ‘1’ ELSE ‘0’</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_11"><span style="color: #ff0000;">Saturday (this is required)</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">1L</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_10"><span style="color: #228b22;">S</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_2">*Field used for updating room assignments</p>
+        <p class="NormalWeb_4"><span class="Strong_2">Purpose:</span><span class="span_13">&#160;Used to define the list of meeting patterns per course; related to courses, course types, buildings, rooms.</span>
+        </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">EMS Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1" style="text-align: left;">COURSE_SEC_MEETING_EMS Field</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">SISID</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_7"><span style="color: #0000ff;">ID</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SISTermID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CSM_SEC_TERM</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SISCourseID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">CSM_COURSE_SECTION</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">StartDate</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CSM_START_DATE</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">EndDate</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">CSM_END_DATE</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">StartTime</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CSM_START_TIME</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">EndTime</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">CSM_END_TIME</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SISBuildingID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CSM_BLDG</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">SISRoomID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">ROOM_ID</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">RoomID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CSM_ROOM</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">Sunday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SUNDAY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">Monday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">MONDY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">Tuesday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">TUESDAY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">Wednesday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">WEDNESDAY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">Thursday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">THURSDAY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="NormalWeb_2">Friday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="NormalWeb_2">FRIDAY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="NormalWeb_2">Saturday</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="NormalWeb_2">SATURDAY</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="NormalWeb_2">SISCourseTypeID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="NormalWeb_2">CSM_INSTR_METHOD</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="p_2">&#160;</p>
+        <p class="p_2">&#160;</p>
+    </body>
+</html>

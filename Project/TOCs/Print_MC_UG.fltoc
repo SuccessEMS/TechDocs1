@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Master Calendar User Guide"
+    Link="/Content/Print/MC_UG_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    <TocEntry
+      Title="EMS Master Calendar"
+      Link="/Content/EMSMasterCalendar/V8/UserGuide/Introduction.html"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
+      <TocEntry
+        Title="Log In to Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/LogIn.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Use Basic Features of EMS Master Calendar"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/UseBasicFeatures.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Use Field Icons in EMS Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/UseFieldIcons.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Search by Keyword"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SearchbyKeyword.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Export Search Results"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ExportSearchResults.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Search for an Event or Special Date"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SearchforEventorSpecialDate.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Use RSS Feeds in EMS Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/UseRSSFeeds.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Work with Calendars"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourCalendars.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Modify the Calendar Display"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ModifyCalendardisplay.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Filter Events on the Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/FilterEventsonCalendar.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Set a Timeframe for the Calendar Display"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SetTimeFrameforDisplay.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Navigate in the Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/NavigateMasterCalendar.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Open Events from the Master Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/OpenEvents.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Scroll Through Events on the Calendar"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Subscribe to a Calendar"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendar.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Subscribe to a Calendar Using Email"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendarUsingEmail.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Subscribe to a Calendar Using iCal"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubscribetoCalendarUsingical.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="User Options"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/UserOptions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Change Your Password"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ChangeYourPassword.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="View Custom Help Text"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewCustomHelpText.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="View Your Notifications"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourNotifications.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="View Your Requests"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/ViewYourRequests.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="How Do I Publicize an Event in Master Calendar?"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/PublicizeEvents.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Work with Events"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/ManagingYourEvents.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Types of Master Calendar Users"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/TypesofUsers.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Submit an Event"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/SubmitEvents.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Additional Info Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/AdditionalInfoFields.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Custom, Email, and Attachment Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/CustomEmailAttachmentFields.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Event Times Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/EventTimesFields.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="General Info Fields"
+          Link="/Content/EMSMasterCalendar/V8/UserGuide/GeneralInfoFields.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Glossary"
+        Link="/Content/EMSMasterCalendar/V8/UserGuide/Glossary.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

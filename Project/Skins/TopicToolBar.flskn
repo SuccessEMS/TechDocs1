@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="Component"
+  Comment="HTML5 Toolbar skin"
+  ComponentType="TopicToolbar"
+  EnableResponsiveOutput="True">
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Toolbar">
+        <Properties>
+          <Property
+            Name="MarginBottom">33px</Property>
+          <Property
+            Name="MarginRight">-4px</Property>
+          <Property
+            Name="Float">right</Property>
+        </Properties>
+      </Style>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="NextTopic">
+            <Properties>
+              <Property
+                Name="BorderTop">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 2px #e1e1e1</Property>
+              <Property
+                Name="PaddingLeft">0px</Property>
+              <Property
+                Name="BoxShadowVShadow">1px</Property>
+              <Property
+                Name="PaddingTop">0px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="PreviousTopic">
+            <Properties>
+              <Property
+                Name="PaddingTop">0px</Property>
+              <Property
+                Name="BoxShadowVShadow">1px</Property>
+              <Property
+                Name="BorderTop">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">solid 2px #e1e1e1</Property>
+              <Property
+                Name="BorderLeft">solid 2px #e1e1e1</Property>
+              <Property
+                Name="PaddingRight">0px</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Blank"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+              <Property
+                Name="BackgroundColor">#ffffff</Property>
+              <Property
+                Name="BackgroundGradient">vertical #ffffff #ffffff</Property>
+              <Property
+                Name="BoxShadowVShadow">0px</Property>
+              <Property
+                Name="Width">11px</Property>
+              <Property
+                Name="BorderLeft">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderBottom">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderRight">none 0px #e1e1e1</Property>
+              <Property
+                Name="BorderTop">none 0px #e1e1e1</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Toolbar Button Separator">
+        <Properties>
+          <Property
+            Name="Height">15px</Property>
+        </Properties>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="Blank">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+      <Medium
+        Name="Mobile">
+        <Style
+          Name="Toolbar">
+          <Properties>
+            <Property
+              Name="Display">none</Property>
+          </Properties>
+        </Style>
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="Blank">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
+    </Styles>
+    <Stylesheet></Stylesheet>
+  </Stylesheet>
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="PreviousTopic|Blank|NextTopic" />
+  <Strings />
+</CatapultSkin>

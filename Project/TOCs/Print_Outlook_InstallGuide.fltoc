@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS for Microsoft Outlook Installation Guide"
+    Link="/Content/Print/Outlook_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    <TocEntry
+      Link="/Content/InstallGuides/5_OutlookV44.1/5_OutlookV44.1Home.htm"
+      Title="EMS for Microsoft Outlook"
+      BreakType="chapter"
+      PageNumberReset="reset"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      StartSection="false"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same">
+      <TocEntry
+        Title="Introduction to EMS for Outlook"
+        Link="/Content/EMSforOutlook/InstallationGuide/Introduction.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Requirements and Prerequisites for EMS for Outlook"
+        Link="/Content/EMSforOutlook/InstallationGuide/ReqsPrereqs.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Plan Your EMS for Outlook Implementation"
+        Link="/Content/EMSforOutlook/InstallationGuide/PlanImplementation.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue" />
+      <TocEntry
+        Title="Install or Upgrade EMS for Outlook on Users' Computers"
+        Link="/Content/EMSforOutlook/InstallationGuide/InstallUpgrade.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="EMS for Outlook Add-In Is Offline"
+          Link="/Content/EMSforOutlook/InstallationGuide/OutlookAddInOffline.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Silent/Unattended EMS for Outlook Installation"
+          Link="/Content/EMSforOutlook/InstallationGuide/SilentUnattendedInstall.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
+          Link="/Content/EMSforOutlook/InstallationGuide/WhereExchServURLVerNum.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same"
+            ChapterNumberReset="continue" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same"
+            ChapterNumberReset="continue" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+          SectionNumberReset="continue"
+          VolumeNumberReset="same"
+          ChapterNumberReset="continue">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html"
+            BreakType="chapter"
+            StartSection="false"
+            PageNumberReset="continue"
+            PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+            SectionNumberReset="continue"
+            VolumeNumberReset="same"
+            ChapterNumberReset="continue" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/Introduction.htm"
+        Title="Integration to Microsoft Exchange"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue">
+        <TocEntry
+          Title="System Requirements for Integration to Microsoft® Exchange"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/IntegExchanReqs.htm" />
+        <TocEntry
+          Title="Install or Upgrade the Exchange Integration Web Service"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/InstallUpgradeforEIWservice.htm" />
+        <TocEntry
+          Title="Configure Integration to Microsoft Exchange"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigIntegExchange.htm" />
+        <TocEntry
+          Title="Use Application Pool Identity for Integration for Exchange Service Account"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/UseAppPoolIdentif.htm" />
+        <TocEntry
+          Title="Configure EWS Impersonation for Microsoft® Exchange"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/ConfigureEWSImpersonation.htm" />
+        <TocEntry
+          Title="Learn More About Exchange Web Services (EWS) Impersonation"
+          Link="/Content/EMSforOutlook/IntegrationtoMicrosoftExchange/LearnMoreaboutEWS.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

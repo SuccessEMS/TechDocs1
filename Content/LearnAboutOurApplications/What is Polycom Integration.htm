@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3786" MadCap:lastWidth="899" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">What Is Polycom Integration?</h1>
+        <p class="NormalWeb_2">While video conferencing system management software controls the delivery of audio and video content, the scheduling component within the software is typically designed to be used by the person responsible for all technical aspects of the session. However, technicians may be unavailable when video conferences need to be scheduled or changes need to be made. There is a solution to this problem - integration between your videoconferencing system management software and EMS. This simplifies the process and allows the host to focus on other details of the meeting.</p>
+        <p class="NormalWeb_2">EMS - Polycom integration provides a cohesive and powerful way to book and manage video conferences. With the integration, you can coordinate all aspects of your video conference efforts, from booking the room and reserving the equipment to ensuring that break services have been scheduled and attendees are aware of the event. Even if your organization is using EMS’ standard functionality for video conference scheduling, this is another way to take your video conference scheduling to the next level.&#160;The integration requires the purchase of the Polycom RealPresence Resource Manager API directly from Polycom.</p>
+        <h3>How It Works</h3>
+        <p class="NormalWeb_2">Polycom provides a 3rd Party Booking API that exposes Polycom RealPresence Resource Manager booking functionality to external scheduling systems like EMS.&#160;</p>
+        <h2 class="Heading2_4">Integration Diagram</h2>
+        <p class="NormalWeb_16">
+            <img src="../Resources/Images/Learn About Our Applications/What is Polycom Integration.png" alt="" class="" />
+        </p>
+        <h3>Technical Architecture&#160;</h3>
+        <p class="NormalWeb_15">The EMS Polycom Interface is comprised of two components:</p>
+        <ol start="1" class="ol_2">
+            <li class="li_24">EMS Polycom Service:&#160;Windows service responsible for pushing video conference bookings from EMS to the Polycom Realpresence Resource Manager API at timed intervals.</li>
+            <li class="li_24">Polycom Activity DLL:&#160;Custom Polycom DLL provided by EMS that will display all EMS Polycom Interface activity within the EMS application, including errors and successfully scheduled video conferences. The Polycom Activity DLL also contains an area that allows EMS Administrators to configure various EMS&#160;Polycom Interface settings.</li>
+        </ol>
+        <p class="NormalWeb_15">New video conferences booked in EMS are pushed to the Polycom Realpresence Resource Manager API based on various settings defined within EMS (see EMS Polycom Interface Configuration Settings) Subsequent critical booking changes (i.e. date, time or location changes) and/or cancellations are also relayed to the API. The EMS&#160;Polycom Interface is a one-way interface and changes made in Polycom will not be reflected in EMS.</p>
+        <p class="NormalWeb_15">
+            <img src="../Resources/Images/Learn About Our Applications/What is Polycom Integration_1.png" alt="" />
+        </p>
+        <p class="NormalWeb_1">See Also:&#160;<a href="../OptionalFeatures/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html">Advanced EMSPolycom Interface Configuration</a>&#160;to learn about how data&#160;is transferred from EMS to the Polycom Realpresence Resource Manager API.</p>
+        <p class="NormalWeb_15">By default, the following booking information is transferred from EMS to the Polycom Realpresence Resource Manager API:</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_3">Field Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_4">EMS Table.Column</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_4">Polcom Object Property</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_4">Direction</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_1">Reservation Event&#160;Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">tblReservation.EventName</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">reservation:name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_1">Booking Event Start Time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">tblBooking.GMTTimeEventStart</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">reservation:start-time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_1">Booking Event End Time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">tblBooking.GMTTimeEventEnd</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">reservation:end-time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_1">Room(s) and/or Resource(s)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">tblRoom.ExternalReference and/or tblResource.ExternalReference</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">plcm-reservedparticipant(s)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_1">Polycom&#160;Reference ID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">tblPolycomActivity.PolycomReferenceID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">Location|Etag</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="mt-font-size-110pt_2">Polycom &gt; EMS</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_1">Polycom Error Information</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">tblPolycomActivity.Activity</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">Web Service Exception</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="mt-font-size-110pt_2">Polycom &gt; EMS</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>How Do I Install It?</h3>
+        <p class="p_26">To integrate EMS with your Cisco - TMS system,&#160;you will:</p>
+        <ul class="ul_5">
+            <li class="li_22">Obtain the Installation Files (from EMS Professional Services)</li>
+            <li class="li_22">Install the Database</li>
+            <li class="li_22">Install the EMS - Polycom Service</li>
+            <li class="li_22">Install the DLL on User's Desktops</li>
+            <li class="li_22">Configure the EMS - Polycom Interface to Map VC Resources Between EMS and Polycom</li>
+        </ul>
+        <h3><a href="../EMS_SystemReq_44.1.html">System Requirements&#160;</a>
+        </h3>
+        <p class="note-box">Note:&#160;In addition&#160;to .NET Framework 3.5, the latest version of EMS (EMS Desktop Client V44.1) must be installed.</p>
+    </body>
+</html>

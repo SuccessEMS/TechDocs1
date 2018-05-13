@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Voluntary Product Accessibility Template (VPAT)"
+    Link="/Content/LearnAboutOurApplications/VPAT_Overview.htm">
+    <TocEntry
+      Title="VPAT 508 ADA Compliance"
+      Link="/Content/LearnAboutOurApplications/VPAT508ADACompliance.htm" />
+    <TocEntry
+      Title="VPAT for EMS Web App"
+      Link="/Content/LearnAboutOurApplications/VPAT_EMSWebApp.htm" />
+    <TocEntry
+      Title="VPAT for EMS Master Calendar"
+      Link="/Content/LearnAboutOurApplications/VPAT_MasterCalendar.htm" />
+  </TocEntry>
+</CatapultToc>

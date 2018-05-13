@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="4653" MadCap:lastWidth="1052">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>EMS Best Practices for SQL Server</h1>
+        <h2>System&#160;</h2>
+        <ul class="unorder-list">
+            <li><span class="bold">Minimum Number of&#160;CPU Cores</span>
+                <ul>
+                    <li>Based on expected workload</li>
+                </ul>
+            </li>
+            <li><span class="bold">Minimum&#160;RAM</span>
+                <ul>
+                    <li>Based on expected workload</li>
+                </ul>
+            </li>
+            <li><span class="bold">Disks – Allocation Unit Size (AUS)</span>
+                <div class="note-box note">
+                    <p>Note:&#160;Allocation Unit Size (AUS)&#160;must be configured at the time of formatting a new disk volume. It cannot be changed once the disk is used. Or, you can acquire a new disk, configure the AUS, and then migrate the data from the old disk to the new disk.</p>
+                </div>
+                <ul>
+                    <li>Set to NTFS 64KB for volumes containing mostly SQL data and log files.</li>
+                    <li>Do not use the default of 4096 bytes.&#160;SQL stores data in 8K pages, and there are 8 pages/extent (therefore, 64KB/extent). This will reduce the number of IOPS.<ul><li><a href="https://blogs.msdn.microsoft.com/spucelik/2016/12/27/sql-server-disk-allocation-size/" title="https://blogs.msdn.microsoft.com/spucelik/2016/12/27/sql-server-disk-allocation-size/" class="Hyperlink">https://blogs.msdn.microsoft.com/spucelik/2016/12/27/sql-server-disk-allocation-size/</a></li><li><a href="https://technet.microsoft.com/en-us/library/cc966412.aspx" title="https://technet.microsoft.com/en-us/library/cc966412.aspx" class="Hyperlink">https://technet.microsoft.com/en-us/library/cc966412.aspx</a></li><li><a href="http://houseofbrick.com/improve-performance-as-part-of-a-sql-server-install/" title="http://houseofbrick.com/improve-performance-as-part-of-a-sql-server-install/" class="Hyperlink">http://houseofbrick.com/improve-performance-as-part-of-a-sql-server-install/</a></li><li>Comparison of 4KB vs. 64KB.<ul><li><a href="https://www.virtual-dba.com/disk-configuration-optimized-sql-server/" title="https://www.virtual-dba.com/disk-configuration-optimized-sql-server/" class="Hyperlink">https://www.virtual-dba.com/disk-configuration-optimized-sql-server/</a></li></ul></li></ul></li>
+                </ul>
+            </li>
+            <li><span class="bold">Anti-Virus Software</span>
+                <ul>
+                    <li>If you choose to use AV software, ensure you exclude SQL files per best practices from Microsoft. See&#160;<a href="#" title="EMS Best Practices for SQL Server" alt="EMS Best Practices for SQL Server">KB 309422</a>&#160;and look for the section&#160;Directories and file-name extensions to exclude from virus scanning.</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>SQL Instance Properties</h2>
+        <ul class="unorder-list">
+            <li><span class="bold">Max SQL Memory</span>
+                <ul>
+                    <li>If the&#160;machine is hosting no apps other than&#160;SQL Server, maximum memory should be set to 3–8GB less than the machine’s memory. For example, if the machine has 32GB, the SQL max should be set to 28GB. For further assistance determining the max SQL memory, use the&#160;<a href="http://sqlmax.chuvash.eu/" title="http://sqlmax.chuvash.eu/">SQL&#160;Max Memory Calculator</a>.</li>
+                    <li>To set use a SQL query window. Effective immediately, no downtime required. &#160;<p>sp_configure 'show advanced options', 1 reconfigure sp_configure 'max server memory (MB)', 16000 reconfigure&#160;</p></li>
+                </ul>
+            </li>
+            <li>To determine total memory, run the following&#160;from a command window:&#160;&#160;<p>systeminfo | findstr /C:"Total Physical Memory"&#160;</p></li>
+            <li><span class="bold">Maximum Degree of Parallelism (MaxDOP)</span>
+                <ul>
+                    <li>Depends on the number of logical CPU cores and the rank of CXPACKET in the DMV of Wait Types.</li>
+                    <li>Will likely use a value higher than the default zero.</li>
+                    <li>To set use a SQL query window. Effective immediately, no downtime required.<p>sp_configure 'max degree of parallelism', 4 reconfigure&#160;</p></li>
+                </ul>
+            </li>
+            <li><span class="bold">Cost Threshold for Parallelism</span>
+                <ul>
+                    <li>Depends on the number of logical CPU cores and the rank of CXPACKET in the DMV of Wait Types.</li>
+                    <li>Will likely use a value higher than the default 5.</li>
+                    <li>To set use a SQL query window. Effective immediately, no downtime required. &#160;<p>sp_configure 'cost threshold for parallelism', 25 reconfigure&#160;</p></li>
+                </ul>
+            </li>
+            <li><span class="bold">Optimize for Ad Hoc Workloads</span>
+                <ul>
+                    <li>Change this from the default 0 to 1. This will help relieve memory pressure by not allowing the plan cache to become filled with compiled plans that are not reused.</li>
+                    <li>To set use a SQL query window. Effective immediately, no downtime required. &#160;<p>sp_configure 'optimize for ad hoc workloads', 1 reconfigure&#160;</p></li>
+                </ul>
+            </li>
+            <li><span class="bold">Instant File Initialization</span>
+                <ul>
+                    <li>This should be enabled by setting Local Security Policy. It is granted to the SQL Server service.&#160;<a href="https://www.brentozar.com/blitz/instant-file-initialization/" title="https://www.brentozar.com/blitz/instant-file-initialization/">Instructions from Brent Ozar</a>.</li>
+                    <li>This is allows&#160;data file auto-grows to happen instantly. If not enabled, a large file growth, such as 20GB, might take a few minutes.</li>
+                    <li>Run the following&#160;in a SQL query window to determine the current state:<p>Exec sys.xp_readerrorlog 0, 1, N'Database Instant File Initialization'&#160;</p></li>
+                </ul>
+            </li>
+            <li><span class="bold">Compressed Backups by Default</span>
+                <ul>
+                    <li>This does not affect system performance per se; however,&#160;because&#160;compressed backups can take 20-50% of the time of an uncompressed backup, it does make a difference.</li>
+                    <li>Compressed backups require less storage because compressed backups&#160;are 20–50% the size of&#160;uncompressed backups.</li>
+                    <li>To set use a SQL query window. Effective immediately, no downtime required.<p>sp_configure 'backup compression default', 1 reconfigure&#160;</p></li>
+                </ul>
+            </li>
+        </ul>
+        <h2>Database Properties&#160;</h2>
+        <ul class="unorder-list">
+            <li>Turn on&#160;<span class="bold">Asynchronous Updating of Statistics</span></li>
+            <li>Should be done in both (or all) EMS databases.</li>
+            <li>To set use a SQL query window. Effective immediately, no downtime required.<p>-- First ensure auto-update of statistics is turned on<br />ALTER DATABASE dbNameHere SET AUTO_UPDATE_STATISTICS ON&#160;</p><p>-- Make auto-update of statistics to be asynchronous<br />ALTER DATABASE dbNameHere SET AUTO_UPDATE_STATISTICS_ASYNC ON</p></li>
+            <li><span class="bold">Allocated Database Size</span>
+                <ul>
+                    <li>There should be a&#160;<span class="bold">formula&#160;</span>with variables for how large the client is, yielding an expected database size in bytes after one year.</li>
+                    <li><span class="bold">Data file(s)</span>&#160;should anticipate a year’s growth (dependent upon formula shown&#160;above).</li>
+                    <li><span class="bold">Log file</span>&#160;should be 25–50% of the size of the data files.</li>
+                    <li><span class="bold">Data and log files</span>&#160;should be on separate physical disks or on SSD.</li>
+                    <li><span class="bold">Auto-file growth&#160;</span>should be set to fixed bytes, not a percentage. Do not use the default setting of 1MB.</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>tempdb&#160;</h2>
+        <ul class="unorder-list">
+            <li><span class="bold">tempdb</span>&#160;is a system database&#160;and the temporary work space (scratchpad) for a data server’s query processing. It is critical this be configured for maximum efficiency. In versions SQL 2014 and prior, tempdb’s default settings are incorrect for proper configuration. This out-of-the-box configuration will likely be a bottleneck.</li>
+            <li>Should be located on yet another physical disk or on SSD. tempdb should be on&#160;<span class="bold">fastest disk available</span>. Fault tolerance is not needed.</li>
+            <li><span class="bold">Number of data files</span>&#160;should equal the number of logical CPU cores, up to 8.</li>
+            <li><span class="bold">Data files</span>&#160;should be the&#160;same size.</li>
+            <li><span class="bold">Only one log file</span>&#160;should be used.</li>
+            <li><span class="bold">Auto-file growth</span>&#160;should be set to&#160;fixed bytes, not percentage, anticipating no grows.</li>
+        </ul>
+        <h2>SQL Instance Maintenance&#160;</h2>
+        <ul class="unorder-list">
+            <li>The following maintenance should be run at least weekly:<ul><li><span class="bold">Defragmentation</span></li><li><span class="bold">DBCC CheckDB</span></li><li><span class="bold">Update Statistics</span></li><li><span class="bold">Manage number of Virtual Log Files (VLFs</span>)<ul><li>This is essentially fragmentation of data log files due to auto-grow.</li></ul></li></ul></li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

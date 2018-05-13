@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="481" MadCap:lastWidth="572">
+    <head>
+        <link href="../Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="../Images/favicon.png" />
+    </head>
+    <body>
+        <div class="content">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="topichero">
+                        <div class="title-text">
+                            <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+                        </div>
+                    </div>
+                    <div class="container">
+                        <MadCap:breadcrumbsProxy />
+                        <div class="sideContent small-3 columns" id="smartmenu-accordion">
+                            <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
+                            <MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: False;mc-include-parent: False;mc-include-siblings: False;mc-include-children: False;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/OR_Campus.fltoc" />
+                        </div>
+                        <div class="small-9 columns right-content">
+                            <MadCap:bodyProxy />
+                        </div>
+                        <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: Back Separator Print Forward;" />-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer center">
+            <div class="container">
+                <div class="HomeMasterPageFooter outer-row">
+                    <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../ContactUs.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                        <p class="Copyright">© <MadCap:variable name="General.Year" /> <MadCap:variable name="General.My Company" />, LLC. All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-icons"><a href="https://www.facebook.com/emssoftwarecom" class="facebook"></a><a href="https://twitter.com/ems_software" class="twitter"></a><a href="https://www.youtube.com/user/EMSxDEA" class="youtube"></a><a href="https://www.linkedin.com/company/emssoftware" class="linkedin"></a><a href="https://plus.google.com/u/0/+DeaSoftware" class="googleplus"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../../Resources/Scripts/sidemenu.js">
+        </script>
+    </body>
+</html>

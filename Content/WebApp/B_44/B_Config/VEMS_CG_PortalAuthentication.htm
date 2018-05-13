@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1139" MadCap:lastWidth="861" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>Portal Authentication</h1>
+        <h2>Overview</h2>
+        <p>The Portal Authentication method provides Virtual EMS single sign-on capability using your organization’s portal (e.g. SiteMinder, Plumtree, uPortal, etc.). When a user logged into your portal accesses Virtual EMS, a predefined user-specific variable (e.g. email address, employee/student ID, network ID, etc.) captured by your portal/sign-on page is compared against corresponding information recorded in the&#160;Network ID and/or&#160;External Reference&#160;fields of your EMS Web User records. If a match exists, the Web User will be automatically logged-into Virtual EMS.</p>
+        <p>Note:&#160;The&#160;Field Used to Authenticate Web User&#160;Virtual EMS Parameter, within&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>(Virtual tab) is used by Virtual EMS to determine which value should be used for authentication.</p>
+        <p>Several built-in authentication methods to pass-in credentials are available including:</p>
+        <ul class="ul_1">
+            <li>Server Variable (Header Variable)</li>
+            <li>Session</li>
+            <li>Form</li>
+            <li>Cookie</li>
+            <li>Query String</li>
+            <li>Federated (SAML)</li>
+        </ul>
+        <p>For a more detailed explanation of the authentication methods outlined above, see <MadCap:xref href="VEMS_CG_PortalAuthMethod.htm">Portal Authentication Methods</MadCap:xref>.&#160;</p>
+        <h2>Installation and Configuration</h2>
+        <ol start="1" class="ol_1">
+            <li>Within the Virtual EMS Parameters area of EMS, <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>(Virtual tab), the following parameters must be set accordingly:</li>
+        </ol>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Value</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Portal Authentication Cookie Key</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Required if Portal Authentication Method = Cookie</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Portal Authentication Method</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Server Variable</p>
+                        <p>Session</p>
+                        <p>Form</p>
+                        <p>Cookie</p>
+                        <p>Query String</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Portal Authentication Variable</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>User variable to be compared against the EMS Web User&#160;External Reference/Network ID&#160;field</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol start="2" class="ol_1">
+            <li>Direct users to the default Virtual EMS page:<p>(http://[ServerName]/ VirtualEMS/Default.aspx )</p><p>replace [ServerName] with the name of your web&#160; server</p></li>
+        </ol>
+    </body>
+</html>

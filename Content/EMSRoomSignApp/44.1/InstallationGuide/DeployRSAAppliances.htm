@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/emsroomSignApp.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44.1" />Deploying the EMS&#160;Room Sign App on Appliances</h1>
+        <p>The EMS&#160;Room Sign App supports integration with multiple appliances, including the <a href="#Aura">Aura Meeting Room Screen,</a> <a href="#Mimo">Multiple-Input Multiple-Output (MIMO)</a>, and <a href="#Iadea">Iadea</a> technologies. </p>
+        <h2><a name="Aura"></a>Aura Meeting Room Screen for the EMS&#160;Room Sign App</h2>
+        <p>The Aura Meeting Room Screen from ResourceXpress is an interactive digital signage appliance that can be used with the EMS&#160;Room Sign App. Aura devices offer both LED&#160;and Radio Frequency Identification Devices/Barcoding (RFID) solutions that will enhance the EMS&#160;Room Sign App user experience. The integrated LED&#160;status lights provide a quick visual indication of space availability from the device enclosure. </p>
+        <p>This section will detail the process of deploying the EMS&#160;Room Sign App on an Aura device. </p>
+        <h2>Prerequisites for Using EMS&#160;Room Sign App with Aura Devices</h2>
+        <p>Customers must have installed Update 19 or later of the EMS&#160;Room Sign App. </p>
+        <p>There are two options for integration of Aura Meeting Room Screens with the EMS&#160;Room Sign App:</p>
+        <ol class="number-list">
+            <li><a href="#Direct">Direct authentication</a>
+            </li>
+            <li>Server-to-server authentication</li>
+        </ol>
+        <h2><a name="Direct"></a>Direct Integration</h2>
+        <p>Direct integration allows customers to utilize the EMS Room Sign App on an Aura device as they would on consumer tablets. The Aura device is configured through the EMS&#160;Glance Settings of the EMS&#160;Desktop Client.</p>
+        <ol class="number-list">
+            <li><a href="../ConfigurationGuide/ConfigProfile.html">Create a new profile</a> for your device or edit an existing profile in the EMS&#160;Desktop Client.</li>
+            <li>Navigate to <span class="bold">Settings </span>&gt;&#160;<span class="bold">Misc </span>&gt; <span class="bold">Select Hardware Enclosure</span>.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Aura setting.png" style="width: 538px;height: 462px;" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>From the drop-down, select Aura.<p class="box-note"><span class="bold">NOTE:&#160;</span>If this selection is not made, the LEDs on your device will not change color based on status.</p><ol MadCap:continue="true"><li>Click OK. Close the profile to Save. </li></ol></li>
+            <li>Turn on the Aura device.</li>
+            <li>Perform <a href="Aura_initialsetup_GG.pdf">initial device setup</a>. </li>
+            <li>Enter your EMS&#160;Room Sign App URL.</li>
+            <li>You will be prompted to select a profile. If this is not the initial configuration with the Aura device, you will need to double click the EMS&#160;icon to select a different profile. </li>
+            <li>Click Apply.</li>
+        </ol>
+        <h3>Additional information</h3>
+        <h4><span class="bold">LED integration</span>
+        </h4>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;To configure LED&#160;integration, set the parameter for your enclosure in the EMS&#160;Desktop Client on the global and/or profile level. This parameter can be set during profile configuration or at a global level to apply the setting across all profiles. </p>
+        <p>The color of the LEDs on the Aura device will indicate the status of the room you are booking:</p>
+        <ul class="unorder-list">
+            <li><span style="color: #228b22;">Green light </span>= Space is <span class="bold">available</span></li>
+            <li><span style="color: #ff0000;">Red </span>= Space is <span class="bold">unavailable</span></li>
+            <li><span style="color: #f4a460;">Orange </span>= Upcoming booking/<span class="bold">available to check in</span></li>
+        </ul>
+        <h4>RFID&#160;</h4>
+        <p>As of Update 22 (March 2018), the Radio Frequency Identification Devices/Barcoding (RFID) feature allows users to check into a room by scanning their badge. </p>
+        <h2><a name="Mimo"></a>Mimo technology Integration</h2>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;The minimum version of EMS&#160;for MIMO&#160;Integration is <a href="../../../V44.1_ReleaseNotes.htm#Update20">Update 20</a>. </p>
+        <ol class="number-list">
+            <li>Launch the MIMO device. If this is the initial deployment, a white screen appears, alerting the user that there is no playable file. </li>
+            <li>Press the area in the upper right-hand corner for five (5)&#160;seconds and enter 0000 in the password field. Click OK. </li>
+            <li>The Mlok Console Management page appears. <br /><img src="../Images/RSA_IG_DeployAppliances1.jpg" style="width: 493px;height: 309px;" /><br /></li>
+        </ol>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Navigate to Playback Settings:<br /><img src="../Images/RSA_IG_DeployAppliances2.jpg" style="width: 499px;height: 315px;" /><br /><ol><li>Touch Play Mode and choose Web viewer. Click OK. <br /><img src="../Images/RSA_IG_DeployAppliances3.jpg" style="width: 490px;height: 308px;" /><br /></li><li>Touch Web URL&#160;and enter your EMS&#160;Room Sign App URL&#160;location. Click OK. <br /><img src="../Images/RSA_IG_DeployAppliances4.jpg" style="width: 497px;height: 294px;" /><br /></li></ol></li>
+            <li>From the main Management Page, click the playback button. This will launch the EMS&#160;Room Sign App with the URL&#160;configured above. <br /><img src="../Images/RSA_IG_DeployAppliances5.jpg" style="width: 538px;height: 338px;" /></li>
+        </ol>
+        <h4><span class="bold">LED integration</span>
+        </h4>
+        <p class="box-important"><span class="bold">IMPORTANT</span>:&#160;MLock version 0.1.6.3_6.0 and MIMO Service version 1.0 are minimum version requirements for MIMO LED integration.</p>
+        <p>The color of the LEDs on the Aura device will indicate the status of the room you are booking:</p>
+        <ul class="unorder-list">
+            <li><span style="color: #228b22;">Green light </span>= Space is <span class="bold">available</span></li>
+            <li><span style="color: #ff0000;">Red </span>= Space is <span class="bold">unavailable</span></li>
+            <li><span style="color: #f4a460;">Orange </span>= Upcoming booking/<span class="bold">available to check in</span></li>
+        </ul>
+        <p class="box-note"><span class="bold">NOTE:</span>&#160;To configure LED&#160;integration, set the parameter for your enclosure in the EMS&#160;Desktop Client on the global and/or profile level. This parameter can be set during profile configuration or at a global level to apply the setting across all profiles. </p>
+        <p class="box-warning"><span class="bold">WARNING:</span>&#160;If the LEDs do not function on the MIMO device, ensure the PhoneServerDemo app is running.</p>
+        <h2>Prerequisites for Using EMS&#160;Room Sign App with Iadea Devices</h2>
+        <ol class="number-list">
+            <li>Install the latest version of Firmware (1.2.86):<ol><li>Download the latest Firmware 1.2.86 using a Chrome or Firefox web browser and copy it into the root directory of a USB drive. </li><li>Power on your Iadea device.</li><li> Insert the USB drive into the device and navigate to <span class="bold">Advanced </span>&gt; <span class="bold">System </span>&gt; <span class="bold">Firmware Update</span>. </li></ol><p class="box-warning"><span class="bold">WARNING:</span>&#160;Do NOT remove USB drive until the Iadea device reboots to the Basic Settings menu.</p></li>
+            <li>Configure the Iadea Hardware Enclosure parameter in the EMS&#160;Desktop Client:<ol><li>Navigate to <span class="bold">Settings </span>&gt;&#160;<span class="bold">Misc </span>&gt; <span class="bold">Select Hardware Enclosure</span>.</li><li>From the drop-down, select <span class="bold">Iadea</span>.</li><li>Click <span class="bold">OK</span>. Close the profile to Save. </li></ol></li>
+        </ol>
+        <p>
+            <img src="../Images/Iadea.png" />
+        </p>
+        <h2><a name="Iadea"></a>Iadea Integration</h2>
+        <ol class="number-list">
+            <li>From the Basic Settings menu, touch <span class="bold">Set Content</span>. </li>
+            <li>Enter your EMS&#160;Room Sign App URL&#160;into the SMIL/HTML5 Content URL&#160;field. </li>
+            <li>Touch <span class="bold">Set</span>. </li>
+            <li>Touch <span class="bold">Play</span>. The EMS&#160;Room Sign App will launch on your Iadea device. </li>
+        </ol>
+    </body>
+</html>

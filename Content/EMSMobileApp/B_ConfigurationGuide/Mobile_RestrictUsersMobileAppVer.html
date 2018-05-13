@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1930" MadCap:lastWidth="899" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../Resources/MasterPages/EMSMobileApp.flmsp');">
+    <head>
+        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Restricting Users' Mobile App Versions</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:annotation MadCap:createDate="2017-11-30T20:05:25.8317821-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="From Archived Doc guide. Should this be with current Mobile App?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-30T20:05:41.0105152-07:00">Restrict Users' Mobile App Versions</MadCap:annotation>
+        </h1>
+        <p>Starting with the August 2016 release, <MadCap:variable name="General.Product" /> will ensure that <MadCap:variable name="General.Mobile" />&#160;is both forwards- and backwards- compatible, so that the mobile app will still function even if users update it on their devices. Alternatively, if you update your API but users do not update their app, functionality remains intact.</p>
+        <p>You may wish to&#160;force&#160;users to keep their installations up to date. For example, you may want them to upgrade their <MadCap:variable name="General.Mobile" />&#160;after you upgrade the API, or you may want to prevent them from updating their <MadCap:variable name="General.Mobile" />&#160;until you upgrade the API.&#160;To enforce these restrictions, follow the steps below.</p>
+        <ol class="number-list">
+            <li>Log in to the API admin page (previously configured <a href="../InstallationGuide/Mobile_InstallandBasicSetup.html#Initial_Configuration">here</a>).</li>
+            <li>Click on <span class="bold">Admin </span>tab, and set the minimum and maximum app versions:<p><img src="../Images/B_ConfigurationGuide/MA_RestrictUsersMobileAppVer_Admin.png" /></p></li>
+        </ol>
+        <h2>
+            <MadCap:annotation MadCap:createDate="2017-10-24T13:07:52.3986324-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This section is deki from &quot;How Do I Know When to Upgrade the Mobile App and API?&quot; topic in Mobile Config." MadCap:editor="Megan.Laub" MadCap:editDate="2017-10-24T13:10:43.2399703-06:00">Determine EMS Mobile API and Version Compatibility</MadCap:annotation>
+        </h2>
+        <p>Use the matrix below to determine how you want to enforce user updates.</p>
+        <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>EMS Release #</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Mobile App Version Shipped</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Mobile API Version</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Mobile App Minimum Version</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Mobile App Maximum Version</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><span class="bold"><MadCap:concept term="V44.1" />V44.1</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.241</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.129</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.238</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>44.1.241</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><span class="bold">V44.1 Update 1</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>44.1.146</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>44.1.288</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><span class="bold">V44.1 Update 2</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.319</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.158</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>44.1.319</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><span class="bold">V44.1 Update 3</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>44.1.410</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>44.1.172.0</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>44.1.410</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><span class="bold">V44.1 Update 4</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.430</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.187.0</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>44.1.430</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p><span class="bold">V44.1 Update 5</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>NA</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>NA</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>NA</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>NA</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p><span class="bold">V44.1 Update 6</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.477</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.208.0</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>44.1.477</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p><span class="bold">V44.1 Update 7</span>
+                        </p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>44.1.487</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>44.1.249.0</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>44.1.288</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>44.1.487</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:</span>&#160;The Minimum App Version means that users running <MadCap:variable name="General.Mobile" />&#160;below the minimum will not be able to use EMS. Increasing this value essentially forces users on an older version to upgrade. Maximum App Version prevents users from using <MadCap:variable name="General.Mobile" /> if they run a version above the max.</p>
+        </div>
+    </body>
+</html>

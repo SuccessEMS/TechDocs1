@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-12-19T11:35:18.0594460-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Desktop\Grazzy2\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-12-19T11:35:44.5047420-07:00">
+  <Files>
+    <Url
+      Source="file:///D:/Learn About Our Applications/Learn About Our Applications.docx"
+      AbsoluteSource="file:///D:/Learn About Our Applications/Learn About Our Applications.docx" />
+    <Url
+      Source="file:///D:/Learn About Our Applications/Watch Video Tutorials.docx"
+      AbsoluteSource="file:///D:/Learn About Our Applications/Watch Video Tutorials.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/Learn About Our Applications.png"
+      TimeStamp="12/19/2017 11:35:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/Learn About Our Applications_1.png"
+      TimeStamp="12/19/2017 11:35:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/Learn About Our Applications_2.png"
+      TimeStamp="12/19/2017 11:35:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/Learn About Our Applications_3.png"
+      TimeStamp="12/19/2017 11:35:26 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Learn About Our Applications.htm"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/General FAQs.htm"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What Are The EMS Software.png"
+      TimeStamp="12/19/2017 11:35:26 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What Are The EMS Software_1.png"
+      TimeStamp="12/19/2017 11:35:27 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What Are The EMS Software.htm"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/How are EMS Applications Updated.htm"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/How Does EMS Integrate With.htm"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/How Do I Import Existing Room.htm"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Mobile FAQs.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Mobile Device Privacy.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Mobile Device Security.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/End Point Software Integrations.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Exchange Integration.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Geolocation Mapping QR Codes.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is the EMS Mobile App.png"
+      TimeStamp="12/19/2017 11:35:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is the EMS Mobile App_1.png"
+      TimeStamp="12/19/2017 11:35:27 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is the EMS Mobile App_2.png"
+      TimeStamp="12/19/2017 11:35:27 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is the EMS Mobile App.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/How Does EMS Classify Different.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/How Does EMS Organize Buildings.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/How Do Users Log In.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What Does an EMS API Do.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/HVAC Integration.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/When Should I Use EMS Web.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/Integration Diagram.png"
+      TimeStamp="12/19/2017 11:35:27 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Integration Diagram.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Toolkits and Data Integration.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/VDI.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Conferencing Interfaces.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Integrated Windows.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Integrated Windows_1.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Integrated Windows_2.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is Integrated Windows.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Billing and Payment.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Course Data SIS.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Digital Signage Video Displays.htm"
+      TimeStamp="12/19/2017 11:35:32 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Learn About Managing EMS.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/EMS Application Architecture.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Application Architecture.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/EMS Application Architecture_1.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Application Architecture_1.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What Do EMS APIs Do.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Facilities Management.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Facilities Management_1.png"
+      TimeStamp="12/19/2017 11:35:28 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is Facilities Management.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is Integrated Authentication.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Integrated Authentication.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Authentication Options for.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Authentication Options for_1.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Authentication Options for_2.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Authentication Options for_3.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Polycom Integration.png"
+      TimeStamp="12/19/2017 11:35:29 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Polycom Integration_1.png"
+      TimeStamp="12/19/2017 11:35:29 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is Polycom Integration.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is the EMS Floor Plans.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/VPAT 508 ADA Compliance.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/VPAT 508 ADA Compliance Section.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Cisco TMS Integration.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Cisco TMS Integration_1.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Cisco TMS Integration_2.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is Cisco TMS Integration.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is HRIS Integration.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is HRIS Integration_1.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is HRIS Integration_2.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is HRIS Integration.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/What is Integration to Exchange.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is Integration to Exchange.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/What is RoomWizard Integration.htm"
+      TimeStamp="12/19/2017 11:35:33 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Learn About Our Applications_1.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Learn About Our Applications/Watch Video Tutorials.png"
+      TimeStamp="12/19/2017 11:35:30 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Watch Video Tutorials.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Desktop Client.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Automating Reports.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Common Reports in EMS.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Managing Services Catering.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Managing Visitors.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Working With a Reservation.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Working With Reminders.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Web App.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Meeting.htm"
+      TimeStamp="12/19/2017 11:35:34 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Room With.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Room With_1.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Workspace.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Academic Planning Campus.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Changing Rooms After.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Creating Optimization.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Defining and Editing.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Publishing Final Exams.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Reviewing Scenarios.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Running Statistical.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Running Utility Reports.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Setting Preferences.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS for Microsoft Outlook.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Meeting_1.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Meeting With.htm"
+      TimeStamp="12/19/2017 11:35:35 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Recurrent.htm"
+      TimeStamp="12/19/2017 11:35:36 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Video Conference.htm"
+      TimeStamp="12/19/2017 11:35:36 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Resolving Conflicts.htm"
+      TimeStamp="12/19/2017 11:35:36 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/EMS Mobile App.htm"
+      TimeStamp="12/19/2017 11:35:36 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Desk or Meeting.htm"
+      TimeStamp="12/19/2017 11:35:36 AM" />
+    <Url
+      Source="../../Content/Learn About Our Applications/Video Booking a Meeting By.htm"
+      TimeStamp="12/19/2017 11:35:36 AM" />
+    <Url
+      Source="../TOCs/Learn About Our Applications.fltoc"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Learn About Our Applications.css"
+      TimeStamp="12/19/2017 11:35:31 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="expand_class" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Heading 5" />
+    <StyleName
+      Name="Heading 6" />
+    <StyleName
+      Name="mt-align-center" />
+    <StyleName
+      Name="mt-indent-1" />
+    <StyleName
+      Name="mt-indent-2" />
+    <StyleName
+      Name="mt-indent-4" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="notetipwarningtext" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="mt-color-669933" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="mt-color-339900" />
+    <StyleName
+      Name="mt-font-size-13.5pt" />
+    <StyleName
+      Name="mt-font-size-12.0pt" />
+    <StyleName
+      Name="mt-font-size-11.0pt" />
+  </UsedCharacterStyles>
+</MsWordImport>

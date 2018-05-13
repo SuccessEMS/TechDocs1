@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Desktop Client -- Academic Planning"
+    Link="/Content/EMSDesktopClient_AcademicPlanning/V44/Campus_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/EMSDesktopClient_AcademicPlanning/V44/Campus_44_Introduction.htm">
+      <TocEntry
+        Title="Installation Guide CPI (V44)"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CPI/CPI_IG_44_Intro.htm">
+        <TocEntry
+          Title="System Requirements and Prerequisites"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CPI/CPI_IG_44_SysReqPrereq.htm" />
+        <TocEntry
+          Title="Obtain the Latest Release of EMS CPI"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CPI/CPI_IG_44_ObtainLateRel.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS CPI"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CPI/CPI_IG_44_InstallUpgradCPI.htm" />
+        <TocEntry
+          Title="Start EMS CPI"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CPI/CPI_IG_44_StartCPI.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Installation Guide EMS Campus Web Service and White Paper (V44)"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_Intro.htm">
+        <TocEntry
+          Title="Overview of EMS Campus Web Service"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_WebSvOverview.htm" />
+        <TocEntry
+          Title="System Requirements and Prerequisites"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_SysReqPrereq.htm" />
+        <TocEntry
+          Title="Obtain Latest Version of EMS Campus Web Service"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_ObtainLatestVers.htm" />
+        <TocEntry
+          Title="Install/Upgrade the EMS Campus Web Service"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_InstallUpgrade.htm" />
+        <TocEntry
+          Title="EMS Configuration Steps"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_ConfigSteps.htm" />
+        <TocEntry
+          Title="Data Models"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_Data Models.htm">
+          <TocEntry
+            Title="Banner Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_BanView.htm" />
+          <TocEntry
+            Title="CAMS Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_CAMSView.htm" />
+          <TocEntry
+            Title="Colleague (Oracle or SQL) Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_ColleagOrac.htm" />
+          <TocEntry
+            Title="Colleague Unidata Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_ColleagUnidata.htm" />
+          <TocEntry
+            Title="Jenzabar CX Informix Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_JenzabarCX.htm" />
+          <TocEntry
+            Title="Jenzabar EX Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_JenzabarEX.htm" />
+          <TocEntry
+            Title="PeopleSoft Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_PeopleSoft.htm" />
+          <TocEntry
+            Title="PowerCampus Views Data Model"
+            Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_PowerCampus.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Configure EMS Campus Web Service"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/A_IG_CWS/CWS_IG_44_ConfigureEMSCWS.htm"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="User Guide EMS Campus (V44)"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_AcademicPlanwithCampus.htm">
+        <TocEntry
+          Title="Overview of the Academic Scheduling Process"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_OverviewAcademicScheduling.htm" />
+        <TocEntry
+          Title="Using the Academic Book"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_UseAcadBook.htm" />
+        <TocEntry
+          Title="Search with the Academic Browser"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_SearchwithAcadBrowser.htm" />
+        <TocEntry
+          Title="Specify Room Preferences and Requirements"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_SpecifyRoomPrefReq.htm" />
+        <TocEntry
+          Title="Review and Verify Room Preferences"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_ReviewVerifyRoomPref.htm" />
+        <TocEntry
+          Title="Overview of Importing an Academic Term"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_OverviewImportAcadTerm.htm" />
+        <TocEntry
+          Title="Synchronize an Academic Term"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_SynchronizeAcadTerm.htm" />
+        <TocEntry
+          Title="Publish an Academic Term"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_PublishTerm.htm" />
+        <TocEntry
+          Title="Unpublish a Term"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_UnpublishPreviousPubTerm.htm" />
+        <TocEntry
+          Title="Enable/Disable a Term for Set Preferences Mode"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_EnableDisableTermSetPrefMode.htm" />
+        <TocEntry
+          Title="Enable/Disable a Term for Define and Edit Mode"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_EnableDisableTermDefineEditMode.htm" />
+        <TocEntry
+          Title="Using the Course Navigator"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_UseCourseNav.htm" />
+        <TocEntry
+          Title="Available Actions in the Course Navigator"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_AvailActionsCourseNav.htm" />
+        <TocEntry
+          Title="Add and Review Courses"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_AddReviewCourses.htm" />
+        <TocEntry
+          Title="Edit or Cancel Courses"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_AddReviewCourses.htm" />
+        <TocEntry
+          Title="Synchronize Courses"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_SynchronizeCourses.htm" />
+        <TocEntry
+          Title="Identify New, Edited, or Canceled Courses"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_IdentifyNewEditedCanceledCourses.htm" />
+        <TocEntry
+          Title="Review and Verify Room Preferences"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_ReviewVerifyRoomPref.htm" />
+        <TocEntry
+          Title="Specify Room Preferences/Requirements"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_SpecifyRoomPrefReq.htm" />
+        <TocEntry
+          Title="Overview of Room Assignments"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_OverviewRoomAssignOpti.htm" />
+        <TocEntry
+          Title="Assign Rooms"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_AssignRooms.htm" />
+        <TocEntry
+          Title="Using the Search for Rooms Tool"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_UseSearchRoomsTool.htm" />
+        <TocEntry
+          Title="Review Reservations and Resolve Room Assignments"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_ReveiwResResolveRoomAssign.htm" />
+        <TocEntry
+          Title="Work with Shared Spaces"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_WorkwithSharedSpaces.htm" />
+        <TocEntry
+          Title="Manually Update Course Locations in the SIS"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_ManualUpdateCourseLocSIS.htm" />
+        <TocEntry
+          Title="About Creating Scenarios and Optimization"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_AboutCreateScenariosOpt.htm" />
+        <TocEntry
+          Title="Create Scenarios"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_CreateScenarios.htm" />
+        <TocEntry
+          Title="Set a Final Exam Schedule"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_SetFinalExamSched.htm" />
+        <TocEntry
+          Title="Publish a Final Exam Session"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_PubFinalExamSession.htm" />
+        <TocEntry
+          Title="Post-Publishing Processing of Courses"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_Post-PubProcCourses.htm" />
+        <TocEntry
+          Title="Generate Academic Reports"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/C_UG_Campus/Campus_UG_44_GenerateAcadReports.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Configuration Guide EMS Campus (V44)"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_intro.htm">
+        <TocEntry
+          Title="Overview of Synchronization"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_Overview of Synchronization.htm" />
+        <TocEntry
+          Title="Synchronize Campus-Specific Data"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_SynchCampusSpecific.htm" />
+        <TocEntry
+          Title="Synchronize Facility Data"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_SynchFaciData.htm" />
+        <TocEntry
+          Title="Configure Domains"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_ConfigDomains.htm" />
+        <TocEntry
+          Title="Configure Academic Units"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_ConfigAcadUnits.htm" />
+        <TocEntry
+          Title="Configure the Primary Academic Unit for a Subject"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_ConfigPrimAcadUn.htm" />
+        <TocEntry
+          Title="Configure Course Types"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_ConfigCourType.htm" />
+        <TocEntry
+          Title="Configure Course Types/Room Type Matches"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_ConfigCourRoomTyp.htm" />
+        <TocEntry
+          Title="Work with Time Block Templates"
+          Link="/Content/EMSDesktopClient_AcademicPlanning/V44/B_CG_Campus/Campus_44_WorkTimeBlockTemp.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Version 43">
+      <TocEntry
+        Title="Configuration Guide EMS Campus V4.0"
+        Link="/Content/EMSDesktopClient_AcademicPlanning/V43/EMS Campus Configuration Guide V4.0.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

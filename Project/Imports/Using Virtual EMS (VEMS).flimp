@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-15T09:28:56.0668613-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Documents\My Projects\Success2\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-11-15T09:29:35.0910630-07:00">
+  <Files>
+    <Url
+      Source="../../../../Using Virtual EMS (VEMS).docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/Using Virtual EMS (VEMS).docx" />
+    <Url
+      Source="../../../../Virtual EMS.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/Virtual EMS.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Using Virtual EMS (VEMS).htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Logging into and out of VEMS.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Logging into and out of VEMS_1.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Logging into and out of VEMS_2.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Logging into and out of VEMS_3.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Logging into and out of VEMS.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Web User Licensing in VEMS.gif"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Web User Licensing in VEMS.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Reservations Menu.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Overview of the Reservations.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_2.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_3.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_4.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_5.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_6.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Submitting a Request for a.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_1.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_2.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_3.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_4.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_5.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_6.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_7.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_8.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_9.png"
+      TimeStamp="11/15/2017 9:29:17 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Submitting a Request for a_1.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for Space.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for Space_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for Space_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for Space_3.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Submitting a Request for Space.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Requesting Services Only.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Requesting Services Only_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Requesting Services Only_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Requesting Services Only.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Viewing Your Requests.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Viewing Your Requests.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_3.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_4.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_5.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_6.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_7.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/The Reservation Summary Page_8.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/The Reservation Summary Page.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Modifying Bookings.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Modifying Bookings_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Modifying Bookings_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Modifying Bookings.htm"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Booking Level Check In with.gif"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Booking Level Check In with.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Mobile VEMS.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Working with the Mobile Version.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Working with the Mobile Version_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Working with the Mobile Version_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Working with the Mobile Version_3.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Working with the Mobile Version_4.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Working with the Mobile Version.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Browse Menu.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Events.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Events_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Events_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Events_3.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Events_4.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Browsing for Events.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Space.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Browsing for Space_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Browsing for Space.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_1.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_2.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_3.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_4.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_5.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_6.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Locating a Group_7.png"
+      TimeStamp="11/15/2017 9:29:18 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Locating a Group.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/My Account Menu.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Creating a User Account.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Creating a User Account.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Modifying your User Account.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Modifying your User Account.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Creating Delegate Accounts.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Creating Delegate Accounts.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Setting Default Values for.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Setting Default Values for_1.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Setting Default Values for.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Creating a List of Favorite.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Creating a List of Favorite_1.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Creating a List of Favorite.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Virtual EMS.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Virtual EMS.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Hardware and Software Requirements.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Obtaining the Latest Release.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Installing Upgrading Virtual.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Installing Upgrading Virtual_1.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Installing Upgrading Virtual_2.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Installing Upgrading Virtual.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Optional Virtual EMS Modules.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS_1.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS_2.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS_3.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Customizing Virtual EMS.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Setting Up VEMS.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_1.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_2.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_3.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_4.png"
+      TimeStamp="11/15/2017 9:29:19 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_5.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_6.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_7.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_8.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_9.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_10.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_11.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_12.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_13.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_14.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_15.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Templates_16.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Web Templates.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Users.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Users_1.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Web Users.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Additional Information.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Additional Information_1.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Additional Information_2.png"
+      TimeStamp="11/15/2017 9:29:20 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Additional Information_3.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Additional Information.htm"
+      TimeStamp="11/15/2017 9:29:23 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Emailing a Web User.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_1.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_2.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_3.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_4.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Assigning Web Templates to_5.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Assigning Web Templates to.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Menus.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Menus_1.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Web Menus.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Text.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Text_1.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Text_2.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Text_3.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Text_4.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Text_5.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Web Text.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Cultures.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Cultures_1.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Web Cultures.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Configuring Integrated Authentication.png"
+      TimeStamp="11/15/2017 9:29:21 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Configuring Integrated Authentication.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Introduction.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Managing Web Users For Integrated.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Integrated Windows Authentication.png"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Integrated Windows Authentication_1.png"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/Integrated Windows Authentication_2.png"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Integrated Windows Authentication.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Resources/Images/Using Virtual EMS (VEMS)/LDAP Authentication.png"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/LDAP Authentication.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Portal Authentication.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../../Content/Using Virtual EMS (VEMS)/Appendix Portal Authentication.htm"
+      TimeStamp="11/15/2017 9:29:24 AM" />
+    <Url
+      Source="../TOCs/Using Virtual EMS (VEMS).fltoc"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/Using Virtual EMS (VEMS).css"
+      TimeStamp="11/15/2017 9:29:22 AM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="anchorfigure" />
+    <StyleName
+      Name="anchornote" />
+    <StyleName
+      Name="anchorwarning" />
+    <StyleName
+      Name="body" />
+    <StyleName
+      Name="bulletlev1" />
+    <StyleName
+      Name="bulletlev2" />
+    <StyleName
+      Name="expand_class" />
+    <StyleName
+      Name="figurecaptioncolumn" />
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="mt-indent-1" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="notetipwarningtext" />
+    <StyleName
+      Name="stepnumberbegin" />
+    <StyleName
+      Name="stepnumbercontinued" />
+    <StyleName
+      Name="stepresultbulletlev1" />
+    <StyleName
+      Name="stepresultbulletlev2" />
+    <StyleName
+      Name="stepresultnobullet" />
+    <StyleName
+      Name="tablebody" />
+    <StyleName
+      Name="tablebulletlev1" />
+    <StyleName
+      Name="tablecolumnheader" />
+    <StyleName
+      Name="tablenotenote" />
+    <StyleName
+      Name="topiclinechapter" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="link" />
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="smeedits" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="bold" />
+    <StyleName
+      Name="mt-color-669933" />
+  </UsedCharacterStyles>
+</MsWordImport>

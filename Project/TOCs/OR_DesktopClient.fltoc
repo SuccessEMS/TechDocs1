@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Documentation for EMS Desktop Client"
+    Link="/Content/EMSDesktopClient/V44/DC_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/EMSDesktopClient/V44/DC_44_Introduction.htm">
+      <TocEntry
+        Title="EMS Desktop Client Installation Guide (V44)"
+        Link="/Content/EMSDesktopClient/V44/InstallationGuide/Introduction.htm">
+        <TocEntry
+          Title="Hardware and Software Requirements"
+          Link="/Content/EMSDesktopClient/V44/InstallationGuide/HardwareSoftwareReq.htm" />
+        <TocEntry
+          Title="First Time Installation Instructions"
+          Link="/Content/EMSDesktopClient/V44/InstallationGuide/FirstTimeInstallInstruct.htm"></TocEntry>
+        <TocEntry
+          Title="Obtain the Latest Release of EMS"
+          Link="/Content/EMSDesktopClient/V44/InstallationGuide/ObtainLatestRelease.htm"></TocEntry>
+        <TocEntry
+          Title="Upgrade Instructions"
+          Link="/Content/EMSDesktopClient/V44/InstallationGuide/UpgradeInstruct.htm" />
+        <TocEntry
+          Title="Downgrade the EMS Desktop Client Web Deploy"
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/DowngradeWebDeploy.htm" />
+        <TocEntry
+          Title="Installing Custom Reports in EMS Desktop Client"
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/InstallCustomReport.html" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Desktop Client Configuration Guide (V44)"
+        Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/Introduction.htm">
+        <TocEntry
+          Title="Overview of Configuration Window"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigWindowOverview.htm" />
+        <TocEntry
+          Title="Starting EMS"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/StartingEMS.htm" />
+        <TocEntry
+          Title="The EMS Window"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSWindow.htm" />
+        <TocEntry
+          Title="Overview of EMS Desktop Client Configuration"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverviewofDCConfig.htm" />
+        <TocEntry
+          Title="EMS Browser Window"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSBrowserWindow.htm" />
+        <TocEntry
+          Title="Managing Database Connections"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ManageDatabaseConnections.html" />
+        <TocEntry
+          Title="Configuration &gt; Facililties"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFacilities.html">
+          <TocEntry
+            Title="Configure Floors"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloors.html" />
+          <TocEntry
+            Title="Configure Features"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFeatures.html" />
+          <TocEntry
+            Title="Configure Setup Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigSetupType.html" />
+          <TocEntry
+            Title="Configure Room Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomType.html" />
+          <TocEntry
+            Title="Configure Buildings"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBuilding.html" />
+          <TocEntry
+            Title="Configure Building Hours"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBuildingHours.html">
+            <TocEntry
+              Title="Building Hours Wizard"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/BuildHourWiz.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Configure Areas"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAreas.html" />
+          <TocEntry
+            Title="Overview of Configuring Rooms"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomsOverview.html">
+            <TocEntry
+              Title="Configure Rooms"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRooms.html" />
+            <TocEntry
+              Title="Room Configuration Wizard"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomConfigWiz.htm" />
+            <TocEntry
+              Title="Configure Room Pricing"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomPricing.htm" />
+            <TocEntry
+              Title="Configure Override Rooms"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigOverrideRooms.htm" />
+            <TocEntry
+              Title="Configure and Generate Room QR Codes"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGenerRoomQRCode.htm" />
+            <TocEntry
+              Title="Import Rooms"
+              Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ImportRooms.htm" />
+            <TocEntry
+              Title="Export Pricing Information for a Room"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Configure Floor Plans"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigFloorPlans.html" />
+          <TocEntry
+            Title="Configure Public Views"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPublicViews.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Configuration &gt; Resources"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResourcesOverview.html">
+          <TocEntry
+            Title="Categories, Resources, Services - What's the Difference?"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CategResourcesServices_WhatsDiff.htm" />
+          <TocEntry
+            Title="Configure Resources for a Category"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResourcesforCat.html">
+            <TocEntry
+              Title="Resource Configuration Wizard"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceConfigWiz.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Import Resources for a Category"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResourcesforCat.htm" />
+          <TocEntry
+            Title="Define Resource Selections and Selection Items"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineResourceSel.htm" />
+          <TocEntry
+            Title="Configure Services for a Category"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigureServicesforCat.htm" />
+          <TocEntry
+            Title="Configure Groupings for a Resource"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupingsResource.html" />
+          <TocEntry
+            Title="Define Production Areas and Production Items for a Catering Resource"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DefineProdAreaItems.htm" />
+          <TocEntry
+            Title="Configure Pricing for a Resource in the Edit Pricing Window"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingResourceEditPriceWin.htm" />
+          <TocEntry
+            Title="Export Pricing Information for a Resource"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoforResource.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Core Configuration &gt; Groups and Contacts"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CoreConfigGroupsContacts.htm">
+          <TocEntry
+            Title="Configure Groups"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroup.htm">
+            <TocEntry
+              Title="Configure Additional Information for a Group"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAddInfoGroup.htm" />
+            <TocEntry
+              Title="Edit Group Information"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditGroupInfo.htm" />
+            <TocEntry
+              Title="Import Groups"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportGroup.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Configure Contacts"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigContacts.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Core Configuration &gt; Billing"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBilling.htm">
+          <TocEntry
+            Title="Configure Rate Schedules"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRateSchedule.htm" />
+          <TocEntry
+            Title="Configure Pricing Plans"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPricingPlan.htm" />
+          <TocEntry
+            Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ExportPricingInfoBillableItems.htm" />
+          <TocEntry
+            Title="Configure Calculations"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalc.htm" />
+          <TocEntry
+            Title="Configure Accounts"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAccount.htm" />
+          <TocEntry
+            Title="Configure Payment Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigPaymentType.htm" />
+          <TocEntry
+            Title="Configure Sales Categories"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigSalesCat.htm" />
+          <TocEntry
+            Title="Configure Billing References and PO Numbers"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBillRefPO.htm" />
+          <TocEntry
+            Title="Configure Currencies"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCurrencies.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Core Configuration &gt; Booking Elements"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigBookingElements.htm">
+          <TocEntry
+            Title="Configure Categories"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCategory.html" />
+          <TocEntry
+            Title="Configure Departments"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigDepts.htm" />
+          <TocEntry
+            Title="Configure Statuses"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigStatuses.htm" />
+          <TocEntry
+            Title="Configure Notification Rules"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigNotRules.htm">
+            <TocEntry
+              Title="Types of Notification Rules"
+              Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/TypesNotifiRules.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Configure Group Notification Rules"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupNotRules.htm" />
+          <TocEntry
+            Title="Configure Room Card Formats"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigRoomCardFormat.htm" />
+          <TocEntry
+            Title="Configure Calendar Formats"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalFormat.htm" />
+          <TocEntry
+            Title="Configure Check-in Notification Rules"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCheckinNot.htm" />
+          <TocEntry
+            Title="Configure Reservation Wizard Templates"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigResWizTemp.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Core Configuration &gt; Other Data Types"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CoreConfigOtherDataTypes.htm">
+          <TocEntry
+            Title="Configure Event Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEventTypes.htm" />
+          <TocEntry
+            Title="Configure Group Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigGroupType.htm" />
+          <TocEntry
+            Title="Configure Reminder Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReminderTypes.html" />
+          <TocEntry
+            Title="Configure Comment Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCommentType.htm" />
+          <TocEntry
+            Title="Configure Messages"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigMessages.htm" />
+          <TocEntry
+            Title="Configure Special Dates"
+            Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/ConfigSpecialDates.html" />
+          <TocEntry
+            Title="Configure User-Defined Fields"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUDF.htm" />
+          <TocEntry
+            Title="Configure Reservation Sources"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReservSource.htm" />
+          <TocEntry
+            Title="Configure Cancel Reasons"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCancelReasons.htm" />
+          <TocEntry
+            Title="Configure Attachment Types"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAttachmentType.html" />
+          <TocEntry
+            Title="Configure Word Merge Documents"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigWordMergeDoc.html" />
+          <TocEntry
+            Title="Configure Calendar Styles"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigCalendarStyles.html" />
+        </TocEntry>
+        <TocEntry
+          Title="System Administration Configuration &gt; Settings"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminConfigSettings.htm">
+          <TocEntry
+            Title="Edit System Parameters"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EditSysParam.htm" />
+          <TocEntry
+            Title="Import Registration Information"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportRegInfo.htm" />
+          <TocEntry
+            Title="Configure the Confirmation Email Subject Line"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigConfEmailSubLine.htm" />
+          <TocEntry
+            Title="Configure Email Settings"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigEmailSet.html" />
+          <TocEntry
+            Title="Configure Required Fields in the Reservation Wizard"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigReqFieldsinResWiz.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Video Conferencing"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VideoConferenceConfig.htm">
+          <TocEntry
+            Title="Configure Video Conferencing Capabilities"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigVideoConfCap.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Academic Import Utility"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/AcademicImportUitil.htm">
+          <TocEntry
+            Title="Configure the Academic Import Utility"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAcademImportUtil.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="System Administration Configuration &gt; User Security"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminConfigUserSec.htm">
+          <TocEntry
+            Title="Overview of User Processes"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/UserProcessesOverview.htm" />
+          <TocEntry
+            Title="Configure Users"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUsers.htm" />
+          <TocEntry
+            Title="Configure User Templates"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUserTemp.htm" />
+          <TocEntry
+            Title="Configure Academic User Templates"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigAcadUserTemp.htm" />
+          <TocEntry
+            Title="Configure User Security for Multiple User Accounts"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ConfigUserSecMultAcct.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="System Administration &gt; Tools"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SystemAdminTools.html">
+          <TocEntry
+            Title="Change Group Wizard"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeGroupWiz.htm" />
+          <TocEntry
+            Title="Change Reservation Wizard"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ChangeResWiz.htm" />
+          <TocEntry
+            Title="Room Administration Wizard"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomAdminWizard.htm" />
+          <TocEntry
+            Title="Manage Saved Reports"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ManageSavedReport.htm" />
+          <TocEntry
+            Title="Override Existing Bookings Utility"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/OverrideExistingBookUtil.html" />
+          <TocEntry
+            Title="Import Reservations Utility"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportResUtili.htm" />
+          <TocEntry
+            Title="View and Email Logged-In Users"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ViewEmailLoggedUsers.htm" />
+          <TocEntry
+            Title="Deleting Old Data"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/DeleteOldData.htm" />
+          <TocEntry
+            Title="Currency Configuration Wizard"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/CurrencyConfigWiz.htm" />
+          <TocEntry
+            Title="Booking Move/Change Status Wizard"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/BookingMoveChangeStatusWiz.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="System Parameters"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSSystemParamOverview.htm">
+          <TocEntry
+            Title="EMS System Parameters"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/EMSSystemParameters.htm" />
+          <TocEntry
+            Title="Virtual EMS (VEMS) Parameters"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VEMSSystemParameters.htm" />
+          <TocEntry
+            Title="EMS Kiosk Parameters"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/KioskSystemParameters.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Import File Specifications"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportFileSpec.htm">
+          <TocEntry
+            Title="Holiday Import File Specification"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/SpecialDateImportFileSpec.htm" />
+          <TocEntry
+            Title="Room Import File Specification"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/RoomImportFileSpec.htm" />
+          <TocEntry
+            Title="Resource Import File Specification"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ResourceImportFileSpec.htm" />
+          <TocEntry
+            Title="Group Import File Specification"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/GroupImportFileSpec.htm" />
+          <TocEntry
+            Title="Reservation Import File Specification"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ReservationImportFileSpec.htm" />
+          <TocEntry
+            Title="Course Schedule Import File Specification"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/FinalExamSchedImportFileSpec.htm" />
+          <TocEntry
+            Title="Import Spreadsheets"
+            Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/ImportSpreadsheet.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Video Display Interface"
+          Link="/Content/EMSDesktopClient/V44/ConfigurationGuide/VideoDisplayInterf.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Desktop Client User Guide (V44)"
+        Link="/Content/EMSDesktopClient/V44.1/UserGuide/Introduction.html">
+        <TocEntry
+          Title="Introduction to EMS Desktop Client"
+          Link="/Content/EMSDesktopClient/V44.1/InstallationGuide/Introduction.html" />
+        <TocEntry
+          Title="Launch EMS Desktop Client"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/StartEMS.html" />
+        <TocEntry
+          Title="Manage Database Connections"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageDBConn.html" />
+        <TocEntry
+          Title="User Settings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserSettings.html" />
+        <TocEntry
+          Title="Reservations and Bookings"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservandBookings.html" />
+        <TocEntry
+          Title="Other Reservation Functions"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/OtherResFunctions.html">
+          <TocEntry
+            Title="Record Actual Attendance Numbers for Bookings"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/RecActAttend.html" />
+          <TocEntry
+            Title="Manage Attendees and Visitors"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageAttendeesVisitor.html" />
+          <TocEntry
+            Title="View Visitors"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewVisitors.htm" />
+          <TocEntry
+            Title="Check In Visitors"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CheckInVisitors.htm" />
+          <TocEntry
+            Title="Import a List of Visitors"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
+        </TocEntry>
+        <TocEntry
+          Title="The EMS Window"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/EMSWindow.html">
+          <TocEntry
+            Title="Work with the EMS Window"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithEMSWindow.htm" />
+          <TocEntry
+            Title="Toolbar Buttons"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ToolbarButtons.html" />
+          <TocEntry
+            Title="Customizing Your Toolbar"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CustomizeToolbar.html" />
+        </TocEntry>
+        <TocEntry
+          Title="The Reservation Book"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseReservationBook.html">
+          <TocEntry
+            Title="Create a Booking in the Reservation Book"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookRoomsResBook.html" />
+          <TocEntry
+            Title="View and Edit Reservations in the Reservation Book"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewEditReservinResBook.htm" />
+          <TocEntry
+            Title="Edit a Reservation in the Reservation Book"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinResBook.htm" />
+          <TocEntry
+            Title="Import a List of Visitors to a Booking"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportListVis.html" />
+        </TocEntry>
+        <TocEntry
+          Title="The Navigator"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResNavigator.htm">
+          <TocEntry
+            Title="Overview of the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/NavigatorOverview.html" />
+          <TocEntry
+            Title="Get Familiar with the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GetFamiliarwithNav.html" />
+          <TocEntry
+            Title="Edit a Reservation in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditResinNav.html" />
+          <TocEntry
+            Title="Add Bookings to a Reservation in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBooktoResinNav.html" />
+          <TocEntry
+            Title="Copy a Reservation in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyResinNav.html" />
+          <TocEntry
+            Title="Change the Status of a Reservation in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ChangeStatusResfromResSum.html" />
+          <TocEntry
+            Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html" />
+          <TocEntry
+            Title="Apply a Reservation Discount"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
+          <TocEntry
+            Title="Edit a Booking in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditBookinNav.html" />
+          <TocEntry
+            Title="Edit Multiple Bookings in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditMultBookinNav.htm" />
+          <TocEntry
+            Title="Move Bookings to a Different Reservation in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/MoveBooktoDifRes.html" />
+          <TocEntry
+            Title="Copy Multiple Bookings in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyMultipleBookinNav.html" />
+          <TocEntry
+            Title="Booking Details and Items Overview"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookDetailsItemsOverview.htm">
+            <TocEntry
+              Title="Add Booking Details and Items to Individual Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetItemtoIndivBookings.htm" />
+            <TocEntry
+              Title="Add Booking Details and Items to Existing Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetsItemstoExistBook.html" />
+            <TocEntry
+              Title="Add Booking Details and Items to Multiple Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemstoMultBook.html" />
+            <TocEntry
+              Title="Edit Booking Detail Items for Individual Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditItemsforIndividBook.html" />
+            <TocEntry
+              Title="Copy Booking Details Between Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetBetwBookings.htm" />
+            <TocEntry
+              Title="Delete Booking Detail Items from Multiple Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
+            <TocEntry
+              Title="Delete Booking Details from Multiple Bookings"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsMultBook.htm" />
+            <TocEntry
+              Title="Edit Charges for Multiple Billable Items"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditChargforMultpBillItem.html" />
+            <TocEntry
+              Title="Edit Count Information for a Booking in the Navigator"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/EditCountInfoforBook.html" />
+            <TocEntry
+              Title="Add Booking Details Wizard"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddBookDetailsWizard.htm" />
+            <TocEntry
+              Title="Copy Booking Details Wizard"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/CopyBookDetailsWzd.html" />
+            <TocEntry
+              Title="Delete Booking Details Wizard"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteBookDetailsWzd.html" />
+            <TocEntry
+              Title="Delete Item Wizard"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/DeleteItemWizard.html" />
+            <TocEntry
+              Title="Add Item Wizard"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddItemWizard.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Comments and Reminders in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CommRemindinNav.html">
+            <TocEntry
+              Title="Add Multiple Comments and Reminders to a Reservation"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/AddMultCommRemintoRes.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="User-Defined Fields in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/UserDefFieldsinNav.html" />
+          <TocEntry
+            Title="Attachments in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AttachmentsinNav.html" />
+          <TocEntry
+            Title="Drawings in the Navigator"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/DrawingsinNav.html" />
+          <TocEntry
+            Title="Resource Utility Conflicts Tool"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/RunResourceUtility.html" />
+          <TocEntry
+            Title="Approve or Deny Reservation Requests"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApprovDenyReservReq.html" />
+        </TocEntry>
+        <TocEntry
+          Title="The Calendar"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Calendar.htm">
+          <TocEntry
+            Title="Search with the Calendar"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithCalendar.html" />
+          <TocEntry
+            Title="Search with the Resource Calendar"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithResourCal.html" />
+        </TocEntry>
+        <TocEntry
+          Title="The Reservation Wizard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReservationWizard.htm">
+          <TocEntry
+            Title="Fields in the Reservation Wizard"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/FieldsinResWiz.htm" />
+          <TocEntry
+            Title="The Everyday User Reservations Browser"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservBrowser.htm">
+            <TocEntry
+              Title="Search Using the Everyday User Reservations Browser"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchEverydayUserBrow.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Create a Reservation in the Reservation Wizard"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateResinResWizard.htm" />
+          <TocEntry
+            Title="Book a Video Conference"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookingaVC.html" />
+        </TocEntry>
+        <TocEntry
+          Title="The Browser"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Browser.htm">
+          <TocEntry
+            Title="Search with the Browser"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchwithBrowser.html" />
+        </TocEntry>
+        <TocEntry
+          Title="People: Groups and Contacts"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/PeopleGroupsContacts.html">
+          <TocEntry
+            Title="Search for People"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforPeople.html" />
+          <TocEntry
+            Title="Add or Edit Profile Information for People and Groups"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/InfoAboutGroupsIndiv.html" />
+          <TocEntry
+            Title="Create an Everyday User from a Group"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/CreateEverydayUserfromGroup.htm" />
+          <TocEntry
+            Title="Assign an Everyday User to a Group"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AssignEverydayUserstoGroup.html" />
+          <TocEntry
+            Title="Configure Contacts for a Group"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigContactsforGroup.html" />
+          <TocEntry
+            Title="Import Groups"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ImportGroups.html" />
+          <TocEntry
+            Title="Print and Export Everyday User Information"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportEverdayUserInfo.html" />
+          <TocEntry
+            Title="Print and Export Group Information"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/PrintExportGroupInfo.html" />
+          <TocEntry
+            Title="Work with Reservations for a Group"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithResGroup.htm" />
+          <TocEntry
+            Title="Email a Group"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EmailaGroup.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="The Dashboard"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/UseDashboard.html">
+          <TocEntry
+            Title="Overview of the EMS Dashboard"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkWithDashboard.html" />
+          <TocEntry
+            Title="Notifications Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/NotificationsTab.html">
+            <TocEntry
+              Title="Confirmations Vs Notifications: What Is the Difference?"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfirmVsNotifWhatDiff.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Reminders Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/RemindersTab.htm" />
+          <TocEntry
+            Title="Everyday User Reservations Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EverydayUserReservationsTab.html" />
+          <TocEntry
+            Title="Guest Requests Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GuestRequestsTab.html">
+            <TocEntry
+              Title="Manage Requests for Managed Space"
+              Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageReqMangedSpace.html" />
+          </TocEntry>
+          <TocEntry
+            Title="Wait List Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaitListTab.html" />
+          <TocEntry
+            Title="Reconfirm Dates Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReconfirmDatesTab.html" />
+          <TocEntry
+            Title="Building Hours Exceptions Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BuildHoursExceptTab.html" />
+          <TocEntry
+            Title="Analytics Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AnalyticsTab.html" />
+          <TocEntry
+            Title="At a Glance Tab"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/AtAGlanceTab.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Manage Services"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html">
+          <TocEntry
+            Title="Work With and Search for Service Orders"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageServiceOrders.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Search For Reservations, Bookings, Resources, and Service Orders"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/SrchResBookResSvcOrder.html" />
+        <TocEntry
+          Title="Booking Check In "
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/BookCheckIn.html">
+          <TocEntry
+            Title="Enable Booking Check In"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/EnableBookingCheckIn.html" />
+          <TocEntry
+            Title="Ways to Check In"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WaystoCheckIn.html" />
+          <TocEntry
+            Title="Manage Check In"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ManageCheckIn.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Reports and Queries"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportsQueries.html">
+          <TocEntry
+            Title="Report Descriptions and Options"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ReportDescriptionsOptions.html" />
+          <TocEntry
+            Title="Generate an EMS Report"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSReport.html" />
+          <TocEntry
+            Title="Generate an EMS Billing Report"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html" />
+          <TocEntry
+            Title="Generate Attendee Visitor Reports"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenVisitorRep.html" />
+          <TocEntry
+            Title="Configure Automated Reports"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ConfigAutomatedReports.html" />
+          <TocEntry
+            Title="Work with Saved Reports"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithSavedReports.html" />
+          <TocEntry
+            Title="Work with a Query"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithQuery.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Billing"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Billing.html">
+          <TocEntry
+            Title="Overview of Billing in EMS"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/OverviewBilling.html" />
+          <TocEntry
+            Title="Search for Transactions"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SearchforTransactions.html" />
+          <TocEntry
+            Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyCalcultoBilling.html" />
+          <TocEntry
+            Title="Quick Reference Guide: Billing and Invoicing"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/QuickRefBillandInvoice.html" />
+          <TocEntry
+            Title="Work with Invoices"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithInvoices.html" />
+          <TocEntry
+            Title="Types of Transactions"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/TypesofTransactions.html" />
+          <TocEntry
+            Title="Work with Transactions"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/WorkwithTransactions.html" />
+          <TocEntry
+            Title="EMS Billing Reports"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenEMSBillReport.html" />
+          <TocEntry
+            Title="Apply a Reservation Discount"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ApplyReservDiscount.html" />
+          <TocEntry
+            Title="Bill Multiple Reference and PO Numbers for a Reservation"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/BillMultRefandPONumbers.html" />
+          <TocEntry
+            Title="Price Categories and Room Charges"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/RepricCatRoomChargeRes.html" />
+        </TocEntry>
+        <TocEntry
+          Title="Confirmations"
+          Link="/Content/EMSDesktopClient/V44.1/UserGuide/Confirmations.html">
+          <TocEntry
+            Title="Send Confirmations"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/SendConfirmations.html" />
+          <TocEntry
+            Title="Generate a Single Confirmation at a Time"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenSingConfirmatTime.html" />
+          <TocEntry
+            Title="Generate Printed Confirmations"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenPrintedConfirmations.html" />
+          <TocEntry
+            Title="Generate Word Merge Documents for Custom Documentation"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/GenMergeDocsCustomDoc.html" />
+          <TocEntry
+            Title="View History of Sent Emails"
+            Link="/Content/EMSDesktopClient/V44.1/UserGuide/ViewHistorySentEmails.html" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Version 43"
+      Link="/Content/EMSDesktopClient/V43/IntroDC.htm">
+      <TocEntry
+        Title="EMS Desktop Client Installation Guide (V43)"
+        Link="/Content/EMSDesktopClient/V43/EMS Desktop Client Installation Guide V43.pdf" />
+      <TocEntry
+        Title="EMS Desktop Client Configuration Guide (V43)"
+        Link="/Content/EMSDesktopClient/V43/EMS Desktop Client Configuration Guide V43.pdf" />
+      <TocEntry
+        Title="EMS Desktop Client User Guide (V43)"
+        Link="/Content/EMSDesktopClient/V43/EMS Desktop Client User Guide V43.pdf" />
+      <TocEntry
+        Title="EMS Web Client Installation Guide"
+        Link="/Content/EMSDesktopClient/V43/EMS Web Client Installation Guide.pdf" />
+      <TocEntry
+        Title="EMS Web Client User Guide"
+        Link="/Content/EMSDesktopClient/V43/EMS Web Client User Guide.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

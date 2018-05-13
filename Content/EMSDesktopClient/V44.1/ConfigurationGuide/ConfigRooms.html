@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="22938" MadCap:lastWidth="939" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Configure Rooms V44.1 (EMS Desktop Client)</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Configure Rooms</h1>
+        <p>By defining rooms in your organization, you enable Everyday Users to choose from a list of rooms that they can intuitively filter by many elements, such as name, location, type, setup, available services, and physical features.</p>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:</span>&#160;The Room Configuration Wizard is ideal for configuring multiple rooms at once, when they should&#160;have the same configuration: room type, setup hours, teardown hours, features, and setup typ﻿e. For instructions on using the wizard, first familiarize yourself with the general process of defining rooms in this topic, and then&#160;<span class="bold">See Also:&#160;</span><a href="RoomConfigWiz.htm">Room Configuration Wizard</a>.</p>
+        </div>
+        <p class="beforelist">To configure a room, you will</p>
+        <ul class="unorder-list">
+            <li>Check if the room has already been configured.</li>
+            <li>Edit an existing room to add more detail, or configure a new one&#160;from scratch.&#160;</li>
+            <li>Define the room in detail by going through the tabs along the top of the Room configuration page</li>
+            <li><span class="italics">Optional: </span>You can specify the pricing for the room during this process, or you can price it&#160;a later date.&#160;</li>
+        </ul>
+        <p class="beforelist">This topic includes information on the following:</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#BasicElements">Basic Elements for Configuring a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#NotesAlertsRoom">Notes or Alerts for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#ConfigCalculationRoom">Configure Calculations for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#ConfigurePricing">Configure&#160;Pricing for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SetSetupTypes">Set&#160;Setup Types for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SetCombinations">Set&#160;Components for a Combination Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SetFeatures">Set&#160;Features for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#ExcludeResources">Exclude Resources for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AddAttachments">Add Attachments to a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AddImage">Add&#160;an Image for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AddDrawings">Add&#160;Drawings for a Room</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#SetValue">Set Values for User Defined Fields (UDFs) for a Room</MadCap:xref>
+            </li>
+            <li><a href="#ConfigureOutlookTBDRooms">Configure Outlook TBD&#160;Rooms</a>
+            </li>
+            <li>
+                <MadCap:xref href="#AssignRoomtoEverydayUser">Assign the Room to an Everyday User Process Templates</MadCap:xref>
+            </li>
+        </ul>
+        <div class="TitleandImage">
+            <p>This topic guides you in configuring a single room; once you have configured everything else under the <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>menu, room configuration is where "everything comes together," since defining a room entails all these elements.</p>
+            <p>
+                <img alt="" src="Images/DC_CG_ConfigRooms1.png" class="PDFmedium" />
+            </p>
+        </div>
+        <h2><a name="BasicElements"></a>Basic Elements for Configuring a Room</h2>
+        <p>At a minimum, you must specify the room code, the room name, the room classification, and the Building that contains the room. All other information is optional, and you can configure it at a later date if needed.</p>
+        <ol class="number-list">
+            <li class="StepNumberBegin">On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt; <strong>Rooms</strong>.&#160;The Rooms configuration page opens.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Rooms Configuration Page</p>
+            <p>
+                <img src="Images/DocUpdate/Configuration-Rooms.PNG" class="PDFlarge" />
+            </p>
+        </div>
+        <ol class="number-list" MadCap:continue="true">
+            <li class="StepNumberContinued">In the fields along the top, enter any of the following criteria&#160;to narrow the list of rooms below or to set basic information for a new room configuration:<ul MadCap:continue="true"><li><span class="bold">Building</span></li><li><span class="bold">Classification:</span> Leave the default value of (all), or select a specific room classification.</li><li><span class="bold">Room Type:</span> Leave the default value of (all), or select a specific room type.</li><li><span class="bold">Filter:</span> Keyword search (case sensitive, characters must be in correct order).</li></ul></li>
+            <li>You can perform the following tasks by clicking the buttons on the right-hand side of the Room Configuration page:<ul MadCap:continue="true"><li><span class="bold">Edit:</span>&#160;Modifies an existing room. </li><li><span class="bold">New:</span>&#160;Create a new room from scratch. </li><li><span class="bold">Copy:</span>&#160;Use an existing room to facilitate configuring a new room. </li><li><span class="bold">Pricing:</span>&#160;Specify the pricing for the room or you can price it&#160;a later date.&#160;</li><li><span class="bold">Wizard:</span>&#160;Opens the <a href="RoomConfigWiz.htm">Room Configuration Wizard</a>, ideal for configuring multiple rooms at once. </li><li><span class="bold">Import:</span>&#160;Import rooms from a tab-delimited file into a building, area, or view that you select. See Also:&#160;<a href="ImportRooms.htm">Import Rooms</a>.</li></ul></li>
+        </ol>
+        <div class="TitleandImage">
+            <ol start="4" class="number-list">
+                <li>From the Room tab, enter the information for the new room.</li>
+            </ol>
+            <p class="title">Room Tab</p>
+            <p>
+                <img src="Images/DC_CG_ConfigRooms_BasicElements2.png" class="PDFlarge" />
+            </p>
+        </div>
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 280px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 646px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">Field</dt>
+                        </dl>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">Description</dt>
+                        </dl>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Room Code</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Required field. Abbreviated text that conveys the room name or description. For example, if a room is named Conference Room 100, then a code for the room could be CONF100.</p>
+                        <p class="TableNoteNote"><span class="bold">Note</span>: The room code can be a maximum of 20 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Room Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">Required field. The name of the room.</p>
+                        <p class="TableNoteNote"><span class="bold">Note:</span> The room name can be a maximum of 50 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Classification</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Select the appropriate classification for the room. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Setup Hours</p>
+                        <p>Teardown Hours</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">These settings establish the default setup and teardown hours for the room, which are automatically added to the beginning and end of the event time the user specifies in the Reservation Wizard or in <MadCap:variable name="General.EMS&#160;Web App" />. A user can override these values in the Reservation Wizard.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Book Sequence</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">This value determines the order in which the rooms are listed in the Reservation Wizard for a standard or best fit room search and in the Reservation Book. Enter a zero for the first room that is to be listed. Rooms are ordered from lowest to highest sequence number, with the room with the lowest sequence number being displayed first.</p>
+                        <p class="TableNoteNote"><span class="bold">Note:</span> If you leave the book sequence set to zero for all rooms, then rooms are sorted numerically by room code, and then alphabetically.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Type</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">Room type. Leave the default as (none), or select a room type from the list.</p>
+                        <p class="TableNoteNote"><span class="bold">Note:</span> If the appropriate room type is not listed, you can configure it.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Building</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Required field. If you selected a single Building when setting criteria, this field carries over that value. You can change it.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Floor</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Leave the default as (none), or select a floor from the list.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Account</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Enter the internal account that should be credited with the room rental revenue.</p>
+                        <p class="TableNoteNote"><span class="bold">Note:</span> If the appropriate account is not listed, you can configure it.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Phone</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">The phone number associated with the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>HVAC Zone</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Optional field used for integration with an HVAC system.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>URL</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">The URL (website address) for a web page that provides more information about the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Size</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Typically used to enter the square footage of the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>No. of Room Cards</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">Indicates how many copies of the Room Cards report should be printed for this room when the report is run. (Typically, you want one copy for each entry door). If you do not want a room card to print, enter a zero.&#160;<br /><span class="bold">Note:</span>&#160;This controls whether you can <MadCap:xref href="ConfigGenerRoomQRCode.htm">generate QR codes</MadCap:xref> for this room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Academic</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Available only in EMS&#160;Desktop Client -- Academic Planning. Set an academic property on the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>External Reference</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">Links the room to an outside program, if needed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Requires Check In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Requires bookings within this room to be checked-in to beginning at a certain number of minutes prior to the Booking Start Time.&#160;<span class="bold">See Also:</span>&#160;<MadCap:xref href="../UserGuide/EnableBookingCheckIn.html">Enable Booking Check In.</MadCap:xref></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Allow Check In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>You can choose the time you allow users to check into their booking prior to the event start time. You can leave this as 0 or enter a number of minutes. This field is not available unless you check Require Check In (see above). </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td colspan="2" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p><span class="title">Everyday User Application Settings</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Available to Everyday Users</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">Leave this option selected if events that are scheduled in the room are to be displayed to all Everyday Users. </p>
+                        <p class="TableBody"><span class="bold">Note</span>:&#160;For a booking to appear on Browse Events, the event type, status and room for that booking all have to have Display to Everyday User (DEDU)&#160;settings enabled. If one of these properties is not DEDU-enabled, the booking will not appear on Browse Events in the EMS&#160;Web App.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Hide Group</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Select this option to hide the name of the Group that booked an event in the room in the Browse Event tooltip.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Display Alert to Everyday Users</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">Select this option to display any alerts that have been configured for the room when a n Everyday User schedules an event in the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Prompt for Billing Reference</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Users will see the Billing Reference field during the booking process when this parameter is set at either the reservation, room, or category level.</p>
+                        <MadCap:dropDown>
+                            <MadCap:dropDownHead>
+                                <MadCap:dropDownHotspot style="font-size: 11pt;">Concept:&#160;Billing Reference</MadCap:dropDownHotspot>
+                            </MadCap:dropDownHead>
+                            <MadCap:dropDownBody>
+                                <p>Whether the Billing Reference field displays is based on four settings: global, template, room-level setting, category-level setting. The booking template setting overrides the global setting. The room and category level settings can both override the template setting. After the Admin decides whether to display the field, user entries will be validated based on the value in the 'Billing Reference Validation' parameter set on the template.<br /><strong>See Also:&#160;</strong><a href="ConfigFieldBehaviorBillRef.html">Configuring Field Behavior for Billing Reference and PO Numbers</a>.</p>
+                            </MadCap:dropDownBody>
+                        </MadCap:dropDown>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Inactive</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="TableBody">Leave this option blank to add the room as an active room. Select this option to inactivate the room.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol class="number-list" start="5">
+            <li class="StepNumberContinued">If the room is a Combo room, then see <MadCap:xref href="ConfigRoomType.html">Configure Room Types</MadCap:xref>; otherwise, continue to the subsequent procedures in this topic.</li>
+            <li class="StepNumberContinued">Click <strong>OK</strong>.&#160;The Room configuration page closes and the newly configured room is listed.</li>
+        </ol>
+        <h2><a name="NotesAlertsRoom"></a>Notes or Alerts for a Room</h2>
+        <ol class="number-list">
+            <li class="StepNumberBegin">From the Room configuration page, open the <span class="bold">Notes</span> tab.</li>
+            <li>Enter one or more of the following for the room:</li>
+        </ol>
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: 0;margin-right: auto;width: 100%;">
+            <col style="width: 218px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">Option</dt>
+                        </dl>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">DESCRIPTION</dt>
+                        </dl>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Notes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Free form text that provides any additional information or description about the room.</p>
+                        <p class="TableNoteNote"><span class="bold">Note:</span> These notes are <span class="italics">not</span> included in confirmations that are printed for events that are scheduled in the room.&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Confirmation Notes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">These notes are included in any confirmations that are printed for events that are scheduled in the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Alert</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="TableBody">Free form text that provides any additional information or description about the room. This text is displayed when an <MadCap:variable name="General.Product" /> user schedules an event in the room, and if Display Alert to Everyday Users is selected for the room, when an Everyday User schedules an event in the room as well.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK </strong>to close the Room configuration page. The newly configured room is displayed in the list of rooms.</li>
+        </ol>
+        <h2><a name="ConfigCalculationRoom"></a>Configure Calculations for a Room</h2>
+        <ol class="number-list">
+            <li>From the Room configuration page,&#160;open the <span class="bold">Calculations</span> tab to link pre-defined calculations to the room so they are always included in billings for it. <span class="bold">See Also:</span>&#160;<MadCap:xref href="ConfigCalc.htm">Configure Calculations.</MadCap:xref></li>
+            <li>Select the calculation(s) you wish to link to the room in&#160;the Available list and use the arrow keys to move to the Selected list.</li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <span class="bold">OK </span>to close the Room configuration page. The newly configured room is displayed in the list of rooms</li>
+        </ol>
+        <h2><a name="ConfigurePricing"></a>Configure&#160;Pricing for a Room</h2>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:&#160;</span>You can also configure the room price on the Edit Pricing window.&#160;<span class="bold">See Also:</span>&#160;<MadCap:xref href="ConfigRoomPricing.htm">Configure Room Pricing</MadCap:xref>  and&#160;<MadCap:xref href="ConfigRateSchedule.htm">Configure Rate Schedules</MadCap:xref>.</p>
+        </div>
+        <ol class="number-list">
+            <li>From the Room configuration page,&#160;open the <span class="bold">Pricing</span> tab to link the room to pre-defined pricing methods so these are used for billing.</li>
+            <li>For each rate schedule, select the Pricing method, which determines the cost for reserving the room.&#160;If the appropriate rate schedule is not listed, you can configure it.</li>
+        </ol>
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
+            <col style="width: 241px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 696px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Pricing Method</p>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">DESCRIPTION</dt>
+                        </dl>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Half Day/Full Day (Event Time)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">The total number of hours for the event is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the event is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the room. If the total number of hours for the event is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Half Day/Full Day (Reserved Time)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">The total number of hours for the Reservation (event time and reserved time) is counted and then compared to the number of hours that is indicated in the Hours column. If the total number of hours for the Reservation is less than or equal to the hours that are indicated in the Hours column, then the Half Day price is charged for the room. If the total number of hours for the Reservation is greater than the hours that are indicated in the Hours column, then the Full Day price is charged for the room.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Hourly (Event Time)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">The price that is indicated in the Price column is multiplied by the event time (in hours) for the booking. This price can be used in conjunction with an initial flat fee, as well as minimum and maximum fees.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Hourly (Reserved Time)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">The price that is indicated in the Price column is multiplied by the reserved time (in hours) for the booking. This price can be used in conjunction with an initial flat fee, as well as minimum and maximum fees.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Hourly (Specific)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">The price that is indicated in the Price column is multiplied by the number of hours indicated when adding a room to a booking.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Unit</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="TableBody">The price that is indicated in the Price column is applied to the room, regardless of the event time or reserved time for the booking.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="number-list">
+            <li>After you select a pricing method, edit the amounts in the fields below as needed.</li>
+        </ol>
+        <table border="0" cellspacing="0" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');">
+            <col style="width: 217px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 722px;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th scope="col" class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">Field</dt>
+                        </dl>
+                    </th>
+                    <th scope="col" class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <dl>
+                            <dt class="TableColumnHeader">Description</dt>
+                        </dl>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Price</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">The dollar amount that is used in calculating the room price for a booking. If the pricing method is Unit, then this value is applied in total to a room, regardless of the event time or reserved time for the booking.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Discount</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">You can use a discount with any pricing method. If you specify a discount for a room, then the actual price, the discount percentage, and the discounted amount are all displayed on confirmations and invoices.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Min. Charge</p>
+                        <p>Max. Charge</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">Used in conjunction with the Hourly pricing methods. If you specify a minimum charge for a room, then the system compares this value to the calculated hourly rate and applies the greater of the two charges. Likewise, if you specify a maximum charge for a room, then the system compares this value to the calculated hourly rate and applies the lesser of the two charges.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Flat Price</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">A room price that remains constant regardless of the total number of hours booked for a room. Used in conjunction with Hourly (Event Time) and Hourly (Reserved Time).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Half Day Price</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="TableBody">The dollar amount that is used in calculating the room price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Full Day Price</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="TableBody">The dollar amount that is used in calculating the room price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Hours</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="TableBody">Multiplier used in calculating the room price for a booking if the pricing unit is Half Day/Full Day (Event Time) or Half Day/Full Day (Reservation Time).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <div class="TitleandImage">
+            <h2><a name="SetSetupTypes"></a>Set&#160;Setup Types for a Room</h2>
+            <ol class="number-list">
+                <li>From the Room Configuration page,&#160;open the <strong>Setup Types</strong> tab and link pre-defined&#160;setup types to the room.<p class="title">Setup Types Tab</p><p><img src="Images/DocUpdate/Configuration-Rooms-SetupTypeTab.PNG" style="width: 578px; height: 287px;" class="PDFmedium" /></p></li>
+            </ol>
+        </div>
+        <ol class="number-list" start="2">
+            <li>For each setup type you wish to apply&#160;for the room, select <strong>In Use</strong>, and use the Min Capacity and/or Max. Capacity fields to set headcount limits.&#160;If the appropriate setup type is not listed, you can configure it.&#160;</li>
+        </ol>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:&#160;</span>If&#160;Everyday Users are able to request a setup type for the room, the&#160;<span class="bold">Allow Everyday User Request</span>&#160;option will be set to Yes. This is controlled by your&#160;<a href="ConfigSetupType.html">Setup Type Configuration</a>.</p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page. </li>
+        </ol>
+        <h2><a name="SetCombinations"></a>Set&#160;Components for a Combination Room</h2>
+        <div class="note-box note">
+            <p> <span class="bold">Note: </span>This tab is available only if you selected Combo for the room classification.</p>
+        </div>
+        <ol class="number-list">
+            <li>From&#160;the Room configuration page,&#160;open the <strong>Components</strong> tab.</li>
+            <li>Do one or both of the following:<ul><li>On the Building dropdown list, select one of the following—(all) Buildings, a specific Building, a specific area, or a specific view.&#160;If the appropriate Building, area, or view is not listed, you can configure it.</li><li>On the Room Type dropdown list, leave the default value of (all), or select a specific room type.&#160;If the appropriate room type is not listed, you can configure it. As you select your search criteria, the list of rooms dynamically updates.</li></ul></li>
+            <li>On the Available list, CTRL-click to select multiple rooms that will comprise the Combo room, and then Move (&gt;) to them to the Selected list.</li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <h2><a name="SetFeatures"></a>Set&#160;Features for a Room</h2>
+        <ol class="number-list">
+            <li>From the Room configuration page,&#160;open the Features tab.</li>
+            <li>On the Available list, select the feature (CTRL-click to select multiple features) and Move (&gt;) to the Selected list.&#160;If the appropriate feature is not listed, you can configure it. See <MadCap:xref href="ConfigFeatures.html">Configuring Features</MadCap:xref>.</li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <h2><a name="ExcludeResources"></a>Exclude Resources for a Room</h2>
+        <p>This setting prevents <MadCap:variable name="General.EMS&#160;Web App" /> users from selecting a resource from a&#160;room. <MadCap:variable name="General.EMS&#160;Desktop Client" /> users just receive a warning, but they can still select the resources for the room.</p>
+        <ol class="number-list">
+            <li>From the Room configuration page,&#160;open the<span class="bold"> Excluded Resources</span> tab.</li>
+            <li>On the Category dropdown list, select the category that contains the resources that are to be excluded from the room.&#160;The resources for the selected category are displayed in the Available list.&#160;If the appropriate category and/or resource is not available, then you can configure it. See <MadCap:xref href="ConfigCategory.html">Configure Categories</MadCap:xref>&#160;&#160;and <MadCap:xref href="ConfigResourcesforCat.html">Configuring Resources for a Category</MadCap:xref>.</li>
+            <li>Select the resource (use CTRL-click to select &#160;multiple resources) to exclude from the room, and Move (&gt;) to the Selected list.</li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <h2><a name="AddAttachments"></a>Add Attachments to a Room</h2>
+        <p>An attachment is a file that is saved with the room record. For example, you might want to add an attachment to a room record that details any special considerations about the room setup. Users can see the attachments when they are viewing details about the room.</p>
+        <ol class="number-list">
+            <li>From the Room configuration page, open the <strong>Attachments</strong> tab.</li>
+            <li>Click <strong>New</strong> to open the Find Attachment dialog box, and then browse to find&#160;and select the attachment.&#160;The Find Attachment dialog box closes. Your&#160;attachment displays&#160;on the tab.</li>
+            <li>Optionally, do one or more of the following:<ul><li>In the Notes field, enter a description and/or additional information about the attachment.</li><li>Click Spelling to spell check the attachment notes before you save the room.</li><li>You can&#160;view an attachment:&#160;select the attachment, and then click <strong>View</strong>.&#160;Your <MadCap:variable name="General.EMS&#160;Desktop Client" /> must have a software program installed to view the attachment. For example, to view a Microsoft Excel spreadsheet, you must have Microsoft Excel installed on your <MadCap:variable name="General.EMS&#160;Desktop Client" />. </li></ul></li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <h2><a name="AddImage"></a>Add&#160;an Image for a Room</h2>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:</span> Images are displayed as thumbnails in both <MadCap:variable name="General.Product" /> and <MadCap:variable name="General.EMS&#160;Web App" /> when a user views details about a room. You can associate an image with a room if the image is in one of the following formats—.gif, .jpeg, .jpg, .bmp, .wmf, .pdf or .png and ideally, it should not be larger than 615 x 350 pixels. If you attach an image larger than this, you might not be able to view the image without scrolling.</p>
+        </div>
+        <ol class="number-list">
+            <li>From the Room configuration page, open the <strong>Images</strong> tab.</li>
+            <li>Click <strong>New</strong> to open the Find Image dialog box, and&#160;browse for your&#160;image file. Once you have chosen on an image, it will be listed on the Images tab.</li>
+        </ol>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:</span>You can use the <span class="bold">Web App Long Description </span>field to enter a description of the image that will display on the <MadCap:variable name="General.EMS&#160;Web App" />.</p>
+        </div>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page..</li>
+        </ol>
+        <h2><a name="AddDrawings"></a>Add&#160;Drawings for a Room</h2>
+        <p>A&#160;<span class="italics">drawing</span> is text-based or image file&#160;that is stored on your organization’s network that you can reference&#160;in a booking. Typically, a drawing is a setup diagram of the booking room.&#160;If the drawing is an image file, and you want your users to be able to view the image in <MadCap:variable name="General.Product" /> and <MadCap:variable name="General.EMS&#160;Web App" /> when making a Reservation, then you should associate the image with the room on the Images tab.</p>
+        <ol class="number-list">
+            <li>From the Room Configuration page, open the <strong>Drawings</strong> tab.</li>
+            <li>Click <strong>Attach</strong> to open the Find Drawing dialog box, and then browse for your drawing file. Once you have chosen the file, the drawing is displayed on the Drawing tab.</li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <strong>OK</strong> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+        <h2><a name="ConfigureOutlookTBDRooms"></a>Configure Outlook TBD&#160;Rooms</h2>
+        <p>EMS Software recommends that you define an "Outlook TBD"&#160;room for each building in your database. This will ensure skipped bookings in EMS&#160;for Outlook remain in the correct timezone and will allow for localized notifications and reports to be created around meetings without locations. See Also:&#160;<a href="../../../EMSforOutlook/UserGuide/ResolveBookingConflicts.htm">Resolve Booking Conflicts in EMS&#160;for Outlook</a>. </p>
+        <ol class="number-list">
+            <li>On the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar, click <span class="bold">System Administration </span>&gt; <span class="bold">Tools</span>&gt; <strong>Create Missing Outlook TBD&#160;Rooms</strong>.&#160;The Create Missing Outlook TBD Rooms dialog box will open.<div class="TitleandImage"><p class="title">Create Missing Outlook TBD&#160;Rooms Dialog</p><p><img src="../../../EMSforOutlook/Images/OutlookTBD2.PNG" class="PDFlarge" /></p></div></li>
+            <li>Select one or more Buildings you want to create a TBD&#160;room for. </li>
+            <li>Click <span class="bold">Create</span>. A TBD&#160;room will now be available in your list of rooms for the selected Buildings. The TBD room will automatically appear as an Outlook TBD Room for Building  in your Room Configuration page. Optionally, you can set a <span class="bold">Display As </span>name for your Everyday Users. <div class="TitleandImage"><p class="title">Set Display As Name for Everyday Users</p><p><img src="../../../EMSforOutlook/Images/OutlookTBD.PNG" class="PDFlarge" /></p></div></li>
+        </ol>
+        <h2><a name="SetValue"></a>Set Values for User Defined Fields (UDFs) for a Room</h2>
+        <ol class="number-list">
+            <li>From the Room configuration page, open the User Defined Fields tab to add pre-defined fields to the room that will be used&#160;during the booking process.</li>
+            <li>For each UDF defined for the room, select the UDF, and then click <span class="bold">Set Value</span>.</li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <span class="bold">OK</span> to close the Room configuration page.</li>
+        </ol>
+        <h2><a name="AssignRoomtoEverydayUser"></a>Assign the Room to an Everyday User Process Templates</h2>
+        <p>By assigning a room to an Everyday User process template, you enable these users to select it from Everyday Applications such as <MadCap:variable name="General.EMS&#160;Web App" /> and <MadCap:variable name="General.Mobile" /> when they book events using the template. To learn more,&#160;<span class="bold">See Also:&#160;</span><MadCap:xref href="ConfigEverydayUser.htm">Configure Everyday Users.</MadCap:xref></p>
+        <ol class="number-list">
+            <li>From the Room configuration page, open the <span class="bold">Everyday User Process Template</span> tab.</li>
+            <li>On the Available list, select the everyday user template (CTRL-click to select multiple templates) for which the attached users can book the room, and then Move&#160;(&gt;) them to the correct Selected list.<ul><li>Move templates for which users can reserve the room without approval (booked into the Reserve status in <MadCap:variable name="General.EMS&#160;Web App" />) into the Reserve pane.</li><li>Move templates for which users must get approval to reserve the room (booked into the Request status in <MadCap:variable name="General.EMS&#160;Web App" />) into the Request pane.</li></ul></li>
+            <li>Continue with any other optional configuration for the room as needed; otherwise, click <span class="bold">OK</span> to close the Room configuration page and return to the Rooms window. The newly configured room is displayed in the window.</li>
+        </ol>
+    </body>
+</html>

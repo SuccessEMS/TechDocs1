@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsExcelImport
+  SaveWorkbookToFolder="false"
+  WorksheetImportType="topic"
+  PersistFirstRowAsHeader="true"
+  LimitRows="false"
+  LimitRowsCount="30"
+  SaveChartsAs="false"
+  SaveChartsAsType="Png"
+  ConvertEquations="false"
+  ExclusionFilters=""
+  CreateMasterTopic="false"
+  IncludeWorksheetTitlesAsHeadings="false"
+  ImportHiddenRowsColumns="false"
+  KeepSourceLinks="false"
+  AutoSync="false"
+  Stylesheet="file:///C:/Users/Jen.Naused/Desktop/TechDocs2/Content/Resources/TableStyles/PatternedRows_Param.css"
+  PreserveSourceStyles="false"
+  LastImport="2018-04-16T08:56:49.7855010-06:00">
+  <Files>
+    <Url
+      Source="../../../Parameters-Workplace.xlsx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Desktop/Parameters-Workplace.xlsx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/TableStyles/PatternedRows_Param_1.css"
+      TimeStamp="4/16/2018 8:56:04 AM" />
+    <Url
+      Source="../../Content/Parameters-Workplace/All Applications.htm"
+      TimeStamp="4/16/2018 8:56:18 AM" />
+    <Url
+      Source="../../Content/Parameters-Workplace/Desktop Client.htm"
+      TimeStamp="4/16/2018 8:56:18 AM" />
+    <Url
+      Source="../../Content/Parameters-Workplace/Everyday User Applications.htm"
+      TimeStamp="4/16/2018 8:56:20 AM" />
+    <Url
+      Source="../../Content/Parameters-Workplace/Kiosk.htm"
+      TimeStamp="4/16/2018 8:56:20 AM" />
+    <Url
+      Source="../TOCs/Parameters-Workplace.fltoc"
+      TimeStamp="4/16/2018 8:56:20 AM" />
+  </GeneratedFiles>
+</MsExcelImport>

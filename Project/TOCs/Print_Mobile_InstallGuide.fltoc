@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Mobile App Installation Guide"
+    Link="/Content/Print/Mobile_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="continue"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl" />
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Introduction.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="reset"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      PageNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"></TocEntry>
+    <TocEntry
+      Title="System Requirements"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SysRequirements.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="What's New"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_WhatsNew.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Integrated Authentication Options"
+      Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenOptions.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Introduction.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        <TocEntry
+          Title="Integrated Authentication Considerations"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Windows Authentication"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_IntegratedWindowsAuthen.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        <TocEntry
+          Title="Manage Everyday Users For Integrated Authentication"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="LDAP Authentication"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_LDAPAuthentication.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="Portal or Federated Authentication"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalFederatedAuthen.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        <TocEntry
+          Title="Portal Authentication Methods"
+          Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_PortalAuthenMethods.html"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Mobile App Authentication Options"
+        Link="/Content/OptionalFeatures/IntegratedAuthentication/V44.1/IntegAuth_Authentication Options_Mobile.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Mobile Authentication"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="EMS Native Authentication"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="LDAP Authentication"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="Open ID Connect Authentication"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        <TocEntry
+          Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Persistent Authentication"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="SAML Authentication"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+        <TocEntry
+          Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+          Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Using Windows Authentication (NTLM) for EMS Mobile"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Installation and Basic Setup"
+      Link="/Content/EMSMobileApp/InstallationGuide/Mobile_InstallandBasicSetup.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl">
+      <TocEntry
+        Title="Architecture"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_Architecture.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+      <TocEntry
+        Title="How Mobile App Data Is Stored on Devices"
+        Link="/Content/EMSMobileApp/InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html"
+        BreakType="chapter"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

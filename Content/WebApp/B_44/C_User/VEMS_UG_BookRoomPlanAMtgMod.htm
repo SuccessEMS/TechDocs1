@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="5782" MadCap:lastWidth="861" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Book a Room with the Plan A Meeting Module</h1>
+        <p>The optional Plan a Meeting (PAM) module integrates VEMS application with your email system (Microsoft Exchange or Lotus Notes). If PAM is available, then you can find available rooms and add attendees for a meeting. Moreover, invitations are automatically sent to the attendees when you submit the reservation in VEMS. The Room Request page is organized into various sections to facilitate the&#160;reservation&#160;process—a When and Where pane (the left pane of the window) and two tabs—a&#160;Location&#160;tab and a&#160;Details&#160;tab.</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_1.png" alt="vems_ReservationMenu_image008.png" />
+        </p>
+        <p>You enter the information to search for available rooms and attendees in the When and Where pane and you view the results of the search on the Location tab. You enter information for the event on the Details tab.</p>
+        <h2>Submit a Request for Space (Book a room with the PAM Module)</h2>
+        <ol>
+            <li>Under <span class="bold">Reservations</span>, click a reservation option.&#160;The Room Request page opens.</li>
+        </ol>
+        <p>Note:&#160;Because VEMS is so highly configurable, the options that are outlined in the remainder of this procedure may&#160;or may not be present. In addition, certain labels might have been renamed in your implementation of VEMS. For example, “group” may be&#160;labeled to “client,” “employee,” or “department”; "event"&#160;may be&#160;labeled “Meeting,” and so on. Required fields are marked with a red asterisk (*).</p>
+        <ol MadCap:continue="true">
+            <li>In the When and Where (left) pane of the page, do the following to search for a room or rooms in which the event is to take place:</li>
+        </ol>
+        <p>Note:&#160;Depending on how your EMS administrator has configured your organization’s, Room Request with PAM template, you might see different fields displayed, or you might not see some of these fields displayed at all.</p>
+        <ul>
+            <li>Enter your date and time criteria.</li>
+            <li>Select a time zone.</li>
+        </ul>
+        <p>Tip:&#160;Multiple time zones are available only in EMS Enterprise. Only a single time zone is available in EMS Professional</p>
+        <ul>
+            <li>On the Areas dropdown list, leave the default value of (all) areas as is, or select a specific area to search.</li>
+        </ul>
+        <p>Tip:&#160;Areas are available only in EMS Enterprise. Areas are not available in EMS Professional</p>
+        <ul>
+            <li>On the Facilities dropdown list, select (all) buildings, or select a specific building or view to search.</li>
+            <li>If the meeting is a recurring meeting, then click Recurrence to open the Recurrence popup window, and then enter the necessary information for the meeting.</li>
+        </ul>
+        <ol MadCap:continue="true">
+            <li>In the Setup Information section, enter your attendance and setup type.</li>
+            <li>The Availability Filters section provides options for filtering your room results by Room Type, Floor, and/or Features. (You can click the arrow to expand/collapse this section.) If needed, enter additional filter criteria.</li>
+        </ol>
+        <p>Tip:&#160;An option might be available to specify default values for one or more of these options in any section in this pane. See&#160;<MadCap:xref href="VEMS_UG_SetDefaultValues.htm">Set Default Values for Room Requests</MadCap:xref>.</p>
+        <ol MadCap:continue="true">
+            <li>Click <span class="bold">Find Space</span>.&#160;A list of rooms that meet the search criteria and that are available for the indicated reservation time are displayed on the List sub-tab (in a list view), on the Grid sub-tab (in a grid view), and if available, on a Floor Map view. In the List view, rooms that you can reserve are displayed under a “Reserve” heading. Rooms that you can request are displayed under a “Request” heading.</li>
+        </ol>
+        <p>Tips:&#160;A room that you can “reserve” is automatically booked for the event and no approval is required. A room that you can “request” must be approved by an EMS reservation coordinator.</p>
+        <p>An option might be available to create a list of favorite rooms from which to make a selection. This list of favorites is displayed in the Facilities dropdown list on the Room Request page. See&#160;<MadCap:xref href="VEMS_UG_CreateListFav.htm">Create a List of Favorite Rooms</MadCap:xref>.</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_2.png" alt="vems_ReservationMenu_image009.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Optionally, do one or both of the following; otherwise, continue to&#160;Step 7.</li>
+        </ol>
+        <ul>
+            <li>Click the name of any room that you selected for the event to open the Location Details popup, and then open the Availability tab on this popup to view the room’s availability in either a Daily or Weekly view.</li>
+            <li>In the Availability grid, click and hold the left mouse button, drag the mouse to schedule the room for another date and time on a selected day, and then release the mouse button to select the room.</li>
+        </ul>
+        <p>Tip:&#160;You can schedule only one day at a time on the Availability tab. You cannot multi-select days. As you drag the mouse, the cursor changes to a double-headed arrow and a blue vertical bar is displayed.</p>
+        <ol start="7">
+            <li>In&#160;the Find Attendee field, enter a search string, and then click the Search icon. All&#160;the users and distribution groups in your global address list and personal contact list with names that meet the search criteria are displayed on the Location tab. At the top of the tab, the real-time free/busy schedules for all the attendees (including yours) are displayed.</li>
+        </ol>
+        <p>Tip:&#160;Your search is limited to the exact order of the characters in the string, but the string is not case-sensitive and it can appear anywhere in the search results. For example, a search string of&#160;ed&#160;returns&#160;Ed&#160;Smith, Ted&#160;Wilson, and so on.</p>
+        <p>Tip:&#160;Click a distribution group name to explode the group into its individual members.</p>
+        <ol MadCap:continue="true">
+            <li>Click the Add icon&#160;next to each attendee whom you are inviting to the meeting.</li>
+            <li>Click <span class="bold">Find Space</span>.&#160;A combination of the invited attendees’ free/busy schedule (as pulled directly from the attendees’ email system) and room information that meets the room search criteria is displayed.</li>
+        </ol>
+        <p>&#160;Room Request page, Grid view of search results</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_5.png" alt="vems_ReservationMenu_image012.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Do one of the following to select a room:<ul MadCap:continue="true"><li>Click the Add icon&#160;next to the room in either the list or grid view.</li><li>Click the Available Room icon for the room in the Floor Map view, and then click <span class="bold">Reserve </span>in the Room Details message that opens.</li></ul><p>The selected location is displayed at the top of the Location tab.</p></li>
+        </ol>
+        <p>Tip:&#160;When you book a recurring meeting using PAM, a specific room might not be available for all the dates requested. These dates are displayed at the top of the Location tab in an “Unavailable” status. You can find an available room for these dates after you submit your reservation.</p>
+        <ol MadCap:continue="true">
+            <li>Open the Details tab.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_6.png" alt="vems_ReservationMenu_image013.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Enter the information for the event.&#160;When you are entering the event details, note the following:</li>
+        </ol>
+        <ul>
+            <li>Required fields are marked with a red asterisk (*). At minimum, you must enter the event details (name and event type).</li>
+            <li>You specify the appointment information in the Calendaring Details section. You can also click Attach Files to attach files to the meeting invitation.</li>
+            <li>Some fields in the Group section might be automatically populated with your&#160;group/department information. You can modify this information. If a Search icon&#160;is present, then you can search for a group/contact record for the event.</li>
+            <li>If contacts are available for a group, you can specify which contact is to be the default contact for the group, and you can inactivate any contact for the group.</li>
+            <li>You may&#160;have the option of answering additional questions, or you might be required to answer these questions when booking the room, and/or you might have the option of entering reservation-level comments. These questions and comments are displayed in an Other Information section.</li>
+            <li>You may have the option of booking services for the event. If so, then a Service section is displayed on the Details tab.</li>
+            <li>You may be required to specify billing information. You can manually enter the billing information, or if a Search icon&#160;is present, then you can search for the information.</li>
+            <li>You may be required to read and agree to Terms and Conditions. If so, you can click View to review the Terms and Conditions before you accept them.</li>
+        </ul>
+        <ol start="13">
+            <li>Click <span class="bold">Submit Reservation</span>.&#160;The appointment is added to your personal calendar and meeting invitations are automatically sent to the meeting attendees. The appointment form contains two embedded links (one for the organizer and one for an attendee) to access the reservation in VEMS.&#160;</li>
+        </ol>
+        <p>Important:&#160;From this point forward, you must make all booking changes in VEMS. If you modify or cancel a meeting that was originally created using the PAM feature within VEMS from your personal calendar, the meeting will not be reflected correctly in VEMS.</p>
+        <ol MadCap:continue="true">
+            <li>The Reservation Summary page opens. For a reservation containing multiple bookings (a recurring meeting), resolve any room conflicts using the booking tools outlined on the Reservation Summary page. See&#160;<MadCap:xref href="VEMS_UG_ResSummaryPage.htm">Reservation Summary Page</MadCap:xref>.</li>
+        </ol>
+        <p>&#160;Automatically Generated Email</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Submitting a Request for a_1_9.png" alt="vems_ReservationMenu_image015.png" />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Preview Release Notes"
+    Link="/Content/Print/ReleaseNotesPreview.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTitle.flpgl"
+    PageNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    PageNumber="1"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevTOC.flpgl"
+    PageNumber="1">
+    <TocEntry
+      Title="EMS Web App"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSWebApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="reset"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="1"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same" />
+    <TocEntry
+      Title="EMS Mobile App"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSMobileApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="EMS for Outlook Add-in"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="EMS Kiosk App"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSKioskApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="EMS Master Calendar"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSMasterCalendar.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="EMS Platform Services"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="EMS Room Sign App"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/EMSRoomSignApp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Exchange Integration Web Service"
+      Link="/Content/ReleaseNotes/Version44.1/Update24/ExchangeIntegWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/PreviewRN/PrevChapters.flpgl"
+      PageNumber="(multiple)"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+</CatapultToc>

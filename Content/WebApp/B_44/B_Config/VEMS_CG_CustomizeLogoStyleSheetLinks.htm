@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="3133" MadCap:lastWidth="855" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Customize VEMS</h1>
+        <p>After you have installed Virtual EMS you can customize many aspects of it. You can change the “look and feel” of Virtual EMS by inserting your own logo. Experienced web developers can also modify the system’s style sheet to change fonts and colors. For information on how to configure Virtual EMS, define help text for various pages or re-label menus, please see your&#160;EMS&#160;Desktop Client Configuration Guide.</p>
+        <p>Important:&#160;&#160;Do not alter any of the Virtual EMS web page files themselves.&#160;The maintenance agreement for Virtual EMS extends&#160;to the original page content only.</p>
+        <h2>Logo</h2>
+        <p>The logo&#160;that appears in the upper left corner of all pages within Virtual EMS comes from a file named LOGO.GIF, which is found in the \VirtualEMS\Images folder. If you choose to have the system display a different logo, create a new file called CUSTOMLOGO.GIF in that folder. If the system detects this file, it will use it rather than the default file. The advantage of creating the new file instead of simply replacing the LOGO.GIF file is that in an upgrade to a new version of Virtual EMS the LOGO.GIF file is overwritten, whereas CUSTOMLOGO.GIF is not.</p>
+        <p>The system will accept nearly any size logo image, but you should avoid images more than 200 pixels wide and images that are too tall, to avoid extra scrolling. If you create a custom logo file, you may need clear your browser’s cache before you see the new image.</p>
+        <h2>Style Sheets</h2>
+        <p>Experienced web developers are welcome to modify the look and feel of Virtual EMS using a custom style sheet, which controls fonts and colors throughout the application. To do so, name your custom style sheet CUSTOM.CSS and place it in the \VirtualEMS\Styles directory. If the system detects this file, it will use the styles found there rather than those in the system’s default style sheet, VEMS.CSS. Create the CUSTOM.CSS style sheet rather than modifying VEMS.CSS, since VEMS.CSS may be overwritten whenever new versions of the software are installed.</p>
+        <h2>To Customize Links</h2>
+        <p>The Virtual EMS Browse Events page allows web users to view all public events scheduled in EMS. Users have the option to manually filter this list of events by facility, room, event type, event name or group name. Virtual EMS contains functionality to create a custom Browse Events link (i.e. URL) that when accessed, pre-filters the event listing displayed to a specific building, event type, client, etc.&#160;To create a Custom Link, please follow the steps outlined below.</p>
+        <ol start="1">
+            <li>Log into Virtual EMS using a web user ID that belongs to a Web Security Template containing the&#160;Web Administrator&#160;Role. For information on how to configure a web user and/or Web Security Template, please see your&#160;EMS&#160;Desktop Client Configuration Guide.</li>
+            <li>Under the&#160;<span class="bold">Admin&#160;</span>menu, click&#160;<span class="bold">Generate Custom Link</span>.<p><img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS.png" alt="https://success.emssoftware.com/@api/deki/files/948/VEMS_Installation_-_Customizing_VEMS_-_Custom_Links.png?revision=1&amp;size=bestfit&amp;width=420&amp;height=372" /></p></li>
+            <li>Indicate whether or not <span class="bold">Display On Web</span> settings should be ignored. This setting is available on various configuration items in EMS (e.g. event type, status, etc.) to intentionally hide events from public view.</li>
+            <li>Select your <span class="bold">Filter Type</span>.</li>
+            <li>The results displayed in the&#160;<span class="bold">Select Item</span>&#160;dropdown will reset based on the&#160;<span class="bold">Filter Type</span>&#160;selected.&#160;Pick a value in the&#160;<span class="bold">Select Item</span>&#160;dropdown.</li>
+            <li>Select your&#160;<span class="bold">Display Format</span>.</li>
+            <li>To display a custom logo that is different than the default logo used for your Virtual EMS site, enter the logo name in the&#160;<span class="bold">Logo&#160;</span>field.&#160;The logo will need to exist within the Virtual EMS physical directory on your web server (typically C:\inetpub\wwwroot\VirtualEMS\).</li>
+            <li>To display a custom title, enter a value in the&#160;<span class="bold">Title&#160;</span>field.</li>
+            <li>To collapse booking information so that only the reservation information is displayed, select&#160;the <span class="bold">Roll Up To Reservation</span>&#160;option.&#160;</li>
+        </ol>
+        <table class="table_3">
+            <col />
+            <col />
+            <tr>
+                <td>
+                    <p class="anchornote_1">
+                        <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS_1.png" alt="https://success.emssoftware.com/@api/deki/files/949/VEMS_Installation_-_Customizing_VEMS_-_Roll_up_Enabled.png?revision=1&amp;size=bestfit&amp;width=140&amp;height=142" class="img_1" />
+                    </p>
+                    <p class="anchornote_1">&#160;</p>
+                    <p class="Emphasis_3">Roll Up To Reservation Enabled</p>
+                </td>
+                <td>
+                    <p class="anchornote_1">
+                        <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS_2.png" alt="https://success.emssoftware.com/@api/deki/files/950/VEMS_Installation_-_Customizing_VEMS_-_Roll_up_Disabled.png?revision=1&amp;size=bestfit&amp;width=142&amp;height=367" class="img_1" />
+                    </p>
+                    <p class="anchornote_1">&#160;</p>
+                    <p class="Emphasis_3">Roll Up To Reservation Disabled</p>
+                </td>
+            </tr>
+        </table>
+        <ol start="10" class="ol_1">
+            <li class="li_1">Click the&#160;<span class="bold">Generate Link&#160;</span>button to display a friendly URL and HTML code that can be added to a web page. The URL can also be used to test your Custom Link.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Customizing Virtual EMS_3.png" alt="https://success.emssoftware.com/@api/deki/files/951/VEMS_Installation_-_Customizing_VEMS_-_URL.png?revision=1&amp;size=bestfit&amp;width=855&amp;height=126" />
+        </p>
+        <h2>Customize JavaScript</h2>
+        <p>With custom JavaScript, you can extend the functionality of Virtual EMS to suit your business needs. Please keep in mind that including custom JavaScript on Virtual EMS pages can affect performance.</p>
+        <p>When VEMS receives a request for a page, it checks for the existence of a&#160;<span class="bold">CustomJs</span>&#160;folder.&#160;If the folder exists, VEMS checks for any files that match the name of the page.&#160;For instance, on the RoomRequest.aspx page, if there is a file called&#160;<span class="bold">RoomRequest.js</span>&#160;in the CustomJs folder, VEMS will include the RoomRequest.js file on the page.&#160;</p>
+        <p>In addition to the name-matched file, VEMS will also check for and include the file named&#160;<span class="bold">global.js</span>&#160;on EVERY page.&#160;Follow the below steps to enable custom JavaScript</p>
+        <p>Perform the following steps to enable Custom JavaScript:</p>
+        <ol start="1">
+            <li>Enable Custom JavaScript.&#160;<ol start="1" style="list-style-type: lower-alpha;"><li>Open the VEMS web.config file&#160;(i.e., C:\inetpub\wwwroot\VirtualEms\web.config).</li><li>Locate the following node under the&#160;&lt;appSettings&gt;&#160;node<p>i.&lt;add key="allowCustomJs" value="false" /&gt;</p></li></ol></li>
+            <li class="li_4">Change the false value to true.</li>
+            <li class="li_4">Save the file.</li>
+            <li class="li_1">Create the&#160;<span class="italics">CustomJs</span>&#160;folder within the root of you VEMS Install Directory&#160;(i.e., C:\inetpub\wwwroot\VirtualEms\CustomJs).</li>
+        </ol>
+        <p>You are now ready to implement your Custom JavaScript.&#160;There are a couple of options:</p>
+        <ul>
+            <li class="li_4">In the newly created CustomJs folder, create a file for each of the above pages you wish to include your custom JavaScript on (such as RoomRequest.js, EditReservation.js, or Default.js).</li>
+            <li class="li_1">In the newly created CustomJs folder, create one file called&#160;<span class="bold">global.js</span>&#160;that will be included on every page in the system.</li>
+        </ul>
+        <p>Your custom JavaScript should be included on global.js&#160;<span class="bold">or</span>&#160;on each of the applicable page-specific JavaScript files. If you include the script in both places, it could cause problems.</p>
+    </body>
+</html>

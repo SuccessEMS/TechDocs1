@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Platform Services Release Notes U22.3"
+    Link="/Content/ReleaseNotes/Version44.1/Update22.3/EMSPlatformServices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"></TocEntry>
+</CatapultToc>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="D:\Learn About Our Applications\Learn About Our Applications.docx" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Mobile Device Security</h1>
+        <ol start="1" class="ol_2">
+            <li class="li_10"><span class="mt-font-size-135pt_1">Are regularly scheduled updates and patches deployed via the appropriate mobile device App Store?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes</span><span class="mt-font-size-135pt_1">.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Has a thorough line by line source code review of the app been performed?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes</span><span class="mt-font-size-135pt_1">.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Has the app been reviewed against external (OWASP) secure development standards?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Only informally.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application encode all output functions?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">App does not encode anything, decodes data from the mobile API as necessary</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">If the application is a webview, does it embed a random value into the HTML form to protect against CSRF attacks?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">The application is not a webview.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Where is the app source code development located? Are these locations&#160;supplier owned facilities or outsourced/3rd Party locations?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Supplier owned.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Where is the app technical support is located? Are these&#160;supplier owned facilities or outsourced/3rd Party locations?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Supplier-Owned location.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Are all error messages and unhandled exceptions handled gracefully?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">If the application is a webview do you implement any Clickjacking protection?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Application is not a webview.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Are event log monitoring controls in place to monitor access and events by all users?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">The app stores logs internally; logs are not shipped off the device unless the user opts to do so.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">If the application utilizes cookies, are they set to secure? Is it encrypted?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">The app does not utilize cookies.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">What are the application session management configurations (Client and Server)?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">EMS parameters can be set to control the expiration of the mobile API token.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">On application session time outs, does the application discard and clear all memory associated with user data; and any master keys used to decrypt the data?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application/server log failed Logon attempts (Identify the number of failed attempts)?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application handle excessive failed attempts at authentication by locking out the user?&#160;</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No</span><span class="mt-font-size-135pt_1">.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">What is&#160;password reset policy?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">App does not enforce a password reset policy</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">What is the application's authentication and authorization model?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Authorization is through web process templates in client; Authentication</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application store credentials on the device?&#160; If so are the credentials stored within the operating system secure store?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">App stores a token for access to the mobile API, it is stored securely.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application support Biometrics?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application only collect and disclose data which is required for business use of the application?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Need more information.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application persist non-public data short term (session only)?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application persist non-public data long term?&#160;</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application validate all input at the client?&#160;</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the server validate all input coming from the client?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Describe the applications Key Management/Rotation policy?&#160;</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Not sure what this is, need more info.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">If the application utilizes SMS/MMS/Push Notification services; does the application only send user agnostic information?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Does not utilize any of those</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application restrict copy/paste on sensitive fields?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application restrict printing?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application mask/obfuscate the screen on backgrounding/app switching?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No</span><span class="mt-font-size-135pt_1">.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the app include any sensitive customer or account data within any event logs?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Token for the API is logged occasionally, but this is being worked on.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">If crash logs are leveraged are they transmitted securely and not in plain text?&#160;</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">User must opt to copy/paste them.&#160;These logs&#160;are plain text at the time of copy/paste.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Is there a process in place to ensure debug logs are disabled in the production version of the app?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No, all logs are enabled all the time currently.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application capture/log the devices UUID?&#160;</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Only when the user opts to remember the device during two-factor authentication.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application capture/log the devices geolocation/tracking data?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Are sensitive fields such as credentials marked as secure so they are not cached in plain text on the device or transmitted insecurely to an unauthorized party?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Is the app coded to release system resources such as cached RAM memory; or data in memory when the application is closed or otherwise not in use?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No</span><span class="mt-font-size-135pt_1">.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application transmit all data securely?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No, we strongly recommend that you use SSL.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application only request the permissions needed for the scope of the application?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Are all system calls implemented securely and follow platform guidance on implementation (e.g. Intents; APIs; RESTful Services; etc?)?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Yes.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application server detect if the connection is not HTTPS with every request when it is known that the connection should be HTTPS (SSL Strip)?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No, the app allows bot HTTP and HTTPS.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application leverage certificate pinning?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application validate redirects and forwards?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">NA.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Are file uploads validated and restricted against file type and upload size?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No file uploads occur.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application access data from/to a third party?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">If the application leverages third party libraries is there a process in place to vet the security of those libraries?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">No.</span>
+            </li>
+            <li class="li_10"><span class="mt-font-size-135pt_1">Does the application capture/log the device's UUID?</span><span class="mt-font-size-135pt_1"><br /></span><span class="span_5">Only when the user opts to remember the device during two-factor authentication.</span>
+            </li>
+        </ol>
+    </body>
+</html>

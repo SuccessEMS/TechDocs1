@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSearchFilterSet>
+  <SearchFilter
+    Name="V43"
+    Order="2"
+    Concepts="V43"></SearchFilter>
+  <SearchFilter
+    Name="V44"
+    Comment=""
+    Order="1"
+    Concepts="V44" />
+  <SearchFilter
+    Name="V44.1"
+    Comment=""
+    Order="0"
+    Concepts="V44.1" />
+</CatapultSearchFilterSet>

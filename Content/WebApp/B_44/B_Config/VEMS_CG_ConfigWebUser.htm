@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="6492" MadCap:lastWidth="873" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>Configure Web Users</h1>
+        <p>VEMS classifies users into two categories—<span class="italics">unauthenticated users</span>&#160;or&#160;<span class="italics">visitors&#160;</span>and&#160;<span class="italics">authenticated users</span>&#160;or&#160;<span class="italics">web users</span>. If allowed, visitors can browse a calendar of events or view details about your organization’s space; however, to submit and manage reservations, a web user account is required. You can&#160;configure&#160;a web user in one of four ways:</p>
+        <ol>
+            <li>Anonymous users&#160;can register themselves through VEMS and create a user account.</li>
+        </ol>
+        <p>Tip:&#160;For an anonymous user to register through VEMS and create a user account, the appropriate account management parameters must be set (see&#160;<MadCap:xref href="../../../EMSDesktopClient/V44/ConfigurationGuide/VEMSSystemParameters.htm">VEMS System Parameters</MadCap:xref>) and the Credit\Edit an Account role be selected for the unauthenticated user. See the Roles tab definition in&#160;<MadCap:xref href="VEMS_CG_ConfigWebTemplate.htm#ConfigureWebSecurity">Configure a Web Security Template</MadCap:xref>.</p>
+        <ol MadCap:continue="true">
+            <li>You can define the web user&#160;through the EMS client. See&#160;“To create a web user from a group” or&#160;“To create a web user from a contact”.</li>
+            <li>Through the optional HR Toolkit module.</li>
+            <li>Through the optional LDAP/Integrated Authentication module.</li>
+        </ol>
+        <p>This topic will provide information that will allow you to:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Search">Search for a Web User</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Configure">Configure Web Users in EMS</MadCap:xref>
+            </li>
+        </ul>
+        <p>Tip:&#160;For more information about using optional HR Toolkit module or the optional LDAP/Integrated Authentication module to configure web users, contact your account representative at DEA.</p>
+        <p class="body_4">Before you configure a web user, you should&#160;search&#160;for the user to verify that the user has not already been created.</p>
+        <p class="body_4">Tip:&#160;The following procedure describes how to configure a single web user at a time and assign a single web security template and one or more web process templates to the user. To assign multiple web templates to multiple web users in a single step, see&#160;“Assigning Web Templates to Multiple Web Users”.</p>
+        <h2><a name="Search"></a>Search for a Web User</h2>
+        <ol>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Users</span>.&#160;The Web Users window opens. In the upper left corner, the number of web users currently in use for VEMS is displayed.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Users.png" alt="emssg_VEMSInfo_image017.png" class="img_1" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Enter any combination of the following search criteria:</li>
+        </ol>
+        <ul>
+            <li>On the <span class="bold">Group Type</span> dropdown list, leave the group type set to the default value of (all), or select a specific group type.</li>
+            <li>On the <span class="bold">Search by </span>dropdown list, select User Name or Email Address.</li>
+            <li>On the <span class="bold">Status </span>dropdown list, select the user status by which to search.</li>
+            <li>On the <span class="bold">Process Template</span> dropdown list, leave the default value of (all), or select a specific web process template.</li>
+        </ul>
+        <ol start="3">
+            <li>To further filter the displayed search results, do one or both of the following:</li>
+        </ol>
+        <ul>
+            <li>To filter the search results based on the either the User Name or Email Address, in the <span class="bold">Filter </span>field, enter a search string.</li>
+            <li>To filter the search results based on city, in the <span class="bold">City </span>field, enter a search string.</li>
+        </ul>
+        <p>Tip:&#160;For either field, the string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, if searching by Email Address, a search string of&#160;bobreturns&#160;bobworth@dea.com&#160;but not&#160;dbobbett@dea.com.</p>
+        <ol start="4">
+            <li>Click <span class="bold">Display</span>.&#160;The web users who meet your search criteria are displayed in the lower pane of the Web Users window.</li>
+        </ol>
+        <h2><a name="Configure"></a>Configure Web Users in EMS</h2>
+        <p>When you configure a web user, you can also specify one or more delegates for the web user. A&#160;<span class="italics">delegate&#160;</span>is a web user who can create and view reservations on behalf of another web user.</p>
+        <p>Tip:&#160;Remember, before you configure a web user, you might want to search for the user to verify that it has not already been configured. See&#160;“To search for a web user.”</p>
+        <ol>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Users</span>.&#160;The Web Users window opens. In the upper left corner, the number of web users currently in use for VEMS is displayed.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Users.png" alt="emssg_VEMSInfo_image017.png" />
+        </p>
+        <p>Tip:&#160;If the EMS system parameter Web Users linked to Groups via External Reference is set to Yes, then a Group column and a City column are also displayed in the Web Users window.</p>
+        <ol MadCap:continue="true">
+            <li>Click <span class="bold">New</span>.&#160;The Web User dialog box opens. The Web User tab is the active tab.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Users_1.png" alt="emssg_VEMSInfo_image018.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>If the web user had to answer questions when requesting to create an account through VEMS, you can&#160;open the User Defined Fields tab to view the user’s answers to the questions. You can view the responses that are displayed on the tab to determine if you want to continue with creating an account for the user.</li>
+            <li>Enter the information for the new web user.</li>
+        </ol>
+        <p>Tip:&#160;At a minimum, to create a new web user, you must enter the user name, the user password, and the user email address on the Web User tab. All other information is optional and can be added at later dates when needed.</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="tablecolumnheader_1">Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="tablecolumnheader_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The name of the web user.</p>
+                        <p>Note:&#160;The name can be a maximum of 30 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Password</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>The password that the user must enter to log in to VEMS.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Email Address</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Enter the full email address for the user as the user must enter this address to log in to VEMS.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Phone/Fax</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional fields.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Notes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Optional field.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>External Reference</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional field. Links the web user to an outside program if needed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Network ID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The web user’s network ID.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Email Opt Out</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional field. Select this option if you do&#160;not&#160;want the web user to receive automatic emails (such as reservation summary emails) from VEMS. The user can still receive manually sent emails.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Status</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Required field. Select the status for the user:</p>
+                        <ul>
+                            <li>Active—The web user can log in to VEMS.</li>
+                            <li>Pending—The web user cannot log in to VEMS and is informed that he/she must check back at a later time.</li>
+                            <li>Inactive—The user cannot log in to VEMS and is instructed to contact the EMS administrator.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Security Template</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Required field. This determines the user's access to the system—the menu items the user can see, and the information that the user can view when 'rolling-over' an event in VEMS.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Time Zone</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Optional field. The time zone in which the user is located.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Tip:&#160;At a minimum, to create a new web user, you must enter the user name, the user password, and the user email address on the Web User tab. All other information is optional and can be added at later dates when needed.</p>
+        <ol MadCap:continue="true">
+            <li>Open the <span class="bold">Web Process Templates</span> tab and select the web process templates that are to be available to this user.</li>
+        </ol>
+        <p>Tip:&#160;The web process templates appear as menu items in VEMS.</p>
+        <ol MadCap:continue="true">
+            <li>Open the <span class="bold">Groups </span>tab and do the following to specify the groups on whose behalf the web user can view and make reservations in VEMS.</li>
+        </ol>
+        <ul>
+            <li>Specify any combination of search criteria for the Find field and Group Type, and then click Display to produce a list of all groups that meet the criteria.</li>
+        </ul>
+        <p>Tip:&#160;If you leave the Find field blank, then a list of all currently active groups for the selected group type is displayed. If you enter a search string in the Find field, the string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, a search string of&#160;AAA&#160;returns&#160;AAA&#160;Colorado, but not Colorado AAA.</p>
+        <ul>
+            <li>In the Available list, select a group, or CTRL-click to select multiple groups, and then click the Move button (&gt;) to move the selected groups to the Selected list.</li>
+        </ul>
+        <ol start="7">
+            <li>Open the <span class="bold">Delegates </span>tab, and on the Search by dropdown list, do one of the following to specify the delegates for the web user:</li>
+        </ol>
+        <ul>
+            <li>Leave the Find field blank, and then click Display to open a list of&#160;all&#160;currently available web users. Select a user, or CTRL-click to select multiple web users, and then click the Move button (&gt;) to move the selected web users to the Selected list.</li>
+            <li>On the Search By dropdown list, select the option by which to search (Email Address or User Name), and in the Find field, enter the string by which to filter your search, and then click Display. Select a web user, or CTRL-click to select web multiple users, and then click the Move button (&gt;) to move the selected users to the Selected list.</li>
+        </ul>
+        <p>Tip:&#160;The string is not case-sensitive, but your search is limited to the exact order of the characters in the string and it must begin with the information for which you are searching. For example, if searching by Email Address, a search string of&#160;bob&#160;returns&#160;bob.worth@dea.com&#160;but not&#160;dbobbett@dea.com.</p>
+        <ol start="8">
+            <li>Optionally, click <span class="bold">Spelling </span>to spell check any information that you manually entered for the web user.</li>
+            <li>Click <span class="bold">OK</span>.&#160;The Web Users dialog box closes. You return to the Web Users window with the newly configured web user automatically selected in the window.</li>
+        </ol>
+    </body>
+</html>

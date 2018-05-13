@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="10" MadCap:lastHeight="2227" MadCap:lastWidth="940" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/ReleaseNotes.flmsp');" MadCap:searchable="False">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Master Calendar <br />Release Notes <br />V44.1, Update 25</h1>
+        <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 154px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">V44.1 Update 25</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Release&#160;Date:&#160;<br />May XX, 2018<br /></p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Patch:&#160;<br /><br /></p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_3">Build #:&#160;<br /><br /></p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fixes</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');width: 100%;margin-left: 0;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 202px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: left;">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">Data Connectors</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Data Connector Timed Out</p>
+                        <p>Connectors timed out when there was a large amount of data on them. </p>
+                        <p class="RNBodyBeforeList"><span class="bold">Fix:</span>&#160;Modified functionality so that the data connectors handle large data without timing out.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=27175" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">27175</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNArea">iCal</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows" style="text-align: left;">
+                        <p class="RNTitle">iCal Feeds Were Not Updating Properly</p>
+                        <p class="RNBody">Changes to events in EMS&#160;Master Calendar were not correctly reflecting in Microsoft Outlook using iCal feeds.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that changes made in EMS&#160;Master Calendar are reflected using iCal feeds. </p>
+                        <p class="RNRef">Internal References #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=32500" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">32500</a> &amp;&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33030" class="RNRefHyper">33030</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows" style="text-align: left;">
+                        <p class="RNArea">RSS&#160;Feeds</p>
+                        <p>&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows" style="text-align: left;">
+                        <p class="RNTitle">Following EMS&#160;Master Calendar Updates RSS&#160;Feeds Not Working</p>
+                        <p class="RNBody">After updating EMS&#160;Master Calendar, the RSS feeds returned no data. In addition, creating new RSS Feeds also returned no data.</p>
+                        <p class="RNBody"><span class="bold">Fix</span>:&#160;Modified functionality so that RSS&#160;feeds pull events that adhere to the RSS&#160;Feed Configuration.</p>
+                        <p class="RNRef">Internal Reference #&#160;<a href="http://tfs02:8080/tfs/EMS Suite/Ems/_workItems?_a=edit&amp;id=33227" title="For EMS Internal Use Only" alt="For EMS Internal Use Only" class="RNRefHyper">33227</a><br />(For EMS&#160;Internal Use Only)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

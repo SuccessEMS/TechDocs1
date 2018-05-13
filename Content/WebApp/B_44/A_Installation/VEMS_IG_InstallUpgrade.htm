@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2567" MadCap:lastWidth="861" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Install or Upgrade VEMS</h1>
+        <p class="body">Important: Before beginning the installation process, please install or upgrade your EMS databases as outlined in the&#160;EMS Installation Instructions. Existing versions of Virtual EMS must be manually uninstalled.&#160;Please make sure to copy-off and save any files that have been customized.</p>
+        <h2>Obtain the Latest Release of VEMS</h2>
+        <p>The latest release of Virtual EMS can be downloaded from the online Support Center.</p>
+        <ol>
+            <li>Go to see www.emssoftware.com and enter your Email Address and Password in the Support Center area.</li>
+            <li>Click the <span class="bold">Software Downloads</span> link.</li>
+            <li>Download <span class="bold">Virtual EMS (VirtualEMS.msi</span>). Required for both first time installations and upgrades.</li>
+        </ol>
+        <h2>Install or Upgrade VEMS</h2>
+        <ol start="1">
+            <li>Manually&#160;uninstall&#160;any previous versions of Virtual EMS on your web server.&#160;</li>
+            <li>Verify that the prerequisite software has been installed.</li>
+            <li>Download the&#160;<span class="bold">VirtualEMS.msi</span>&#160;file onto the web server that will be running Virtual EMS.</li>
+            <li>Run&#160;<span class="bold">VirtualEMS.msi</span>.</li>
+            <li>The first screen welcomes you to the Virtual EMS Setup Wizard.&#160;Click&#160;<span class="bold">Next&#160;</span>to begin the installation process.<br /><p>The&#160;Destination Folder&#160;screen will appear.</p><p><img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Installing Upgrading Virtual.png" alt="https://success.emssoftware.com/@api/deki/files/956/VEMS_Install_2.png?revision=1&amp;size=bestfit&amp;width=495&amp;height=387" /></p></li>
+            <li>Select the destination folder.&#160;The installation process will create a new physical directory on your web server based on the destination folder path entered (“Virtual Ems” in the example above.) &#160;Click&#160;<span class="bold">Next</span>.<p>Note:&#160;Virtual EMS should&#160;not&#160;be installed in the same physical directory as other EMS web-based products OR under a site running another version of Virtual EMS.</p></li>
+            <li>The&#160;SQL Server and database information&#160;screen will appear.<p><img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Installing Upgrading Virtual_1.png" alt="https://success.emssoftware.com/@api/deki/files/957/VEMS_Install_3.png?revision=1&amp;size=bestfit&amp;width=495&amp;height=387" /></p></li>
+            <li>Enter your SQL Instance Name.</li>
+            <li>Enter your Database Name:<ul start="1"><li>EMS Professional customers – typically named &#160;“EMSData”</li><li>EMS Workplace, EMS Campus, EMS Enterprise, EMS District and EMS Legal customers - typically named&#160; “EMS”</li></ul></li>
+            <li>Click&#160;<span class="bold">Next</span>.</li>
+            <li>The&#160;Virtual Directory information&#160;screen will appear.&#160;<p><img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Installing Upgrading Virtual_2.png" alt="https://success.emssoftware.com/@api/deki/files/958/VEMS_Install_4.png?revision=1&amp;size=bestfit&amp;width=495&amp;height=387" /></p></li>
+            <li>The Virtual Directory Name will default to the destination folder specified in Step 6.&#160;It is recommended that you keep the default setting.&#160;The installation process will create a virtual directory on your web server based on the virtual directory entered (“Virtual Ems” in the example above.)&#160; Click&#160;<span class="bold">Next</span>.<p>Note:&#160; Virtual EMS should&#160;not&#160;be installed in the same virtual directory as other EMS web-based products OR under a site running another version of Virtual EMS.</p></li>
+            <li>The&#160;Ready to install Virtual EMS&#160;screen will appear.&#160;Click&#160;<span class="bold">Install&#160;</span>to install Virtual EMS.</li>
+            <li>The&#160;Completed the Virtual EMS Setup Wizard&#160;screen will appear.&#160;Click&#160;<span class="bold">Finish</span>.&#160;</li>
+        </ol>
+        <h2>Start Virtual EMS</h2>
+        <p>After following the steps above, verify your Virtual EMS installation by opening a browser and entering the Virtual EMS address:</p>
+        <p>http://[ServerName]/VirtualEMS/&#160;&#160;(replace [ServerName] with the name of your web server).</p>
+        <p>The first time you launch Virtual EMS, it may take a few extra moments for the website to display.&#160;If you encounter any issues, please contact Customer Support for assistance.</p>
+        <p>For information on how to configure Virtual EMS, see&#160;Setting Up EMS.</p>
+    </body>
+</html>

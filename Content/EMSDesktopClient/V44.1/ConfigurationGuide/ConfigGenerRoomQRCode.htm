@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="5384" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head><title>Configure and Generate Room QR Codes V44.1 (EMS Desktop Client)</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Configure and Generate Room QR Codes</h1>
+        <p>In order to associate rooms with QR Codes (in EMS Desktop Client), you will:&#160;</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#Enable">Enable Room Cards for Rooms&#160;</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Run">Run the Room Card - QR Code Report to Generate QR Codes&#160;</MadCap:xref>
+            </li>
+        </ul>
+        <p>This automatically generates the codes and associates them with the designated rooms.</p>
+        <h2><a name="Enable"></a>Enable Room Cards for Rooms&#160;</h2>
+        <ol start="1" class="number-list">
+            <li>Open the room configuration by navigating to <span class="bold">Configuration </span>&gt; <span class="bold">Facilities </span>&gt;&#160;<span class="bold">Rooms</span>. </li>
+            <li>Select a room for which you wish to create a QR code. (For complete instructions on configuring rooms,&#160;see&#160;the <a href="ConfigRooms.html">Configuring Rooms</a> topic.)</li>
+            <li>Enter a value in the&#160;<span class="bold">No. Room Cards</span>&#160;field (a number greater than one means you can generate a QR code for this room).<div class="TitleandImage"><p class="title">No. Room Cards Field</p><p class="title"><img src="../../../Resources/Images/Configuration Facilities/Configure and Generate Room.png" class="PDFlarge" /></p></div></li>
+            <li class="li_3">Click&#160;<span class="bold">OK&#160;</span>to save your changes.</li>
+        </ol>
+        <h2><a name="Run"></a>Run the Room Card - QR Code Report to Generate QR Codes&#160;</h2>
+        <ol start="1" class="number-list">
+            <li>Select <span class="bold">Reports </span>&gt; <span class="bold">Hoteling&#160;</span>&gt;&#160;<span class="bold">Room Card - QR Code</span>.<div class="TitleandImage"><p class="title">Room Card - QR Code Selection</p><p><img src="../../../Resources/Images/Configuration Facilities/Configure and Generate Room_1.png" alt="https://success.emssoftware.com/@api/deki/files/6279/clipboard_ef8babe88c4e55744cfc86f776860e99f.png?revision=1" class="PDFlarge" /></p></div></li>
+            <li class="li_3">In the report setup window that appears, use the Buildings, Room Types, and Rooms&#160;tabs to specify the parameters for the QR Code report. Use the arrow keys to move your preferences to the selected list.&#160;You must specify preferences on all three tabs.<br /><div class="TitleandImage"><p class="title">Specify Preferences on Buildings, Room Types, and Rooms Tabs</p><p><img src="../../../Resources/Images/Configuration Facilities/Configure and Generate Room_2.png" alt="https://success.emssoftware.com/@api/deki/files/6280/ConfigureQRCodeReportSetup.png?revision=1" class="PDFlarge" /></p></div></li>
+            <li>You can add a logo and control the order and titles on&#160;the report on the Options tab.<ul start="1"><li>Click&#160;<span class="bold">Sort Room Cards By Book Sequence</span>&#160;to order the QR Room Cards the way they display in the&#160;Reservation Book&#160;(instead of by Room Name).&#160;Book Sequence&#160;is set in&#160;Room Configuration.</li><li>To print separate QR Room Cards for each component (titled by Room Name), click&#160;<span class="bold">Print Combo Room Components</span>.</li></ul></li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Print Logo Selections on Options Tab</p>
+            <p>
+                <img src="../../../Resources/Images/Configuration Facilities/Configure and Generate Room_3.png" alt="https://success.emssoftware.com/@api/deki/files/6286/clipboard_e519bf42c8a60616fccbce0532b637e76.png?revision=1" class="PDFlarge" />
+            </p>
+        </div>
+        <div class="note-box tip">
+            <p><span class="bold">Tip:</span>&#160;We recommend that you use one method to generate multiple cards for the same room: either configure the Room to have more than one room card (see&#160;Step 1)&#160;or set&#160;Copies To Print&#160;(above)&#160;to print multiple copies.</p>
+        </div>
+        <ol start="4" class="number-list">
+            <li>When you have specified all settings for your QR codes, you can click&#160;Print Preview&#160;to see a preview of the report (ideal for emailing, exporting, printing, and so on), or&#160;Print&#160;to print the file.&#160;</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Sample Print Preview</p>
+            <p>
+                <img src="../../../Resources/Images/Configuration Facilities/Configure and Generate Room_5.png" alt="https://success.emssoftware.com/@api/deki/files/6284/ReportPrintPreview.png?revision=1" class="PDFmedium" />
+            </p>
+        </div>
+        <div class="note-box warning">
+            <p class="note-box.warning"><span class="bold">Warning:</span>&#160;If you see the error message below, return to the initial step above. The&#160;No. Room Cards&#160;field on the Room configuration should be greater than zero.</p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Error Message</p>
+            <p>
+                <img src="../../../Resources/Images/Configuration Facilities/Configure and Generate Room_4.png" alt="https://success.emssoftware.com/@api/deki/files/6283/ErrorPopupNoDataToPrint.png?revision=1" class="PDFmedium" />
+            </p>
+        </div>
+    </body>
+</html>

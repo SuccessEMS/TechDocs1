@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/OR_DC.flmsp');" class="desktopClient">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Configure Additional Informaiton for a Group V44 (EMS Desktop Client)</title>
+    </head>
+    <body>
+        <h1 class="mt-export-title" MadCap:autonum="CHAPTER&#160;1: ">
+            <MadCap:concept term="V44" />Configure Additional Information for a Group</h1>
+        <p>After you have configured a new group in your EMS database with the basic group information (group identifying information, billing information and/or other information), you have the option of configuring additional information for the group.</p>
+        <p>This topic will provide information that will allow you to:</p>
+        <ul class="unorder-list">
+            <li>
+                <MadCap:xref href="#CreateEverydayUserGroup">Create a Web User from a Group</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AssignGroup">Assign a Group to a web User   </MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#AssignCalc">Assign Calculations to a Group</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#ConfigList">Configure a List of Billing Reference Numbers</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#ConfigureListofPO">Configure a List of PO Numbers</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="CreateEverydayUserGroup"></a>Create a Web User from a Group</h2>
+        <p>A "Web User" is a registered user who can submit requests for reservations or schedule reservations in VEMS. When you add a new group in your EMS database, you decide the “level” of the group that you are adding. For a group that is added at the individual (personnel/employee) level, you might also need to create a web user from the group. This user can then create and view reservations on behalf of a group or groups in VEMS. You can create only one web user from a group. When you create a web user, you can also specify one or more delegates for the web user. A delegate is a web user who can create and view reservations on behalf of another web user. See Also: Configuring web Users.</p>
+        <ol class="number-list">
+            <li>Open the Groups window and search for the group for which you are creating the web user.</li>
+            <li>On the Groups window, select the group, and then click Tools &gt; Create web User. A group-specific dialog box opens. The web user tab is the active tab.</li>
+        </ol>
+        <p class="box-tip"><span class="bold">TIP:</span> The User Defined Fields tab shows the prompts a web user must answer when requesting an account through VEMS and it is not relevant to the procedure described below.</p>
+        <p>
+            <img src="../../../Resources/Images/DTC_V44_CGGroupCon/Configuring Additional Information.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Enter the information for the new web user. You can make additional changes later.</li>
+        </ol>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Name
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+Automatically populated after you select the group from the Groups window.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Password</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>
+The password that a web user must enter to log in to VEMS.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Email address
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+If this information has been entered in the Groups window for the group, then this field is automatically populated after you select the group from the Groups window. If the field is blank, you must enter the full email address for the user. (The user must enter this address to log in to VEMS.)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Phone/Fax
+
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Optional fields. If this information has been entered for the group, then these fields are automatically populated after you select the group from the Groups window. If the fields are blank, you can enter values if needed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Notes
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+Optional field.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>External Reference
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>
+Optional field. Links the web user to an outside program if needed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Network ID
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+Optional field. The web user’s network ID.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Email Opt Out
+
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Select this option if the web user is not to receive automatic emails (such as reservation summary emails) from VEMS. The user will still receive manually sent emails.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Status
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+Required field. Select the status for the web user:
+
+</p>
+                        <ul>
+                            <li>Active—the web user can log in to VEMS.
+
+</li>
+                            <li>Inactive—The user cannot log in to VEMS and is instructed to contact the EMS administrator.
+
+</li>
+                            <li>Pending—the web user cannot log in to VEMS and is informed that he/she must check back at a later time.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Security Template
+
+Required field</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>This determines the web user's access to the system—the menu items that the user can see and the information that the user can view in a tooltip when 'rolling-over' an event in VEMS.
+
+Note: For detailed information about web security templates, see Configuring Web Templates.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Time Zone
+
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Required field. Select the time zone for the user.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Open the Web User Process Templates tab and on the Available list, select one or more process templates (use CTRL-click to select multiples) to which you are assigning the user, and Move (&gt;) them to the Selected list.</li>
+        </ol>
+        <p class="box-tip"><span class="bold">TIP: </span>A "process template" defines the functions available to each type of web user in VEMS when they submit a request for a reservation. For detailed information about process templates, see Configuring Web Templates.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Open the Groups tab, where you specify the groups on whose behalf the web user can view and make reservations in VEMS. You can use the Find and Group Type fields, and then click Display to search for specific groups. In the Available list, select one or more groups and move (&gt;) them to the Selected list. If you do not search and simply click Display, the list shows all active groups in your system.</li>
+            <li>Open the Delegates tab, where you specify the delegates for the web user. You can search for specific delegates and move (&gt;) them to the Selected list.</li>
+        </ol>
+        <p class="box-tip"><span class="bold">TIP: </span>The Spelling option enables you to spell-check any information that you manually entered for the web user.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click OK. The dialog box for creating a web user closes and a message opens indicating that the web user was created successfully.</li>
+            <li>Click OK to close the message and return to the Groups window.</li>
+        </ol>
+        <h2><a name="AssignGroup"></a>Assign a Group to a Web User  </h2>
+        <p>When you add a new group in your EMS database, you should also assign the group to a web user. This web user can then create and view reservations on behalf of the group in VEMS. You can assign a group to one or more web users.</p>
+        <ol class="number-list">
+            <li>Open the Groups window and search for the group to which you are assigning the web user. </li>
+            <li>On the Groups window, select the group, and then click Tools &gt; Assign to web Users. The Assign Group dialog box opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/DTC_V44_CGGroupCon/Configuring Additional Information_1.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Do one of the following to select the web users whom you are assigning to the group:<ul MadCap:continue="true"><li>Leave the Find field blank, and then click Display to open a list of all currently active web users. Select the web user, or CTRL-click to select multiple web users, and then Move (&gt;) to the Selected list.</li><li>In the Search By dropdown list, select the option by which to search (Email Address or User Name) and then in the Find field, enter a search string, and then click Display. Select the web user (CTRL-click to select multiple users), and then Move (&gt;) to the Selected list.</li></ul></li>
+            <li>Click Finish. A message opens indicating that the group was assigned successfully.</li>
+            <li>Click OK to close the message and return to the Groups window.</li>
+        </ol>
+        <h2><a name="AssignCalc"></a>Assign Calculations to a Group</h2>
+        <p>Calculations are additional charges that can be applied to billable items (a category, a group, a group type, a resource, or a room) such as gratuity or sales tax. When you configure a group, you can assign the calculations that are to always apply to the group.</p>
+        <ol class="number-list">
+            <li>Open the Groups window and search for the group to which you are assigning the calculations. See Search for a Group and/or Contact.</li>
+            <li>On the Groups window, select the group, and then click Open. A group-specific window opens. The group is automatically selected in the window.</li>
+        </ol>
+        <p>
+            <img src="../../V44.1/UserGuide/Images/ConfigAddInfoGroupCalculations.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>In the left pane of the group-specific window, select Calculations. The right pane of the group-specific window displays any calculations that have already been assigned to the group.</li>
+            <li>Click Edit. The Calculations dialog box opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/ConfigAddInfoCal2.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>On the Available list, select the calculation (CTRL-click to select multiple calculations) that you want to always apply to this group, and then Move (&gt;) to the Selected list.</li>
+        </ol>
+        <p class="box-tip"><span class="bold">TIP: </span>If the appropriate calculation is not available, you can configure it. See Configuring Calculations.</p>
+        <p>Remember, you can also assign calculations to a group type. (See Configuring Group Types.) If you have already assigned calculations for this group’s type, then these calculations are automatically applied to the group. The calculations show in the Selected list after you click OK and save the group.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the group as needed; otherwise, click OK to close the Calculations dialog box and return to the group-specific window.</li>
+        </ol>
+        <h2><a name="ConfigList"></a>Configure a List of Billing Reference Numbers</h2>
+        <p>You can configure a master list of billing reference numbers that are specific to the group.</p>
+        <ol class="number-list">
+            <li>Open the Groups window and search for the group for which you are configuring the master billing reference numbers list.</li>
+            <li>On the Groups window, select the group, and then click Open. A group-specific window opens showing the group as automatically selected.</li>
+            <li>In the left pane of the group-specific window, select Billing References. A list of all currently active billing reference numbers for the group shows in the right pane of the group-specific window.</li>
+        </ol>
+        <p class="box-tip"><span class="bold">TIP: </span>You can display all billing reference numbers regardless of status by clicking Show Inactive. Any inactive billing reference numbers show in italics in the right pane.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click New. The Billing Reference dialog box opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/ConfigAddInfoCal4.png" />
+        </p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Enter the information for the new billing reference number.</li>
+        </ol>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Option</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Billing Reference Number
+
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The billing reference number that is associated with the group.
+
+Note: The reference can be alphanumeric and it has a maximum of 100 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Description
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>
+A description of the billing reference number.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Notes
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+Any other comments or statements that are applicable for the billing reference number.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Inactive
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>
+Leave this option blank to add the reference as an active reference (the billing reference number is to be available when a reservation is made for the group). Select this option to inactivate the billing reference number.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="box-tip"><span class="bold">TIP: </span>You can click Spelling to spell-check the information for the PO number before you save it.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the group as needed; otherwise, click OK to close the Billing Reference Number dialog box and return to the group-specific window.</li>
+        </ol>
+        <h2><a name="ConfigureListofPO"></a>Configure a List of PO Numbers</h2>
+        <p>You can configure a master list of PO numbers that are specific to the group. That way, if you need to edit the group information, instead of having to manually enter a new or different PO number, you can simply select it from this master list.</p>
+        <ol class="number-list">
+            <li>Open the Groups window and search for the group for which you are configuring the master PO numbers list.</li>
+            <li>On the Groups window, select the group, and then click Open. A group-specific window open. The group is automatically selected in the window.</li>
+            <li>In the left pane of the group-specific window, select PO Numbers. A list of all currently active PO numbers for the group shows in the right pane.</li>
+        </ol>
+        <p class="box-tip"><span class="bold">TIP: </span>You can display all PO numbers regardless of status: click Show Inactive. Inactive PO numbers show in italics.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Click New. The PO Number dialog box opens.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/ConfigAddInfoCal5.png" />
+        </p>
+        <ol start="5" MadCap:continue="true" class="number-list">
+            <li>Enter the information for the new PO number.</li>
+        </ol>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 77px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Option</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>PO Number
+
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The PO number that is associated with the group.
+
+</p>
+                        <p>Note: The reference can be alphanumeric and it has a maximum of 100 characters, including spaces.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Description
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>
+A description of the PO number.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Notes
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>
+Any other comments or statements that are applicable for the PO number.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Inactive
+</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>
+Leave this option blank to add the PO number as an active number (the PO number is to be available when a reservation is made for the group). Select this option to inactivate the PO number.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="box-tip"><span class="bold">TIP: </span>You can click Spelling to spell-check the information for the PO number before you save it.</p>
+        <ol MadCap:continue="true" class="number-list">
+            <li>Continue with any other optional configuration for the group as needed; otherwise, click OK to close the dialog box and return to the group-specific window.</li>
+        </ol>
+    </body>
+</html>

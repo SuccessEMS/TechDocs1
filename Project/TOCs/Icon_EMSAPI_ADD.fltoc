@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS API ADD Operations"
+    Link="/Content/OptionalFeatures/2_EMS_API_Home.htm">
+    <TocEntry
+      Title="AddBooking"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddBooking"
+      StartSection="false" />
+    <TocEntry
+      Title="AddBooking2"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddBooking2"
+      StartSection="false" />
+    <TocEntry
+      Title="AddContact"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddContact"
+      StartSection="false" />
+    <TocEntry
+      Title="AddGroup"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddGroup"
+      StartSection="false" />
+    <TocEntry
+      Title="AddPayment"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddPayment"
+      StartSection="false" />
+    <TocEntry
+      Title="AddReservation"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddReservation"
+      StartSection="false" />
+    <TocEntry
+      Title="AddReservation2"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddReservation2"
+      StartSection="false" />
+    <TocEntry
+      Title="AddReservation3"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddReservation3"
+      StartSection="false" />
+    <TocEntry
+      Title="AddReservation4"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddReservation4"
+      StartSection="false" />
+    <TocEntry
+      Title="AddReservation5"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddReservation5"
+      StartSection="false" />
+    <TocEntry
+      Title="AddServiceOrder"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddServiceOrder"
+      StartSection="false" />
+    <TocEntry
+      Title="AddServiceOrderDetail"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddServiceOrderDetail"
+      StartSection="false" />
+    <TocEntry
+      Title="AddUDF"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddUDF"
+      StartSection="false" />
+    <TocEntry
+      Title="AddWebRequest"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddWebRequest"
+      StartSection="false" />
+    <TocEntry
+      Title="AddWebUser"
+      Link="/Content/OptionalFeatures/EMS_API/A_V44.1/EMSAPIfunctions_ADDOperation.html#AddWebUser"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

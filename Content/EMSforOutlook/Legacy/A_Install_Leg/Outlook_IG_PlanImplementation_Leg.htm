@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="1001" MadCap:lastWidth="835" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Outlook.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Plan Your EMS for Outlook Implementation</h1>
+        <p>EMS for Outlook consists of two main components: the Integration with Microsoft Exchange and the EMS for Outlook.</p>
+        <h2>Install the EMS Integration for Microsoft<sup>®</sup> Exchange Web Service&#160;</h2>
+        <p>This service (typically<MadCap:annotation MadCap:createDate="2017-12-01T19:37:41.3246097-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="link to Integration to Exchange" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T19:37:55.0896130-07:00">&#160;see installed</MadCap:annotation>&#160;where your EMS Web App&#160;resides) manages all communication/transactions between EMS for Outlook (as well EMS Desktop Client and EMS Web App) and the EMS database, including checking room availability, booking the meeting in EMS, and managing changes.&#160;<span class="bold">EMSForOutlook.msi</span>&#160;will prompt the user for the Integration with Microsoft Exchange&#160;Web Service Address during the installation process.</p>
+        <p>Tip:&#160;The URL you enter during this process is stored in the application's configuration file and can be changed by going to <span class="bold">Add/Remove Programs</span> &gt; <span class="bold">Ems for Outlook</span> &gt; <span class="bold">Change Installation</span> &gt;&#160;<span class="bold">Change URL</span>.</p>
+        <p>For complete instructions, see the&#160;<MadCap:annotation MadCap:createDate="2017-12-01T19:38:25.8149241-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="link to Integration to Exchange" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T19:38:31.0461905-07:00">Integration With Microsoft® Exchange</MadCap:annotation>&#160;guide.</p>
+        <h2>Install EMS for Outlook&#160;On Users' Computers (EMSForOutlook.msi)&#160;</h2>
+        <p>This&#160;add-in should be&#160;<MadCap:xref href="Outlook_IG_InstallUpgradeUserPC_Leg.htm">installed on your users’ desktops</MadCap:xref> installed on your users’ desktops.&#160;This file exposes the EMS Room Scheduling option on the Outlook Calendar Appointment form.&#160;By default, the&#160;<span class="bold">EMSForOutlook.msi</span>&#160;installs all of the files required by the EMS for Outlook&#160;Add-in in the following locations:</p>
+        <ul class="ul_1">
+            <li><span class="bold">32-bit machines </span>–&#160;<span class="italics">C:\Program Files\EMS for Outlook</span></li>
+            <li><span class="bold">64-bit machines&#160;</span>– <span class="italics">C:\Program Files (x86)\EMS for Outlook</span></li>
+        </ul>
+        <p>This location can be changed during the installation, but it is recommended that you keep the default.</p>
+        <h2>Configuration Path&#160;</h2>
+        <ol start="1" class="ol_1">
+            <li>EMS must be&#160;<MadCap:xref href="../B_Config_Leg/Outlook_CG_ConfigOverview_Leg.htm">configured</MadCap:xref>&#160;properly in order to activate the EMS for Outlook for each Outlook user:<ol start="1" style="list-style-type: lower-alpha;"><li>The Outlook user must have an active EMS&#160;<MadCap:annotation MadCap:createDate="2017-12-01T19:41:33.3917667-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="links to glossary" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T19:41:37.8396570-07:00">see Everyday User</MadCap:annotation>&#160;account.</li><li>The EMS Everyday User account must be assigned to&#160;<MadCap:xref href="../B_Config_Leg/Outlook_CG_EstabBookTempConflBeh_Leg.htm#EstablishingBookingTemplates">at least one Everyday User Process Template</MadCap:xref>&#160;with the&#160;Outlook&#160;option enabled.</li><li>The EMS Everyday User account must be&#160;<MadCap:xref href="../B_Config_Leg/Outlook_CG_AssignUserstoGroups_Leg.htm">associated to an active EMS Group record</MadCap:xref>.</li><li>The EMS Everyday User must have an associated&#160;see <MadCap:annotation MadCap:createDate="2017-12-01T19:45:12.1670166-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="links to glossary" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T19:45:15.6154840-07:00">Contact</MadCap:annotation>.</li></ol></li>
+        </ol>
+        <p>Tip:&#160;<MadCap:annotation MadCap:createDate="2017-12-01T19:45:37.3051573-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="links to glossary" MadCap:editor="Megan.Laub" MadCap:editDate="2017-12-01T19:45:42.8835817-07:00">see Group </MadCap:annotation>may have been relabeled to “Client” or “Employee” in your EMS system.</p>
+    </body>
+</html>

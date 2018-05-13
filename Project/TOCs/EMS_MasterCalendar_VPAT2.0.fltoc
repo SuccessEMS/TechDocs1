@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Software Accessibility Conformance Report"
+    Link="/Content/LearnAboutOurApplications/VPAT_MasterCalendar.htm" />
+  <TocEntry
+    Title="Applicable Standards/Guidelines" />
+  <TocEntry
+    Title="WCAG 2.0 Report" />
+  <TocEntry
+    Title="Table 2: Success Criteria, Level AA" />
+  <TocEntry
+    Title="2017 Section 508 Report" />
+</CatapultToc>

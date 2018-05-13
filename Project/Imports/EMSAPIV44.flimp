@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-17T13:39:54.9860938-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Megan.laub\Documents\My Projects\Success2\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="true"
+  LastImport="2017-11-17T13:40:28.6790898-07:00">
+  <Files>
+    <Url
+      Source="../../../../MigrateWordDocs/Optional Features/V44/EMSAPIV44.docx"
+      AbsoluteSource="file:///C:/Users/Megan.laub/Documents/MigrateWordDocs/Optional Features/V44/EMSAPIV44.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/EMSAPIV44/EMS API Guide V44.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Introduction.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/EMSAPIV44/Installing Upgrading the EMS.png"
+      TimeStamp="11/17/2017 1:40:19 PM" />
+    <Url
+      Source="../../Content/Resources/Images/EMSAPIV44/Installing Upgrading the EMS_1.png"
+      TimeStamp="11/17/2017 1:40:19 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Installing Upgrading the EMS.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Hardware and Software Requirements.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/EMSAPIV44/Configuring and Verifying.png"
+      TimeStamp="11/17/2017 1:40:19 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Configuring and Verifying.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/EMS API Requirements Licensing.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Best Practices.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Obtaining the EMS API Web.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/Resources/Images/EMSAPIV44/EMS API Functions.gif"
+      TimeStamp="11/17/2017 1:40:20 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/EMS API Functions.htm"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Installing Upgrading Database.htm"
+      TimeStamp="11/17/2017 1:40:26 PM" />
+    <Url
+      Source="../../Content/EMSAPIV44/Release Notes.htm"
+      TimeStamp="11/17/2017 1:40:26 PM" />
+    <Url
+      Source="../TOCs/EMSAPIV44.fltoc"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/EMSAPIV44.css"
+      TimeStamp="11/17/2017 1:40:25 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="HTML Address" />
+    <StyleName
+      Name="List Paragraph" />
+    <StyleName
+      Name="Normal (Web)" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="Title1" />
+    <StyleName
+      Name="Strong" />
+    <StyleName
+      Name="Emphasis" />
+    <StyleName
+      Name="mt-font-size-11.0pt" />
+    <StyleName
+      Name="mt-font-size-8.0pt" />
+  </UsedCharacterStyles>
+</MsWordImport>

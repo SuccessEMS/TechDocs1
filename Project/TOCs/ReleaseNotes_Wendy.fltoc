@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="All Applications Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/AllApplicationParameters.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="EMS Kiosk App Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSKioskAppParameters.htm"
+    MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl" />
+  <TocEntry
+    Title="EMS Everyday User Parameters "
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSEverydayUserApplicationsParameters.htm"
+    MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl" />
+  <TocEntry
+    Title="EMS Desktop Client Parameters"
+    Link="/Content/EMSDesktopClient/V44.1/ConfigurationGuide/EMSDesktopClientParameters.htm"
+    MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/ChaptersLandscape8_5X11.flpgl" />
+</CatapultToc>

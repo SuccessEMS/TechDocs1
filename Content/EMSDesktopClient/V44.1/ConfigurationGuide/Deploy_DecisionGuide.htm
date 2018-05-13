@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2431" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Web Deployment Decision Guide V44.1 (EMS Desktop Client)</title>
+    </head>
+    <body>
+        <h1>Decision Guide:&#160;Web Vs Conventional Deployment</h1>
+        <h2 class="Heading2">What are My Deployment Options?&#160;</h2>
+        <p>There are two different deployment options for the EMS&#160;Desktop Client:&#160;</p>
+        <ol>
+            <li>
+                <MadCap:xref href="DC_Deploy_Web Deployment.htm">Web Deployment</MadCap:xref>
+            </li>
+            <li>​<MadCap:xref href="Deploy_ConventionalDeployment.htm">Conventional Deployment</MadCap:xref></li>
+        </ol>
+        <h2>EMS Desktop Web Deployment&#160;</h2>
+        <p>
+            <MadCap:concept term="V44.1" />EMS Desktop Web Deployment (V44+ and V44.1) is an alternative method for installing EMS Desktop Client locally on individual user machines. This solution is not a replacement for the EMS Web Client (discontinued after V43), but rather, it is an alternative to using Microsoft<sup>®</sup> methods of deployment, such as SCCM. Administrators can use it to host EMS Desktop Client&#160;on a web server, with the ability to push the URL to any EMS Administrators so they can download&#160;EMS Desktop Client&#160;without needing Administrative Privileges on their local machine.&#160;</p>
+        <p>The web deploy application is installed on your web server. The EMS Desktop Application is included within this installation. Once installed, end users point&#160;their web browsers to the EMS Web Deployment&#160;Application, which points them with&#160;a link to download the EMS Desktop Client. (See also:&#160;<a href="ConfigUsers.htm#Understanding%20User%20Types" title="Introduction" alt="Introduction"><MadCap:xref href="ConfigUsers.htm">Configure Users</MadCap:xref></a>).&#160;Once a user downloads and runs that link, the EMS Desktop Client is installed in the user's profile on that workstation. Once installed, the EMS Desktop Client will check the server for an updated version of the client each time the client is launched. If a new version is available, then it will automatically download and install the update.</p>
+        <h3 class="Heading3">Conventional Deployment&#160;</h3>
+        <p>Conventional Deployment works like previous releases&#160;of EMS. The downloadable installer is in the form of a MSI file. Once the software is installed on the Admin Users workstation, it connects directly to the database. optionally it can be configured to connect to the Desktop Client API included in the Web Deployment option.&#160;</p>
+        <p>Note:&#160;The Web Deployment method also adds an application layer (in the form of a web service), to the architecture of the application. Instead of the Desktop Client connecting directly to the Database server as it has in the past. All connections are routed through the Desktop Client API (Included with Web Deploy). this can add additional benefit for Security Considerations, or multi-region deployments. For further information on this feature is detailed&#160;<a href="Deploy_Easy Deployment.htm" title="To Use the Easy Deployment with a Conventional EMS Desktop Client Deployment" alt="To Use the Easy Deployment with a Conventional EMS Desktop Client Deployment">here.</a></p>
+        <h2 class="Heading2">Features of Each Deployment Method&#160;</h2>
+        <p>The&#160;table below&#160;outlines the features available between the two deployment methods.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Feature</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Desktop Web Deployment</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Conventional Deployment</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Admin Rights required on the workstation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>No</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Number of installations per workstation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>1 Per User</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Once for all users of the workstation</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Installation Location</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Users Profile</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Location can be specified during installation</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Requires a Web Server</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Yes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Can adopt customer specific, deployment procedures</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>No</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Yes (Requires IT Assistance)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Able To deploy without user intervention</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>No</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Yes (Requires IT Assistance)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Updates are handled...</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>From the Web Service on the server</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Must be re-pushed to individual workstations.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>IT has control of when updates are pushed</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Yes</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Network Connection to the database</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Desktop Client API</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Direct TCP connection or Desktop Client API</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note-box">Note:&#160;To enable SSL, you first make changes to the EMS Desktop Client .msi file.&#160;See Also:&#160;<a href="Deploy_Enable SSL on Web Deployment.htm" title="Enabling SSL on Web Deploy" alt="Enabling SSL on Web Deploy">Enabling SSL</a>.</p>
+        <p>&#160;</p>
+    </body>
+</html>

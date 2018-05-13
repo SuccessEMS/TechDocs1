@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="9" MadCap:lastHeight="10123" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\ReleaseNotes.flmsp');">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">
+            <MadCap:concept term="V44.1" />EMS Google Calendar Integration Release Notes V44.1, Update 20</h1>
+        <p class="p_1">This section describes updates to&#160;your EMS software.&#160;&#160;</p>
+        <p>See Also:&#160;<a href="#Contact">Contact Customer Support</a>&#160;and&#160;<MadCap:xref href="../../../Update_to_LatestVersion_EMS.htm"><a href="../../../Update_to_LatestVersion_EMS.htm">Updating to the Latest Version of EMS (Patches and Builds)</a></MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Name:&#160;V44.1 Update 20</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_3">Release&#160;Date:&#160;December 22, 2017</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_3">Patch:&#160;44.1.20000.201712150</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Enhancements</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_6">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_6">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td rowspan="15" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_14">EMS Web App</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Free and Busy States Display in Availability Legend of EMS Web App</p>
+                        <p class="p_9">Google allows two states for a person's availability:&#160;free or busy.&#160; Therefore, when G Suite is enabled, only the 'Free' and 'Busy' statuses will display in the legend.&#160; When it's disabled, all statuses will display.</p>
+                        <p class="p_10">Internal Reference # 34534</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Search, Add, and Save a Delegate in the EMS Web App</p>
+                        <p class="p_9">A user&#160;acting as another person who has assigned them rights can create, edit, and cancel reservations and bookings on their behalf.</p>
+                        <p class="p_10">Internal Reference # 34535</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Delegates Can Switch Back to Act As Their Own User</p>
+                        <p class="p_9">A user acting as another user, can switch back and act as their own user so they can work within EMS under their own permissions and credentials.</p>
+                        <p class="p_10">Internal Reference # 34536</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Act As-Create, Edit, and Cancel Reservation As-A Delegate</p>
+                        <p class="p_9">When a delegate creates, edit, or removes a meeting, the changes are reflected correctly on the delegate's Google Calendar.</p>
+                        <p class="p_10">Internal Reference # 34538</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Timezone Database Table Supports New Timezone Identifier</p>
+                        <p class="p_9">Users can assign appropriate timezone identifier for each existing timezone record in the database.&#160;</p>
+                        <p class="p_10">Internal Reference # 32078</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Enabled G Suite Integration in EMS Platform Services</p>
+                        <p class="p_9">Users now have a user interface to configure G Suite in EMS Platform Services.</p>
+                        <p class="p_10">Internal Reference # 33926</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Suppress Attach/Upload Documents for Calendar Enabled Templates Pointing to G Suite</p>
+                        <p class="p_12">Users with environments enabled with G Suite and with calendar-enabled templates, can suppress attach/upload documents.&#160;<br /><br />Note:&#160; For Phase 1 of the G Suite rollout, users will not be able to upload or attach files from your Google Drive Account.&#160;</p>
+                        <p class="p_10">Internal Reference # 34955</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">DisplayName Property Added to Returned Attendees Array</p>
+                        <p class="p_9">The attendee DisplayName&#160;has been added to the returned attendees array for the&#160;calendaring/events/{id} call. This will prevent applications from needing to make multiple API calls just to get attendee display names.&#160;</p>
+                        <table class="table_2">
+                            <col />
+                            <tr>
+                                <td class="td_1">
+                                    <p class="p_10">Internal Reference # 34963</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class="p_3">&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Remove Update All Options from Attendee Update Views</p>
+                        <p class="p_9">The Update All option has been&#160;removed for attendee modification flows when Google Calendar is enabled.</p>
+                        <p class="p_10">Internal Reference # 35002</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Modify Free/Busy Search to Utilize EMS Platform Services</p>
+                        <p class="p_9">In the Create and Edit views, attendee free/busy status is accurately displayed for G Suite contacts.</p>
+                        <p class="p_10">Internal Reference # 33992</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Suppress Skype for Business When G Suite Is Enabled</p>
+                        <p class="p_9">When the G Suite parameter is enabled, no Skype for Business verbiage/links are visible.</p>
+                        <p class="p_10">Internal Reference # 33993</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Modify Manage Attendees Search to Conditionally Use EMS Platform Services</p>
+                        <p class="p_9">When the G Suite parameter is enabled, G Suite contacts are searchable, addable, and removable on the Manage Attendees page.</p>
+                        <p class="p_10">Internal Reference # 33994</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Conditionally Call EMS Platform Services for G Suite Integration When Creating a Reservation</p>
+                        <p class="p_9">&#160;</p>
+                        <p class="p_9">For calendar-enabled templates,&#160;reservations can be added to the appropriate G Suite calendar(s).</p>
+                        <p class="p_10">Internal Reference # 33995</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Conditionally Call EMS Platform Services on PamManageBookings for G Suite Integration</p>
+                        <p class="p_9">Booking edits made on PamManageBookings.aspx are&#160;reflected on a user's Google calendar, when G Suite has been enabled for the reservation.</p>
+                        <p class="p_10">Internal Reference # 33998</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Conditionally Call EMS Platform Services When Canceling Bookings for G Suite Integration</p>
+                        <p class="p_9">Cancelling a booking with G Suite enabled will&#160;remove the booking from a user's Google calendar.</p>
+                        <p class="p_10">Internal Reference # 34001</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="18" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_7">EMS Platform Services</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">New Call to Create a Recurring Event</p>
+                        <p class="p_9">New calls (/calendaring/event POST and /reservation/actions/create)&#160;have&#160;been created to create a recurring meeting on the calendar provider.&#160;</p>
+                        <p class="p_10">Internal Reference # 33933</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Create Single Booking Call Has Been Integrated Into /reservations/actions/create</p>
+                        <p class="p_9">The create calendar item has been integrated into the existing create reservation call.</p>
+                        <p class="p_10">Internal Reference # 33934</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Build Invitation Body With Links</p>
+                        <p class="p_9">The links and text users have configured as part of PAM configuration can now be added to the body of their invitation.&#160; The invitation body will contain user provide text plus the values and links in:</p>
+                        <ul class="ul_1">
+                            <li class="li_1">PAM_TextAboveEditLink</li>
+                            <li class="li_1">PAM_TextAboveDetailsLink</li>
+                            <li class="li_1">PAM_MsgAddedToMeetingRequest</li>
+                        </ul>
+                        <table class="table_2">
+                            <col />
+                            <tr>
+                                <td class="td_1">
+                                    <p class="p_9">&#160;</p>
+                                    <p class="p_10">Internal Reference # 33953</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <p class="p_3">&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Upload to Google Drive</p>
+                        <p class="p_9">Users can&#160;upload a file to Google Drive to make it an attachment on the invitation.</p>
+                        <p class="p_10">Internal Reference # 33956</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Search Files on Google Drive</p>
+                        <p class="p_9">Users can&#160;search for Google Drive files on behalf of another user to add as attachments.</p>
+                        <p class="p_10">Internal Reference # 33957</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Attachments Allowed When Creating an Event</p>
+                        <p class="p_9">A list of attachments can be uploaded as part of the create event call. Attachments must exist in Google Drive&#160;before they can be included in a create event request. They either need to have been uploaded independently of EMS&#160;or be uploaded via the new calendaring upload route.</p>
+                        <p class="p_10">Internal Reference # 34015</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Attendees Can Be Edited Through Edit Calendar</p>
+                        <p class="p_9">Users can edit&#160;attendees on a calendar item and will be given the choice of&#160;sending updates to all or newly added attendees.</p>
+                        <p class="p_10">Internal Reference # 34016</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Cancel Calendar Item and&#160;Allow User to Set SendNotifications on Cancel</p>
+                        <p class="p_9">Users can edit&#160;attendees on a calendar item and will be given the choice of&#160;sending updates to all or newly added attendees. This option allows the Google API to send or suppress notifications on cancel.</p>
+                        <p class="p_10">Internal Reference # 34017</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Edit Calendar Item</p>
+                        <p class="p_9">Users can edit existing calendar events.</p>
+                        <p class="p_10">Internal Reference # 34018</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Integration of Cancel Calendar Item Into Cancel Workflows</p>
+                        <p class="p_9">Call to /reservations/ID/cancel automatically triggers calendar item cancelation for the entire calendar item.</p>
+                        <p class="p_10">Internal Reference # 34044</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Integration of Cancel Calendar Item Into Cancel Workflows</p>
+                        <p class="p_9">Call to /reservations/ID/cancel automatically triggers calendar item cancelation for the entire calendar item.</p>
+                        <p class="p_10">Internal Reference # 34044</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Integration of Cancel Calendar Item Into Cancel Workflows</p>
+                        <p class="p_9">Users can automatically edit the Calendar item via the following edit calls:</p>
+                        <ul class="ul_1">
+                            <li class="li_1">/bookings/ID PUT</li>
+                        </ul>
+                        <ul class="ul_2">
+                            <li class="li_1">DateTime / Room</li>
+                        </ul>
+                        <ul class="ul_1">
+                            <li class="li_1">/bookings/ID PATCH</li>
+                        </ul>
+                        <ul class="ul_2">
+                            <li class="li_1">DateTime / Room</li>
+                        </ul>
+                        <ul class="ul_1">
+                            <li class="li_1">/bookings/ID/updatebooking POST</li>
+                        </ul>
+                        <ul class="ul_2">
+                            <li class="li_1">DateTime / Room</li>
+                        </ul>
+                        <p class="p_10">Internal Reference # 34046</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Create Single Day Calendar Item</p>
+                        <p class="p_9">EMS Platform Services can create&#160;a calendar item for a meeting users created through their own backend (e.g., EMS Mobile App or EMS Web App).</p>
+                        <p class="p_10">Internal Reference # 34050</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Integration Attachments to Existing Reservation&#160;</p>
+                        <p class="p_9">POST /reservation/actions/create accepts list of attachment ids and includes them in the call to CalendaringProvider when creating events. Attachments have to be uploaded via /calendaring prior to including them here.</p>
+                        <p class="p_10">Internal Reference # 34390</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Save Account Credential File&#160;</p>
+                        <p class="p_9">Users can upload a service account credential file in JSON format&#160;and view an audit of the JSON fields in the service account file.&#160;</p>
+                        <p class="p_10">Internal Reference # 34402</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">For Recurring Meetings, Cancel Calendar Item and Allow Caller to Set SendNotification on Cancel</p>
+                        <p class="p_9">For recurring meetings, users can edit&#160;attendees on a calendar item and will be given the choice of&#160;sending updates to all or newly added attendees. This option allows the Google API to send or suppress notifications on cancel.</p>
+                        <p class="p_10">Internal Reference # 34406</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Add/Delete Booking Attendees Support for G Suite Event Attendees</p>
+                        <p class="p_9">The&#160;attendee edit call can automatically edit the G Suite Calendar Item attendees.&#160;</p>
+                        <p class="p_10">Internal Reference # 34761</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">DisplayName Property Added to Returned Attendees Array in EMS Web App</p>
+                        <p class="p_9">The attendee DisplayName&#160;has been added to the returned attendees array for the&#160;calendaring/events/{id} call in the EMS Web App. This will prevent applications from needing to make multiple API calls just to get attendee display names.&#160;</p>
+                        <p class="p_10">Internal Reference # 34891</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="6" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_7">EMS Mobile App</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">DisplayName Property Added to Returned Attendees Array in EMS Mobile App</p>
+                        <p class="p_9">The attendee DisplayName&#160;has been added to the returned attendees array for the&#160;calendaring/events/{id} call in the EMS Mobile App. This will prevent applications from needing to make multiple API calls just to get attendee display names.&#160;</p>
+                        <p class="p_10">Internal Reference # 34964</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_15">&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">View Free/Busy Status in EMS Mobile App</p>
+                        <p class="p_9">The EMS Mobile App will display Free or Busy status information as a green checkmark next to the user name inside the Attendee picker.&#160;</p>
+                        <p class="p_10">Internal Reference # 33984</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Add Attendee to an Existing Meeting in EMS Mobile App</p>
+                        <p class="p_9">In the EMS Mobile App, users can&#160;add additional attendees to an existing (single) meeting and/or&#160;add new attendees to an existing meeting.</p>
+                        <p class="p_10">Internal Reference # 33985</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_8">Remove Attendee(s) from Existing Meeting in EMS Mobile App</p>
+                        <p class="p_9">In the EMS Mobile App, a meeting host can remove any and all G Suite attendees from the meeting.</p>
+                        <p class="p_10">Internal Reference # 33986</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_8">Notify Attendee(s) of a Canceled Meeting in EMS Mobile App</p>
+                        <p class="p_9">In the EMS Mobile App, if a booking is canceled, the booking will be removed from the host's and attendees' G Suite calendar. Attendee(s) then receive notification of the&#160;cancellation.&#160;&#160;</p>
+                        <p class="p_10">Internal Reference # 33986</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="p_7">EMS Desktop Client</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="p_8">Check for Google Calendar and Update Appointment/meeting</p>
+                        <p class="p_9">If parameter is set in EMS Desktop Client, events created can be viewed on the Google calendar.</p>
+                        <p class="p_10">Internal Reference # 33971</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

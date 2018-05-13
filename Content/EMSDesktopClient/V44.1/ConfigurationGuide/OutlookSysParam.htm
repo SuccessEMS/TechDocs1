@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="5" MadCap:lastHeight="8123" MadCap:lastWidth="903" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSDesktopClient.flmsp');">
+    <head><title>EMS for Outlook System Parameters V44.1 (EMS Desktop Client)</title>
+        <link href="../../../Resources/TableStyles/PatternedRows_Param.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" /><MadCap:variable name="General.EMS for Outlook Add-in" /> System Parameters</h1>
+        <p>Items highlighted in blue below were added for EMS for Outlook Update 8.</p>
+        <p>The list below summarizes all parameters that affect EMS for Outlook, but they may also affect other Everyday User Applications.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows_Param.css');margin-left: 0;margin-right: auto;" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 215px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 148px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 265px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+Title
+
+</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+Configured Where?
+
+</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+
+Description</th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1" style="text-align: center;">
+
+Area</th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1" style="text-align: center;">KEYVALUE<br />(tblRegistry Name)
+
+</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Event Information to Display in Booking on Schedule View
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Determines what information should show in the free/busy bar in the Book. Options include: None, Event Name or Group Name.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+Schedule View</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_ResBook_ShowWhatInBar
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Account to Use for Sending Email
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">The email account against which outgoing email from <MadCap:variable name="General.EMS&#160;Web App" />is authenticated. Only required if the SMTP mail server requires authentication.
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+Email - Settings</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_EmailAccount
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Password of Email Account
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The password for the email account. Only required if the SMTP mail server requires authentication.
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email - Settings</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_EmailAccountPassword
+
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Name of Email Sender
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Indicates the "From" name in the reservation summary email generated when an everyday user creates a reservation. Parameter Send Request Summary upon Submit must be enabled, and a reservation summary email must be configured (under Configuration &gt; Everyday User Applications &gt; Everyday User Process Templates &gt; highlight the template and select Confirmation).
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_EmailSender
+
+
+
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email Address of Sender
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">This entry indicates the “From” email address in the reservation summary email that is generated when a web user submits a reservation. Parameter Send Request Summary upon Submit must be enabled, and a reservation summary email must be configured. (Provide link or reference to where email is configured.)
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_EmailSenderAddress
+
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Name or IP Address of SMTP Server</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+
+
+Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">SMTP mail server used solely for emails related to everyday user application functionality. This mail server does not apply to emails generated within the desktop client or by any email notification service.
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email - Settings</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_EmailServer
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Location Format</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Determines how location information is displayed in Browse Events and Create Reservation (List View). Options are Room Code, Room Description, Building Code - Room Code, Building Code - Room Description, Building Description - Room Code, Building Description - Room Description, Building Description.	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">General</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_LocationFormat		</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Display Filters before showing Rooms	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Whether to show filter options before listing room availability.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Outlook</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_Outlook_FilterFirst
+
+ 
+
+ 
+
+		</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Start Time on Schedule View	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Determines the start time for the grid view.	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Schedule View</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_ReservationBook_StartTime	</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Format for Request Summary
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Specify a detailed or summarized report for the reservation summary email that is generated when a web user submits a reservation. Parameter Send Request Summary upon Submit must be enabled, and a reservation summary email must be configured. (Provide link or reference to where email is configured.)
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">Vems_Reservations_AutoEmailFormat
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Send Request Summary upon Submit
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Determines whether reservation summary information is emailed to the web users when a reservation is submitted. A reservation summary email must be configured. (Provide link or reference to where email is configured.)
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_Reservations_AutoSendSummary
+
+
+ 
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Send Confirmation on Cancel
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Sends the reservation summary if the reservation or a booking is canceled.
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_Reservations_AutoSendSummaryOnCancel
+
+
+
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Default Subject for Email
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">This entry appears in the Subject line of email the reservation summary email that is generated when a web user submits a reservation. Parameter Send Request Summary upon Submit must be enabled, and a reservation summary email must be configured. (Provide link or reference to where email is configured.)</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Email</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_Reservations_DefaultSubject
+
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Show Feature Filter	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab	</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Controls whether Features appear as a search criteria for a room.
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Create/Manage Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_Reservations_ShowFeatureList	
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Show Floor Filter</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Controls whether Floors appear as a search criteria for a room.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Create/Manage Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">VEMS_Reservations_ShowFloorList</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Show Room Type Filter</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Controls whether Room Types appear as a search criteria for a room.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Create/Manage Reservations</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">VEMS_Reservations_ShowRoomType</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">The text to display above the edit link
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+
+PAM Web Service &gt; PAMConfig.aspx &gt; Message tab
+</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Message added to the appointment body, above a link that takes the meeting organizer to the EMS Web App Reservation Summary page for that reservation. This message is seen by all users, but only the meeting organizer can access the Reservation Summary page to make changes.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">PAM</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">PAM_TextAboveEditLink
+
+
+
+</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Exchange Integration Web Service URL</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Desktop Client &gt; System Administration &gt; Settings &gt; Parameters &gt; Everyday User Applications tab</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">The URL to the optional Integration to Exchange module. If Exchange Integration is enabled, this URL is inserted into the links within meeting appointments generated by the EMS Web App or EMS for Outlook.
+
+</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Integration to Microsoft Exchange</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">PAM_WebServiceURL
+
+
+
+
+
+</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

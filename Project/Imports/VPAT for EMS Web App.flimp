@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-12-19T13:49:23.7984496-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Desktop\Grazzy3\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-12-19T13:49:34.0176250-07:00">
+  <Files>
+    <Url
+      Source="../../../../Documents/VPAT for EMS Web App.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/VPAT for EMS Web App.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/VPAT for EMS Web App/VPAT for EMS Web App V44 1.gif"
+      TimeStamp="12/19/2017 1:49:30 PM" />
+    <Url
+      Source="../../Content/Resources/Images/VPAT for EMS Web App/VPAT for EMS Web App V44 1.png"
+      TimeStamp="12/19/2017 1:49:30 PM" />
+    <Url
+      Source="../../Content/VPAT for EMS Web App/VPAT for EMS Web App V44 1.htm"
+      TimeStamp="12/19/2017 1:49:30 PM" />
+    <Url
+      Source="../TOCs/VPAT for EMS Web App.fltoc"
+      TimeStamp="12/19/2017 1:49:30 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/VPAT for EMS Web App.css"
+      TimeStamp="12/19/2017 1:49:30 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

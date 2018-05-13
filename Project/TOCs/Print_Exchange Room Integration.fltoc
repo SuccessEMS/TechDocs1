@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Exchange Room Integration"
+    Link="/Content/Print/ERI_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Title8_5X11.flpgl"
+    PageNumberReset="reset"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="reset"
+    PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/TOC8_5X11.flpgl">
+    <TocEntry
+      Title="Introduction to ERI"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/IntroductiontoERI.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="reset"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl"
+      ChapterNumberReset="reset"
+      ChapterNumber="1"
+      PageNumber="1"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"></TocEntry>
+    <TocEntry
+      Title="System Requirements of ERI"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/SystemRequirements.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Architecture of ERI"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ArchitectureofERI.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Install Exchange Room Integration"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/InstallingERI.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Exchange Sync Utility"
+      Link="/Content/Integrations/ExchangeRoomIntegration/InstallationGuide/ExchangeSyncUtility.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+    <TocEntry
+      Title="Configure Exchange Room Integration (ERI)"
+      Link="/Content/Integrations/ExchangeRoomIntegration/ConfigurationGuide/ConfigERI.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/EMS_8_5x11/Chapters8_5X11.flpgl" />
+  </TocEntry>
+</CatapultToc>

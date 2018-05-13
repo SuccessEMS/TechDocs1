@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Floor Plans"
+    Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_EMSFloorPlanV44.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_Introduction.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Hardware and Software Requirements"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_HardwareSoftwareReqs.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Obtain the Floor Plan Components"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_ObtainFPComponents.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install FloorPlan Components"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_InstallFPcomponents.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the Floor Plan Configuration Tool"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_InstallUpgradeFPConfigTool.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the Floor Plan Web Service"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_InstallUpgradeFPWebService.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Upload, Map, and Enable Floor Plans in EMS"
+        Link="/Content/OptionalFeatures/FloorPlan/B_V44/FloorPlan_V44_UploadEnableFPandMaps.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Version 43">
+      <TocEntry
+        Title="Introduction to EMS Floor Plans"
+        Link="/Content/OptionalFeatures/FloorPlan/C_V43/EMSFloorPlans_IntrotoV43.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Floor Plan Install"
+        Link="/Content/OptionalFeatures/FloorPlan/C_V43/Floor Plan Install.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

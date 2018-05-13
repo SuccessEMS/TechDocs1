@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS HR Toolkit"
+    Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_OlderReleases.htm">
+    <TocEntry
+      Title="Version 44"
+      Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_HRToolkitV44.htm">
+      <TocEntry
+        Title="How EMS HR Toolkit Integrates Your User Records"
+        Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_HowHRTIntegrates.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Installation Overview"
+        Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_InstallOverview.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="HR Toolkit - Group/Contact Model"
+        Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_GroupContactModel.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="HR Toolkit - Group/Group Type Model"
+        Link="/Content/OptionalFeatures/HRToolkit/B_V44/HRToolkit_V44_GroupGroupTypeModel.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Version 43">
+      <TocEntry
+        Title="Introduction to EMS Floor Plans"
+        Link="/Content/OptionalFeatures/FloorPlan/C_V43/EMSFloorPlans_IntrotoV43.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Floor Plan Install"
+        Link="/Content/OptionalFeatures/FloorPlan/C_V43/Floor Plan Install.pdf" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

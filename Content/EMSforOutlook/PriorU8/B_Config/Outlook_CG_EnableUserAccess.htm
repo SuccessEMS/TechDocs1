@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2378" MadCap:lastWidth="795" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Outlook.flmsp');">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />Enabling User Access to EMS for Outlook</h1>
+        <p>EMS must be configured properly in order to activate the EMS for Outlook. &#160;The&#160;add-in&#160;uses each&#160;Outlook user’s EMS&#160;Everyday User&#160;account&#160;to establish their room booking privileges based on:</p>
+        <ul class="ul_1">
+            <li>the Booking Template(s) to which&#160;the Everyday User is&#160;assigned.</li>
+            <li>EMS Group(s) for which&#160;the appointment can be booked.</li>
+        </ul>
+        <h2>Prerequisites&#160;</h2>
+        <p>In order for your Outlook users to have access, you must have enabled them in your EMS Desktop Client setup using&#160;Everyday User Process Templates.&#160;See Also:&#160;<a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUserProcessTemplate.htm">Configuring Everyday User Templates</a>&#160;for instructions&#160;in creating&#160;a Everyday User Process Template.&#160;In addition to EMS for Outlook&#160;<a href="../A_Install/Outlook_IG_Requirements.htm">Requirements</a>, the following must be true for you to be able to&#160;activate EMS for Outlook for a specific user:</p>
+        <ol start="1" class="ol_1">
+            <li>An active EMS Everyday User account must exist.</li>
+            <li>The EMS Everyday User account must be assigned to at least one Process Template and the&#160;Outlook&#160;option must be enabled.</li>
+            <li>The EMS Everyday User account must be linked to an active EMS Group record (via the&#160;External Reference&#160;field).</li>
+            <li>The EMS Everyday User must have at least one contact associated.</li>
+        </ol>
+        <p>This section guides you in establishing these elements of your installation.</p>
+        <h2>Defining&#160;an Outlook Everyday User Process Template&#160;</h2>
+        <p>Once you have&#160;defined <a href="../../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUserProcessTemplate.htm">Everyday User Process templates</a>&#160;as part of EMS Desktop Client setup, you can make some adjustments in order to fully enable and customize the EMS for Outlook add-in.</p>
+        <ol start="1" class="ol_1">
+            <li>When defining a Everyday User Process template in EMS Desktop Client setup, simply select the&#160;Outlook&#160;option.&#160;</li>
+            <li>Use the&#160;Outlook Conflict – Email Options&#160;tab to customize the email sent to&#160;the Outlook user if a booking conflict arises during the process of booking through Outlook.</li>
+            <li>Complete the remaining tabs.</li>
+            <li>Once you have defined your Outlook Everyday User Process template(s),&#160;<a href="../../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_AssignSecTempMultEU.html">assign it to your User Account(s)</a>. (A Group record is assigned to an Everyday&#160;User account in&#160;Configuration &gt; Everyday Applications &gt; Everyday Users.)</li>
+        </ol>
+        <h2>Assigning EMS Users to&#160;Groups&#160;</h2>
+        <p>You assign users to groups in EMS by modifying their Everyday User accounts using&#160;via the&#160;External Reference&#160;field.&#160; You can have a user test this as follows:</p>
+        <ol start="1" class="ol_1">
+            <li>Navigate to&#160;Billing Information tab within Reservations &gt; Reservations &gt;&#160;Groups.&#160;</li>
+            <li>Make a note of the value in&#160;the&#160;External Reference&#160;field.</li>
+            <li>Navigate&#160;to the&#160;Everyday User account, which is&#160;on the Everyday User tab within Configuration &gt; Everyday Applications&gt;&#160;Everyday&#160;Users.</li>
+            <li>Compare the value above to the value in the&#160;External Reference&#160;field.</li>
+        </ol>
+        <p class="note-box">Note:&#160;These values can be set automatically by administrators if your organization is using the HR Toolkit&#160;module.&#160; Please see the&#160;<a href="../../../OptionalFeatures/5_EMS_HumanResourcesToolkitHome.htm">HR Toolkit Installation Instructions</a>&#160;for more information.</p>
+    </body>
+</html>

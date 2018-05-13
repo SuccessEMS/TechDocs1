@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="7729" MadCap:lastWidth="979" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 MadCap:autonum="CHAPTER&#160;1: ">Portal Authentication Methods</h1>
+        <p>This topic provides information on the following:&#160;</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Header_Variable">Server Variable Method (Header Variable)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Federated_(SAML)">Server Variable Method – Federated (SAML)</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#EMS_Configuration">EMS Configuration</MadCap:xref>
+            </li>
+        </ul>
+        <h2>Server Variable Method <a name="Header_Variable"></a>(Header Variable)</h2>
+        <p>Server Variable/Header Variable is a collection of variables that are set by Internet Information Server (IIS).&#160;</p>
+        <p>Applications like SiteMinder create custom server variables for portal site use.</p>
+        <h4>Code example:&#160;</h4>
+        <p>Set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;<span class="bold">Server Variable</span>&#160;and type the appropriate variable for the&#160;Portal <span class="bold">Authentication Variable</span>&#160;parameter. Direct users to your Virtual EMS Default.aspx page.</p>
+        <h2>Server Variable Method – <a name="Federated_(SAML)"></a>Federated (SAML)</h2>
+        <p>SAML can be leveraged for authentication with your EMS applications by leveraging our portal authentication method and a service provider of your choosing.</p>
+        <h3>Steps to Configure, Method 1</h3>
+        <p>Using this method, you install a service provider of choice on the webserver hosting the EMS web applications. All traffic is routed through that service provider (typically via an ISAPI filter). This service provider will manage all of the authentication for the user. Once the user has successfully authenticated it will pass an identifier for the user to the EMS application using one of our portal methods. <MadCap:annotation MadCap:createDate="2017-11-24T19:33:47.4609864-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Should these steps be listed under the Header Method section? Is Method 2 below flr SAML?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-24T19:34:10.0871700-07:00">In this scenario typically the Server Variable (Header) method is used</MadCap:annotation>.</p>
+        <ol start="1" class="ol_1">
+            <li>Install and configure a service provider on the EMS web server.</li>
+            <li>Set the service provider to protect the specified EMS web applications.</li>
+            <li>Configure the service provider to pass the required user attributes.</li>
+            <li>In EMS, configure the VEMS parameter <span class="bold">Portal Authentication Method</span>.</li>
+            <li>In EMS, configure the applicable <span class="bold">Portal Authentication Variables</span>.</li>
+        </ol>
+        <h3>Steps to Configure, Method 2</h3>
+        <p>This method can be common if there is already a server configured with a service provider in your environment, handling authentication for other applications. In EMS you can configure your application to re-direct any login requests to the other server to be authenticated. Once the user is authenticated, the server with your service provider installed sends the user back to the EMS Application with an identifier for the user in the header, or within a cookie. The EMS application reads this header, or cookie value, and leverages portal authentication to sign the user in with the matched credentials.</p>
+        <ol start="1" class="ol_1">
+            <li>Install and configure a service provider on the EMS web server.</li>
+            <li>Set the service provider to protect the specified EMS web applications.</li>
+            <li>Configure the service provider to pass the required user attributes.</li>
+            <li>In EMS, configure the VEMS parameter <span class="bold">Portal Authentication Method</span>.</li>
+            <li>In EMS, configure the applicable Portal Authentication Variables.</li>
+            <li>In EMS, change the Login URL under <span class="bold">Configuration</span> &gt; <span class="bold">Web</span> &gt; <span class="bold">Web Menus</span>.<ol start="1" style="list-style-type: lower-alpha;"><li>Select <span class="bold">Login.aspx</span> and click <span class="bold">Edit</span>.</li><li>Enter in the URL to your Remote Service Provider.</li></ol></li>
+            <li>Configure your Remote Service Provider to send the user back to the default.aspx page of the web application that the request originated from.</li>
+        </ol>
+        <h2><a name="EMS_Configuration"></a>EMS Configuration</h2>
+        <p>Please reference our Portal Authentication section for further details around the configuration required within EMS. There are a number of different options available. You will need to know the method that the user identifying value will be passed and the name of that value. Other values can also be passed (e.g. email address and phone number) to aid in automatic web user account provisioning as well.</p>
+        <h3>Session Method</h3>
+        <p>A session is a way to provide/maintain user state information in an inherently stateless environment. It provides access to a session-wide cache you can use to store information.</p>
+        <p>In order to use the session method, set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;<span class="bold">Session&#160;</span>and type the appropriate variable for the&#160;<span class="bold">Portal Authentication Variable</span>&#160;parameter. Then you must create an asp.net web page and name it with the .aspx extension similar to the example below. The asp.net web page created must be copied into the Virtual EMS root web directory. It must be copied there in order for Virtual EMS to read the session variable.</p>
+        <p>You will need to pass through the user’s email address or external reference to your asp.net web page.</p>
+        <h4>Code example in vb.net:</h4><pre>&lt;%@ Import Namespace="System" %&gt;</pre><pre>&lt;script runat="server" language="vb"&gt;</pre><pre xml:space="preserve">	Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs)</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;		Session.Item("VEMSSession") = "test@emssoftware.com"</pre><pre xml:space="preserve">&#160;&#160;&#160;&#160;&#160;&#160;&#160;		Response.Redirect("Default.aspx")</pre><pre>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; End Sub</pre><pre>&lt;/script&gt;</pre>
+        <h3>Form Method</h3>
+        <p>Forms enable client-side users to submit data to a server in a standardized format via HTML. The creator of a form designs the form to collect the required data using a variety of controls, such as INPUT or SELECT. Users viewing the form fill in the data and then click Submit to send the data to the server.</p>
+        <p>To use the form method, set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;<span class="bold">Form&#160;</span>and type the appropriate variable for the&#160;<span class="bold">Portal Authentication Variable</span>&#160;parameter. To create portals through a form, create a web page with a form similar to below. Once the user logs on through the portal, the form below can be submitted to log the user on to Virtual EMS.</p>
+        <h4>Code example in HTML:</h4><pre>&lt;Form name="form1" method="Post" action=" http://[ServerName]/ VirtualEMS/Default.aspx "&gt;</pre><pre xml:space="preserve">&#160;&#160;	&lt;input type="hidden" id="VEMSFORM" name="VEMSFORM" value="test@emssoftware.com&gt;</pre><pre xml:space="preserve">&#160;	&lt;input type="submit" value="submit"&gt;</pre><pre>&lt;/form&gt;</pre>
+        <h3>Cookie Method</h3>
+        <p>A cookie is a small piece of information stored by the browser. Each cookie is stored in a name/value pair called a crumb—that is, if the cookie name is "id" and you want to save the id's value as "this," the cookie would be saved as id=this.</p>
+        <p>You can store up to 20 name/value pairs in a cookie, and the cookie is always returned as a string of all the cookies that apply to the page. This means that you must parse the string returned to find the values of individual cookies. Cookies accumulate each time the property is set. If you try to set more than one cookie with a single call to the property, only the first cookie in the list will be retained.</p>
+        <p>To use the cookie method, set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;<span class="bold">Cookie&#160;</span>and type the appropriate variable for the&#160;<span class="bold">Portal Authentication Cookie Key</span>&#160;parameter. Then create a web page with code similar to below. Once the user logs on through the portal, take their user logon information and create a cookie. After the cookie is created, send the user to your Virtual EMS Default.aspx page.</p>
+        <h4>Code example in Active Server Pages 2.0:</h4><pre>&lt;%@LANGUAGE="VBSCRIPT" %&gt;</pre><pre>&lt;%</pre><pre xml:space="preserve">	Response.Expires = -1</pre><pre xml:space="preserve">&#160;&#160;	Response.Cookies("VEMSCookie")("CookVal") = "test@emssoftware.com"</pre><pre xml:space="preserve">	Response.Cookies("VEMSCookie").Path = "/"</pre><pre xml:space="preserve">	Response.Cookies("VEMSCookie").Expires = DateAdd("m", 3, Now)</pre><pre xml:space="preserve">	Response.Redirect("http://[ServerName]/ VirtualEMS/Default.aspx ")</pre><pre>%&gt;</pre>
+        <h3>Query String Method</h3>
+        <p>A query string is information appended to the end of a page's URL. To use the query string method, set the&#160;<span class="bold">Portal Authentication Method</span>&#160;parameter to&#160;<span class="bold">Query String</span>&#160;and type the appropriate variable for the&#160;<span class="bold">Portal Authentication Variable</span>&#160;parameter. An example using portal authentication is below. </p>
+        <h4><span class="bold">Code example:</span>
+        </h4><pre xml:space="preserve">http://[ServerName]/ VirtualEMS/Default.aspx?MCQS=test@emssoftware.com	</pre>
+    </body>
+</html>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="true"
+  KeepSourceLinks="true"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2017-11-18T13:45:59.7096867-07:00"
+  ProjectName="Success"
+  ProjectFolder="C:\Users\Jen.Naused\Documents\My Projects\Website\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  LastImport="2017-11-18T13:46:07.6990905-07:00">
+  <Files>
+    <Url
+      Source="../../../../DeployDesktopClient.docx"
+      AbsoluteSource="file:///C:/Users/Jen.Naused/Documents/DeployDesktopClient.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Web Deployment.png"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Web Deployment.jpg"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Web Deployment_1.png"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/DeployDesktopClient/Web Deployment.htm"
+      TimeStamp="11/18/2017 1:46:06 PM" />
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Conventional Deployment.gif"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Conventional Deployment.jpg"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/DeployDesktopClient/Conventional Deployment.htm"
+      TimeStamp="11/18/2017 1:46:06 PM" />
+    <Url
+      Source="../../Content/DeployDesktopClient/Enable SSL on Web Deployment.htm"
+      TimeStamp="11/18/2017 1:46:06 PM" />
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Troubleshooting.png"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/Resources/Images/DeployDesktopClient/Troubleshooting_1.png"
+      TimeStamp="11/18/2017 1:46:05 PM" />
+    <Url
+      Source="../../Content/DeployDesktopClient/Troubleshooting.htm"
+      TimeStamp="11/18/2017 1:46:06 PM" />
+    <Url
+      Source="../TOCs/DeployDesktopClient.fltoc"
+      TimeStamp="11/18/2017 1:46:06 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/DeployDesktopClient.css"
+      TimeStamp="11/18/2017 1:46:06 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles>
+    <StyleName
+      Name="Heading 1" />
+  </NewTopicStyles>
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+    <StyleName
+      Name="Heading 4" />
+    <StyleName
+      Name="Normal (Web)" />
+    <StyleName
+      Name="notetipwarningtext" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles>
+    <StyleName
+      Name="Hyperlink" />
+    <StyleName
+      Name="mt-color-669933" />
+    <StyleName
+      Name="mt-font-size-10.0pt" />
+    <StyleName
+      Name="Strong" />
+  </UsedCharacterStyles>
+</MsWordImport>

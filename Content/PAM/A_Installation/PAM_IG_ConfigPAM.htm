@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="4697" MadCap:lastWidth="1154" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />Configure PAM</h1>
+        <p>This topic will provide information that will allow you to:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Use">Use Exchange Online (Office 365) with PAM</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Test">Test PAM</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Optional">Configure Optional Settings</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="Use"></a>Use Exchange Online (Office 365) with PAM</h2>
+        <p>Configuring EMS to work with Exchange Online (Office 365) or Exchange 2013 is the same as configuring EMS to work with a 2007/2010 Exchange environment that is hosted on your network.&#160;See&#160;this page&#160;to <MadCap:xref href="PAM_IG_SetupPAMImperson.htm">Set Up PAM Impersonation for Exchange Online (Office 365)</MadCap:xref>.&#160;</p>
+        <ol start="1">
+            <li>After following the steps above, access the PAM configuration area by opening a browser and entering the following:</li>
+        </ol>
+        <p>http://[ServerName]/PAMWebService/PAMConfig.aspx&#160;(replace [ServerName] with the name of your web server)</p>
+        <ol start="2">
+            <li>Navigate to the&#160;Account Info&#160;tab.&#160;</li>
+        </ol>
+        <p class="title">Account Info Tab</p>
+        <p>
+            <img src="../../Resources/Images/EMS Plan a Meeting (PAM) (V44)/Configuring PAM.gif" alt="https://success.emssoftware.com/@api/deki/files/913/PAM_Account_Info_OR.gif?revision=3&amp;size=bestfit&amp;width=1256&amp;height=929" />
+        </p>
+        <ol start="3">
+            <li>Select your email system in the&#160;Provider&#160;dropdown using the instructions provided on the page.</li>
+            <li>Check the box "utilize AutoDiscover to locate the best Client Access Server for the user…”</li>
+        </ol>
+        <p class="note-box">Note: if you do not check this box, you&#160;MUST&#160;fill in the&#160;Url to Exchange Web Services&#160;field.</p>
+        <ol start="5" class="ol_1">
+            <li>Within the&#160;Authentication Information&#160;section, enter your PAM Account&#160;User Name&#160;and&#160;Password.&#160;The User Name should be prefixed with your domain (example – YourDomain\PAM Account, or Pam Account@YourDomain)&#160;</li>
+            <li>(Optional)&#160;The “Use application pool identity…” option allows you to set the PAM Account credentials at the Application Pool level instead of storing the credentials in the EMS database.&#160;See the&#160;<MadCap:xref href="PAM_IG_ApplicationPoolIdentity.htm">Application Pool Identity for Service Account </MadCap:xref>section for more information about this option.&#160;If this option is selected, you&#160;must&#160;check the box to use Impersonation.&#160;</li>
+            <li>If you selected “Exchange Web Services” as your&#160;Provider, select the checkbox if the account specified has Exchange Impersonation access to all mailboxes in your Exchange mailbox store.</li>
+            <li>The PAM Web Service URL will be used in the&#160;Configuring&#160;PAM&#160;EMS Configuration&#160;section later in this document.</li>
+            <li>Select the Authentication Type:</li>
+        </ol>
+        <ul>
+            <li>Anonymous&#160;– No authentication</li>
+            <li>Specify Account&#160;– Relies on a custom account (not the PAM Account) that you create and manage.&#160;Please contact Customer Support (or a member of the Professional Services group if you are working with one) to discuss the configuration process for this option.</li>
+            <li>Default Credentials&#160;– Relies on security context of EMS application calling the PAM Web Service.&#160;If using this option, Integrated Windows Authentication should be enabled for the PAM Web Service.&#160;</li>
+            <li>For MS Exchange 2007/2010 environments, click&#160;Save.&#160;Go to&#160;step 1</li>
+        </ul>
+        <p class="note-box">Note:&#160; When testing PAM, the email account that is being used (either on the Test Settings tab or in the&#160;Testing PAM&#160;section below) MUST exist in the Exchange environment being tested.&#160;If you are testing PAM in a development environment please verify that a mailbox for the email being used exists in that domain/environment.</p>
+        <ol start="10">
+            <li>Click&#160;Test Configuration.&#160; If any errors are encountered, please verify your configuration. Otherwise, your PAM configuration is complete.&#160;Please go to the&#160;EMS Configuration&#160;section.</li>
+        </ol>
+        <h2><a name="Test"></a>Test PAM</h2>
+        <p>In order to test your PAM configuration, you will need to log into Virtual EMS with a web user account (configured with the web user’s primary email address) belonging to a Web Process Template (within the EMS Desktop Client application) that has the&#160;Allow Invitations&#160;option checked.&#160;</p>
+        <ol start="1">
+            <li>Log into Virtual EMS.&#160;Go to&#160;Reservations &gt; Room Request.</li>
+        </ol>
+        <p>
+            <img src="../../Resources/Images/EMS Plan a Meeting (PAM) (V44)/Configuring PAM_1.gif" alt="https://success.emssoftware.com/@api/deki/files/917/VEMS_PAM_Invitation.gif?revision=1" />
+        </p>
+        <ol start="2">
+            <li>Enter ‘When and Where’ criteria and hit&#160;Find Space.&#160;Select a room.</li>
+            <li>Select the&#160;Add to Calendar/Send Invitations&#160;checkbox.&#160;If this option is not available, please verify (within the EMS Desktop Client application) that your web user account belongs to a Web Process Template that has the&#160;Allow Invitations&#160;option checked.&#160;</li>
+            <li>Add an attendee by typing an attendee name in the&#160;Find Attendee&#160;textbox and hitting the magnifying glass icon.</li>
+            <li>Complete necessary information on the&#160;Details&#160;tab and click&#160;Submit Reservation.</li>
+            <li>Verify that an appointment was added to your Outlook Calendar and that your attendee received an invitation.</li>
+        </ol>
+        <h2><a name="Optional"></a>Configure Optional Settings</h2>
+        <h3>Message Tab</h3>
+        <ul>
+            <li>Message To Append—Message appended to the bottom of the appointment body.&#160;This message is seen by all users.</li>
+        </ul>
+        <ul>
+            <li>To view the details of this reservation click the below link—Message added to the appointment body, above a link that takes a user to a view-only Virtual EMS page for the appointment.&#160;This message is seen by all users.</li>
+        </ul>
+        <ul>
+            <li>If you are the meeting organizer, click the below link to edit the reservation—Message added to the appointment body, above a link that takes the meeting organizer to the Virtual EMS Reservation Summary page for that reservation.&#160;This message is seen by all users, but only the meeting organizer can access the Reservation Summary page to make changes.</li>
+        </ul>
+        <ul>
+            <li>Allow Attachments—Allows users to add attachments within Virtual EMS when making an appointment.</li>
+        </ul>
+        <ul>
+            <li>Maximum Attachment Size—If attachments are allowed, sets the maximum file size allowed for an attachment.</li>
+        </ul>
+    </body>
+</html>

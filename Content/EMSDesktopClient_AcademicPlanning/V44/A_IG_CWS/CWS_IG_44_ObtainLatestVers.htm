@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2101" MadCap:lastWidth="890" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_AcademicPlanning.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">
+            <MadCap:concept term="V44" />Obtain the Latest Version of EMS Campus Web Service</h1>
+        <p class="NormalWeb_4">Please contact your Professional Services Consultant or&#160;support@emssoftware.com&#160;to obtain the following files:</p>
+        <ul class="unorder-list">
+            <li class="li_5"><span class="bold">EMSCampusWebService.msi&#160;</span>– EMS Campus Web Service installation file</li>
+            <li class="li_5"><span class="bold">Views.sql&#160;</span>– Script that will create EMS Campus specific views in your SIS that the EMS Campus Web Service will use to query/update data.</li>
+            <li class="li_5"><span class="bold">Queries.xml</span>&#160;– SIS-specific configuration file used by the EMS Campus Web Service to connect to your SIS.&#160;</li>
+        </ul>
+        <h2>Install the EMS Campus Views</h2>
+        <p class="box-note"><span class="bold">NOTE:&#160;</span>EMS Campus clients using the tab-delimited file option can skip to the&#160;<MadCap:xref href="CWS_IG_44_SysReqPrereq.htm">System Requirements and Prerequisites for EMS Campus Web Service </MadCap:xref>section.</p>
+        <ol start="1" class="number-list">
+            <li class="li_5">Obtain the&#160;Views.sql&#160;file (required for new EMS Campus installations AND upgrades.)</li>
+            <li class="li_5">Create an EMS Campus specific account (name and password are arbitrary) in the SIS database that has been granted permissions to execute the EMS Campus views and has update privileges on the table used to store course meeting information.&#160; This account will be used by the EMS Campus Web Service to connect, query, and update your SIS via the views created by the&#160;Views.sql&#160;file.</li>
+        </ol>
+        <p class="box-note"><span class="bold">NOTE:</span> For a list of permissions by table for your particular SIS, please contact your Prfoessional Services Consultant.</p>
+        <ol start="3" class="number-list">
+            <li class="li_5">Execute&#160;Views.sql&#160;against your SIS database.&#160; (Note: Depending on your database management system, you may need to execute the&#160;Views.sql&#160;file using the account created in Step 2.)</li>
+            <li class="li_12">Complete the following additional steps based on your SIS Database Management System.</li>
+        </ol>
+        <h2>Microsoft SQL Server</h2>
+        <p class="p_2">No further steps are required.</p>
+        <h2>Oracle</h2>
+        <ol start="1" class="number-list">
+            <li class="li_12">Install the Oracle Client (version 11.1.x or 11.2.x) on your web server.&#160; Choose the ‘Administrator’ installation type option.</li>
+            <li class="li_12">Using the Oracle Net Manager, create a TNSNAMES.ora file.</li>
+            <li class="li_12">Verify that the PATH Environment Variable references the location of your TNSNAMES.ora file.</li>
+            <li class="li_12">Create a TNS_ADMIN Environment Variable to point to the location of your TNSNAMES.ora file.</li>
+            <li class="li_12">Grant to the Authenticated Users group Read + Execute privileges on your main Oracle directory.&#160; Make sure that permissions are propagated to all child objects.</li>
+            <li class="li_12">Reboot your web server.</li>
+            <li class="li_12">Launch SQL Plus and log-in.</li>
+            <li class="li_12">Execute the following statement to verify connectivity to your Oracle-EMS buildings view.</li>
+            <li class="li_12">Select * from ems_vwbuildings;</li>
+        </ol>
+        <h2>IBM UniData</h2>
+        <p class="p_2">UniData comes with the following tools, which must be installed:</p>
+        <ul class="unorder-list">
+            <li class="li_12">Visual Schema Generator (VSG) – Used to build views and sub-tables for EMS Campus.</li>
+            <li class="li_12">ODBC Client Software.</li>
+        </ul>
+        <h2>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

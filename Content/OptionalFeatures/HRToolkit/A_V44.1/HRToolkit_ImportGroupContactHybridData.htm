@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="764" MadCap:lastWidth="835">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Import Group/Contact or Hybrid Data</h1>
+        <p>Important:&#160;Existing EMS clients must synchronize&#160;existing EMS Group, Contact, and Everyday User records before activating the HR Toolkit.&#160;<span class="bold">Ignoring this step will result in duplicate records.</span> Please contact your Professional Services Consultant for more details.</p>
+        <ol start="1" class="number-list">
+            <li>Import&#160;<span class="bold">ACTIVE&#160;</span>records from your organization’s data source into the&#160;<span class="italics">tblPeople&#160;</span>table within the&#160;<span class="italics">EMS_Staging</span>&#160;database.</li>
+            <li>Execute the&#160;<span class="italics">HRTK_Update_Group</span>&#160;stored procedure.</li>
+        </ol>
+        <div class="note-box note">
+            <p><span class="bold">NOTE: </span>These steps (with assistance from your IT Department) can be scheduled to execute automatically using an SQL Job.&#160;Please refer to your MS SQL Server documentation for more information on creating and scheduling an SQL Job.&#160;This&#160;process is not managed by EMS Software.</p>
+        </div>
+    </body>
+</html>

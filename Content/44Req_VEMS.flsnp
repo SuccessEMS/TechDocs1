@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="519" MadCap:lastWidth="1478">
+    <head>&#160;</head>
+    <body>
+        <h2>Virtual EMS&#160;(VEMS)</h2>
+        <table style="">
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th>
+                        <p class="Strong_1">Supported Desktop Browsers</p>
+                    </th>
+                    <th>
+                        <p class="HTMLAddress" style="text-align: left;">Internet Explorer 8, 9, 10, 11<br />Firefox* &#160;<br />Google Chrome*<br />Safari (Mac OS only)</p>
+                        <p class="HTMLAddress_1">
+                            <br />*Latest versions</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="Strong_1">Supported Mobile Browsers</p>
+                    </td>
+                    <td>
+                        <p class="HTMLAddress" style="text-align: left;">Google Chrome&#160;(Android, iOS 8 and 9)<br />Safari (iOS 8 and 9)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="Strong_1">Minimum System Requirements</p>
+                    </td>
+                    <td>
+                        <p class="HTMLAddress" style="text-align: left;">Processor: 2.0 GHz or faster*<br />Memory: 2 GB or more*<br />Video: SVGA 1024 x 768  or higher resolution<br />Network Card: 10 / 100 / 1000 Mbps ethernet (or other Internet connectivity)</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

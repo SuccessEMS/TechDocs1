@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="1222" MadCap:lastWidth="925" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_RoomWizard.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />Application Architecture</h1>
+        <p>The EMS Polycom Interface is comprised of two components:</p>
+        <ol start="1" class="number-list">
+            <li>EMS Polycom Service:&#160;Windows service responsible for pushing video conference bookings from EMS to the Polycom Realpresence Resource Manager API at timed intervals.</li>
+            <li>Polycom Activity DLL:&#160;Custom Polycom DLL provided by EMS that will display all EMS Polycom Interface activity within the EMS application, including errors and successfully scheduled video conferences. The Polycom Activity DLL also contains an area that allows EMS Administrators to configure various EMS&#160;Polycom Interface settings.</li>
+        </ol>
+        <p>New video conferences booked in EMS are pushed to the Polycom Realpresence Resource Manager API based on various settings defined within EMS (see EMS Polycom Interface Configuration Settings) Subsequent critical booking changes (i.e. date, time or location changes) and/or cancelations are also relayed to the API. The EMS&#160;Polycom Interface is a one-way interface and changes made in Polycom will not be reflected in EMS.</p>
+        <p>
+            <img src="../../../Resources/Images/PolycomV44/Application Architecture.png" alt="" />
+        </p>
+        <p>See Also:&#160;<a href="Polycom_V44_AdvPolycomInterConfig.htm">Advanced EMS Polycom Interface Configuration</a>&#160;to learn about the data the is transferred from EMS to the Polycom Realpresence Resource Manager API.</p>
+    </body>
+</html>

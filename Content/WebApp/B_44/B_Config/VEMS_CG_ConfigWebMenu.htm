@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1883" MadCap:lastWidth="861" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head>
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>Configure Web Menus</h1>
+        <p>When VEMS is first installed, the main menu has a&#160;default&#160;layout that determines the following:</p>
+        <ul>
+            <li>The default parent menu options</li>
+            <li>The order of the parent options in the main menu</li>
+            <li>The child options that appear under each parent menu option</li>
+            <li>The order of the child options under each parent menu option</li>
+        </ul>
+        <p>You can&#160;add&#160;your own user-defined options to the main menu or child options to a parent menu. These items can be links to VEMS pages or to websites outside VEMS.</p>
+        <ol>
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Web </span>&gt; <span class="bold">Web Menus</span>. The Web Menus window opens. This window lists all the current parent menu items and child options in alphabetical order.</li>
+        </ol>
+        <p>Web Menus window</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Menus.png" alt="emssg_VEMSInfo_image029.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Click <span class="bold">New</span>. The Web Menu dialog box opens. The Web Menu tab is the active tab.</li>
+        </ol>
+        <p>Web Menu dialog box, Web Menu tab</p>
+        <p>
+            <img src="../../../Resources/Images/Using Virtual EMS (VEMS)/Configuring Web Menus_1.png" alt="emssg_VEMSInfo_image030.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>Enter the information for the new web menu item.</li>
+        </ol>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Field</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Menu Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>The text for the item as it is to appear on the VEMS menu.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Sequence</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Enter a number that indicates the order in which this menu option is to appear relative to other parent menu items or relative to other menu items that fall under the same parent menu. Items are ordered from lowest to highest sequence number, with the item with the lowest sequence number appearing first.</p>
+                        <p>Note:&#160;If you leave the sequence set to the default value of zero for all menu items, then by default, the items are displayed alphabetically.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Link</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Enter the URL, or web address, for the link, for example, www. myorganization.com.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Parent Menu</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Select the parent menu (the menu under which the item is found) for the item. If this item is to be a new parent menu item, then select (none).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>New Window</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Select this option if the destination for this new menu item is to open in a new browser window (with VEMS remaining open behind the new window).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Authenticated Users Only</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Select this option if access to this new menu item is to be restricted to only those users who have logged in to VEMS.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ol MadCap:continue="true">
+            <li>If translations have been defined for web templates (see&#160;<MadCap:xref href="VEMS_CG_ConfigWebCulture.htm">Configure Web Cultures</MadCap:xref>), then open the Translations tab, and for each translation, click in the Text field, and enter the appropriate translation for the menu item.</li>
+            <li>Click <span class="bold">OK</span>. The Web Menu dialog box closes. You return to the Web Menus window with the newly configured menu option displayed in the window.</li>
+        </ol>
+        <p>Tip:&#160;If you have VEMS open, you might have to log out and then log back in to see the new menu item.</p>
+    </body>
+</html>

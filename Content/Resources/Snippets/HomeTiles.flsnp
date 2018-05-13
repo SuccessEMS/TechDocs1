@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<head>
+</head>
+<body>
+		<div class="medium-3 large-3 columns">
+				<a href="" class="block">
+					<span class="img-block">
+					<img src="Resources/Images/ERI.svg" alt="" />
+					</span>
+				EMS EXCHANGE ROOM INTEGRATION (ERI)
+				</a>
+			</div>
+		<div class="medium-3 large-3 columns">
+				<a href="" class="block">
+					<span class="img-block mobile-app padd5">
+					<img src="Resources/Images/roomwizard.svg" alt="" />
+					</span>
+				ROOM WIZARD
+				</a>
+			</div>
+		<div class="medium-3 large-3 columns">
+				<a href="" class="block">
+					<span class="img-block">
+					<img src="Resources/Images/cloudservices.png" alt="" />
+					</span>
+				CLOUD SERVICES<br/>(Coming Soon)
+				</a>
+			</div>
+</body>
+</html>

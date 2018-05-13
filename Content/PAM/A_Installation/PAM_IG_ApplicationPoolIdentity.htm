@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="2816" MadCap:lastWidth="1154" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44" />Application Pool Identity for Service Account</h1>
+        <p>Rather than inputting the PAM Account credentials on the PAMConfig.aspx page, credentials can be maintained at the Application Pool level. This allows your organization to maintain absolute control –&#160;only&#160;IIS applications running in the newly created application pool can run as the PAM Account.</p>
+        <p>This functionality requires the following:</p>
+        <ul>
+            <li>Microsoft Exchange 2007 (SP1) or Exchange 2010.</li>
+            <li>Microsoft Exchange Impersonation Account (PAM Account).&#160; This account&#160;must&#160;be using Impersonation, not full access to the mailbox store.</li>
+        </ul>
+        <h2>Configure the Application Pool</h2>
+        <ol start="1">
+            <li>Open IIS Manager</li>
+            <li>Open the&#160;Application Pools&#160;panel</li>
+            <li>Click&#160;<span class="bold">Add Application Pool</span>.</li>
+            <li>The&#160;Add Application Pool&#160;window opens.&#160; Enter a unique name and ensure .NET Framework v2.0 is selected.&#160; Managed pipeline mode should be&#160;Integrated.&#160; Click <span class="bold">OK</span>.</li>
+            <li>Find the Application Pool you just created.&#160; Right-click it and select&#160;<span class="bold">Advanced Settings</span>.</li>
+            <li>The third section in the list is&#160;Process Model.&#160; Highlight&#160;Identity&#160;and then click the (...) button to configure.</li>
+            <li>Choose&#160;<span class="bold">Custom Account</span>&#160;and then click <span class="bold">Set</span>.&#160; Enter the username and password for your PAM Account.&#160; Confirm the password and click <span class="bold">OK </span>on any remaining dialogs.</li>
+        </ol>
+        <p class="title">Application Pool Identity Dialog Box</p>
+        <p>
+            <img src="../../Resources/Images/EMS Plan a Meeting (PAM) (V44)/Additional Information.jpg" alt="https://success.emssoftware.com/@api/deki/files/134/image_43.jpg?revision=1&amp;size=bestfit&amp;width=583&amp;height=418" />
+        </p>
+        <ol start="8">
+            <li>Within IIS Manager, navigate to the Virtual Directory containing the PAM Web Service.&#160; This is under the Default Web Site by default, but may be installed to a different web site.&#160;</li>
+            <li>With the PamWebService Virtual Directory highlighted in the left pane, select&#160;<span class="bold">Basic Settings…&#160;</span>under Actions in the right pane.</li>
+            <li>Click the&#160;<span class="bold">Select…&#160;</span>button and then choose your newly created application pool from the list.</li>
+            <li>Click <span class="bold">OK </span>on all remaining dialogs.</li>
+        </ol>
+        <h2>Configure Plan-a-Meeting to Use the Application Pool account</h2>
+        <ol start="1">
+            <li>Navigate to the PAM configuration area by opening a browser and entering the following:</li>
+        </ol>
+        <p>http://[ServerName]/PAMWebService/PAMConfig.aspx&#160;(replace [ServerName] with the name of your web server)</p>
+        <ol start="2">
+            <li>From the&#160;Account Info&#160;tab, find the&#160;Authentication Information&#160;section, check the box for&#160;“Use application pool identity when authenticating to calendaring service”&#160; (see screenshot below)</li>
+        </ol>
+        <ol start="3">
+            <li>With this option enabled, you can leave blank the&#160;Username&#160;and&#160;Password&#160;fields in the Authentication Information section.</li>
+            <li>Click the&#160;Save&#160;button at the bottom of the page.&#160;</li>
+        </ol>
+        <p>
+            <img src="../../Resources/Images/EMS Plan a Meeting (PAM) (V44)/Additional Information.gif" alt="https://success.emssoftware.com/@api/deki/files/920/PAM_Authentication_Info.gif?revision=1&amp;size=bestfit&amp;width=1256&amp;height=571" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

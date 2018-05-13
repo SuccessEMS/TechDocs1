@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1103" MadCap:lastWidth="899" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('../../../Resources/MasterPages/EMSMobileApp.flmsp');">
+    <head><title>EMS Native Authentication</title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />EMS Native Authentication</h1>
+        <p>Authenticate your users via Everyday Application User (emsuser) credentials stored in the EMS database. This is the default configuration that ships with EMS Mobile App.</p>
+        <p>
+            <img src="../../Images/B_ConfigurationGuide/MA_NativeAuthentication.png" />
+        </p>
+        <p>After successful connection to&#160;EMS Platform Services, the user will:</p>
+        <ol class="number-list">
+            <li>Enter his or her credentials on the Sign In screen.</li>
+            <li>Tap <span class="bold">Sign In</span>.</li>
+            <li>User will be taken to the Home screen.</li>
+        </ol>
+        <p>If the credentials are missing or invalid when the user taps <span class="bold">Sign In</span>, an error message will appear indicating invalid credentials or that the fields are required.</p>
+        <h2>Test Your EMS Native Authentication</h2>
+        <p>Assuming you have installed the EMS Platform Services (at &#160;https://yourcompany.com/ems-platform-api),&#160;you can test the authentication with a curl command:</p>
+        <div class="indent">curl -X POST -H 'x-ems-consumer: MobileApp' -H 'Content-Type: application/json' -d '{"username":"your_username", "password":"your_password"}' https://ems.yourcompany.com/endpoint...authentication</div>
+        <p>...where your<span class="italics">_username</span> and your<span class="italics">_password</span> are your credentials.</p>
+        <div class="note-box note">
+            <p><span class="bold">Note</span>:&#160;<span class="bold">api/v1/authentication </span>is the endpoint within the API where your request must be sent.</p>
+        </div>
+    </body>
+</html>

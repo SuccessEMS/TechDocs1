@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="53" MadCap:lastWidth="560">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link rel="icon" href="../Images/favicon.png" />
+        <link href="../Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="container">
+                    <div class="HomeMasterPageFooter outer-row">
+                        <div><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../ContactUs.htm"> Contact </a>|<a href="mailto:emsdocs@emssoftware.com?subject=Documentation Feedback"> Feedback</a><p class="Copyright">© <MadCap:variable name="General.Year" /> <MadCap:variable name="General.My Company" />, LLC. All Rights Reserved.</p></div>
+                        <div class="footer-icons"><a href="https://www.facebook.com/emssoftwarecom" class="facebook"></a><a href="https://twitter.com/ems_software" class="twitter"></a><a href="https://www.youtube.com/user/EMSxDEA" class="youtube"></a><a href="https://www.linkedin.com/company/emssoftware" class="linkedin"></a><a href="https://plus.google.com/u/0/+DeaSoftware" class="googleplus"></a>
+                        </div>
+                    </div> <![CDATA[ ]]></div>
+            </div>
+        </div>
+    </body>
+</html>

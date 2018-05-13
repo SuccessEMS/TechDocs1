@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1883" MadCap:lastWidth="861" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_VEMS.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head>
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>Manage Web Users For Integrated Authentication</h1>
+        <p>In order to make a reservation in Virtual EMS, a user must have an active Web User account with appropriate room request privileges.&#160;Several options exist to create Web User accounts within EMS.</p>
+        <h2>Manual Web User Accounts&#160;Creation</h2>
+        <p>Web User accounts can be created manually by EMS Administrators within EMS or by anonymous Web Users on Virtual EMS themselves. For information on how to create Web User accounts in EMS or how to configure Virtual EMS to allow anonymous Web Users to request an account, please refer to the&#160;EMS Setup Guide.</p>
+        <p>Important:&#160; When manually creating a Web User account in an Integrated Authentication environment, you must specify a value in the Web User&#160;Network ID&#160;field or the&#160;External Reference&#160;field. The&#160;Field Used to Authenticate Web User&#160;Virtual EMS Parameter, within&#160;<span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters</span> (Virtual tab), is used by Virtual EMS to determine which value should be used for authentication.</p>
+        <h2>HR Toolkit (for EMS Workplace, EMS Campus, EMS Enterprise, EMS District and EMS Legal only)</h2>
+        <p>The HR Toolkit is an optional component that allows you to automate the creation and maintenance of Web User records in EMS using an outside employee data source like your HR system or another data store within your organization. See&#160;HR Toolkit Installation Instructions&#160;for information. If you are not licensed for the HR Toolkit, but would like to learn more about it, please contact your Account Executive.</p>
+        <h2>Automatic Web User Account Creation</h2>
+        <p>Various configuration settings are available to automatically create Web User records (and assign the appropriate Web Process Template(s) if applicable) when a user hits your Virtual EMS site for the first time.&#160;</p>
+        <h2>VEMS Parameters</h2>
+        <p>Within the Virtual EMS Parameters area of EMS, <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>(Virtual tab), the following parameters must be set accordingly:</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Value</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Account Management</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Auto Create Web User Account (for Integrated Authentication)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Account Management</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Default Security Template for User</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Must be specified</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Account Management</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Security Status for User</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Active</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Portal Authentication Parameters</h2>
+        <p>For organizations using Portal authentication, EMS supports a simple account provisioning strategy. When using Auto Create, EMS requires that a web user account is provisioned with a name, an email address and a NetworkId (some authentication key), otherwise the user will be redirected to the Account Management page and be asked to manually enter the required information. In addition to the required fields, EMS also supports collecting phone, fax and an external reference value. The below parameters are meant to help create a more complete web user. The values for each of the parameters are to be determined by the information populated by your portal.</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Value</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Portal Authentication Email Variable</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Must be specified</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Portal Authentication External Reference Variable</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Must be specified</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Portal Authentication Fax Variable</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Must be specified</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Portal Authentication Name Variable</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Must be specified</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p>Portal Authentication Phone Variable</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p>Must be specified</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>EMS Workplace, EMS Campus, EMS Enterprise, EMS District, and EMS Legal customers are also able to assign default Web Process Templates when a new Web User account is created. To automatically assign a Web Process Template to new Web Users, select the&#160;<span class="bold">Available to New Web Users</span>&#160;option within your Web Process Template(s) (<span class="bold">Configuration</span> &gt; <span class="bold">Web </span>&gt; <span class="bold">Web Process Templates</span>).</p>
+        <p>In EMS Professional, the&#160;Default Security Template for User&#160;parameter shown above is used to assign the correct Web Process Template to new Web User records.</p>
+        <p>EMS customers using the LDAP Authentication method can use an alternate method to assign a Web Process Template to a Web User based on the LDAP Group(s) that the user belongs to. This approach can be used in addition to or in lieu of the Web Process Template assignment approach discussed above. See the <MadCap:xref href="VEMS_CG_LDAPAuth.htm">LDAP Authentication</MadCap:xref> section for configuration instructions.</p>
+        <h2>Existing Web User Accounts</h2>
+        <p>Warning for Existing EMS Customers: Before activating any Integrated Authentication option, the&#160;Network ID&#160;field or&#160;External Reference&#160;field must be populated on all existing Web User records. Ignoring this step may result in duplicate Web User records.</p>
+    </body>
+</html>

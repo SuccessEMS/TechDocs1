@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="4231" MadCap:lastWidth="799" style="mc-master-page: url('..\..\..\Resources\MasterPages\OR_Outlook.flmsp');">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Install or Upgrade EMS for Outlook on a User's PC</h1>
+        <p>This topic provides information on the following:</p>
+        <ul>
+            <li>
+                <MadCap:xref href="#x86_User_Installation">x86 User Installation</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#x64_User_Installation">x64 User Installation</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Silent_EMS_for_Outlook_User_Installation">Silent EMS for Outlook&#160;User Installation</MadCap:xref>
+            </li>
+        </ul>
+        <p>Note:&#160;Begin by uninstalling previous versions of the EMS for Outlook application.&#160;</p>
+        <h2><a name="x86_User_Installation"></a>x86 User Installation</h2>
+        <ol start="1">
+            <li>Verify that the&#160;<MadCap:xref href="Outlook_IG_Prerequistes_Leg.htm">pre-installation</MadCap:xref> requirements&#160;have been met.</li>
+            <li>Download the&#160;<span class="bold">EMSForOutlook.msi</span>&#160;file onto the user’s desktop.</li>
+            <li>Close Outlook.</li>
+            <li>Run&#160;<span class="bold">EMSForOutlook.msi</span>.</li>
+            <li>The first screen welcomes you to the EMS Outlook Add-in Setup Wizard.&#160;Click the&#160;<span class="bold">Next&#160;</span>button to begin the installation process. The&#160;Destination Folder&#160;screen will appear.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Installing Upgrading EMS for.png" alt="https://success.emssoftware.com/@api/deki/files/5539/EFO_Install_2.png?revision=1&amp;size=bestfit&amp;width=495&amp;height=387" />
+        </p>
+        <ol start="6" class="ol_1">
+            <li>Specify the Installation Folder.</li>
+        </ol>
+        <p>Note:&#160;EMS for Outlook only supports the Program Files directory. You should not change this directory during installation.</p>
+        <ol start="7" class="ol_1">
+            <li>Click the&#160;<span class="bold">Next&#160;</span>button. The&#160;Outlook Integration&#160;Service Information&#160;screen will appear.</li>
+            <li>Enter&#160;the Outlook Integration Web Service address your organization uses. (Example -&#160;http://[ServerName]/ExchangeIntegrationWebService/Service.asmx)</li>
+            <li>Click the&#160;<span class="bold">Next&#160;</span>button. The&#160;Ready to install EMS for Outlook&#160;screen will appear.&#160;</li>
+            <li>Click the&#160;<span class="bold">Install&#160;</span>button to complete the installation.&#160;Click the&#160;<span class="bold">Close&#160;</span>button to exit.</li>
+            <li>Launch Outlook.&#160;The&#160;EMS&#160;button should display on the user’s Outlook toolbar on the Calendar as online.&#160;</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Installing Upgrading EMS for_1.png" alt="clipboard_ea34e22f3cbca2940b0298db49e5f82a0.png" />
+        </p>
+        <p>Tip:&#160;If the EMS for Outlook displays as Offline, return to Step 8 or&#160;see&#160;<MadCap:xref href="Outlook_IG_OutlookAddInOffline_Leg.htm">EMS for Outlook Add-In Is Offline</MadCap:xref>.</p>
+        <h2><a name="x64_User_Installation"></a>x64 User Installation</h2>
+        <p>The installer on 64-bit machines with 64-bit Microsoft® Office requires elevated permissions to run. Follow these&#160;steps to install with elevated permissions.</p>
+        <ol start="1">
+            <li>Verify that the&#160;<MadCap:xref href="Outlook_IG_Prerequistes_Leg.htm">pre-installation</MadCap:xref> requirements&#160;have been met.</li>
+            <li>Download the&#160;<span class="bold">EMSForOutlook.msi</span>&#160;file onto the user’s desktop.</li>
+            <li>Close Outlook.</li>
+            <li>Run the installer from the command line: from the Windows Start menu, type "cmd."</li>
+            <li>On the Command Prompt application that appears in the menu, right-click and select&#160;<span class="bold">Run as administrator</span>. This launches the application with elevated permissions.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Installing Upgrading EMS for_2.png" alt="https://success.emssoftware.com/@api/deki/files/5574/clipboard_e9f6eba3fc09b7280462ba5abc41f707e.png?revision=1&amp;size=bestfit&amp;width=390&amp;height=256" />
+        </p>
+        <ol start="6">
+            <li>In the Command Prompt window, enter "msiexec "EmsForOutlook.msi".</li>
+            <li>When the file completes, close Command Prompt.</li>
+            <li>Launch Outlook.&#160;The&#160;<span class="bold">EMS&#160;</span>button should display on the user’s Outlook toolbar on the Calendar as online.</li>
+        </ol>
+        <p>
+            <img src="../../../Resources/Images/Installing and Configuring Outlook Legacy/Installing Upgrading EMS for_1.png" alt="clipboard_ea34e22f3cbca2940b0298db49e5f82a0.png" />
+        </p>
+        <p>Tip:&#160;If the EMS for Outlook displays as Offline,&#160;see&#160;<MadCap:xref href="Outlook_IG_OutlookAddInOffline_Leg.htm">EMS for Outlook Add-In Is Offline</MadCap:xref>.</p>
+        <h2><a name="Silent_EMS_for_Outlook_User_Installation"></a>Silent EMS for Outlook&#160;User Installation</h2>
+        <p>You can push your EMS for Outlook Installation to user machines if your system enables this type of administration.</p>
+        <p>Use the following command to establish an Unattended/Silent installation of the&#160;EMSForOutlook.msi&#160;(replace [ServerName] with the name of your web server):</p>
+        <div class="indent">msiexec /i "EMSForOutlook.msi" RSURL="http://&lt;url&gt;"</div>
+    </body>
+</html>

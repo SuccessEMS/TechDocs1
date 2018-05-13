@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" style="mc-master-page: url('..\..\Resources\MasterPages\emsMicrosoftOutlook.flmsp');">
+    <head>
+        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>
+            <MadCap:concept term="V44.1" />Configure EMS for Outlook</h1>
+        <p>You will need to configure special settings in EMS Desktop Client&#160;in order to activate the EMS for Outlook&#160;toolbar button for&#160;Outlook users.&#160;The add-in&#160;uses each&#160;Outlook user’s EMS&#160;Everyday User&#160;account&#160;to establish their room booking privileges based on&#160;the Process Template(s) to which&#160;the Everyday User is&#160;assigned and&#160;EMS Group(s) for which&#160;the appointment can be booked.</p>
+        <p>Additional configuration tasks are required in order to enable your Microsoft Outlook users to access EMS for Outlook functionality. See Also:&#160;<a href="../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigRooms.html#ConfigureOutlookTBDRooms">Configure Outlook TBD&#160;Rooms</a>. </p>
+        <ul class="unorder-list">
+            <li><a href="#CustomizeAddinLogo">Customize the Add-In&#160;Label</a>
+            </li>
+            <li><a href="#CustomizeAddinIcon">Customize the Add-In Icon</a>
+            </li>
+            <li><a href="#EMSforOutlookParameters">EMS for Outlook System Parameters</a>
+            </li>
+            <li><a href="#EnableUserAccess">Enable User Access to EMS for Outlook</a>
+            </li>
+            <li><a href="#AssignEMSUsersToGroups">Assign EMS Users to Groups</a>
+            </li>
+            <li><a href="#EstablishingBookingTemplates">Establish&#160;Booking Templates for EMS for Outlook Users</a>
+            </li>
+        </ul>
+        <h2><a name="CustomizeAddinLogo"></a>Customize the Add-In&#160;Label</h2>
+        <ol start="1" class="number-list">
+            <li>Log into EMS Desktop Client.</li>
+            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>and select the&#160;<span class="bold">Desktop Client</span>&#160;tab.</li>
+            <li>In the&#160;Area&#160;drop-down, select <span class="bold">EMS for Outlook - Specific</span>.</li>
+            <li>Select&#160;<span class="bold">EMS Room Scheduling</span>&#160;in EMS for Outlook and click&#160;<span class="bold">Edit</span>.</li>
+            <li>Make your changes and click&#160;<span class="bold">OK</span>.&#160;</li>
+            <li>Click&#160;<span class="bold">Close</span>.</li>
+        </ol>
+        <div class="box-tip">
+            <p><span class="bold">TIP:</span>&#160;You can customize other field labels under the <span class="bold">All Applications</span> tab (which means your customizations will apply to all EMS applications you deploy); filter the list by selecting <span class="bold">Labels </span>in the&#160;Area&#160;field.</p>
+        </div>
+        <h2><a name="CustomizeAddinIcon"></a>Customize the Add-in icon</h2>
+        <p>You can replace the default EMS for Outlook icon that displays in Outlook with a custom icon of your choosing. </p>
+        <ol start="1" class="number-list">
+            <li>Log into EMS Desktop Client.</li>
+            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>and select the&#160;<span class="bold">Everyday User Applications</span>&#160;tab.</li>
+            <li>In the&#160;Area&#160;drop-down, select <span class="bold">EMS for Outlook - Specific</span>.</li>
+            <li>Select&#160;<span class="bold">Custom&#160;Calendaring Icon</span> and click&#160;<span class="bold">Edit</span>.</li>
+            <li>Make your changes and click&#160;<span class="bold">OK</span>.&#160;</li>
+            <li>Click&#160;<span class="bold">Close</span>. Microsoft Outlook will need to be restarted to see the custom icon change. </li>
+        </ol>
+        <p class="box-important"> <span class="bold">IMPORTANT:</span>&#160;Supported file types are .ico, .jpeg, .jpg, or .png. The recommended size is 32 x 32.</p>
+        <h2><a name="EMSforOutlookParameters"></a>EMS for Outlook System Parameters</h2>
+        <p>In addition to changing the Add-in label and custom icon, you can use the following parameters to make additional changes:</p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Parameter</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Value</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Display filters before showing rooms</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Yes/No</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>For large organizations using templates in Outlook that have a large amount of locations, setting this to Yes can provide better performance and user experience.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Number of available rooms upon search in Outlook</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Numeric (&lt;500)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>Controls the maximum number of results when searching for a room. For optimal performance, set to 50 or less.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Show attendees in book</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Yes/No</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Allows users to see attendee and room availability on the Schedule View. Best practice includes setting this to Yes.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>EMS for Outlook - Specific</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Text</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Customize the add-in label.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="EnableUserAccess"></a>Enable User Access to EMS for Outlook</h2>
+        <div class="note-box important">
+            <p><span class="bold">Important:</span>&#160;This topic assumes you have a working knowledge of configuration in EMS Desktop Client and highlights special tasks for enabling EMS for Outlook users. For more detailed instructions in creating new users,&#160;See Also:&#160;<MadCap:xref href="../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigEverydayUser.htm">Configure Everyday Users</MadCap:xref>.</p>
+        </div>
+        <p>To enable EMS for Outlook for your Microsoft<sup>®</sup>&#160;Outlook users, you will:</p>
+        <ol start="1" class="number-list">
+            <li>Configure an active EMS Everyday User Account in the EMS Desktop Client.&#160;</li>
+            <li>Link the EMS Everyday User Account&#160;to an active EMS Group record.</li>
+            <li>(Optional) The <span class="bold">Delegates </span>tab allows you to associate a delegate to an&#160;EMS Everyday User. To assign a delegate in EMS for Outlook, that delegate must also&#160;be assigned in Exchange.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Delegates Tab</p>
+            <p>
+                <img src="../../Resources/Images/Installing Outlook/Configure EMS for Outlook.png" alt="EMSforOutlook_ConfiguringEMSforOutlook_Account2.PNG" />
+            </p>
+        </div>
+        <ol start="4" class="number-list">
+            <li>Assign at least one Everyday User Process Template to the EMS Everyday User Account.</li>
+            <li>Enable the&#160;<span class="bold">Outlook&#160;</span>option for the&#160;Everyday&#160;User Process Template you associated with the user.</li>
+        </ol>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span>&#160;When Outlook is enabled, Integration to Microsoft Exchange is automatically enabled.</p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">Process Template Tab</p>
+            <p>
+                <img src="../../Resources/Images/Installing Outlook/Configure EMS for Outlook_1.png" alt="EMSforOutlook_ConfiguringEMSforOutlook_Account3.PNG" />
+            </p>
+        </div>
+        <h2><a name="AssignEMSUsersToGroups"></a>Assign EMS Users to Groups</h2>
+        <p>You assign users to&#160;see groups&#160;in EMS by modifying the group or&#160;the Everyday User accounts.</p>
+        <ol start="1" class="number-list">
+            <li>Navigate to&#160;<span class="bold">Reservations </span>&gt; <span class="bold">Reservations </span>&gt;&#160;<span class="bold">Groups</span>.&#160;(The <span class="bold">Groups </span>label can be modified by your system administrator.)</li>
+            <li>Select a <span class="bold">Group</span>.</li>
+            <li>Click the <span class="bold">Everyday User</span> tab.</li>
+            <li>Click&#160;<span class="bold">Edit</span>. In the dialog box, search for everyday user accounts to add/remove from a Group record.</li>
+        </ol>
+        <p>The following alternate path is available to assign users to groups:</p>
+        <ol start="1" class="number-list">
+            <li>Navigate&#160;to the&#160;Everyday User's&#160;account on the <span class="bold">Everyday User</span> tab within <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt;&#160;<span class="bold">Everyday&#160;Users</span>.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Navigating to the Everyday User Tab</p>
+            <p>
+                <img src="../../Resources/Images/Installing Outlook/Configure EMS for Outlook_2.png" alt="EMSforOutlook_ConfiguringEMSforOutlook_Assigning2.PNG" />
+            </p>
+        </div>
+        <ol start="1" class="number-list">
+            <li>Open the Everyday User's account by clicking the&#160;<span class="bold">Edit&#160;</span>button.</li>
+            <li>On the <span class="bold">Groups </span>tab, search for a Group to add/remove from an everyday user account.</li>
+        </ol>
+        <h2><a name="EstablishingBookingTemplates"></a>Establish&#160;Booking Templates for EMS for Outlook Users</h2>
+        <p>When <MadCap:xref href="../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigEverydayUserProcessTemps.html">Configure Everyday User Process Templates</MadCap:xref> in the EMS Desktop Client, several options are specific to Outlook functionality. Once you have defined <a href="../../WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_ConfigEverydayUserProcessTemps.html">Everyday User Process templates</a> as part of EMS Desktop Client setup, do the following to establish booking templates for EMS&#160;for Outlook users:</p>
+        <ol start="1" class="number-list">
+            <li>Click&#160;<span class="bold">Edit&#160;</span>on the Everyday User Process Template&#160;to fully enable and customize the EMS for Outlook Add-in.</li>
+            <li>Select the&#160;<span class="bold">Enable for&#160;Outlook</span>&#160;checkbox to enable&#160;the template to display to associated everyday users in the EMS for Outlook Add-in.</li>
+            <li>Select a status from the&#160;Conflict Status&#160;dropdown to determine the&#160;<span class="italics">type of conflict</span> status&#160;assigned to bookings made using this template that are in conflict.</li>
+            <li>Select a status from the&#160;Rule Violation Status&#160;dropdown to&#160;determine the&#160;<span class="italics">status of bookings</span>&#160;that have violated the template booking rules or category rules.&#160;This option is only available when&#160;<span class="bold">Enable for&#160;Outlook</span>&#160;is selected. When a user in EMS for Outlook requests a booking that&#160;violates a booking restriction, then the booking is changed to this status. For example, if a EMS for Outlook user requests a room two years in advance when the process template only allows a booking a year in advance, then the booking is set to the status you specify in this field (such as&#160;Rule Violation).</li>
+        </ol>
+        <div class="box-note">
+            <p><span class="bold">NOTE:</span>&#160;The&#160;values in this dropdown&#160;come from settings in the booking&#160;<MadCap:xref href="../../EMSDesktopClient/V44.1/ConfigurationGuide/ConfigStatuses.htm">Statuses</MadCap:xref>&#160;area of EMS Desktop Client.</p>
+        </div>
+        <div class="TitleandImage">
+            <p class="title">New Booking Template Created for EMS for Outlook</p>
+            <p>
+                <img src="../../Resources/Images/Installing Outlook/Configure EMS for Outlook_3.png" alt="EMSforOutlook_ConfiguringEMSforOutlook_BookingTemplate1.PNG" />
+            </p>
+        </div>
+        <ol start="5" class="number-list">
+            <li>Navigate to the&#160;<span class="bold">Outlook Conflict – Email Options&#160;</span>tab to control behavior for the&#160;see notification&#160;email sent to&#160;the Outlook user if a booking conflict arises during the process of booking through Outlook.</li>
+        </ol>
+        <div class="TitleandImage">
+            <p class="title">Outlook Conflict Email Options Tab</p>
+            <p>
+                <img src="../../Resources/Images/Installing Outlook/Configure EMS for Outlook_4.png" alt="EMSforOutlook_ConfiguringEMSforOutlook_BookingTemplate2.PNG" />
+            </p>
+        </div>
+    </body>
+</html>
